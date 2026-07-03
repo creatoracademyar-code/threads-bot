@@ -1,49 +1,46 @@
-name: Threads Auto-Poster (Browser)
+name: Threads Auto-Poster
 
 on:
   schedule:
-    - cron: '0 0,4,8,12,16,20 * * *'
-  workflow_dispatch:
+    - cron: '0 0,4,8,12,16,20 * * *'   # runs every 4 hours
+  workflow_dispatch:                    # allows manual trigger
 
 jobs:
   post-thread:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Restore cached logs & session
+      # ---------- Cache the Threads session token ----------
+      - name: Cache Threads session
         uses: actions/cache@v3
         with:
-          path: |
-            logs
-            browser_state
-          key: threads-browser-cache-v1
-          restore-keys: threads-browser-cache-v1
+          path: cache                 # folder where token & settings are stored
+          key: threads-session-${{ runner.os }}
+          restore-keys: threads-session-${{ runner.os }}
 
-      - name: Install Playwright
+      # ---------- Cache logs (posted hashes) ----------
+      - name: Cache logs
+        uses: actions/cache@v3
+        with:
+          path: logs
+          key: threads-logs-${{ runner.os }}
+          restore-keys: threads-logs-${{ runner.os }}
+
+      - name: Install dependencies
         run: |
           pip install -r requirements.txt
-          playwright install chromium
-          playwright install-deps
 
       - name: Run the bot
-        run: |
-          echo "Starting bot..."
-          python -u main.py
+        run: python main.py
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           THREADS_EMAIL: ${{ secrets.THREADS_EMAIL }}
           THREADS_PASSWORD: ${{ secrets.THREADS_PASSWORD }}
-
-      - name: Save updated logs & session
-        uses: actions/cache@v3
-        with:
-          path: |
-            logs
-            browser_state
-          key: threads-browser-cache-v1
