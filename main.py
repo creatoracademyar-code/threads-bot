@@ -143,6 +143,7 @@ def publish_parts_browser(parts):
 
 # ---------- MAIN LOOP ----------
 def main():
+    print("entered main")
     ensure_logs()
     posted_hashes = get_posted_hashes()
 
