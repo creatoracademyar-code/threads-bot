@@ -1,2 +1,1 @@
-threads-py-wrapper>=0.0.2
 requests>=2.31.0
