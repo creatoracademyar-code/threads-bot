@@ -2,8 +2,8 @@ name: Threads Auto-Poster
 
 on:
   schedule:
-    - cron: '0 0,4,8,12,16,20 * * *'   # runs every 4 hours
-  workflow_dispatch:                    # allows manual trigger
+    - cron: '0 0,4,8,12,16,20 * * *'
+  workflow_dispatch:
 
 jobs:
   post-thread:
@@ -18,15 +18,13 @@ jobs:
         with:
           python-version: '3.11'
 
-      # ---------- Cache the Threads session token ----------
       - name: Cache Threads session
         uses: actions/cache@v3
         with:
-          path: cache                 # folder where token & settings are stored
+          path: cache
           key: threads-session-${{ runner.os }}
           restore-keys: threads-session-${{ runner.os }}
 
-      # ---------- Cache logs (posted hashes) ----------
       - name: Cache logs
         uses: actions/cache@v3
         with:
@@ -38,8 +36,21 @@ jobs:
         run: |
           pip install -r requirements.txt
 
+      - name: Debug - Check installation
+        run: |
+          echo "=== Python version ==="
+          python --version
+          echo "=== Installed packages ==="
+          pip list | grep -E "threads|requests"
+
+      - name: Debug - Test imports
+        run: |
+          echo "=== Testing imports ==="
+          python -c "import requests; print('✅ requests OK')"
+          python -c "import threadspy; print('✅ threadspy OK')"
+
       - name: Run the bot
-        run: python main.py
+        run: python -u main.py
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           THREADS_EMAIL: ${{ secrets.THREADS_EMAIL }}
