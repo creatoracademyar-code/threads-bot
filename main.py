@@ -179,5 +179,6 @@ def main():
             print(f"⏳ Waiting {wait_time}s before retry...")
             time.sleep(wait_time)
 
-if __name__ == "main":
+if __name__ == "__main__":
+    print("=== Entry point reached ===")
     main()
