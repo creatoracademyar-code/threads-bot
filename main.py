@@ -1,10 +1,21 @@
+#!/usr/bin/env python3
+print("=== main.py started ===")  # <-- First line
+
 import os
 import json
 import time
 import hashlib
 import requests
 from datetime import datetime
-import threadspy
+
+print("=== imports: requests done ===")
+
+try:
+    import threadspy
+    print("=== imports: threadspy done ===")
+except ImportError as e:
+    print(f"=== ❌ threadspy import failed: {e} ===")
+    raise
 
 # ---------- CONFIG ----------
 MAX_RETRIES = 10
@@ -12,15 +23,15 @@ LOG_DIR = "logs"
 POSTED_LOG = f"{LOG_DIR}/posted_hashes.log"
 RUN_LOG = f"{LOG_DIR}/run_history.log"
 
-# Threads credentials from GitHub Secrets
 USERNAME = os.environ["THREADS_EMAIL"]
 PASSWORD = os.environ["THREADS_PASSWORD"]
-
-# Groq API key from GitHub Secrets
 GROQ_API_KEY = os.environ["GROQ_API_KEY"]
+
+print(f"=== Username set: {USERNAME[:3]}... ===")
+print(f"=== Groq key set: {GROQ_API_KEY[:10]}... ===")
+
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
-# System prompt for Groq (generates a 3‑part Thread)
 SYSTEM_PROMPT = """You are a top-tier Threads creator for "Creator Academy".
 Write a 3-part Thread. Each part 120-220 words.
 Use emotional storytelling, curiosity, strong hook, open loop.
@@ -31,8 +42,13 @@ Example: {"parts": ["Part 1...", "Part 2...", "Part 3..."]}"""
 
 # ---------- LOGGING HELPERS ----------
 def ensure_logs():
+    print("📁 Ensuring logs directory...")
     if not os.path.exists(LOG_DIR):
         os.makedirs(LOG_DIR)
+        print("   Created logs directory.")
+    if not os.path.exists("cache"):
+        os.makedirs("cache")
+        print("   Created cache directory.")
 
 def get_posted_hashes():
     ensure_logs()
@@ -68,7 +84,9 @@ def generate_thread():
         "temperature": 0.9,
         "max_tokens": 1000
     }
+    print("   Sending request to Groq...")
     resp = requests.post(GROQ_URL, headers=headers, json=payload)
+    print(f"   Response status: {resp.status_code}")
     resp.raise_for_status()
     data = resp.json()
     content = data["choices"][0]["message"]["content"]
@@ -79,13 +97,9 @@ def generate_thread():
     print(f"✅ Generated {len(parts)} parts.")
     return parts
 
-# ---------- PUBLISH USING THREADSPY (NO BROWSER) ----------
+# ---------- PUBLISH USING THREADSPY ----------
 def publish_thread_via_api(parts):
-    """
-    Logs in once (or uses cached token) and posts the thread as a chain of replies.
-    """
     print("🔑 Initializing Threads API...")
-    # The library will store/load token from these paths automatically
     api = threadspy.ThreadsApi(
         USERNAME,
         PASSWORD,
@@ -93,14 +107,13 @@ def publish_thread_via_api(parts):
         token_path="cache/threads_token.bin"
     )
 
-    print("🔐 Logging in (or using cached session)...")
+    print("🔐 Logging in...")
     login_success = api.login()
     if not login_success:
-        raise Exception("Login failed. Check credentials or approve on phone (first run only).")
+        raise Exception("Login failed.")
 
     print("✅ Login successful!")
 
-    # Create the thread (first post, then replies)
     first_post_id = None
     for i, text in enumerate(parts):
         if i == 0:
@@ -110,14 +123,14 @@ def publish_thread_via_api(parts):
             print(f"   ✅ Posted part 1 (ID: {first_post_id})")
         else:
             print(f"📝 Creating part {i+1} as reply...")
-            # reply to the previous post (for a linear chain)
             response = api.create(text=text, reply_to=first_post_id)
             print(f"   ✅ Posted part {i+1} (ID: {response.get('id')})")
 
     print("✅ Thread published successfully!")
 
-# ---------- MAIN LOOP (with retries and duplicate check) ----------
+# ---------- MAIN ----------
 def main():
+    print("🚀 main() started")
     ensure_logs()
     posted_hashes = get_posted_hashes()
     print(f"📊 Already posted {len(posted_hashes)} threads.")
@@ -125,21 +138,17 @@ def main():
     for attempt in range(1, MAX_RETRIES + 1):
         print(f"\n🔄 Attempt {attempt}/{MAX_RETRIES}")
         try:
-            # 1. Generate thread content
             parts = generate_thread()
             full_text = "".join(parts)
             thread_hash = hashlib.sha256(full_text.encode()).hexdigest()
 
-            # 2. Check for duplicates
             if thread_hash in posted_hashes:
-                raise ValueError("Duplicate thread detected. Retrying for a fresh one.")
+                raise ValueError("Duplicate thread detected.")
 
-            # 3. Publish using threadspy
             publish_thread_via_api(parts)
 
-            # 4. Save success
             save_posted_hash(thread_hash)
-            log_run("SUCCESS", f"Posted {len(parts)} parts via API.")
+            log_run("SUCCESS", f"Posted {len(parts)} parts.")
             print("✅ SUCCESS! Thread posted.")
             return
 
@@ -149,13 +158,14 @@ def main():
             log_run(f"RETRY_{attempt}", error_msg)
 
             if attempt == MAX_RETRIES:
-                log_run("FINAL_FAILURE", f"All {MAX_RETRIES} attempts failed. Last error: {error_msg}")
+                log_run("FINAL_FAILURE", f"All attempts failed. Last: {error_msg}")
                 print("💀 Max retries reached. Giving up.")
                 exit(1)
 
             wait_time = min(2 ** attempt, 300)
-            print(f"⏳ Waiting {wait_time}s before retry...")
+            print(f"⏳ Waiting {wait_time}s...")
             time.sleep(wait_time)
 
 if __name__ == "__main__":
+    print("=== Entry point reached ===")
     main()
