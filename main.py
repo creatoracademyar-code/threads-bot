@@ -79,130 +79,164 @@ def generate_thread():
     print(f"✅ Generated {len(parts)} parts.")
     return parts
 
-# ---------- PUBLISH USING PLAYWRIGHT (Instagram login) ----------
+# ---------- PUBLISH USING PLAYWRIGHT ----------
 def publish_parts_browser(parts):
     print("🌐 Launching browser...")
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         print("✅ Browser launched.")
 
-        context_options = {}
+        # Try to load saved session
         if os.path.exists(STATE_FILE):
             print("🔄 Loading saved browser session...")
             context = browser.new_context(storage_state=STATE_FILE)
+            page = context.new_page()
+            page.goto("https://www.threads.net")
+            page.wait_for_load_state("networkidle")
+            print("✅ Session loaded.")
         else:
             print("🔄 No session found. Logging in fresh...")
             context = browser.new_context()
             page = context.new_page()
 
-            # Go directly to Instagram login (Threads uses Instagram auth)
-            print("🔑 Navigating to Instagram login...")
-            page.goto("https://www.instagram.com/accounts/login/")
+            # Step 1: Go to Threads login page
+            print("📄 Navigating to Threads login...")
+            page.goto("https://www.threads.net/login")
             page.wait_for_load_state("networkidle")
+            time.sleep(2)
 
-            # Try to find the login form – Instagram uses different selectors
-            print("⏳ Waiting for login form...")
+            # Step 2: Click "Log in with username instead"
+            print("🔍 Looking for 'Log in with username instead' link...")
             try:
-                # Wait for username field
-                page.wait_for_selector('input[name="username"]', timeout=15000)
-                print("✅ Username field found.")
+                page.click('text="Log in with username instead"')
+                print("   ✅ Clicked the link.")
+            except Exception as e:
+                print(f"   ⚠️ Could not find link: {e}")
+                try:
+                    page.click('button:has-text("Log in with username instead")')
+                    print("   ✅ Clicked the button.")
+                except:
+                    raise Exception("Could not find 'Log in with username instead' button/link.")
+
+            # Step 3: Fill credentials
+            print("🔑 Filling login form...")
+            try:
+                page.wait_for_selector('input[name="username"]', timeout=10000)
                 page.fill('input[name="username"]', THREADS_EMAIL)
                 page.fill('input[name="password"]', THREADS_PASSWORD)
-                # Click login button
-                page.click('button[type="submit"]')
+                print("   ✅ Credentials filled.")
             except Exception as e:
-                # Maybe it's the "Save login info" prompt – we can handle later
-                print(f"⚠️ Could not find standard login fields: {e}")
-                raise
-
-            # Wait for login to complete (redirect to main page)
-            try:
-                page.wait_for_url("https://www.instagram.com/*", timeout=30000)
-                print("✅ Instagram login successful.")
-            except:
-                # Might need to handle "Not Now" for save info
+                print(f"   ❌ Login fields not found: {e}")
+                # Try alternative selectors (placeholder text)
                 try:
-                    page.click('button:has-text("Not Now")')
-                    page.wait_for_url("https://www.instagram.com/*", timeout=10000)
+                    page.fill('input[placeholder*="Username"]', THREADS_EMAIL)
+                    page.fill('input[placeholder*="Password"]', THREADS_PASSWORD)
+                    print("   ✅ Credentials filled using placeholder.")
                 except:
-                    pass
+                    raise Exception("Could not find login input fields.")
 
-            # Now navigate to Threads
-            print("📄 Navigating to Threads...")
-            page.goto("https://www.threads.net")
-            page.wait_for_load_state("networkidle")
+            # Step 4: Click "Log in" button
+            print("🔓 Clicking 'Log in' button...")
+            page.click('button[type="submit"]')
+            time.sleep(2)
 
-            # Save session for future runs
+            # Step 5: Handle "Save login info" popup
+            try:
+                if page.locator('button:has-text("Not Now")').is_visible():
+                    page.click('button:has-text("Not Now")')
+                    print("   ✅ Dismissed save login prompt.")
+            except:
+                pass
+
+            # Step 6: Wait for redirect to home
+            print("⏳ Waiting for login to complete...")
+            try:
+                page.wait_for_url("https://www.threads.net/*", timeout=30000)
+                print("   ✅ Login successful!")
+            except Exception as e:
+                print(f"   ⚠️ Login issue: {e}")
+                if "2fa" in page.url or "challenge" in page.url:
+                    raise Exception("2FA required – please approve on your phone or disable 2FA temporarily.")
+                else:
+                    raise Exception("Login failed – check credentials or approve login on your phone.")
+
+            # Step 7: Save session
             context.storage_state(path=STATE_FILE)
             print("✅ Session saved successfully.")
 
-        # Now we have a logged-in context, open a new page
+        # Now we have a logged-in context
         page = context.new_page()
         page.goto("https://www.threads.net")
         page.wait_for_load_state("networkidle")
         print("✅ Threads home loaded.")
 
-        # Click New Post button
-        print("🔍 Looking for 'New' button...")
+        # Step 8: Click the "+" icon (or "New" button) to create a new thread
+        print("🔍 Looking for '+' button (new thread)...")
         try:
-            # Try different selectors for "New" button
-            new_button = page.locator('div[role="button"]:has-text("New")').first
-            if new_button.is_visible():
-                new_button.click()
+            # Try the plus icon (most common)
+            plus_button = page.locator('svg[aria-label="New post"]').first
+            if plus_button.is_visible():
+                plus_button.click()
             else:
-                # Fallback: try the plus icon or compose button
-                page.click('svg[aria-label="New post"]')
-            print("✅ Clicked 'New' button.")
+                # Try the "+" role button
+                page.click('div[role="button"]:has-text("+")')
+            print("   ✅ Clicked '+' button.")
         except Exception as e:
-            print(f"❌ Could not find New button: {e}")
-            raise
+            print(f"   ⚠️ Could not find '+': {e}")
+            try:
+                # Fallback to "New" button
+                page.click('div[role="button"]:has-text("New")')
+                print("   ✅ Clicked 'New' button as fallback.")
+            except:
+                raise Exception("Could not find new post button.")
 
-        # Wait for the compose window
-        try:
-            page.wait_for_selector('div[contenteditable="true"]', timeout=10000)
-        except:
-            # Sometimes it's a different container
-            pass
-
-        # Write each part
+        # Step 9: Write each part
         for i, text in enumerate(parts):
             print(f"✍️ Writing part {i+1}/{len(parts)}...")
             try:
-                # Find editable div
                 editor = page.locator('div[contenteditable="true"]').first
                 editor.fill(text)
-                print(f"   - Part {i+1} filled.")
+                print(f"   ✅ Part {i+1} filled.")
             except Exception as e:
-                print(f"❌ Could not fill editor: {e}")
+                print(f"   ❌ Could not fill editor: {e}")
                 raise
 
             if i < len(parts) - 1:
-                print("   ➕ Adding next part...")
+                print("   ➕ Clicking 'Add a thread' button...")
                 try:
-                    # Click the "Add to thread" button (maybe plus icon)
-                    page.click('button:has-text("Add to thread")')
+                    page.click('button:has-text("Add a thread")')
                     time.sleep(1)
                 except:
-                    # Try alternative
-                    page.click('svg[aria-label="Add to thread"]')
-                    time.sleep(1)
+                    try:
+                        page.click('button:has-text("Add to thread")')
+                        time.sleep(1)
+                    except Exception as e:
+                        print(f"   ⚠️ Could not find 'Add a thread' button: {e}")
+                        # Try pressing Enter to add next part (sometimes works)
+                        page.keyboard.press("Enter")
+                        time.sleep(1)
             else:
-                print("📤 Posting...")
+                print("📤 Clicking 'Post'...")
                 try:
                     page.click('button:has-text("Post")')
                     time.sleep(3)
-                    # Wait for post to be confirmed
-                    page.wait_for_selector('div[role="button"]:has-text("New")', timeout=10000)
-                    print("✅ Post completed.")
+                    # Wait for the "+" button to reappear (confirms post)
+                    page.wait_for_selector('svg[aria-label="New post"]', timeout=10000)
+                    print("   ✅ Post completed!")
                 except Exception as e:
-                    print(f"❌ Could not post: {e}")
-                    raise
+                    print(f"   ❌ Could not post: {e}")
+                    # Try to find if there's a confirmation
+                    try:
+                        page.wait_for_selector('text="Posted"', timeout=5000)
+                        print("   ✅ Post confirmed via 'Posted' text.")
+                    except:
+                        raise Exception("Failed to confirm post.")
 
         print("✅ Thread published successfully via browser automation!")
         browser.close()
         return ["browser-post-success"]
 
-# ---------- MAIN ----------
+# ---------- MAIN LOOP ----------
 def main():
     ensure_logs()
     posted_hashes = get_posted_hashes()
@@ -211,16 +245,20 @@ def main():
     for attempt in range(1, MAX_RETRIES + 1):
         print(f"\n🔄 Attempt {attempt}/{MAX_RETRIES}")
         try:
+            # Generate thread
             parts = generate_thread()
             full_text = "".join(parts)
             thread_hash = hashlib.sha256(full_text.encode()).hexdigest()
 
+            # Check for duplicate
             if thread_hash in posted_hashes:
-                raise ValueError("Duplicate thread detected. Retrying.")
+                raise ValueError("Duplicate thread detected. Retrying for a fresh one.")
 
+            # Publish
             print("🚀 Starting browser publishing...")
             publish_parts_browser(parts)
 
+            # Save success
             save_posted_hash(thread_hash)
             log_run("SUCCESS", f"Posted {len(parts)} parts via browser.")
             print("✅ SUCCESS! Thread posted via browser.")
