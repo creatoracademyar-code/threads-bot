@@ -1,57 +1,29 @@
-name: Threads Auto-Poster
+name: Post Thread
 
 on:
   schedule:
-    - cron: '0 0,4,8,12,16,20 * * *'
-  workflow_dispatch:
+    - cron: '0 */4 * * *'   # every 4 hours
+  workflow_dispatch:        # manual trigger
 
 jobs:
-  post-thread:
+  post:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
-
-      - name: Cache Threads session
-        uses: actions/cache@v3
-        with:
-          path: cache
-          key: threads-session-${{ runner.os }}
-          restore-keys: threads-session-${{ runner.os }}
-
-      - name: Cache logs
-        uses: actions/cache@v3
-        with:
-          path: logs
-          key: threads-logs-${{ runner.os }}
-          restore-keys: threads-logs-${{ runner.os }}
+          python-version: '3.10'
 
       - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
+        run: pip install -r requirements.txt
 
-      - name: Debug - Check installation
-        run: |
-          echo "=== Python version ==="
-          python --version
-          echo "=== Installed packages ==="
-          pip list | grep -E "threads|requests"
-
-      - name: Debug - Test imports
-        run: |
-          echo "=== Testing imports ==="
-          python -c "import requests; print('✅ requests OK')"
-          python -c "import threadspy; print('✅ threadspy OK')"
-
-      - name: Run the bot
-        run: python -u main.py
+      - name: Run script
         env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          THREADS_EMAIL: ${{ secrets.THREADS_EMAIL }}
-          THREADS_PASSWORD: ${{ secrets.THREADS_PASSWORD }}
+          GROK_API_KEY: ${{ secrets.GROK_API_KEY }}
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          BUFFER_CHANNEL_ID: ${{ secrets.BUFFER_CHANNEL_ID }}
+        run: python main.py
