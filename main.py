@@ -4,7 +4,7 @@ import time
 import hashlib
 import requests
 from datetime import datetime
-from openai import OpenAI
+import google.generativeai as genai
 
 # ---------- CONFIG ----------
 MAX_RETRIES = 10
@@ -12,12 +12,20 @@ LOG_DIR = "logs"
 POSTED_LOG = f"{LOG_DIR}/posted_hashes.log"
 RUN_LOG = f"{LOG_DIR}/run_history.log"
 
-OPENAI_KEY = os.environ["OPENAI_API_KEY"]
+GEMINI_KEY = os.environ["GEMINI_API_KEY"]
 THREADS_TOKEN = os.environ["THREADS_ACCESS_TOKEN"]
 THREADS_USER_ID = os.environ["THREADS_USER_ID"]
 
 BASE_URL = "https://graph.threads.net/v1.0"
-client = OpenAI(api_key=OPENAI_KEY)
+
+# Configure Gemini
+genai.configure(api_key=GEMINI_KEY)
+model = genai.GenerativeModel(
+    model_name="gemini-1.5-flash",
+    generation_config={
+        "response_mime_type": "application/json"  # Ensures valid JSON every single time
+    }
+)
 
 SYSTEM_PROMPT = """
 You are a top-tier Threads creator for "Creator Academy".
@@ -52,24 +60,16 @@ def log_run(status, detail=""):
     with open(RUN_LOG, "a") as f:
         f.write(f"[{ts}] {status}: {detail}\n")
 
-# ---------- GENERATE THREAD ----------
+# ---------- GENERATE THREAD (FREE GEMINI) ----------
 def generate_thread():
-    response = client.chat.completions.create(
-        model="gpt-4o-mini",
-        messages=[
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": "Write a new Thread. Pick a random topic."}
-        ],
-        temperature=0.9,
-        response_format={"type": "json_object"}
-    )
-    data = json.loads(response.choices[0].message.content)
+    response = model.generate_content(SYSTEM_PROMPT)
+    data = json.loads(response.text)
     parts = data.get("parts", [])
     if len(parts) < 3:
         raise ValueError(f"Less than 3 parts. Got {len(parts)}")
     return parts
 
-# ---------- PUBLISH THREAD ----------
+# ---------- PUBLISH THREAD (UNCHANGED) ----------
 def publish_parts(parts):
     published_ids = []
     for i, text in enumerate(parts):
@@ -88,7 +88,7 @@ def publish_parts(parts):
         publish_resp.raise_for_status()
         pid = publish_resp.json()["id"]
         published_ids.append(pid)
-        time.sleep(2)  # rate limit safety
+        time.sleep(2)
     return published_ids
 
 # ---------- MAIN LOOP WITH RETRIES ----------
@@ -99,34 +99,28 @@ def main():
     for attempt in range(1, MAX_RETRIES + 1):
         print(f"🔄 Attempt {attempt}/{MAX_RETRIES}")
         try:
-            # 1. Generate
             parts = generate_thread()
             full_text = "".join(parts)
             thread_hash = hashlib.sha256(full_text.encode()).hexdigest()
 
-            # 2. Check duplicate
             if thread_hash in posted_hashes:
-                raise ValueError("Duplicate thread detected. Retrying for a fresh one.")
+                raise ValueError("Duplicate thread detected. Retrying.")
 
-            # 3. Publish
             thread_ids = publish_parts(parts)
-
-            # 4. Save success
             save_posted_hash(thread_hash)
             log_run("SUCCESS", f"Posted {len(parts)} parts. IDs: {thread_ids}")
             print(f"✅ SUCCESS! Thread IDs: {thread_ids}")
-            return  # Exit successfully
-          except Exception as e:
+            return
+
+        except Exception as e:
             error_msg = str(e)
             print(f"❌ Attempt {attempt} failed: {error_msg}")
             log_run(f"RETRY_{attempt}", error_msg)
-
             if attempt == MAX_RETRIES:
                 log_run("FINAL_FAILURE", f"All {MAX_RETRIES} attempts failed. Last error: {error_msg}")
                 print(f"💀 Max retries reached. Giving up.")
                 exit(1)
 
-            # Exponential backoff: 2s, 4s, 8s... up to ~512s
             wait_time = min(2 ** attempt, 300)
             print(f"⏳ Waiting {wait_time}s before retry...")
             time.sleep(wait_time)
