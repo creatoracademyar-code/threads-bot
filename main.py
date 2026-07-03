@@ -54,37 +54,51 @@ def log_run(status, detail=""):
 
 # ---------- GENERATE THREAD (GROQ) ----------
 def generate_thread():
+    print("📝 Generating thread via Groq...")
+    print(f"   Using API key: {GROQ_API_KEY[:10]}...")  # Show first 10 chars to verify
     headers = {
         "Authorization": f"Bearer {GROQ_API_KEY}",
         "Content-Type": "application/json"
     }
     payload = {
-        "model": "llama3-70b-8192",
+        "model": "llama-3.3-70b-versatile",  # Updated model name
         "messages": [
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": "Write a new Thread on a random topic."}
         ],
         "temperature": 0.9,
-        "response_format": {"type": "json_object"}
+        "max_tokens": 1000
     }
-    resp = requests.post(GROQ_URL, headers=headers, json=payload)
-    resp.raise_for_status()
+    print("   Sending request to Groq...")
+    print(f"   Payload: {json.dumps(payload, indent=2)[:200]}...")
+    try:
+        resp = requests.post(GROQ_URL, headers=headers, json=payload)
+        if resp.status_code != 200:
+            print(f"   ❌ Error response: {resp.text}")
+        resp.raise_for_status()
+    except requests.exceptions.HTTPError as e:
+        print(f"   ❌ HTTP Error: {e}")
+        print(f"   Response body: {e.response.text}")
+        raise
     data = resp.json()
     content = data["choices"][0]["message"]["content"]
+    print(f"   Raw response: {content[:100]}...")
     thread_data = json.loads(content)
     parts = thread_data.get("parts", [])
     if len(parts) < 3:
         raise ValueError(f"Less than 3 parts. Got {len(parts)}")
+    print(f"✅ Generated {len(parts)} parts.")
+    for i, part in enumerate(parts):
+        print(f"   Part {i+1}: {part[:50]}...")
     return parts
 
-# ---------- PUBLISH USING PLAYWRIGHT (NO API TOKEN) ----------
+# ---------- PUBLISH USING PLAYWRIGHT ----------
 def publish_parts_browser(parts):
+    print("🌐 Launching browser...")
     with sync_playwright() as p:
-        # Launch browser (headed=False for headless)
         browser = p.chromium.launch(headless=True)
-        context = None
+        print("✅ Browser launched.")
 
-        # Try to load saved session
         if os.path.exists(STATE_FILE):
             print("🔄 Loading saved browser session...")
             context = browser.new_context(storage_state=STATE_FILE)
@@ -93,62 +107,76 @@ def publish_parts_browser(parts):
             context = browser.new_context()
             page = context.new_page()
             page.goto("https://www.threads.net/login")
-
-            # Wait for login form
+            print("🔑 Login page loaded. Filling credentials...")
             page.wait_for_selector('input[name="username"]', timeout=10000)
             page.fill('input[name="username"]', THREADS_EMAIL)
             page.fill('input[name="password"]', THREADS_PASSWORD)
             page.click('button[type="submit"]')
-
-            # Wait for navigation to complete (or 2FA screen)
+            print("⏳ Waiting for login to complete...")
             try:
                 page.wait_for_url("https://www.threads.net/*", timeout=30000)
-                # Save session for next run (AVOIDS RE-LOGIN)
                 context.storage_state(path=STATE_FILE)
                 print("✅ Session saved successfully!")
-            except:
-                print("⚠️ Login might have failed or 2FA triggered. Check logs.")
+            except Exception as e:
+                print(f"❌ Login failed: {e}")
                 raise Exception("Login failed - likely 2FA or blocked.")
-        # Open a new page for posting
+
         page = context.new_page()
+        print("📄 Navigating to Threads home...")
         page.goto("https://www.threads.net")
+        page.wait_for_load_state("networkidle")
+        print("✅ Home loaded.")
 
-        # Wait for the new post button
-        page.wait_for_selector('div[role="button"]:has-text("New")', timeout=15000)
-        page.click('div[role="button"]:has-text("New")')
-
-        published_ids = []  # Not needed for browser, but keeping for consistency
+        print("🔍 Looking for 'New' button...")
+        try:
+            page.wait_for_selector('div[role="button"]:has-text("New")', timeout=15000)
+            page.click('div[role="button"]:has-text("New")')
+            print("✅ Clicked 'New' button.")
+        except Exception as e:
+            print(f"❌ 'New' button not found: {e}")
+            raise
 
         for i, text in enumerate(parts):
-            # Wait for text editor
-            editor = page.locator('div[contenteditable="true"]')
-            editor.fill(text)
+            print(f"✍️ Writing part {i+1}/{len(parts)}...")
+            try:
+                editor = page.locator('div[contenteditable="true"]')
+                editor.fill(text)
+                print(f"   - Part {i+1} filled.")
+            except Exception as e:
+                print(f"❌ Could not fill editor: {e}")
+                raise
 
             if i < len(parts) - 1:
-                # Click "Add to thread" (or reply button)
-                # Threads UI: Usually a "plus" button or "Add" button in the composer
-                # Locate the "Add to thread" button (adjust selector if needed)
-                page.click('button:has-text("Add to thread")')
-                time.sleep(1)  # Wait for new editor to appear
+                print("   ➕ Clicking 'Add to thread'...")
+                try:
+                    page.click('button:has-text("Add to thread")')
+                    time.sleep(1)
+                except Exception as e:
+                    print(f"❌ 'Add to thread' button not found: {e}")
+                    raise
             else:
-                # Last part: Click Post/Reply
-                page.click('button:has-text("Post")')
-                time.sleep(3)
-                # Wait for post to appear or modal to close
-                page.wait_for_selector('div[role="button"]:has-text("New")', timeout=10000)
+                print("📤 Clicking 'Post'...")
+                try:
+                    page.click('button:has-text("Post")')
+                    time.sleep(3)
+                    page.wait_for_selector('div[role="button"]:has-text("New")', timeout=10000)
+                    print("✅ Post completed.")
+                except Exception as e:
+                    print(f"❌ 'Post' button or post confirmation failed: {e}")
+                    raise
 
         print("✅ Thread published successfully via browser automation!")
         browser.close()
-        return ["browser-post-success"]  # dummy return
+        return ["browser-post-success"]
 
-# ---------- MAIN LOOP ----------
+# ---------- MAIN ----------
 def main():
-    print("entered main")
     ensure_logs()
     posted_hashes = get_posted_hashes()
+    print(f"📊 Already posted {len(posted_hashes)} threads.")
 
     for attempt in range(1, MAX_RETRIES + 1):
-        print(f"🔄 Attempt {attempt}/{MAX_RETRIES}")
+        print(f"\n🔄 Attempt {attempt}/{MAX_RETRIES}")
         try:
             parts = generate_thread()
             full_text = "".join(parts)
@@ -157,7 +185,7 @@ def main():
             if thread_hash in posted_hashes:
                 raise ValueError("Duplicate thread detected. Retrying.")
 
-            # PUBLISH USING BROWSER (NO API TOKEN)
+            print("🚀 Starting browser publishing...")
             publish_parts_browser(parts)
 
             save_posted_hash(thread_hash)
@@ -174,11 +202,9 @@ def main():
                 log_run("FINAL_FAILURE", f"All {MAX_RETRIES} attempts failed. Last error: {error_msg}")
                 print("💀 Max retries reached. Giving up.")
                 exit(1)
-
             wait_time = min(2 ** attempt, 300)
             print(f"⏳ Waiting {wait_time}s before retry...")
             time.sleep(wait_time)
 
-if __name__ == "__main__":
-    print("=== Entry point reached ===")
+if name == "main":
     main()
