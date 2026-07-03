@@ -1,4 +1,4 @@
-name: Threads Auto-Poster
+name: Threads Auto-Poster (Browser)
 
 on:
   schedule:
@@ -16,25 +16,32 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Restore cached logs
+      - name: Restore cached logs & session
         uses: actions/cache@v3
         with:
-          path: logs
-          key: threads-log-cache-v1
-          restore-keys: threads-log-cache-v1
+          path: |
+            logs
+            browser_state
+          key: threads-browser-cache-v1
+          restore-keys: threads-browser-cache-v1
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+      - name: Install Playwright
+        run: |
+          pip install -r requirements.txt
+          playwright install chromium
+          playwright install-deps
 
       - name: Run the bot
         run: python main.py
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
-          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          THREADS_EMAIL: ${{ secrets.THREADS_EMAIL }}
+          THREADS_PASSWORD: ${{ secrets.THREADS_PASSWORD }}
 
-      - name: Save updated logs
+      - name: Save updated logs & session
         uses: actions/cache@v3
         with:
-          path: logs
-          key: threads-log-cache-v1
+          path: |
+            logs
+            browser_state
+          key: threads-browser-cache-v1
