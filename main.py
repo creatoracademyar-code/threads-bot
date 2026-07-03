@@ -5,10 +5,24 @@ import json
 import requests
 from datetime import datetime, timedelta
 
+# ---------- REQUIRED ENVIRONMENT VARIABLES ----------
+REQUIRED_ENV = ["GROQ_API_KEY", "BUFFER_API_KEY", "BUFFER_CHANNEL_ID"]
+
+def check_env():
+    missing = [var for var in REQUIRED_ENV if not os.environ.get(var)]
+    if missing:
+        print(f"❌ Missing required environment variables: {', '.join(missing)}")
+        print("   Please set them before running.")
+        print("   For local testing: export VAR=value")
+        print("   For GitHub Actions: add them as repository secrets.")
+        sys.exit(1)
+
+check_env()
+
 # ---------- API ENDPOINTS ----------
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
-GROK_MODEL = "llama-3.3-70b-versatile"  # or "grok-2"
-BUFFER_GRAPHQL_URL = "https://api.buffer.com/graphql"   # correct endpoint
+GROQ_MODEL = "llama-3.3-70b-versatile"          # Groq's latest model
+BUFFER_GRAPHQL_URL = "https://api.buffer.com/graphql"
 
 # ---------- READ PROMPT ----------
 def load_prompt():
@@ -24,7 +38,7 @@ def generate_thread():
         "Content-Type": "application/json"
     }
     payload = {
-        "model": GROK_MODEL,
+        "model": GROQ_MODEL,
         "messages": [
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": "Generate one Thread now."}
@@ -32,10 +46,10 @@ def generate_thread():
         "temperature": 0.8,
         "max_tokens": 1200
     }
-    resp = requests.post(GROK_API_URL, headers=headers, json=payload)
+    resp = requests.post(GROQ_API_URL, headers=headers, json=payload)
     resp.raise_for_status()
     content = resp.json()["choices"][0]["message"]["content"]
-    print(f"\n📝 Grok raw response:\n{content}\n")
+    print(f"\n📝 Groq raw response:\n{content}\n")
 
     # Try JSON
     try:
@@ -53,11 +67,10 @@ def generate_thread():
         posts = [p.strip() for p in content.split("\n\n") if p.strip()]
     return posts[:4]
 
-# ---------- POST TO BUFFER (with scheduling) ----------
+# ---------- POST TO BUFFER (with scheduling 5 min from now) ----------
 def post_to_buffer(posts):
-    # Calculate due time: now + 5 minutes (UTC)
     due_time = datetime.utcnow() + timedelta(minutes=5)
-    due_at = due_time.isoformat() + "Z"   # e.g., "2026-07-05T10:33:00.000Z"
+    due_at = due_time.isoformat() + "Z"
     print(f"⏰ Scheduled for: {due_at} UTC")
 
     first_post = posts[0] if posts else ""
@@ -83,9 +96,9 @@ def post_to_buffer(posts):
         "input": {
             "text": first_post,
             "channelId": os.environ["BUFFER_CHANNEL_ID"],
-            "schedulingType": "automatic",          # automatic scheduling
-            "mode": "customScheduled",              # we are scheduling
-            "dueAt": due_at,                        # 5 minutes from now
+            "schedulingType": "automatic",
+            "mode": "customScheduled",
+            "dueAt": due_at,
             "metadata": {
                 "threads": {
                     "thread": thread_entries
@@ -122,6 +135,10 @@ def main():
     print(f"🚀 Starting at {datetime.now().isoformat()}")
 
     posts = generate_thread()
+    if not posts:
+        print("❌ No posts generated. Exiting.")
+        sys.exit(1)
+
     print(f"✅ Generated {len(posts)} posts:")
     for i, p in enumerate(posts, 1):
         print(f"--- Post {i} ---\n{p}\n")
