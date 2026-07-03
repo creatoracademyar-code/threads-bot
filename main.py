@@ -178,5 +178,5 @@ def main():
             print(f"⏳ Waiting {wait_time}s before retry...")
             time.sleep(wait_time)
 
-if name == "main":
+if __name__ == "main":
     main()
