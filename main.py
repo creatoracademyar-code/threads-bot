@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-print("=== main.py started ===")  # <-- First line
+print("=== main.py started ===")
 
 import os
 import json
@@ -107,13 +107,33 @@ def publish_thread_via_api(parts):
         token_path="cache/threads_token.bin"
     )
 
-    print("🔐 Logging in...")
-    login_success = api.login()
-    if not login_success:
-        raise Exception("Login failed.")
+    print("🔐 Logging in (using cached session if available)...")
+    try:
+        login_success = api.login()
+        if not login_success:
+            raise Exception("Login returned False.")
+        print("✅ Login successful!")
+    except Exception as e:
+        error_msg = str(e)
+        # Check if it's a challenge flow
+        if "legacy challenge" in error_msg.lower() or "challenge" in error_msg.lower():
+            print("⚠️ Instagram triggered a security challenge.")
+            print("   This usually happens on the first login from a new IP.")
+            print("   Please do the following steps manually, then re-run the workflow:\n")
+            print("   1. Open your Threads/Instagram app on your phone.")
+            print("   2. You should see a notification about a new login attempt.")
+            print("   3. Tap 'It was me' or approve the login.")
+            print("   4. The library may have already saved some session data in 'cache/'.")
+            print("   5. Re-run this workflow – it should now use the saved token.\n")
+            print("   If you have 2FA enabled, you may need to disable it temporarily.")
+            print("   For more help, refer to the library's documentation.")
+            # Re-raise with a clear message
+            raise Exception("Login blocked by challenge. Complete the manual approval on your phone and re-run.")
+        else:
+            # Other error
+            raise
 
-    print("✅ Login successful!")
-
+    # Now post
     first_post_id = None
     for i, text in enumerate(parts):
         if i == 0:
