@@ -6,8 +6,8 @@ import requests
 from datetime import datetime, timedelta
 
 # ---------- API ENDPOINTS ----------
-GROK_API_URL = "https://api.x.ai/v1/chat/completions"
-GROK_MODEL = "grok-1"  # or "grok-2"
+GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
+GROK_MODEL = "llama-3.3-70b-versatile"  # or "grok-2"
 BUFFER_GRAPHQL_URL = "https://api.buffer.com/graphql"   # correct endpoint
 
 # ---------- READ PROMPT ----------
@@ -20,7 +20,7 @@ SYSTEM_PROMPT = load_prompt()
 # ---------- GENERATE THREAD ----------
 def generate_thread():
     headers = {
-        "Authorization": f"Bearer {os.environ['GROK_API_KEY']}",
+        "Authorization": f"Bearer {os.environ['GROQ_API_KEY']}",
         "Content-Type": "application/json"
     }
     payload = {
