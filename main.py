@@ -55,13 +55,12 @@ def log_run(status, detail=""):
 # ---------- GENERATE THREAD (GROQ) ----------
 def generate_thread():
     print("📝 Generating thread via Groq...")
-    print(f"   Using API key: {GROQ_API_KEY[:10]}...")  # Show first 10 chars to verify
     headers = {
         "Authorization": f"Bearer {GROQ_API_KEY}",
         "Content-Type": "application/json"
     }
     payload = {
-        "model": "llama-3.3-70b-versatile",  # Updated model name
+        "model": "llama-3.3-70b-versatile",
         "messages": [
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": "Write a new Thread on a random topic."}
@@ -69,36 +68,25 @@ def generate_thread():
         "temperature": 0.9,
         "max_tokens": 1000
     }
-    print("   Sending request to Groq...")
-    print(f"   Payload: {json.dumps(payload, indent=2)[:200]}...")
-    try:
-        resp = requests.post(GROQ_URL, headers=headers, json=payload)
-        if resp.status_code != 200:
-            print(f"   ❌ Error response: {resp.text}")
-        resp.raise_for_status()
-    except requests.exceptions.HTTPError as e:
-        print(f"   ❌ HTTP Error: {e}")
-        print(f"   Response body: {e.response.text}")
-        raise
+    resp = requests.post(GROQ_URL, headers=headers, json=payload)
+    resp.raise_for_status()
     data = resp.json()
     content = data["choices"][0]["message"]["content"]
-    print(f"   Raw response: {content[:100]}...")
     thread_data = json.loads(content)
     parts = thread_data.get("parts", [])
     if len(parts) < 3:
         raise ValueError(f"Less than 3 parts. Got {len(parts)}")
     print(f"✅ Generated {len(parts)} parts.")
-    for i, part in enumerate(parts):
-        print(f"   Part {i+1}: {part[:50]}...")
     return parts
 
-# ---------- PUBLISH USING PLAYWRIGHT ----------
+# ---------- PUBLISH USING PLAYWRIGHT (Instagram login) ----------
 def publish_parts_browser(parts):
     print("🌐 Launching browser...")
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         print("✅ Browser launched.")
 
+        context_options = {}
         if os.path.exists(STATE_FILE):
             print("🔄 Loading saved browser session...")
             context = browser.new_context(storage_state=STATE_FILE)
@@ -106,40 +94,82 @@ def publish_parts_browser(parts):
             print("🔄 No session found. Logging in fresh...")
             context = browser.new_context()
             page = context.new_page()
-            page.goto("https://www.threads.net/login")
-            print("🔑 Login page loaded. Filling credentials...")
-            page.wait_for_selector('input[name="username"]', timeout=10000)
-            page.fill('input[name="username"]', THREADS_EMAIL)
-            page.fill('input[name="password"]', THREADS_PASSWORD)
-            page.click('button[type="submit"]')
-            print("⏳ Waiting for login to complete...")
-            try:
-                page.wait_for_url("https://www.threads.net/*", timeout=30000)
-                context.storage_state(path=STATE_FILE)
-                print("✅ Session saved successfully!")
-            except Exception as e:
-                print(f"❌ Login failed: {e}")
-                raise Exception("Login failed - likely 2FA or blocked.")
 
+            # Go directly to Instagram login (Threads uses Instagram auth)
+            print("🔑 Navigating to Instagram login...")
+            page.goto("https://www.instagram.com/accounts/login/")
+            page.wait_for_load_state("networkidle")
+
+            # Try to find the login form – Instagram uses different selectors
+            print("⏳ Waiting for login form...")
+            try:
+                # Wait for username field
+                page.wait_for_selector('input[name="username"]', timeout=15000)
+                print("✅ Username field found.")
+                page.fill('input[name="username"]', THREADS_EMAIL)
+                page.fill('input[name="password"]', THREADS_PASSWORD)
+                # Click login button
+                page.click('button[type="submit"]')
+            except Exception as e:
+                # Maybe it's the "Save login info" prompt – we can handle later
+                print(f"⚠️ Could not find standard login fields: {e}")
+                raise
+
+            # Wait for login to complete (redirect to main page)
+            try:
+                page.wait_for_url("https://www.instagram.com/*", timeout=30000)
+                print("✅ Instagram login successful.")
+            except:
+                # Might need to handle "Not Now" for save info
+                try:
+                    page.click('button:has-text("Not Now")')
+                    page.wait_for_url("https://www.instagram.com/*", timeout=10000)
+                except:
+                    pass
+
+            # Now navigate to Threads
+            print("📄 Navigating to Threads...")
+            page.goto("https://www.threads.net")
+            page.wait_for_load_state("networkidle")
+
+            # Save session for future runs
+            context.storage_state(path=STATE_FILE)
+            print("✅ Session saved successfully.")
+
+        # Now we have a logged-in context, open a new page
         page = context.new_page()
-        print("📄 Navigating to Threads home...")
         page.goto("https://www.threads.net")
         page.wait_for_load_state("networkidle")
-        print("✅ Home loaded.")
+        print("✅ Threads home loaded.")
 
+        # Click New Post button
         print("🔍 Looking for 'New' button...")
         try:
-            page.wait_for_selector('div[role="button"]:has-text("New")', timeout=15000)
-            page.click('div[role="button"]:has-text("New")')
+            # Try different selectors for "New" button
+            new_button = page.locator('div[role="button"]:has-text("New")').first
+            if new_button.is_visible():
+                new_button.click()
+            else:
+                # Fallback: try the plus icon or compose button
+                page.click('svg[aria-label="New post"]')
             print("✅ Clicked 'New' button.")
         except Exception as e:
-            print(f"❌ 'New' button not found: {e}")
+            print(f"❌ Could not find New button: {e}")
             raise
 
+        # Wait for the compose window
+        try:
+            page.wait_for_selector('div[contenteditable="true"]', timeout=10000)
+        except:
+            # Sometimes it's a different container
+            pass
+
+        # Write each part
         for i, text in enumerate(parts):
             print(f"✍️ Writing part {i+1}/{len(parts)}...")
             try:
-                editor = page.locator('div[contenteditable="true"]')
+                # Find editable div
+                editor = page.locator('div[contenteditable="true"]').first
                 editor.fill(text)
                 print(f"   - Part {i+1} filled.")
             except Exception as e:
@@ -147,22 +177,25 @@ def publish_parts_browser(parts):
                 raise
 
             if i < len(parts) - 1:
-                print("   ➕ Clicking 'Add to thread'...")
+                print("   ➕ Adding next part...")
                 try:
+                    # Click the "Add to thread" button (maybe plus icon)
                     page.click('button:has-text("Add to thread")')
                     time.sleep(1)
-                except Exception as e:
-                    print(f"❌ 'Add to thread' button not found: {e}")
-                    raise
+                except:
+                    # Try alternative
+                    page.click('svg[aria-label="Add to thread"]')
+                    time.sleep(1)
             else:
-                print("📤 Clicking 'Post'...")
+                print("📤 Posting...")
                 try:
                     page.click('button:has-text("Post")')
                     time.sleep(3)
+                    # Wait for post to be confirmed
                     page.wait_for_selector('div[role="button"]:has-text("New")', timeout=10000)
                     print("✅ Post completed.")
                 except Exception as e:
-                    print(f"❌ 'Post' button or post confirmation failed: {e}")
+                    print(f"❌ Could not post: {e}")
                     raise
 
         print("✅ Thread published successfully via browser automation!")
@@ -202,6 +235,7 @@ def main():
                 log_run("FINAL_FAILURE", f"All {MAX_RETRIES} attempts failed. Last error: {error_msg}")
                 print("💀 Max retries reached. Giving up.")
                 exit(1)
+
             wait_time = min(2 ** attempt, 300)
             print(f"⏳ Waiting {wait_time}s before retry...")
             time.sleep(wait_time)
