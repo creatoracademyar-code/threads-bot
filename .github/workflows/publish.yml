@@ -2,9 +2,8 @@ name: Threads Auto-Poster
 
 on:
   schedule:
-    # Runs at 00:00, 04:00, 08:00, 12:00, 16:00, 20:00 UTC (~4 hours apart)
     - cron: '0 0,4,8,12,16,20 * * *'
-  workflow_dispatch:  # Allows manual run from phone
+  workflow_dispatch:
 
 jobs:
   post-thread:
@@ -17,7 +16,7 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Restore cached logs (prevents duplicate posts)
+      - name: Restore cached logs
         uses: actions/cache@v3
         with:
           path: logs
@@ -30,11 +29,11 @@ jobs:
       - name: Run the bot
         run: python main.py
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
           THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
 
-      - name: Save updated logs (for next run)
+      - name: Save updated logs
         uses: actions/cache@v3
         with:
           path: logs
