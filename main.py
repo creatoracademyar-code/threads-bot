@@ -4,18 +4,19 @@ import time
 import hashlib
 import requests
 from datetime import datetime
+from playwright.sync_api import sync_playwright
 
 # ---------- CONFIG ----------
 MAX_RETRIES = 10
 LOG_DIR = "logs"
 POSTED_LOG = f"{LOG_DIR}/posted_hashes.log"
 RUN_LOG = f"{LOG_DIR}/run_history.log"
+STATE_FILE = "browser_state/state.json"
 
 GROQ_API_KEY = os.environ["GROQ_API_KEY"]
-THREADS_TOKEN = os.environ["THREADS_ACCESS_TOKEN"]
-THREADS_USER_ID = os.environ["THREADS_USER_ID"]
+THREADS_EMAIL = os.environ["THREADS_EMAIL"]
+THREADS_PASSWORD = os.environ["THREADS_PASSWORD"]
 
-BASE_URL = "https://graph.threads.net/v1.0"
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 SYSTEM_PROMPT = """You are a top-tier Threads creator for "Creator Academy".
@@ -30,6 +31,8 @@ Example: {"parts": ["Part 1...", "Part 2...", "Part 3..."]}"""
 def ensure_logs():
     if not os.path.exists(LOG_DIR):
         os.makedirs(LOG_DIR)
+    if not os.path.exists("browser_state"):
+        os.makedirs("browser_state")
 
 def get_posted_hashes():
     ensure_logs()
@@ -49,7 +52,7 @@ def log_run(status, detail=""):
     with open(RUN_LOG, "a") as f:
         f.write(f"[{ts}] {status}: {detail}\n")
 
-# ---------- GENERATE THREAD (GROQ – FREE) ----------
+# ---------- GENERATE THREAD (GROQ) ----------
 def generate_thread():
     headers = {
         "Authorization": f"Bearer {GROQ_API_KEY}",
@@ -74,27 +77,69 @@ def generate_thread():
         raise ValueError(f"Less than 3 parts. Got {len(parts)}")
     return parts
 
-# ---------- PUBLISH THREAD ----------
-def publish_parts(parts):
-    published_ids = []
-    for i, text in enumerate(parts):
-        payload = {"media_type": "TEXT", "text": text, "access_token": THREADS_TOKEN}
-        if i > 0:
-            payload["reply_to_id"] = published_ids[-1]
+# ---------- PUBLISH USING PLAYWRIGHT (NO API TOKEN) ----------
+def publish_parts_browser(parts):
+    with sync_playwright() as p:
+        # Launch browser (headed=False for headless)
+        browser = p.chromium.launch(headless=True)
+        context = None
 
-        create_resp = requests.post(f"{BASE_URL}/{THREADS_USER_ID}/threads", data=payload)
-        create_resp.raise_for_status()
-        creation_id = create_resp.json()["id"]
+        # Try to load saved session
+        if os.path.exists(STATE_FILE):
+            print("🔄 Loading saved browser session...")
+            context = browser.new_context(storage_state=STATE_FILE)
+        else:
+            print("🔄 No session found. Logging in fresh...")
+            context = browser.new_context()
+            page = context.new_page()
+            page.goto("https://www.threads.net/login")
 
-        publish_resp = requests.post(
-            f"{BASE_URL}/{THREADS_USER_ID}/threads_publish",
-            data={"creation_id": creation_id, "access_token": THREADS_TOKEN}
-        )
-        publish_resp.raise_for_status()
-        pid = publish_resp.json()["id"]
-        published_ids.append(pid)
-        time.sleep(2)
-    return published_ids
+            # Wait for login form
+            page.wait_for_selector('input[name="username"]', timeout=10000)
+            page.fill('input[name="username"]', THREADS_EMAIL)
+            page.fill('input[name="password"]', THREADS_PASSWORD)
+            page.click('button[type="submit"]')
+
+            # Wait for navigation to complete (or 2FA screen)
+            try:
+                page.wait_for_url("https://www.threads.net/*", timeout=30000)
+                # Save session for next run (AVOIDS RE-LOGIN)
+                context.storage_state(path=STATE_FILE)
+                print("✅ Session saved successfully!")
+            except:
+                print("⚠️ Login might have failed or 2FA triggered. Check logs.")
+                raise Exception("Login failed - likely 2FA or blocked.")
+        # Open a new page for posting
+        page = context.new_page()
+        page.goto("https://www.threads.net")
+
+        # Wait for the new post button
+        page.wait_for_selector('div[role="button"]:has-text("New")', timeout=15000)
+        page.click('div[role="button"]:has-text("New")')
+
+        published_ids = []  # Not needed for browser, but keeping for consistency
+
+        for i, text in enumerate(parts):
+            # Wait for text editor
+            editor = page.locator('div[contenteditable="true"]')
+            editor.fill(text)
+
+            if i < len(parts) - 1:
+                # Click "Add to thread" (or reply button)
+                # Threads UI: Usually a "plus" button or "Add" button in the composer
+                # Locate the "Add to thread" button (adjust selector if needed)
+                page.click('button:has-text("Add to thread")')
+                time.sleep(1)  # Wait for new editor to appear
+            else:
+                # Last part: Click Post/Reply
+                page.click('button:has-text("Post")')
+                time.sleep(3)
+                # Wait for post to appear or modal to close
+                page.wait_for_selector('div[role="button"]:has-text("New")', timeout=10000)
+
+        print("✅ Thread published successfully via browser automation!")
+        browser.close()
+        return ["browser-post-success"]  # dummy return
 
 # ---------- MAIN LOOP ----------
 def main():
@@ -111,11 +156,14 @@ def main():
             if thread_hash in posted_hashes:
                 raise ValueError("Duplicate thread detected. Retrying.")
 
-            thread_ids = publish_parts(parts)
+            # PUBLISH USING BROWSER (NO API TOKEN)
+            publish_parts_browser(parts)
+
             save_posted_hash(thread_hash)
-            log_run("SUCCESS", f"Posted {len(parts)} parts. IDs: {thread_ids}")
-            print(f"✅ SUCCESS! Thread IDs: {thread_ids}")
+            log_run("SUCCESS", f"Posted {len(parts)} parts via browser.")
+            print("✅ SUCCESS! Thread posted via browser.")
             return
+
         except Exception as e:
             error_msg = str(e)
             print(f"❌ Attempt {attempt} failed: {error_msg}")
@@ -123,7 +171,7 @@ def main():
 
             if attempt == MAX_RETRIES:
                 log_run("FINAL_FAILURE", f"All {MAX_RETRIES} attempts failed. Last error: {error_msg}")
-                print(f"💀 Max retries reached. Giving up.")
+                print("💀 Max retries reached. Giving up.")
                 exit(1)
 
             wait_time = min(2 ** attempt, 300)
