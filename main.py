@@ -4,7 +4,6 @@ import time
 import hashlib
 import requests
 from datetime import datetime
-import google.generativeai as genai
 
 # ---------- CONFIG ----------
 MAX_RETRIES = 10
@@ -12,30 +11,20 @@ LOG_DIR = "logs"
 POSTED_LOG = f"{LOG_DIR}/posted_hashes.log"
 RUN_LOG = f"{LOG_DIR}/run_history.log"
 
-GEMINI_KEY = os.environ["GEMINI_API_KEY"]
+GROQ_API_KEY = os.environ["GROQ_API_KEY"]
 THREADS_TOKEN = os.environ["THREADS_ACCESS_TOKEN"]
 THREADS_USER_ID = os.environ["THREADS_USER_ID"]
 
 BASE_URL = "https://graph.threads.net/v1.0"
+GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
-# Configure Gemini
-genai.configure(api_key=GEMINI_KEY)
-model = genai.GenerativeModel(
-    model_name="gemini-1.5-flash",
-    generation_config={
-        "response_mime_type": "application/json"  # Ensures valid JSON every single time
-    }
-)
-
-SYSTEM_PROMPT = """
-You are a top-tier Threads creator for "Creator Academy".
+SYSTEM_PROMPT = """You are a top-tier Threads creator for "Creator Academy".
 Write a 3-part Thread. Each part 120-220 words.
 Use emotional storytelling, curiosity, strong hook, open loop.
 Never sell directly. Pick a random topic from: beginner mistakes, AI business, future predictions, content creation, branding, monetization, hidden opportunities, audience growth, AI myths, creator economy.
 
 Return ONLY valid JSON with a "parts" array of 3 strings.
-Example: {"parts": ["Part 1...", "Part 2...", "Part 3..."]}
-"""
+Example: {"parts": ["Part 1...", "Part 2...", "Part 3..."]}"""
 
 # ---------- LOGGING HELPERS ----------
 def ensure_logs():
@@ -60,16 +49,32 @@ def log_run(status, detail=""):
     with open(RUN_LOG, "a") as f:
         f.write(f"[{ts}] {status}: {detail}\n")
 
-# ---------- GENERATE THREAD (FREE GEMINI) ----------
+# ---------- GENERATE THREAD (GROQ – FREE) ----------
 def generate_thread():
-    response = model.generate_content(SYSTEM_PROMPT)
-    data = json.loads(response.text)
-    parts = data.get("parts", [])
+    headers = {
+        "Authorization": f"Bearer {GROQ_API_KEY}",
+        "Content-Type": "application/json"
+    }
+    payload = {
+        "model": "llama3-70b-8192",
+        "messages": [
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": "Write a new Thread on a random topic."}
+        ],
+        "temperature": 0.9,
+        "response_format": {"type": "json_object"}
+    }
+    resp = requests.post(GROQ_URL, headers=headers, json=payload)
+    resp.raise_for_status()
+    data = resp.json()
+    content = data["choices"][0]["message"]["content"]
+    thread_data = json.loads(content)
+    parts = thread_data.get("parts", [])
     if len(parts) < 3:
         raise ValueError(f"Less than 3 parts. Got {len(parts)}")
     return parts
 
-# ---------- PUBLISH THREAD (UNCHANGED) ----------
+# ---------- PUBLISH THREAD ----------
 def publish_parts(parts):
     published_ids = []
     for i, text in enumerate(parts):
@@ -91,7 +96,7 @@ def publish_parts(parts):
         time.sleep(2)
     return published_ids
 
-# ---------- MAIN LOOP WITH RETRIES ----------
+# ---------- MAIN LOOP ----------
 def main():
     ensure_logs()
     posted_hashes = get_posted_hashes()
@@ -111,11 +116,11 @@ def main():
             log_run("SUCCESS", f"Posted {len(parts)} parts. IDs: {thread_ids}")
             print(f"✅ SUCCESS! Thread IDs: {thread_ids}")
             return
-
         except Exception as e:
             error_msg = str(e)
             print(f"❌ Attempt {attempt} failed: {error_msg}")
             log_run(f"RETRY_{attempt}", error_msg)
+
             if attempt == MAX_RETRIES:
                 log_run("FINAL_FAILURE", f"All {MAX_RETRIES} attempts failed. Last error: {error_msg}")
                 print(f"💀 Max retries reached. Giving up.")
