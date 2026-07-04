@@ -57,7 +57,7 @@ After the hook, continue with storytelling. Make the reader curious. Reveal info
 Write naturally. Don't sound like ChatGPT. Don't overuse bullet points. Don't sound motivational. Don't sound like a teacher. Sound like someone sharing fascinating discoveries.
 
 OUTPUT FORMAT INSTRUCTION (CRITICAL):
-Return ONLY a valid JSON array of strings. The array must contain between 2 and 6 strings (one per post). Do not include any other text, explanations, or markdown. The JSON must be parsable by `json.loads()`.
+Return ONLY a valid JSON array of strings which can contain next lines, inverted comma, or special characters to make the thread look better. The array must contain between 2 and 6 strings (one per post). Do not include any other text, explanations, or markdown. The JSON must be parsable by `json.loads()`.
 
 Example output for a 4‑post thread:
 ["First post: hook and story...", "Second post: continuation...", "Third post: revelation...", "Fourth post: powerful ending and open loop..."]
