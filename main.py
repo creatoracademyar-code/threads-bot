@@ -2,37 +2,85 @@
 import os
 import sys
 import json
+import time
+import logging
 import requests
 from datetime import datetime, timedelta
+from hashlib import sha256
 
-# ---------- REQUIRED ENVIRONMENT VARIABLES ----------
+# ---------- CONFIG ----------
 REQUIRED_ENV = ["GROQ_API_KEY", "BUFFER_API_KEY", "BUFFER_CHANNEL_ID"]
+POSTED_FILE = "posted_threads.json"
+LOG_FILE = "run.log"
+MAX_RETRIES = 10
+GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
+BUFFER_GRAPHQL_URL = "https://api.buffer.com/graphql"
+SCHEDULE_OFFSET_HOURS = 5
+SCHEDULE_OFFSET_MINUTES = 17
+
+# ---------- SETUP LOGGING ----------
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+
+ch = logging.StreamHandler()
+ch.setFormatter(formatter)
+logger.addHandler(ch)
+
+fh = logging.FileHandler(LOG_FILE)
+fh.setFormatter(formatter)
+logger.addHandler(fh)
 
 def check_env():
-    missing = [var for var in REQUIRED_ENV if not os.environ.get(var)]
+    missing = [v for v in REQUIRED_ENV if not os.environ.get(v)]
     if missing:
-        print(f"❌ Missing required environment variables: {', '.join(missing)}")
-        print("   Please set them before running.")
-        print("   For local testing: export VAR=value")
-        print("   For GitHub Actions: add them as repository secrets.")
+        logger.error(f"Missing required env vars: {', '.join(missing)}")
         sys.exit(1)
 
 check_env()
 
-# ---------- API ENDPOINTS ----------
-GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
-GROQ_MODEL = "llama-3.3-70b-versatile"          # Groq's latest model
-BUFFER_GRAPHQL_URL = "https://api.buffer.com/graphql"
+# ---------- LOAD POSTED THREADS ----------
+def load_posted_threads():
+    if os.path.exists(POSTED_FILE):
+        with open(POSTED_FILE, "r") as f:
+            return json.load(f)
+    return []
 
-# ---------- READ PROMPT ----------
-def load_prompt():
+def save_posted_thread(entry):
+    data = load_posted_threads()
+    data.append(entry)
+    with open(POSTED_FILE, "w") as f:
+        json.dump(data, f, indent=2)
+
+def get_posted_hashes():
+    return {entry["hash"] for entry in load_posted_threads()}
+
+def get_posted_threads_text():
+    """Return a formatted string of all previous threads with their posts."""
+    entries = load_posted_threads()
+    if not entries:
+        return "No previous threads have been posted yet."
+
+    text = "Here are all the threads you have already posted:\n\n"
+    for i, entry in enumerate(entries, 1):
+        text += f"Thread #{i} (posted at {entry.get('timestamp', 'unknown')}):\n"
+        for j, post in enumerate(entry.get("posts", []), 1):
+            text += f"  Post {j}: {post}\n"
+        text += "\n"
+    return text
+
+# ---------- LOAD PROMPT ----------
+def load_prompt_template():
     with open("prompt.txt", "r", encoding="utf-8") as f:
         return f.read().strip()
 
-SYSTEM_PROMPT = load_prompt()
+PROMPT_TEMPLATE = load_prompt_template()
 
 # ---------- GENERATE THREAD ----------
-def generate_thread():
+def generate_thread(history_text):
+    system_prompt = PROMPT_TEMPLATE.replace("{{POSTED_THREADS}}", history_text)
+
     headers = {
         "Authorization": f"Bearer {os.environ['GROQ_API_KEY']}",
         "Content-Type": "application/json"
@@ -40,40 +88,56 @@ def generate_thread():
     payload = {
         "model": GROQ_MODEL,
         "messages": [
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": "Generate one Thread now."}
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": "Generate a new Thread now."}
         ],
-        "temperature": 0.8,
-        "max_tokens": 1200
+        "temperature": 0.85,
+        "max_tokens": 1500
     }
     resp = requests.post(GROQ_API_URL, headers=headers, json=payload)
     resp.raise_for_status()
     content = resp.json()["choices"][0]["message"]["content"]
-    print(f"\n📝 Groq raw response:\n{content}\n")
+    logger.info(f"Groq raw response:\n{content}")
 
-    # Try JSON
+    # Parse JSON
     try:
         posts = json.loads(content)
         if isinstance(posts, list):
             posts = [str(p).strip() for p in posts if str(p).strip()]
-            if len(posts) >= 2:
-                return posts[:4]
+            if 2 <= len(posts) <= 6:
+                return posts
     except json.JSONDecodeError:
         pass
 
-    # Fallback split
+    # Fallback: try extracting JSON array
+    import re
+    match = re.search(r'\[.*\]', content, re.DOTALL)
+    if match:
+        try:
+            posts = json.loads(match.group(0))
+            if isinstance(posts, list) and 2 <= len(posts) <= 6:
+                return posts
+        except:
+            pass
+
+    logger.warning("Could not parse valid JSON array from Groq response.")
+    # Fallback: split by "---" or newlines
     posts = [p.strip() for p in content.split("---") if p.strip()]
-    if len(posts) < 2:
-        posts = [p.strip() for p in content.split("\n\n") if p.strip()]
-    return posts[:4]
+    if 2 <= len(posts) <= 6:
+        return posts
+    posts = [p.strip() for p in content.split("\n\n") if p.strip()]
+    if 2 <= len(posts) <= 6:
+        return posts
 
-# ---------- POST TO BUFFER (with scheduling 5 min from now) ----------
+    raise ValueError(f"Could not extract 2-6 posts from response. Got {len(posts)}.")
+
+# ---------- POST TO BUFFER ----------
 def post_to_buffer(posts):
-    due_time = datetime.utcnow() + timedelta(minutes=5)
+    due_time = datetime.utcnow() + timedelta(hours=SCHEDULE_OFFSET_HOURS, minutes=SCHEDULE_OFFSET_MINUTES)
     due_at = due_time.isoformat() + "Z"
-    print(f"⏰ Scheduled for: {due_at} UTC")
+    logger.info(f"Scheduling for: {due_at} UTC")
 
-    first_post = posts[0] if posts else ""
+    first_post = posts[0]
     thread_entries = [{"text": p} for p in posts]
 
     mutation = """
@@ -132,23 +196,65 @@ def post_to_buffer(posts):
 
 # ---------- MAIN ----------
 def main():
-    print(f"🚀 Starting at {datetime.now().isoformat()}")
+    logger.info("🚀 Starting automation run")
 
-    posts = generate_thread()
-    if not posts:
-        print("❌ No posts generated. Exiting.")
+    # Load existing posted hashes
+    posted_hashes = get_posted_hashes()
+    logger.info(f"📚 Found {len(posted_hashes)} previously posted threads.")
+
+    # Get full history text
+    history_text = get_posted_threads_text()
+    logger.info(f"📝 Will send {len(load_posted_threads())} previous threads to Groq for avoidance.")
+
+    # Retry loop to get a unique thread
+    for attempt in range(1, MAX_RETRIES + 1):
+        logger.info(f"🔄 Attempt {attempt}/{MAX_RETRIES} to generate a unique thread.")
+        try:
+            posts = generate_thread(history_text)
+            combined = "".join(posts)
+            thread_hash = sha256(combined.encode()).hexdigest()
+
+            if thread_hash in posted_hashes:
+                logger.warning("⚠️  Duplicate content detected. Retrying...")
+                time.sleep(3)
+                continue
+
+            logger.info(f"✅ Unique thread found (hash: {thread_hash[:8]}...)")
+            break
+        except Exception as e:
+            logger.error(f"❌ Generation error: {e}")
+            if attempt == MAX_RETRIES:
+                logger.error("Exhausted retries. Exiting.")
+                sys.exit(1)
+            time.sleep(5)
+    else:
+        logger.error("Could not generate a unique thread after max retries.")
         sys.exit(1)
 
-    print(f"✅ Generated {len(posts)} posts:")
+    # Log the thread
+    logger.info(f"📝 Generated {len(posts)} posts:")
     for i, p in enumerate(posts, 1):
-        print(f"--- Post {i} ---\n{p}\n")
+        logger.info(f"--- Post {i} ---\n{p}")
 
+    # Post to Buffer
     try:
         post_id = post_to_buffer(posts)
-        print(f"✅ Thread scheduled successfully! Buffer Post ID: {post_id}")
+        logger.info(f"✅ Thread scheduled successfully! Buffer Post ID: {post_id}")
     except Exception as e:
-        print(f"❌ Failed to post: {e}")
+        logger.error(f"❌ Buffer posting failed: {e}")
         sys.exit(1)
+
+    # Save to history
+    entry = {
+        "timestamp": datetime.utcnow().isoformat(),
+        "hash": thread_hash,
+        "posts": posts,
+        "buffer_post_id": post_id
+    }
+    save_posted_thread(entry)
+    logger.info("💾 Updated posted_threads.json")
+
+    logger.info("✅ Run completed.")
 
 if __name__ == "__main__":
     main()
