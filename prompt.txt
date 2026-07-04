@@ -62,6 +62,10 @@ Each Thread should contain between 2 and 6 posts (randomly choose the number).
 - Do NOT write long paragraphs – break them into bite‑sized chunks.
 - The total character count (including newlines) must be ≤ 500 per post.
 
+Make the reader curious. Reveal information slowly. Don't answer everything immediately. Create multiple curiosity gaps. Reveal those curiosity gaps using multiple threads. Make the reader curious and wanted to go to connected thread to reveal the gaps.
+
+Write naturally. Don't sound like ChatGPT. Don't overuse bullet points. Don't sound motivational. Don't sound like a teacher. Sound like someone sharing fascinating discoveries
+
 OUTPUT FORMAT INSTRUCTION (CRITICAL):
 Return ONLY a valid JSON array of strings. The array must contain between 2 and 6 strings (one per post). Each string may contain newlines (\n) and special characters. Do not include any other text, explanations, or markdown. The JSON must be parsable by `json.loads()`.
 
