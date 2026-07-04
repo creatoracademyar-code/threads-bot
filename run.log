@@ -200,3 +200,50 @@ I'll probably write more about this later.
 2026-07-04 11:23:22,294 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a48ed2a81c4c124bc97d305
 2026-07-04 11:23:22,294 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-04 11:23:22,294 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-04T11:24:53.203661
+============================================================
+2026-07-04 11:24:53,203 - INFO - ðŸš€ Starting automation run
+2026-07-04 11:24:53,203 - INFO - ðŸ“š Found 4 previously posted threads.
+2026-07-04 11:24:53,204 - INFO - ðŸ“ Will send 4 recent threads to Groq for avoidance.
+2026-07-04 11:24:53,204 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-04 11:24:54,362 - INFO - Groq raw response:
+[
+  "I used to think consistency was key to AI content creation.\nBut then I met a creator who posted once a month.\nAnd still grew a massive following.",
+  "Their secret? They focused on 'depth' over 'frequency'.\nEach post was a masterpiece, not just a quick update.\nI started to wonder, what if I applied this to my own content?",
+  "I spent weeks studying this creator's strategy.\nAnd what I found was surprising.\nThey weren't just creating content, but a 'knowledge graph' that connected all their posts.",
+  "It was like a puzzle, with each piece building on the last.\nAnd their audience was hooked, trying to figure out the next piece.\nI realized, this is what's missing from most AI content.",
+  "Now I'm experimenting with this approach.\nAnd I'm excited to see where it takes me.\nMaybe I'll share my results later, but for now, it's an open question."
+]
+2026-07-04 11:24:54,363 - INFO - âœ… Unique thread found (hash: b95b66fe...)
+2026-07-04 11:24:54,364 - INFO - ðŸ“ Generated 5 posts:
+2026-07-04 11:24:54,364 - INFO - --- Post 1 ---
+I used to think consistency was key to AI content creation.
+But then I met a creator who posted once a month.
+And still grew a massive following.
+2026-07-04 11:24:54,364 - INFO - --- Post 2 ---
+Their secret? They focused on 'depth' over 'frequency'.
+Each post was a masterpiece, not just a quick update.
+I started to wonder, what if I applied this to my own content?
+2026-07-04 11:24:54,364 - INFO - --- Post 3 ---
+I spent weeks studying this creator's strategy.
+And what I found was surprising.
+They weren't just creating content, but a 'knowledge graph' that connected all their posts.
+2026-07-04 11:24:54,364 - INFO - --- Post 4 ---
+It was like a puzzle, with each piece building on the last.
+And their audience was hooked, trying to figure out the next piece.
+I realized, this is what's missing from most AI content.
+2026-07-04 11:24:54,364 - INFO - --- Post 5 ---
+Now I'm experimenting with this approach.
+And I'm excited to see where it takes me.
+Maybe I'll share my results later, but for now, it's an open question.
+2026-07-04 11:24:54,537 - INFO - ðŸŽ¨ Cover image prompt: A single glowing node on a sparse network slowly connects to many others., digital art, minimalist, clean tech aesthetic, soft lighting, no text, no words, no letters
+2026-07-04 11:24:55,869 - INFO - ðŸ–¼ï¸  Saved cover image to images/166fcec908de2fe9.jpg
+2026-07-04 11:24:56,831 - INFO - ðŸ“¤ Pushed images/166fcec908de2fe9.jpg to GitHub.
+2026-07-04 11:24:57,004 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/166fcec908de2fe9.jpg
+2026-07-04 11:24:57,006 - INFO - Scheduling for: 2026-07-04T16:41:57.006908Z UTC
+2026-07-04 11:24:57,645 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a48ed899dd66bf2fd4d6fbe
+2026-07-04 11:24:57,645 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-04 11:24:57,645 - INFO - âœ… Run completed.
