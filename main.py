@@ -18,6 +18,7 @@ GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 BUFFER_GRAPHQL_URL = "https://api.buffer.com/graphql"
 SCHEDULE_OFFSET_HOURS = 5
 SCHEDULE_OFFSET_MINUTES = 17
+HISTORY_LIMIT = 20   # number of recent threads to include in the prompt
 
 # ---------- SETUP LOGGING ----------
 logger = logging.getLogger()
@@ -57,12 +58,15 @@ def get_posted_hashes():
     return {entry["hash"] for entry in load_posted_threads()}
 
 def get_posted_threads_text():
-    """Return a formatted string of all previous threads with their posts."""
+    """Return a formatted string of only the most recent HISTORY_LIMIT threads."""
     entries = load_posted_threads()
     if not entries:
         return "No previous threads have been posted yet."
 
-    text = "Here are all the threads you have already posted:\n\n"
+    # Use only the most recent HISTORY_LIMIT entries
+    entries = entries[-HISTORY_LIMIT:]
+
+    text = f"Here are the {len(entries)} most recent threads you have posted:\n\n"
     for i, entry in enumerate(entries, 1):
         text += f"Thread #{i} (posted at {entry.get('timestamp', 'unknown')}):\n"
         for j, post in enumerate(entry.get("posts", []), 1):
@@ -202,9 +206,9 @@ def main():
     posted_hashes = get_posted_hashes()
     logger.info(f"📚 Found {len(posted_hashes)} previously posted threads.")
 
-    # Get full history text
+    # Get only recent history (last 20 threads)
     history_text = get_posted_threads_text()
-    logger.info(f"📝 Will send {len(load_posted_threads())} previous threads to Groq for avoidance.")
+    logger.info(f"📝 Will send {min(HISTORY_LIMIT, len(load_posted_threads()))} recent threads to Groq for avoidance.")
 
     # Retry loop to get a unique thread
     for attempt in range(1, MAX_RETRIES + 1):
