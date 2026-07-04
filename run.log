@@ -247,3 +247,41 @@ Maybe I'll share my results later, but for now, it's an open question.
 2026-07-04 11:24:57,645 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a48ed899dd66bf2fd4d6fbe
 2026-07-04 11:24:57,645 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-04 11:24:57,645 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-04T11:26:35.812918
+============================================================
+2026-07-04 11:26:35,812 - INFO - ðŸš€ Starting automation run
+2026-07-04 11:26:35,813 - INFO - ðŸ“š Found 5 previously posted threads.
+2026-07-04 11:26:35,813 - INFO - ðŸ“ Will send 5 recent threads to Groq for avoidance.
+2026-07-04 11:26:35,813 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-04 11:26:36,920 - INFO - Groq raw response:
+[
+  "I've been studying AI creators who've built massive audiences.\nBut there's one thing that separates the top 1% from the rest.",
+  "It's not their content quality or consistency.\nIt's something much deeper. A mindset shift that changes everything.",
+  "I've noticed that the most successful AI creators think like 'asset builders'.\nThey're not just creating content, but building a legacy that will outlast them.",
+  "This mindset shift is rare, but it's what sets them apart.\nI'm still trying to understand how they think and how they build these assets."
+]
+2026-07-04 11:26:36,921 - INFO - âœ… Unique thread found (hash: 3ab00077...)
+2026-07-04 11:26:36,921 - INFO - ðŸ“ Generated 4 posts:
+2026-07-04 11:26:36,921 - INFO - --- Post 1 ---
+I've been studying AI creators who've built massive audiences.
+But there's one thing that separates the top 1% from the rest.
+2026-07-04 11:26:36,921 - INFO - --- Post 2 ---
+It's not their content quality or consistency.
+It's something much deeper. A mindset shift that changes everything.
+2026-07-04 11:26:36,921 - INFO - --- Post 3 ---
+I've noticed that the most successful AI creators think like 'asset builders'.
+They're not just creating content, but building a legacy that will outlast them.
+2026-07-04 11:26:36,921 - INFO - --- Post 4 ---
+This mindset shift is rare, but it's what sets them apart.
+I'm still trying to understand how they think and how they build these assets.
+2026-07-04 11:26:37,536 - INFO - ðŸŽ¨ Cover image prompt: A lone neon node outshines a network of dimmer connections., digital art, minimalist, clean tech aesthetic, soft lighting, no text, no words, no letters
+2026-07-04 11:26:38,876 - INFO - ðŸ–¼ï¸  Saved cover image to images/2960a802f967a01a.jpg
+2026-07-04 11:26:39,986 - INFO - ðŸ“¤ Pushed images/2960a802f967a01a.jpg to GitHub.
+2026-07-04 11:26:40,256 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/2960a802f967a01a.jpg
+2026-07-04 11:26:40,259 - INFO - Scheduling for: 2026-07-04T16:43:40.259150Z UTC
+2026-07-04 11:26:41,071 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a48edf05a1476309a484fc6
+2026-07-04 11:26:41,072 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-04 11:26:41,072 - INFO - âœ… Run completed.
