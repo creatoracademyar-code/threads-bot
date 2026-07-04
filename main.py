@@ -149,28 +149,41 @@ def generate_thread(history_text):
 
 # ---------- GENERATE COVER IMAGE ----------
 def generate_image_prompt(posts):
-    """Ask Groq for a short, safe visual scene description to use for cover image generation."""
-    first_post = posts[0]
+    """
+    Ask Groq for a detailed visual scene description based on the entire thread (2-5 posts).
+    The output will be a long (10-15 sentences) prompt that can include text, logos, numbers,
+    letters, and other graphic elements to make the image more engaging.
+    """
+    # Combine all posts with clear numbering
+    thread_text = "\n".join([f"Post {i+1}: {p}" for i, p in enumerate(posts)])
+
     headers = {
         "Authorization": f"Bearer {os.environ['GROQ_API_KEY']}",
         "Content-Type": "application/json"
     }
+
     system_prompt = (
-        "You create short visual scene descriptions for an AI image generator. "
-        "Given a social media post, output ONE short sentence (max 20 words) describing "
-        "a visual scene or metaphor that captures its theme. Style: clean, modern, minimalist "
-        "digital art / tech aesthetic. NEVER include any text, letters, words, numbers, logos, "
-        "or real people/brands in the description. Output ONLY the description sentence, nothing else."
+        "You are an expert at creating detailed visual descriptions for AI image generation. "
+        "Given a thread consisting of 2-5 social media posts, create a rich, vivid scene description "
+        "that captures the theme, mood, and key concepts of the entire thread. "
+        "The description should be 10-15 sentences long, detailed, and include specific visual elements, "
+        "colors, lighting, composition, and atmosphere. "
+        "You may include text elements such as quotes, slogans, numbers, or logos as part of the scene "
+        "(e.g., a neon sign, a billboard, a chalkboard, a book title, a screen displaying text). "
+        "Describe how these text elements appear. Make the scene relatable and engaging. "
+        "Do not output anything else besides the description."
     )
+
     payload = {
         "model": GROQ_MODEL,
         "messages": [
             {"role": "system", "content": system_prompt},
-            {"role": "user", "content": first_post}
+            {"role": "user", "content": f"Thread:\n{thread_text}\n\nCreate a detailed image prompt based on this thread."}
         ],
         "temperature": 0.7,
-        "max_tokens": 60
+        "max_tokens": 500   # enough for 10-15 sentences
     }
+
     resp = requests.post(GROQ_API_URL, headers=headers, json=payload, timeout=30)
     resp.raise_for_status()
     return resp.json()["choices"][0]["message"]["content"].strip()
@@ -210,8 +223,8 @@ def generate_cover_image(posts):
         os.makedirs(IMAGES_DIR, exist_ok=True)
 
         scene = generate_image_prompt(posts)
-        style_suffix = "digital art, minimalist, clean tech aesthetic, soft lighting, no text, no words, no letters"
-        full_prompt = f"{scene}, {style_suffix}"
+        """style_suffix = "digital art, minimalist, clean tech aesthetic, soft lighting, no text, no words, no letters" """
+        full_prompt = scene
         logger.info(f"ðŸŽ¨ Cover image prompt: {full_prompt}")
 
         if not CLOUDFLARE_ACCOUNT_ID or not CLOUDFLARE_API_TOKEN:
