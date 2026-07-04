@@ -169,3 +169,50 @@ But some are thriving. What's their secret?
 2026-07-04 13:25:17,981 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4909bd7e9abd13f0cd2fdb
 2026-07-04 13:25:17,981 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-04 13:25:17,981 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-04T18:30:39.693251
+============================================================
+2026-07-04 18:30:39,693 - INFO - ðŸš€ Starting automation run
+2026-07-04 18:30:39,693 - INFO - ðŸ“š Found 4 previously posted threads.
+2026-07-04 18:30:39,693 - INFO - ðŸ“ Will send 4 recent threads to Groq for avoidance.
+2026-07-04 18:30:39,693 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-04 18:30:40,784 - INFO - Groq raw response:
+[
+  "I've been fascinated by AI myths.\nWhat if everything we thought\nwas wrong?",
+  "I started digging into the truth.\nAbout AI content creation.\nAnd what I found surprised me.",
+  "It's not about the tech itself.\nBut about the psychology behind.\nWhy people engage with AI content.",
+  "I discovered a hidden pattern.\nThat separates successful AI creators.\nFrom those who struggle to grow.",
+  "I'll probably write more about this later.\nBut for now, let's just say:\nThe truth about AI is shocking."
+]
+2026-07-04 18:30:40,785 - INFO - âœ… Unique thread found (hash: 4b2e5f79...)
+2026-07-04 18:30:40,785 - INFO - ðŸ“ Generated 5 posts:
+2026-07-04 18:30:40,785 - INFO - --- Post 1 ---
+I've been fascinated by AI myths.
+What if everything we thought
+was wrong?
+2026-07-04 18:30:40,785 - INFO - --- Post 2 ---
+I started digging into the truth.
+About AI content creation.
+And what I found surprised me.
+2026-07-04 18:30:40,785 - INFO - --- Post 3 ---
+It's not about the tech itself.
+But about the psychology behind.
+Why people engage with AI content.
+2026-07-04 18:30:40,785 - INFO - --- Post 4 ---
+I discovered a hidden pattern.
+That separates successful AI creators.
+From those who struggle to grow.
+2026-07-04 18:30:40,785 - INFO - --- Post 5 ---
+I'll probably write more about this later.
+But for now, let's just say:
+The truth about AI is shocking.
+2026-07-04 18:30:42,293 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, futuristic laboratory, a lone figure stands at the edge of a massive, circular window, gazing out into the cityscape at dusk, with the warm, golden light of sunset casting a sense of curiosity and inquiry. The main subject, a young woman with an inquisitive expression, is silhouetted against the vibrant, cool blues and purples of the urban sky, her features softly illuminated by the glow of holographic screens and neon lights reflecting off the polished, metallic surfaces of the lab equipment. The colour palette is a blend of deep, rich blues and purples, with accents of bright, electric blue, evoking a sense of innovation and discovery. The lighting is a mix of soft, diffused glow from the lab equipment and the harsh, dramatic shadows cast by the city's skyscrapers, creating a sense of depth and intrigue. The composition is a wide shot, with the woman at the centre, surrounded by the sleek, modern lines of the laboratory, and the camera angle is slightly low, looking up at the woman, conveying a sense of awe and wonder. The atmosphere is one of quiet contemplation and curiosity, with a sense of hope and discovery, as if the woman is on the verge of uncovering a hidden truth. The texture of the scene is a mix of smooth, polished metal and glass, with the rough, concrete edges of the cityscape in the background, adding a sense of grit and realism. The style hint is cinematic, with a slight futuristic, sci-fi twist, reminiscent of a thought-provoking, psychological thriller, with bold, vibrant colours and sharp, defined lines.
+2026-07-04 18:30:43,902 - INFO - ðŸ–¼ï¸  Saved cover image to images/3b96d358441a8dbf.jpg
+2026-07-04 18:30:45,035 - INFO - ðŸ“¤ Pushed images/3b96d358441a8dbf.jpg to GitHub.
+2026-07-04 18:30:45,331 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/3b96d358441a8dbf.jpg
+2026-07-04 18:30:45,333 - INFO - Scheduling for: 2026-07-04T23:47:45.333080Z UTC
+2026-07-04 18:30:46,269 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a495156c109183ee850e0c8
+2026-07-04 18:30:46,269 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-04 18:30:46,269 - INFO - âœ… Run completed.
