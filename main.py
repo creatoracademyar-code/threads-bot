@@ -3,6 +3,7 @@ import os
 import sys
 import json
 import time
+import base64
 import logging
 import requests
 from datetime import datetime, timedelta
@@ -10,6 +11,8 @@ from hashlib import sha256
 
 # ---------- CONFIG ----------
 REQUIRED_ENV = ["GROQ_API_KEY", "BUFFER_API_KEY", "BUFFER_CHANNEL_ID"]
+# POLLINATIONS_API_KEY is optional: if missing, the run continues without a cover image
+# instead of failing (see generate_cover_image()).
 POSTED_FILE = "posted_threads.json"
 LOG_FILE = "run.log"
 MAX_RETRIES = 10
@@ -20,9 +23,11 @@ SCHEDULE_OFFSET_HOURS = 5
 SCHEDULE_OFFSET_MINUTES = 17
 HISTORY_LIMIT = 20   # number of recent threads to include in the prompt
 
-# ---------- IMAGE CONFIG ----------
+# ---------- IMAGE CONFIG (Cloudflare Workers AI - free tier) ----------
 IMAGES_DIR = "images"
-POLLINATIONS_IMAGE_BASE = "https://gen.pollinations.ai/image"
+CLOUDFLARE_ACCOUNT_ID = os.environ.get("CLOUDFLARE_ACCOUNT_ID")
+CLOUDFLARE_API_TOKEN = os.environ.get("CLOUDFLARE_API_TOKEN")
+CLOUDFLARE_IMAGE_MODEL = "@cf/black-forest-labs/flux-1-schnell"
 GITHUB_REPOSITORY = os.environ.get("GITHUB_REPOSITORY")   # e.g. "yourname/yourrepo", auto-set by Actions
 GITHUB_REF_NAME = os.environ.get("GITHUB_REF_NAME", "main")
 
@@ -171,9 +176,9 @@ def generate_image_prompt(posts):
 
 def generate_cover_image(posts):
     """
-    Generates a free AI cover image via Pollinations, saves it into the repo,
-    and returns a public CDN URL that Buffer can fetch. Returns None on any
-    failure so the thread still posts (text-only) rather than blocking the run.
+    Generates a free AI cover image via Cloudflare Workers AI (Flux model), saves it
+    into the repo, and returns a public CDN URL that Buffer can fetch. Returns None on
+    any failure so the thread still posts (text-only) rather than blocking the run.
     """
     try:
         os.makedirs(IMAGES_DIR, exist_ok=True)
@@ -183,16 +188,31 @@ def generate_cover_image(posts):
         full_prompt = f"{scene}, {style_suffix}"
         logger.info(f"ðŸŽ¨ Cover image prompt: {full_prompt}")
 
-        encoded_prompt = requests.utils.quote(full_prompt)
-        image_api_url = f"{POLLINATIONS_IMAGE_BASE}/{encoded_prompt}?width=1024&height=1024&nologo=true"
+        if not CLOUDFLARE_ACCOUNT_ID or not CLOUDFLARE_API_TOKEN:
+            logger.warning("CLOUDFLARE_ACCOUNT_ID / CLOUDFLARE_API_TOKEN not set; skipping cover image generation.")
+            return None
 
-        img_resp = requests.get(image_api_url, timeout=60)
+        cf_url = f"https://api.cloudflare.com/client/v4/accounts/{CLOUDFLARE_ACCOUNT_ID}/ai/run/{CLOUDFLARE_IMAGE_MODEL}"
+        cf_headers = {
+            "Authorization": f"Bearer {CLOUDFLARE_API_TOKEN}",
+            "Content-Type": "application/json"
+        }
+        cf_payload = {"prompt": full_prompt[:2048]}  # flux-1-schnell max prompt length is 2048 chars
+
+        img_resp = requests.post(cf_url, headers=cf_headers, json=cf_payload, timeout=60)
         img_resp.raise_for_status()
+        result = img_resp.json()
+
+        if not result.get("success"):
+            raise Exception(f"Cloudflare Workers AI error: {result.get('errors')}")
+
+        image_b64 = result["result"]["image"]
+        image_bytes = base64.b64decode(image_b64)
 
         filename = f"{sha256(full_prompt.encode()).hexdigest()[:16]}.jpg"
         filepath = os.path.join(IMAGES_DIR, filename)
         with open(filepath, "wb") as f:
-            f.write(img_resp.content)
+            f.write(image_bytes)
         logger.info(f"ðŸ–¼ï¸  Saved cover image to {filepath}")
 
         if not GITHUB_REPOSITORY:
