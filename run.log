@@ -1,0 +1,47 @@
+
+
+============================================================
+  NEW RUN  2026-07-04T12:27:01.792276
+============================================================
+2026-07-04 12:27:01,792 - INFO - ðŸš€ Starting automation run
+2026-07-04 12:27:01,792 - INFO - ðŸ“š Found 0 previously posted threads.
+2026-07-04 12:27:01,792 - INFO - ðŸ“ Will send 0 recent threads to Groq for avoidance.
+2026-07-04 12:27:01,792 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-04 12:27:06,603 - INFO - Groq raw response:
+[
+  "I stumbled upon a hidden pattern.\nIn the world of AI influencers.\nWhere success seems random.",
+  "But what if it's not?\nWhat if there's a secret sauce?\nThat separates the stars from the rest?",
+  "I spent months researching.\nAnd found a surprising truth.\nAbout the power of authenticity.",
+  "It's not just about the tech.\nBut about the human touch.\nThat makes AI influencers relatable.",
+  "I'll probably expand on this later.\nBut for now, let's just say.\nThe future of AI is more human than you think."
+]
+2026-07-04 12:27:06,605 - INFO - âœ… Unique thread found (hash: dbb85949...)
+2026-07-04 12:27:06,605 - INFO - ðŸ“ Generated 5 posts:
+2026-07-04 12:27:06,605 - INFO - --- Post 1 ---
+I stumbled upon a hidden pattern.
+In the world of AI influencers.
+Where success seems random.
+2026-07-04 12:27:06,605 - INFO - --- Post 2 ---
+But what if it's not?
+What if there's a secret sauce?
+That separates the stars from the rest?
+2026-07-04 12:27:06,605 - INFO - --- Post 3 ---
+I spent months researching.
+And found a surprising truth.
+About the power of authenticity.
+2026-07-04 12:27:06,605 - INFO - --- Post 4 ---
+It's not just about the tech.
+But about the human touch.
+That makes AI influencers relatable.
+2026-07-04 12:27:06,605 - INFO - --- Post 5 ---
+I'll probably expand on this later.
+But for now, let's just say.
+The future of AI is more human than you think.
+2026-07-04 12:27:08,405 - INFO - ðŸŽ¨ Cover image prompt: In a futuristic cityscape, a neon-lit billboard towers above the streets, displaying a quote in bold, cursive font: "The future of AI is more human than you think." The sign glows with a soft, ethereal blue light, casting an otherworldly glow on the dark, rain-kissed pavement below. In the foreground, a young researcher stands in front of a massive, floor-to-ceiling chalkboard, filled with intricate patterns and equations in vibrant, colorful chalk. The chalkboard is divided into sections, with headings like "Authenticity" and "Human Touch" written in bold, red letters. The researcher, dressed in a sleek black jacket and glasses, looks up at the chalkboard with a look of wonder, as if uncovering a hidden truth. To the side, a massive screen displays a mosaic of AI influencer profiles, each with a unique, futuristic aesthetic, but with a subtle, humanizing glow effect overlaid on top. The atmosphere is one of quiet contemplation, with the soft hum of technology and the distant sound of raindrops creating a soothing background melody. In the background, a cityscape stretches out, with towering skyscrapers and neon-lit advertisements, but the focus is on the researcher and the chalkboard, where a small, handwritten note reads: "The secret sauce is authenticity." The color palette is a mix of deep blues and purples, with accents of bright, poppy colors, evoking a sense of innovation and discovery. As the eye moves through the scene, it's drawn to the various visual elements, from the glowing billboard to the chalkboard equations, and finally, to the researcher's look of wonder, creating a sense of curiosity and intrigue. The overall mood is one of hopeful anticipation, as if the future of AI is bright, and it's more human than we ever thought possible. The scene is composed to guide the viewer's eye through the various elements, creating a sense of flow and continuity, from the billboard to the chalkboard, and finally, to the researcher, who stands at the center of the scene, poised on the threshold of a new discovery.
+2026-07-04 12:27:10,122 - INFO - ðŸ–¼ï¸  Saved cover image to images/4b531214cf75bd22.jpg
+2026-07-04 12:27:11,117 - INFO - ðŸ“¤ Pushed images/4b531214cf75bd22.jpg to GitHub.
+2026-07-04 12:27:11,240 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/4b531214cf75bd22.jpg
+2026-07-04 12:27:11,243 - INFO - Scheduling for: 2026-07-04T17:44:11.243447Z UTC
+2026-07-04 12:27:12,046 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a48fc1f6917141d453d0abb
+2026-07-04 12:27:12,046 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-04 12:27:12,046 - INFO - âœ… Run completed.
