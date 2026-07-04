@@ -87,3 +87,51 @@ And what we can learn from their process.
 2026-07-04 12:37:00,887 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a48fe6cdd9abec2b4fffbaf
 2026-07-04 12:37:00,888 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-04 12:37:00,888 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-04T13:24:13.845600
+============================================================
+2026-07-04 13:24:13,845 - INFO - ðŸš€ Starting automation run
+2026-07-04 13:24:13,845 - INFO - ðŸ“š Found 2 previously posted threads.
+2026-07-04 13:24:13,846 - INFO - ðŸ“ Will send 2 recent threads to Groq for avoidance.
+2026-07-04 13:24:13,846 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-04 13:24:14,998 - INFO - Groq raw response:
+[
+  "I've been noticing a strange trend.\nAI influencers with huge followings.\nAre struggling to make a living.",
+  "They have millions of followers.\nBut their bank accounts are empty.\nWhat's going on?",
+  "I think I've found the reason.\nIt's not about the number of followers.\nBut about the type of followers.",
+  "The ones who engage, who buy, who support.\nAre not the same as the ones who just scroll.\nThere's a big difference.",
+  "I'm still trying to understand this.\nAnd how to apply it to my own work.\nBut one thing is clear: \nIt's time to rethink our strategy."
+]
+2026-07-04 13:24:14,999 - INFO - âœ… Unique thread found (hash: 8580fc04...)
+2026-07-04 13:24:14,999 - INFO - ðŸ“ Generated 5 posts:
+2026-07-04 13:24:14,999 - INFO - --- Post 1 ---
+I've been noticing a strange trend.
+AI influencers with huge followings.
+Are struggling to make a living.
+2026-07-04 13:24:14,999 - INFO - --- Post 2 ---
+They have millions of followers.
+But their bank accounts are empty.
+What's going on?
+2026-07-04 13:24:14,999 - INFO - --- Post 3 ---
+I think I've found the reason.
+It's not about the number of followers.
+But about the type of followers.
+2026-07-04 13:24:14,999 - INFO - --- Post 4 ---
+The ones who engage, who buy, who support.
+Are not the same as the ones who just scroll.
+There's a big difference.
+2026-07-04 13:24:14,999 - INFO - --- Post 5 ---
+I'm still trying to understand this.
+And how to apply it to my own work.
+But one thing is clear: 
+It's time to rethink our strategy.
+2026-07-04 13:24:16,183 - INFO - ðŸŽ¨ Cover image prompt: A lone figure sits in a dimly lit, minimalist room with concrete walls and a polished metal desk, surrounded by empty coffee cups and scattered papers. The colour palette is a muted blend of greys and blues, evoking a sense of melancholy and introspection. Soft, diffused light pours in through a small window, casting a gentle glow on the figure's face, which is etched with concern and curiosity. The camera angle is a low-angle close-up, looking up at the figure with a sense of empathy and understanding. The atmosphere is contemplative and thoughtful, with a hint of frustration and disillusionment. The figure's hands are clasped together, with a few scattered social media metrics papers on the desk, featuring rough, handwritten notes and crumpled drafts. In the background, a large, dark glass window reflects the faint glow of city lights, symbolizing the vast, unpredictable world of social media. The style hint is a cinematic, film noir-inspired aesthetic, with deep shadows and subtle texture, inviting the viewer to step into the figure's introspective world. The overall mood is one of quiet reflection, as the figure struggles to make sense of the disconnect between online influence and real-world impact.
+2026-07-04 13:24:17,599 - INFO - ðŸ–¼ï¸  Saved cover image to images/71049a062e5b3e18.jpg
+2026-07-04 13:24:19,450 - INFO - ðŸ“¤ Pushed images/71049a062e5b3e18.jpg to GitHub.
+2026-07-04 13:24:19,670 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/71049a062e5b3e18.jpg
+2026-07-04 13:24:19,672 - INFO - Scheduling for: 2026-07-04T18:41:19.672134Z UTC
+2026-07-04 13:24:20,863 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4909849dd66bf2fd4e487d
+2026-07-04 13:24:20,864 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-04 13:24:20,864 - INFO - âœ… Run completed.
