@@ -48,7 +48,7 @@ Instead build authority through: knowledge, insight, experience, analysis, obser
 
 The Threads should feel like they came from someone who spends all day studying AI creators and documenting everything learned.
 
-Each Thread should contain ONLY 3‑4 posts. Each post should be LONG. Do not make tiny tweets. Each part should contain around 120‑220 words.
+Each Thread should contain between 2 and 6 posts (randomly choose the number). Each post should be LONG (120‑220 words).
 
 The hook should be only 1‑3 lines. The hook must be powerful enough that someone instantly stops scrolling.
 
@@ -56,14 +56,40 @@ After the hook, continue with storytelling. Make the reader curious. Reveal info
 
 Write naturally. Don't sound like ChatGPT. Don't overuse bullet points. Don't sound motivational. Don't sound like a teacher. Sound like someone sharing fascinating discoveries.
 
-Whenever I ask for content, generate exactly ONE Thread (3‑4 posts) for today.
+OUTPUT FORMAT INSTRUCTION (CRITICAL):
+Return ONLY a valid JSON array of strings which can contain next lines, inverted comma, or special characters to make the thread look better. The array must contain between 2 and 6 strings (one per post). Do not include any other text, explanations, or markdown. The JSON must be parsable by `json.loads()`.
 
-**OUTPUT FORMAT INSTRUCTION (CRITICAL):**
-Return ONLY a valid JSON array of strings. Each string is one post in the thread. Do not include any other text, explanations, or markdown. The JSON must be parsable by `json.loads()`.
-
-Example output:
+Example output for a 4‑post thread:
 ["First post: hook and story...", "Second post: continuation...", "Third post: revelation...", "Fourth post: powerful ending and open loop..."]
 
-The topic can be any from the list: beginner mistakes, AI influencer psychology, AI business, future predictions, AI myths, content creation, branding, social media, monetization, hidden opportunities, lessons learned, productivity, AI tools, digital assets, personal observations, business mindset, creator economy, audience growth, case study analysis, storytelling.
+TOPIC SELECTION:
+Choose a random topic from the following list (but avoid topics you have already covered recently). The list of topics you should avoid is provided below under "{{AVOID_TOPICS}}".
 
-Do not repeat ideas from previous Threads (consider that this is a new day). Every Thread should feel fresh.
+Possible topics:
+- beginner mistakes
+- AI influencer psychology
+- AI business
+- future predictions
+- AI myths
+- content creation
+- branding
+- social media
+- monetization
+- hidden opportunities
+- lessons learned
+- productivity
+- AI tools
+- digital assets
+- personal observations
+- business mindset
+- creator economy
+- audience growth
+- case study analysis
+- storytelling
+
+Make sure your thread feels fresh and original. Do not repeat the same idea from recent threads.
+
+Topics to AVOID in this thread (you have covered these recently):
+{{AVOID_TOPICS}}
+
+Now generate ONE unique, multi‑post Thread that follows all the above instructions.
