@@ -162,3 +162,41 @@ It's changed how I think about AI and content creation.
 2026-07-04 11:13:18,289 - INFO - ðŸŒ Public image URL: https://cdn.jsdelivr.net/gh/creatoracademyar-code/threads-bot@main/images/61dbdd07616e75e5.jpg
 2026-07-04 11:13:18,290 - INFO - Scheduling for: 2026-07-04T16:30:18.290530Z UTC
 2026-07-04 11:13:18,478 - ERROR - âŒ Buffer posting failed: 400 Client Error: Bad Request for url: https://api.buffer.com/graphql
+
+
+============================================================
+  NEW RUN  2026-07-04T11:23:17.851217
+============================================================
+2026-07-04 11:23:17,851 - INFO - ðŸš€ Starting automation run
+2026-07-04 11:23:17,851 - INFO - ðŸ“š Found 3 previously posted threads.
+2026-07-04 11:23:17,851 - INFO - ðŸ“ Will send 3 recent threads to Groq for avoidance.
+2026-07-04 11:23:17,851 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-04 11:23:18,746 - INFO - Groq raw response:
+[
+  "I've been thinking about the future of AI content creation.\nWhat if I told you there's a hidden pattern?",
+  "Most AI creators are focusing on short-term gains.\nBut the ones who will succeed are thinking decades ahead.",
+  "They're building a 'legacy asset' that will outlast them.\nI'm still trying to understand how they're doing it.",
+  "It's not just about the tech, but about the mindset.\nI'll probably write more about this later."
+]
+2026-07-04 11:23:18,747 - INFO - âœ… Unique thread found (hash: eab9c03e...)
+2026-07-04 11:23:18,747 - INFO - ðŸ“ Generated 4 posts:
+2026-07-04 11:23:18,747 - INFO - --- Post 1 ---
+I've been thinking about the future of AI content creation.
+What if I told you there's a hidden pattern?
+2026-07-04 11:23:18,747 - INFO - --- Post 2 ---
+Most AI creators are focusing on short-term gains.
+But the ones who will succeed are thinking decades ahead.
+2026-07-04 11:23:18,747 - INFO - --- Post 3 ---
+They're building a 'legacy asset' that will outlast them.
+I'm still trying to understand how they're doing it.
+2026-07-04 11:23:18,747 - INFO - --- Post 4 ---
+It's not just about the tech, but about the mindset.
+I'll probably write more about this later.
+2026-07-04 11:23:19,146 - INFO - ðŸŽ¨ Cover image prompt: Glitching code unfurls like a blooming flower in neon darkness., digital art, minimalist, clean tech aesthetic, soft lighting, no text, no words, no letters
+2026-07-04 11:23:20,489 - INFO - ðŸ–¼ï¸  Saved cover image to images/01be6c11318f2792.jpg
+2026-07-04 11:23:21,380 - INFO - ðŸ“¤ Pushed images/01be6c11318f2792.jpg to GitHub.
+2026-07-04 11:23:21,487 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/01be6c11318f2792.jpg
+2026-07-04 11:23:21,488 - INFO - Scheduling for: 2026-07-04T16:40:21.488696Z UTC
+2026-07-04 11:23:22,294 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a48ed2a81c4c124bc97d305
+2026-07-04 11:23:22,294 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-04 11:23:22,294 - INFO - âœ… Run completed.
