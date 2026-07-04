@@ -1,12 +1,18 @@
 name: Post Thread
 
 on:
-  schedule:
-    - cron: '0 */5 * * *'
   workflow_dispatch:
+  # Note: GitHub's native `schedule` (cron) trigger is best-effort and can be
+  # delayed by 15-60+ minutes or dropped entirely under load. This workflow is
+  # instead triggered externally via the GitHub REST API against the
+  # workflow_dispatch event below - see setup notes for cron-job.org.
 
 permissions:
   contents: write   # needed to commit
+
+concurrency:
+  group: post-thread-${{ github.ref }}
+  cancel-in-progress: false   # queue overlapping runs instead of racing them
 
 jobs:
   post:
@@ -42,4 +48,5 @@ jobs:
           git config user.email "actions@github.com"
           git add run.log posted_threads.json images/ 2>/dev/null || true
           git diff --staged --quiet || git commit -m "Update logs, history, and cover image [skip ci]"
+          git pull --rebase origin ${{ github.ref_name }} || true
           git push
