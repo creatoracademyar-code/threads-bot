@@ -200,6 +200,13 @@ def post_to_buffer(posts):
 
 # ---------- MAIN ----------
 def main():
+    # --- Add blank lines and a separator before logging ---
+    with open(LOG_FILE, 'a') as f:
+        f.write('\n\n')                     # two blank lines
+        f.write('=' * 60 + '\n')
+        f.write(f'  NEW RUN  {datetime.now().isoformat()}\n')
+        f.write('=' * 60 + '\n')
+
     logger.info("🚀 Starting automation run")
 
     # Load existing posted hashes
