@@ -135,3 +135,37 @@ It's time to rethink our strategy.
 2026-07-04 13:24:20,863 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4909849dd66bf2fd4e487d
 2026-07-04 13:24:20,864 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-04 13:24:20,864 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-04T13:25:12.471112
+============================================================
+2026-07-04 13:25:12,471 - INFO - ðŸš€ Starting automation run
+2026-07-04 13:25:12,471 - INFO - ðŸ“š Found 3 previously posted threads.
+2026-07-04 13:25:12,471 - INFO - ðŸ“ Will send 3 recent threads to Groq for avoidance.
+2026-07-04 13:25:12,471 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-04 13:25:13,153 - INFO - Groq raw response:
+[
+  "I've been digging into AI creator economy.",
+  "What I found is shocking.",
+  "Most AI influencers are not making money.",
+  "But some are thriving. What's their secret?"
+]
+2026-07-04 13:25:13,154 - INFO - âœ… Unique thread found (hash: f59a688b...)
+2026-07-04 13:25:13,155 - INFO - ðŸ“ Generated 4 posts:
+2026-07-04 13:25:13,155 - INFO - --- Post 1 ---
+I've been digging into AI creator economy.
+2026-07-04 13:25:13,155 - INFO - --- Post 2 ---
+What I found is shocking.
+2026-07-04 13:25:13,155 - INFO - --- Post 3 ---
+Most AI influencers are not making money.
+2026-07-04 13:25:13,155 - INFO - --- Post 4 ---
+But some are thriving. What's their secret?
+2026-07-04 13:25:14,615 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, futuristic laboratory, a lone figure sits at a sleek, metallic desk, surrounded by rows of humming servers and wires. The main subject, a young woman with a look of intense curiosity, gazes at a massive, transparent screen displaying a complex network of nodes and connections, symbolizing the AI creator economy. The setting is a blend of urban and technological, with concrete walls and polished metal accents. The colour palette is predominantly cool and muted, with shades of blue and purple, punctuated by flashes of bright, electric blue from the screens and neon lights. Soft, diffused light emanates from the screens, casting a gentle glow on the woman's face, while dramatic shadows dance across the walls, hinting at the secrets and surprises lurking in the data. The camera angle is a low, Dutch angle, looking up at the woman, emphasizing her determination and fascination. The atmosphere is tense and inquisitive, with a sense of anticipation and hope. The texture of the metal desk and the roughness of the concrete walls add a sense of grit and realism to the scene. The style hint is cinematic, with a touch of sci-fi, reminiscent of a futuristic thriller. The woman's fingers are poised over a keyboard, as if ready to uncover the next revelation, while the screens behind her seem to pulse with an otherworldly energy, inviting the viewer to step into the mysterious world of AI creators.
+2026-07-04 13:25:16,254 - INFO - ðŸ–¼ï¸  Saved cover image to images/5df528111e8a4762.jpg
+2026-07-04 13:25:17,254 - INFO - ðŸ“¤ Pushed images/5df528111e8a4762.jpg to GitHub.
+2026-07-04 13:25:17,366 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/5df528111e8a4762.jpg
+2026-07-04 13:25:17,368 - INFO - Scheduling for: 2026-07-04T18:42:17.368544Z UTC
+2026-07-04 13:25:17,981 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4909bd7e9abd13f0cd2fdb
+2026-07-04 13:25:17,981 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-04 13:25:17,981 - INFO - âœ… Run completed.
