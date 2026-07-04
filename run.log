@@ -123,3 +123,42 @@ But for now, let's just say it's been a wild ride.
 2026-07-04 10:42:32,445 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a48e3986917141d453c4f3c
 2026-07-04 10:42:32,445 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-04 10:42:32,445 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-04T11:13:15.274766
+============================================================
+2026-07-04 11:13:15,274 - INFO - ðŸš€ Starting automation run
+2026-07-04 11:13:15,275 - INFO - ðŸ“š Found 3 previously posted threads.
+2026-07-04 11:13:15,275 - INFO - ðŸ“ Will send 3 recent threads to Groq for avoidance.
+2026-07-04 11:13:15,275 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-04 11:13:16,335 - INFO - Groq raw response:
+[
+  "I've been studying AI creators who failed.\nTheir stories are more valuable than you think.",
+  "Most of them had great ideas, but poor execution.\nThey focused on the wrong things, like likes and comments.",
+  "But one creator's story stood out.\nHe built an AI tool that flopped, but learned a valuable lesson.",
+  "He realized that AI is not a replacement for human touch.\nIt's an amplifier of our strengths, not a crutch for our weaknesses.",
+  "I'm still reflecting on this story.\nIt's changed how I think about AI and content creation."
+]
+2026-07-04 11:13:16,336 - INFO - âœ… Unique thread found (hash: 045cf2e4...)
+2026-07-04 11:13:16,336 - INFO - ðŸ“ Generated 5 posts:
+2026-07-04 11:13:16,336 - INFO - --- Post 1 ---
+I've been studying AI creators who failed.
+Their stories are more valuable than you think.
+2026-07-04 11:13:16,336 - INFO - --- Post 2 ---
+Most of them had great ideas, but poor execution.
+They focused on the wrong things, like likes and comments.
+2026-07-04 11:13:16,336 - INFO - --- Post 3 ---
+But one creator's story stood out.
+He built an AI tool that flopped, but learned a valuable lesson.
+2026-07-04 11:13:16,336 - INFO - --- Post 4 ---
+He realized that AI is not a replacement for human touch.
+It's an amplifier of our strengths, not a crutch for our weaknesses.
+2026-07-04 11:13:16,336 - INFO - --- Post 5 ---
+I'm still reflecting on this story.
+It's changed how I think about AI and content creation.
+2026-07-04 11:13:16,702 - INFO - ðŸŽ¨ Cover image prompt: A broken robot lies surrounded by scattered circuits and wires in a dark room., digital art, minimalist, clean tech aesthetic, soft lighting, no text, no words, no letters
+2026-07-04 11:13:18,289 - INFO - ðŸ–¼ï¸  Saved cover image to images/61dbdd07616e75e5.jpg
+2026-07-04 11:13:18,289 - INFO - ðŸŒ Public image URL: https://cdn.jsdelivr.net/gh/creatoracademyar-code/threads-bot@main/images/61dbdd07616e75e5.jpg
+2026-07-04 11:13:18,290 - INFO - Scheduling for: 2026-07-04T16:30:18.290530Z UTC
+2026-07-04 11:13:18,478 - ERROR - âŒ Buffer posting failed: 400 Client Error: Bad Request for url: https://api.buffer.com/graphql
