@@ -45,3 +45,45 @@ The future of AI is more human than you think.
 2026-07-04 12:27:12,046 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a48fc1f6917141d453d0abb
 2026-07-04 12:27:12,046 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-04 12:27:12,046 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-04T12:36:54.106414
+============================================================
+2026-07-04 12:36:54,106 - INFO - ðŸš€ Starting automation run
+2026-07-04 12:36:54,106 - INFO - ðŸ“š Found 1 previously posted threads.
+2026-07-04 12:36:54,106 - INFO - ðŸ“ Will send 1 recent threads to Groq for avoidance.
+2026-07-04 12:36:54,106 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-04 12:36:55,089 - INFO - Groq raw response:
+[
+  "I've been studying AI influencers for months.\nOne thing keeps me up at night.\nTheir ability to create content out of thin air.",
+  "Is it magic?\nOr is there a method to their madness?\nI dug deeper to find the truth.",
+  "What I found surprised me.\nIt's not about the tech itself.\nBut how they use it to unlock their creativity.",
+  "Now I'm obsessed with understanding.\nHow they turn ideas into engaging content.\nAnd what we can learn from their process."
+]
+2026-07-04 12:36:55,090 - INFO - âœ… Unique thread found (hash: b51f400f...)
+2026-07-04 12:36:55,090 - INFO - ðŸ“ Generated 4 posts:
+2026-07-04 12:36:55,090 - INFO - --- Post 1 ---
+I've been studying AI influencers for months.
+One thing keeps me up at night.
+Their ability to create content out of thin air.
+2026-07-04 12:36:55,090 - INFO - --- Post 2 ---
+Is it magic?
+Or is there a method to their madness?
+I dug deeper to find the truth.
+2026-07-04 12:36:55,090 - INFO - --- Post 3 ---
+What I found surprised me.
+It's not about the tech itself.
+But how they use it to unlock their creativity.
+2026-07-04 12:36:55,090 - INFO - --- Post 4 ---
+Now I'm obsessed with understanding.
+How they turn ideas into engaging content.
+And what we can learn from their process.
+2026-07-04 12:36:56,620 - INFO - ðŸŽ¨ Cover image prompt: A lone figure sits in a dimly lit, futuristic laboratory, surrounded by sleek, silver workstations and towering servers that hum with a soft, blue glow. The main subject, a young woman with a look of intense curiosity, gazes up at a massive, circular window that dominates the far wall, where a cityscape twinkles like a canvas of diamonds against the dark, velvety night sky. The colour palette is a mix of cool, muted tones - blues, greys, and purples - punctuated by the warm, golden light of the setting sun, which casts a sense of wonder and discovery across the scene. The lighting is dramatic, with deep shadows accentuating the contours of the woman's face and the rugged, industrial texture of the laboratory's concrete walls. The camera angle is low, looking up at the woman from a slight incline, which imbues the scene with a sense of awe and curiosity. The atmosphere is one of tense, focused concentration, as if the woman is on the cusp of uncovering a profound secret. The air is thick with the scent of freshly brewed coffee and the faint tang of ozone, and the sound of soft, electronic whispers seems to emanate from the servers, adding to the sense of anticipation. The style hint is cinematic, with a slight nod to sci-fi and futurism, evoking the sense of a thought-provoking, psychological thriller. The woman's hair is mussed, and her eyes are red from lack of sleep, but her gaze is unwavering, fixed intently on the cityscape outside, as if the answer to her questions lies just beyond the glass.
+2026-07-04 12:36:58,522 - INFO - ðŸ–¼ï¸  Saved cover image to images/ebcce7a1229a0138.jpg
+2026-07-04 12:36:59,693 - INFO - ðŸ“¤ Pushed images/ebcce7a1229a0138.jpg to GitHub.
+2026-07-04 12:37:00,004 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/ebcce7a1229a0138.jpg
+2026-07-04 12:37:00,006 - INFO - Scheduling for: 2026-07-04T17:54:00.006498Z UTC
+2026-07-04 12:37:00,887 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a48fe6cdd9abec2b4fffbaf
+2026-07-04 12:37:00,888 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-04 12:37:00,888 - INFO - âœ… Run completed.
