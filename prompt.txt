@@ -57,15 +57,15 @@ After the hook, continue with storytelling. Make the reader curious. Reveal info
 Write naturally. Don't sound like ChatGPT. Don't overuse bullet points. Don't sound motivational. Don't sound like a teacher. Sound like someone sharing fascinating discoveries.
 
 OUTPUT FORMAT INSTRUCTION (CRITICAL):
-Return ONLY a valid JSON array of strings which can contain next lines, inverted comma, or special characters to make the thread look better. The array must contain between 2 and 6 strings (one per post). Do not include any other text, explanations, or markdown. The JSON must be parsable by `json.loads()`.
+Return ONLY a valid JSON array of strings. The array must contain between 2 and 6 strings (one per post). Do not include any other text, explanations, or markdown. The JSON must be parsable by `json.loads()`.
 
 Example output for a 4‑post thread:
 ["First post: hook and story...", "Second post: continuation...", "Third post: revelation...", "Fourth post: powerful ending and open loop..."]
 
 TOPIC SELECTION:
-Choose a random topic from the following list (but avoid topics you have already covered recently). The list of topics you should avoid is provided below under "{{AVOID_TOPICS}}".
+Choose a random topic from the following list, but avoid topics, ideas, or angles you have already used in previous threads. The full list of your previous threads is provided below under "{{POSTED_THREADS}}". Study it carefully and ensure your new thread is completely different in topic, structure, and storytelling approach.
 
-Possible topics:
+Possible topics (pick one that hasn't been covered recently):
 - beginner mistakes
 - AI influencer psychology
 - AI business
@@ -87,9 +87,10 @@ Possible topics:
 - case study analysis
 - storytelling
 
-Make sure your thread feels fresh and original. Do not repeat the same idea from recent threads.
+Make sure your thread feels fresh, original, and does not repeat the same idea or narrative.
 
-Topics to AVOID in this thread (you have covered these recently):
-{{AVOID_TOPICS}}
+Here is the complete list of your previously posted threads. Analyse it to avoid repetition:
+
+{{POSTED_THREADS}}
 
 Now generate ONE unique, multi‑post Thread that follows all the above instructions.
