@@ -5,6 +5,7 @@ import json
 import time
 import base64
 import logging
+import subprocess
 import requests
 from datetime import datetime, timedelta
 from hashlib import sha256
@@ -174,6 +175,31 @@ def generate_image_prompt(posts):
     resp.raise_for_status()
     return resp.json()["choices"][0]["message"]["content"].strip()
 
+def push_image_to_github(filepath):
+    """
+    Commits and pushes just the generated image file immediately, so it's live
+    on GitHub *before* we hand its URL to Buffer. Buffer fetches/validates the
+    image URL synchronously when the post is created, not at scheduled time,
+    so the file must already exist on GitHub by then.
+    """
+    try:
+        subprocess.run(["git", "config", "user.name", "GitHub Actions Bot"], check=True)
+        subprocess.run(["git", "config", "user.email", "actions@github.com"], check=True)
+        subprocess.run(["git", "add", filepath], check=True)
+
+        diff = subprocess.run(["git", "diff", "--staged", "--quiet"])
+        if diff.returncode == 0:
+            logger.info("Image already committed previously; nothing new to push.")
+            return True
+
+        subprocess.run(["git", "commit", "-m", f"Add cover image {os.path.basename(filepath)} [skip ci]"], check=True)
+        subprocess.run(["git", "push"], check=True)
+        logger.info(f"ðŸ“¤ Pushed {filepath} to GitHub.")
+        return True
+    except subprocess.CalledProcessError as e:
+        logger.warning(f"âš ï¸  Failed to push image to GitHub: {e}")
+        return False
+
 def generate_cover_image(posts):
     """
     Generates a free AI cover image via Cloudflare Workers AI (Flux model), saves it
@@ -219,8 +245,24 @@ def generate_cover_image(posts):
             logger.warning("GITHUB_REPOSITORY env var not set; skipping image attachment.")
             return None
 
-        # jsDelivr mirrors public GitHub repo contents over a CDN.
-        image_url = f"https://cdn.jsdelivr.net/gh/{GITHUB_REPOSITORY}@{GITHUB_REF_NAME}/{IMAGES_DIR}/{filename}"
+        if not push_image_to_github(filepath):
+            logger.warning("Could not push image to GitHub; posting without a cover image.")
+            return None
+
+        # raw.githubusercontent.com reflects a fresh push immediately (no CDN cache lag).
+        image_url = f"https://raw.githubusercontent.com/{GITHUB_REPOSITORY}/{GITHUB_REF_NAME}/{IMAGES_DIR}/{filename}"
+
+        # Confirm it's actually fetchable before handing it to Buffer.
+        for attempt in range(5):
+            check = requests.head(image_url, timeout=15)
+            if check.status_code == 200:
+                break
+            logger.info(f"Image not yet reachable (status {check.status_code}), retrying...")
+            time.sleep(2)
+        else:
+            logger.warning("Image URL never became reachable; posting without a cover image.")
+            return None
+
         logger.info(f"ðŸŒ Public image URL: {image_url}")
         return image_url
 
@@ -235,7 +277,14 @@ def post_to_buffer(posts, image_url=None):
     logger.info(f"Scheduling for: {due_at} UTC")
 
     first_post = posts[0]
-    thread_entries = [{"text": p} for p in posts]
+
+    def post_assets(index):
+        # Only the first post in the thread carries the cover image.
+        if index == 0 and image_url:
+            return [{"image": {"url": image_url}}]
+        return []
+
+    thread_entries = [{"text": p, "assets": post_assets(i)} for i, p in enumerate(posts)]
 
     mutation = """
     mutation CreateThreadedPost($input: CreatePostInput!) {
@@ -259,15 +308,13 @@ def post_to_buffer(posts, image_url=None):
         "schedulingType": "automatic",
         "mode": "customScheduled",
         "dueAt": due_at,
+        "assets": post_assets(0),
         "metadata": {
             "threads": {
                 "thread": thread_entries
             }
         }
     }
-
-    if image_url:
-        post_input["imageUrl"] = image_url
 
     variables = {"input": post_input}
 
