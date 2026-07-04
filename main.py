@@ -148,13 +148,16 @@ def generate_thread(history_text):
     raise ValueError(f"Could not extract 2-6 posts from response. Got {len(posts)}.")
 
 # ---------- GENERATE COVER IMAGE ----------
+
 def generate_image_prompt(posts):
     """
-    Ask Groq for a detailed visual scene description based on the entire thread (2-5 posts).
-    The output will be a long (10-15 sentences) prompt that can include text, logos, numbers,
-    letters, and other graphic elements to make the image more engaging.
+    Generates a detailed, multi‑line visual prompt (5‑10 sentences) based on the entire thread.
+    - Uses all posts (2‑5) as context.
+    - NO text, numbers, logos, or letters – the generator can't render them correctly.
+    - Focuses on a single scene/metaphor with rich visual description.
+    - Outputs 5‑10 sentences covering: subject, setting, colours, lighting, composition,
+      atmosphere, style, and textures/materials.
     """
-    # Combine all posts with clear numbering
     thread_text = "\n".join([f"Post {i+1}: {p}" for i, p in enumerate(posts)])
 
     headers = {
@@ -163,25 +166,31 @@ def generate_image_prompt(posts):
     }
 
     system_prompt = (
-        "You are an expert at creating detailed visual descriptions for AI image generation. "
-        "Given a thread consisting of 2-5 social media posts, create a rich, vivid scene description "
-        "that captures the theme, mood, and key concepts of the entire thread. "
-        "The description should be 10-15 sentences long, detailed, and include specific visual elements, "
-        "colors, lighting, composition, and atmosphere. "
-        "You may include text elements such as quotes, slogans, numbers, or logos as part of the scene "
-        "(e.g., a neon sign, a billboard, a chalkboard, a book title, a screen displaying text). "
-        "Describe how these text elements appear. Make the scene relatable and engaging. "
-        "Do not output anything else besides the description."
+        "You are an expert at creating detailed, evocative visual prompts for AI image generation. "
+        "Given a thread of 2‑5 social media posts, imagine a single, powerful scene that captures the "
+        "core theme, mood, and message of the entire thread. "
+        "Your prompt must be 5‑10 sentences long and include: "
+        "- A clear main subject (person, object, animal, or abstract form) "
+        "- A specific setting (indoor/outdoor, urban/nature, futuristic/rustic, etc.) "
+        "- A distinct colour palette (e.g., warm autumn hues, cool cyberpunk neons, monochrome) "
+        "- Detailed lighting (e.g., golden hour, dramatic shadows, soft diffused light) "
+        "- Composition and camera angle (e.g., wide shot, close‑up, low‑angle) "
+        "- Atmosphere and emotion (e.g., serene, tense, hopeful) "
+        "- Texture and materials (e.g., rough concrete, polished metal, wet glass) "
+        "- A style hint (e.g., photorealistic, cinematic, oil painting, 3D render) "
+        "Crucially, DO NOT include any text, letters, numbers, symbols, or logos – "
+        "the image generator cannot render them accurately. "
+        "Output ONLY the description, without any extra commentary."
     )
 
     payload = {
         "model": GROQ_MODEL,
         "messages": [
             {"role": "system", "content": system_prompt},
-            {"role": "user", "content": f"Thread:\n{thread_text}\n\nCreate a detailed image prompt based on this thread."}
+            {"role": "user", "content": f"Thread:\n{thread_text}\n\nCreate a detailed visual description for this thread."}
         ],
         "temperature": 0.7,
-        "max_tokens": 500   # enough for 10-15 sentences
+        "max_tokens": 400  # enough for 5‑10 sentences
     }
 
     resp = requests.post(GROQ_API_URL, headers=headers, json=payload, timeout=30)
