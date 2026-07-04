@@ -83,3 +83,43 @@ I've been studying the outliers, and I think I've found the key.
 2026-07-04 07:01:36,391 - INFO - ✅ Thread scheduled successfully! Buffer Post ID: 6a48afd081c4c124bc96423e
 2026-07-04 07:01:36,392 - INFO - 💾 Updated posted_threads.json
 2026-07-04 07:01:36,392 - INFO - ✅ Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-04T10:42:30.392579
+============================================================
+2026-07-04 10:42:30,392 - INFO - ðŸš€ Starting automation run
+2026-07-04 10:42:30,392 - INFO - ðŸ“š Found 2 previously posted threads.
+2026-07-04 10:42:30,393 - INFO - ðŸ“ Will send 2 recent threads to Groq for avoidance.
+2026-07-04 10:42:30,393 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-04 10:42:31,313 - INFO - Groq raw response:
+[
+  "I stumbled upon a hidden community of AI creators.\nThey're not on social media, but they're changing the game.",
+  "These creators are building digital assets that generate passive income.\nNo more trading time for money.",
+  "I spent months trying to understand their strategy.\nIt's not about the tools, but about the mindset.",
+  "They're not just creators, but architects of their own ecosystem.\nI'm still trying to wrap my head around it.",
+  "I'll probably expand on this later.\nBut for now, let's just say it's been a wild ride."
+]
+2026-07-04 10:42:31,314 - INFO - âœ… Unique thread found (hash: 5bd1643e...)
+2026-07-04 10:42:31,314 - INFO - ðŸ“ Generated 5 posts:
+2026-07-04 10:42:31,315 - INFO - --- Post 1 ---
+I stumbled upon a hidden community of AI creators.
+They're not on social media, but they're changing the game.
+2026-07-04 10:42:31,315 - INFO - --- Post 2 ---
+These creators are building digital assets that generate passive income.
+No more trading time for money.
+2026-07-04 10:42:31,315 - INFO - --- Post 3 ---
+I spent months trying to understand their strategy.
+It's not about the tools, but about the mindset.
+2026-07-04 10:42:31,315 - INFO - --- Post 4 ---
+They're not just creators, but architects of their own ecosystem.
+I'm still trying to wrap my head around it.
+2026-07-04 10:42:31,315 - INFO - --- Post 5 ---
+I'll probably expand on this later.
+But for now, let's just say it's been a wild ride.
+2026-07-04 10:42:31,650 - INFO - ðŸŽ¨ Cover image prompt: Glowing circuits pulse beneath a city's dark, sleek surface., digital art, minimalist, clean tech aesthetic, soft lighting, no text, no words, no letters
+2026-07-04 10:42:32,075 - WARNING - âš ï¸  Cover image generation failed, posting without image: 401 Client Error: Unauthorized for url: https://gen.pollinations.ai/image/Glowing%20circuits%20pulse%20beneath%20a%20city%27s%20dark%2C%20sleek%20surface.%2C%20digital%20art%2C%20minimalist%2C%20clean%20tech%20aesthetic%2C%20soft%20lighting%2C%20no%20text%2C%20no%20words%2C%20no%20letters?width=1024&height=1024&nologo=true
+2026-07-04 10:42:32,077 - INFO - Scheduling for: 2026-07-04T15:59:32.076979Z UTC
+2026-07-04 10:42:32,445 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a48e3986917141d453c4f3c
+2026-07-04 10:42:32,445 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-04 10:42:32,445 - INFO - âœ… Run completed.
