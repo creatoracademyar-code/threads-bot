@@ -48,22 +48,32 @@ Instead build authority through: knowledge, insight, experience, analysis, obser
 
 The Threads should feel like they came from someone who spends all day studying AI creators and documenting everything learned.
 
-Each Thread should contain between 2 and 6 posts (randomly choose the number). Each post should be LONG (120‑220 words).
+Each Thread should contain between 2 and 6 posts (randomly choose the number).
 
-The hook should be only 1‑3 lines. The hook must be powerful enough that someone instantly stops scrolling.
-
-After the hook, continue with storytelling. Make the reader curious. Reveal information slowly. Don't answer everything immediately. Create multiple curiosity gaps.
-
-Write naturally. Don't sound like ChatGPT. Don't overuse bullet points. Don't sound motivational. Don't sound like a teacher. Sound like someone sharing fascinating discoveries.
+🚨 CRITICAL – CHARACTER LIMIT & FORMATTING 🚨
+- Each post MUST be UNDER 500 characters (including spaces and line breaks).
+- Aim for 300‑400 characters per post.
+- To make the post visually appealing and easier to read on mobile, split the text into SHORT LINES (like a poem or a tweet thread). Use line breaks (newlines) every 1‑2 sentences.
+- Example of good formatting:
+  "First line of the hook.
+  Second line builds curiosity.
+  Then a surprising fact.
+  And a question to keep them thinking."
+- Do NOT write long paragraphs – break them into bite‑sized chunks.
+- The total character count (including newlines) must be ≤ 500 per post.
 
 OUTPUT FORMAT INSTRUCTION (CRITICAL):
-Return ONLY a valid JSON array of strings which can contain next lines, inverted comma, or special characters to make the thread look better. The array must contain between 2 and 6 strings (one per post). Do not include any other text, explanations, or markdown. The JSON must be parsable by `json.loads()`.
+Return ONLY a valid JSON array of strings. The array must contain between 2 and 6 strings (one per post). Each string may contain newlines (\n) and special characters. Do not include any other text, explanations, or markdown. The JSON must be parsable by `json.loads()`.
 
-Example output for a 4‑post thread:
-["First post: hook and story...", "Second post: continuation...", "Third post: revelation...", "Fourth post: powerful ending and open loop..."]
+Example output for a 3‑post thread (each post under 500 characters):
+[
+  "First line of hook.\nSecond line of curiosity.\nThird line reveals the problem.",
+  "Now the story unfolds.\nUnexpected twist.\nEmotional moment.",
+  "The lesson learned.\nOpen loop to keep them wondering.\nWhat would you do?"
+]
 
 TOPIC SELECTION:
-Choose a random topic from the following list, but avoid topics, ideas, or angles you have already used in previous threads. The full list of your previous threads is provided below under "{{POSTED_THREADS}}". Study it carefully and ensure your new thread is completely different in topic, structure, and storytelling approach.
+Choose a random topic from the following list, but avoid topics, ideas, or angles you have already used in recent threads. The most recent threads are listed below under "{{POSTED_THREADS}}". Study them carefully and ensure your new thread is completely different in topic, structure, and storytelling approach.
 
 Possible topics (pick one that hasn't been covered recently):
 - beginner mistakes
@@ -89,7 +99,7 @@ Possible topics (pick one that hasn't been covered recently):
 
 Make sure your thread feels fresh, original, and does not repeat the same idea or narrative.
 
-Here is the complete list of your previously posted threads. Analyse it to avoid repetition:
+Here is the complete list of your most recent previously posted threads. Analyse it to avoid repetition:
 
 {{POSTED_THREADS}}
 
