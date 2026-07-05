@@ -263,3 +263,73 @@ The future of AI content is emotional.
 2026-07-05 00:30:44,325 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a49a5b47e52c06f81b58d82
 2026-07-05 00:30:44,326 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-05 00:30:44,326 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-05T06:30:38.021755
+============================================================
+2026-07-05 06:30:38,021 - INFO - ðŸš€ Starting automation run
+2026-07-05 06:30:38,021 - INFO - ðŸ“š Found 6 previously posted threads.
+2026-07-05 06:30:38,022 - INFO - ðŸ“ Will send 6 recent threads to Groq for avoidance.
+2026-07-05 06:30:38,022 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-05 06:30:39,348 - INFO - Groq raw response:
+[
+  "I've been tracking a fascinating case study.",
+  "An AI influencer with zero followers.",
+  "Who built a massive audience in weeks.",
+  "But here's the surprising part:"
+],
+[
+  "They didn't use any fancy AI tools.",
+  "No secret algorithms or hacks.",
+  "Just a deep understanding of human psychology.",
+  "And a willingness to take risks."
+],
+[
+  "I'm still trying to reverse-engineer their strategy.",
+  "But one thing is clear:",
+  "They tapped into a fundamental human desire.",
+  "That most AI creators ignore."
+],
+[
+  "I'll probably share more about this later.",
+  "But for now, let's just say:",
+  "The key to success lies not in the tech.",
+  "But in understanding what drives us."
+],
+[
+  "And if you're curious about the basics.",
+  "Of building an AI influencer presence.",
+  "You can find some helpful resources in my bio."
+]
+2026-07-05 06:30:39,348 - WARNING - Could not parse valid JSON array from Groq response.
+2026-07-05 06:30:39,348 - ERROR - âŒ Generation error: Could not extract 2-6 posts from response. Got 1.
+2026-07-05 06:30:44,355 - INFO - ðŸ”„ Attempt 2/10 to generate a unique thread.
+2026-07-05 06:30:45,352 - INFO - Groq raw response:
+[
+  "I've been tracking a mysterious trend.",
+  "AI creators who disappear suddenly.",
+  "What drives them to quit?",
+  "I've been trying to understand.",
+  "The truth is more surprising than you think."
+]
+2026-07-05 06:30:45,353 - INFO - âœ… Unique thread found (hash: 6ca7a251...)
+2026-07-05 06:30:45,354 - INFO - ðŸ“ Generated 5 posts:
+2026-07-05 06:30:45,354 - INFO - --- Post 1 ---
+I've been tracking a mysterious trend.
+2026-07-05 06:30:45,354 - INFO - --- Post 2 ---
+AI creators who disappear suddenly.
+2026-07-05 06:30:45,354 - INFO - --- Post 3 ---
+What drives them to quit?
+2026-07-05 06:30:45,354 - INFO - --- Post 4 ---
+I've been trying to understand.
+2026-07-05 06:30:45,354 - INFO - --- Post 5 ---
+The truth is more surprising than you think.
+2026-07-05 06:30:46,668 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, abandoned laboratory, a lone figure sits at a dusty, metallic workstation, surrounded by empty chairs and scattered papers. The main subject, a young woman with a contemplative expression, is illuminated by a single, flickering fluorescent light above, casting an eerie glow on her face. The setting is a mix of urban decay and futuristic neglect, with old computer screens and broken machinery lining the walls. A predominantly cool, monochrome colour palette dominates the scene, with hints of blue and purple undertones, evoking a sense of mystery and abandonment. The lighting is dramatic, with deep shadows accentuating the woman's features and the surrounding environment, while a soft, diffused glow emanates from a nearby window, hinting at a world outside. The camera angle is a low, close-up shot, looking up at the woman, emphasizing her introspective mood and conveying a sense of tension. The atmosphere is tense and inquisitive, as if the woman is on the verge of uncovering a hidden truth. The texture of the scene is defined by rough, concrete walls, polished metal surfaces, and the smooth, wet glass of the window, adding depth and tactility to the image. The style of the scene is cinematic, with a hint of film noir, inviting the viewer to step into the mysterious world of the abandoned laboratory and uncover the secrets that lie within.
+2026-07-05 06:30:50,532 - INFO - ðŸ–¼ï¸  Saved cover image to images/04f38448ab93903b.jpg
+2026-07-05 06:30:51,647 - INFO - ðŸ“¤ Pushed images/04f38448ab93903b.jpg to GitHub.
+2026-07-05 06:30:52,005 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/04f38448ab93903b.jpg
+2026-07-05 06:30:52,007 - INFO - Scheduling for: 2026-07-05T11:47:52.007280Z UTC
+2026-07-05 06:30:52,813 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a49fa1cc109183ee855237a
+2026-07-05 06:30:52,814 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-05 06:30:52,814 - INFO - âœ… Run completed.
