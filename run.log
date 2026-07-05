@@ -375,3 +375,45 @@ I'm still unpacking the implications.
 2026-07-05 12:30:41,945 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4a4e71c109183ee85751d2
 2026-07-05 12:30:41,945 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-05 12:30:41,946 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-05T18:30:37.480366
+============================================================
+2026-07-05 18:30:37,480 - INFO - ðŸš€ Starting automation run
+2026-07-05 18:30:37,480 - INFO - ðŸ“š Found 8 previously posted threads.
+2026-07-05 18:30:37,480 - INFO - ðŸ“ Will send 8 recent threads to Groq for avoidance.
+2026-07-05 18:30:37,481 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-05 18:30:38,164 - INFO - Groq raw response:
+[
+  "I've been wondering what makes AI creators tick.\nTheir passion, drive, and creativity.\nIs it innate or learned?",
+  "I started digging into the psychology.\nOf successful AI influencers and creators.\nAnd found a surprising common thread.",
+  "It's not about the tech or the tools.\nBut about the mindset and the why.\nWhat drives them to create and innovate?",
+  "I'm still unraveling the mystery.\nBut one thing is clear:\nIt's time to rethink our approach to AI content."
+]
+2026-07-05 18:30:38,165 - INFO - âœ… Unique thread found (hash: a08e631e...)
+2026-07-05 18:30:38,166 - INFO - ðŸ“ Generated 4 posts:
+2026-07-05 18:30:38,166 - INFO - --- Post 1 ---
+I've been wondering what makes AI creators tick.
+Their passion, drive, and creativity.
+Is it innate or learned?
+2026-07-05 18:30:38,166 - INFO - --- Post 2 ---
+I started digging into the psychology.
+Of successful AI influencers and creators.
+And found a surprising common thread.
+2026-07-05 18:30:38,166 - INFO - --- Post 3 ---
+It's not about the tech or the tools.
+But about the mindset and the why.
+What drives them to create and innovate?
+2026-07-05 18:30:38,166 - INFO - --- Post 4 ---
+I'm still unraveling the mystery.
+But one thing is clear:
+It's time to rethink our approach to AI content.
+2026-07-05 18:30:39,648 - INFO - ðŸŽ¨ Cover image prompt: A solitary figure sits in a dimly lit, minimalist room with walls lined with old, leather-bound books and scattered notes, surrounded by the soft glow of string lights. The subject, a young woman with a curious expression, is positioned in the centre of the frame, with a warm, golden light spilling in from a small, circular window high above her, casting a sense of wonder and introspection. The colour palette is predominantly monochromatic, with shades of grey, beige, and creamy whites, punctuated by hints of rich, earthy tones from the leather and wood accents. The lighting is soft and diffused, with deep shadows that add depth and texture to the scene, drawing the viewer's eye to the subject's contemplative face. The camera angle is a low, Dutch angle, looking up at the woman, which creates a sense of dynamic tension and emphasizes her thoughtful, inquiring nature. The atmosphere is one of quiet contemplation, with a sense of hope and curiosity, as if the subject is on the cusp of a new discovery. The texture of the old books, the rough stone walls, and the smooth, polished wood of the desk all add to the tactile, organic feel of the scene, which is rendered in a cinematic, photorealistic style, with subtle film grain and a shallow depth of field that blurs the background, focusing the viewer's attention on the subject's introspective gaze. The overall mood is serene, yet thought-provoking, inviting the viewer to ponder the mysteries of creativity and innovation, as the woman's eyes seem to hold a deep, unspoken question, waiting to be unraveled.
+2026-07-05 18:30:41,586 - INFO - ðŸ–¼ï¸  Saved cover image to images/0e20e4373718186c.jpg
+2026-07-05 18:30:42,614 - INFO - ðŸ“¤ Pushed images/0e20e4373718186c.jpg to GitHub.
+2026-07-05 18:30:42,826 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/0e20e4373718186c.jpg
+2026-07-05 18:30:42,828 - INFO - Scheduling for: 2026-07-05T23:47:42.828546Z UTC
+2026-07-05 18:30:43,590 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4aa2d3b3f33d21402fa5c9
+2026-07-05 18:30:43,590 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-05 18:30:43,590 - INFO - âœ… Run completed.
