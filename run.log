@@ -541,3 +541,45 @@ They all have one thing in common: a deep understanding of human psychology.
 2026-07-06 12:30:48,861 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4b9ff818a524db9b7f4640
 2026-07-06 12:30:48,862 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-06 12:30:48,862 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-06T18:30:37.839530
+============================================================
+2026-07-06 18:30:37,839 - INFO - ðŸš€ Starting automation run
+2026-07-06 18:30:37,839 - INFO - ðŸ“š Found 12 previously posted threads.
+2026-07-06 18:30:37,840 - INFO - ðŸ“ Will send 12 recent threads to Groq for avoidance.
+2026-07-06 18:30:37,840 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-06 18:30:38,987 - INFO - Groq raw response:
+[
+  "I've been fascinated by the concept of 'invisible influence'.\nHow some AI creators seem to shape opinions without being overtly visible.",
+  "It's as if they're puppeteers, pulling the strings from behind the scenes.\nTheir influence is felt, but not immediately seen.",
+  "I started digging into the psychology of influence.\nAnd found a surprising pattern among successful AI creators.",
+  "They all seem to focus on building 'micro-movements'.\nSmall, dedicated communities that amplify their message.",
+  "I'm still unraveling the threads of this discovery.\nBut one thing is clear: the future of AI influence is subtle, not loud."
+]
+2026-07-06 18:30:38,988 - INFO - âœ… Unique thread found (hash: f712e42f...)
+2026-07-06 18:30:38,988 - INFO - ðŸ“ Generated 5 posts:
+2026-07-06 18:30:38,988 - INFO - --- Post 1 ---
+I've been fascinated by the concept of 'invisible influence'.
+How some AI creators seem to shape opinions without being overtly visible.
+2026-07-06 18:30:38,988 - INFO - --- Post 2 ---
+It's as if they're puppeteers, pulling the strings from behind the scenes.
+Their influence is felt, but not immediately seen.
+2026-07-06 18:30:38,988 - INFO - --- Post 3 ---
+I started digging into the psychology of influence.
+And found a surprising pattern among successful AI creators.
+2026-07-06 18:30:38,988 - INFO - --- Post 4 ---
+They all seem to focus on building 'micro-movements'.
+Small, dedicated communities that amplify their message.
+2026-07-06 18:30:38,988 - INFO - --- Post 5 ---
+I'm still unraveling the threads of this discovery.
+But one thing is clear: the future of AI influence is subtle, not loud.
+2026-07-06 18:30:40,460 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, minimalist theatre, a lone puppeteer sits behind a translucent screen, their face obscured by shadows. The puppeteer's hands are visible, however, as they delicately manipulate a complex network of strings and pulleys, evoking a sense of subtle control. The setting is a blend of traditional and modern elements, with rustic wooden beams and a vintage puppet stage juxtaposed against a backdrop of sleek, metallic walls. The colour palette is predominantly monochromatic, with shades of grey and blue dominating the scene, punctuated by faint, warm glows emanating from the puppeteer's control panel. Soft, diffused light casts a serene atmosphere, with dramatic shadows accentuating the puppeteer's hands and the intricate web of strings. The camera angle is a low, wide shot, capturing the entirety of the theatre and the puppeteer's domain, while emphasizing the sense of depth and layers. The overall mood is one of quiet, hopeful anticipation, as if the puppeteer is on the cusp of unveiling a new, influential creation. The texture of the wooden beams and the metallic walls adds a sense of roughness and industrialism, while the translucent screen and the puppeteer's strings introduce an element of ethereal, almost magical subtlety. The style of the image is cinematic, with a slight oil painting quality to the lighting and textures, inviting the viewer to ponder the nuances of influence and control.
+2026-07-06 18:30:42,119 - INFO - ðŸ–¼ï¸  Saved cover image to images/8b239c37ab03b3d1.jpg
+2026-07-06 18:30:43,602 - INFO - ðŸ“¤ Pushed images/8b239c37ab03b3d1.jpg to GitHub.
+2026-07-06 18:30:44,466 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/8b239c37ab03b3d1.jpg
+2026-07-06 18:30:44,468 - INFO - Scheduling for: 2026-07-06T23:47:44.468193Z UTC
+2026-07-06 18:30:45,374 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4bf4556b62473abedbf188
+2026-07-06 18:30:45,375 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-06 18:30:45,375 - INFO - âœ… Run completed.
