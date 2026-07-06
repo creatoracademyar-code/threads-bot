@@ -507,3 +507,37 @@ It's time to rethink our approach.
 2026-07-06 06:30:46,062 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4b4b957e52c06f81c1bac8
 2026-07-06 06:30:46,063 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-06 06:30:46,063 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-06T12:30:43.125804
+============================================================
+2026-07-06 12:30:43,125 - INFO - ðŸš€ Starting automation run
+2026-07-06 12:30:43,126 - INFO - ðŸ“š Found 11 previously posted threads.
+2026-07-06 12:30:43,126 - INFO - ðŸ“ Will send 11 recent threads to Groq for avoidance.
+2026-07-06 12:30:43,126 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-06 12:30:43,913 - INFO - Groq raw response:
+[
+  "I've been exploring the world of AI business.",
+  "What if the key to success lies not in the tech, but in the stories we tell?",
+  "I've been studying the most successful AI entrepreneurs.",
+  "They all have one thing in common: a deep understanding of human psychology."
+]
+2026-07-06 12:30:43,915 - INFO - âœ… Unique thread found (hash: 9be8256f...)
+2026-07-06 12:30:43,915 - INFO - ðŸ“ Generated 4 posts:
+2026-07-06 12:30:43,915 - INFO - --- Post 1 ---
+I've been exploring the world of AI business.
+2026-07-06 12:30:43,915 - INFO - --- Post 2 ---
+What if the key to success lies not in the tech, but in the stories we tell?
+2026-07-06 12:30:43,915 - INFO - --- Post 3 ---
+I've been studying the most successful AI entrepreneurs.
+2026-07-06 12:30:43,915 - INFO - --- Post 4 ---
+They all have one thing in common: a deep understanding of human psychology.
+2026-07-06 12:30:45,326 - INFO - ðŸŽ¨ Cover image prompt: In a sleek, modern conference room with a cityscape view at dusk, a lone figure stands at the forefront, gazing out the window with a contemplative expression. The main subject, a young entrepreneur, is positioned with their back to the viewer, dressed in formal attire with a subtle sheen to the fabric, set against a warm colour palette of golden hour hues and soft blues. The room is dimly lit, with the only light source being the fading sunlight casting a dramatic glow on the subject's silhouette, while the city lights begin to twinkle outside. The camera angle is a low, wide shot, looking up at the entrepreneur from a slight distance, conveying a sense of introspection and ambition. The atmosphere is serene, yet tense with anticipation, as if the subject is on the cusp of a groundbreaking revelation. The texture of the polished metal and glass in the room contrasts with the rough, unyielding concrete of the city outside, symbolizing the blend of human emotion and technological innovation. The style of the image is cinematic, with a slight depth of field effect to emphasize the subject's presence, and a hint of grain to evoke a sense of realism. The overall mood is one of hopeful anticipation, as if the subject is poised to unlock the secrets of human psychology and harness the power of storytelling to drive success in the world of AI business.
+2026-07-06 12:30:46,833 - INFO - ðŸ–¼ï¸  Saved cover image to images/2a63c2927c371008.jpg
+2026-07-06 12:30:47,944 - INFO - ðŸ“¤ Pushed images/2a63c2927c371008.jpg to GitHub.
+2026-07-06 12:30:48,224 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/2a63c2927c371008.jpg
+2026-07-06 12:30:48,227 - INFO - Scheduling for: 2026-07-06T17:47:48.227123Z UTC
+2026-07-06 12:30:48,861 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4b9ff818a524db9b7f4640
+2026-07-06 12:30:48,862 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-06 12:30:48,862 - INFO - âœ… Run completed.
