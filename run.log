@@ -417,3 +417,45 @@ It's time to rethink our approach to AI content.
 2026-07-05 18:30:43,590 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4aa2d3b3f33d21402fa5c9
 2026-07-05 18:30:43,590 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-05 18:30:43,590 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-06T00:30:34.576860
+============================================================
+2026-07-06 00:30:34,576 - INFO - ðŸš€ Starting automation run
+2026-07-06 00:30:34,577 - INFO - ðŸ“š Found 9 previously posted threads.
+2026-07-06 00:30:34,577 - INFO - ðŸ“ Will send 9 recent threads to Groq for avoidance.
+2026-07-06 00:30:34,577 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-06 00:30:35,602 - INFO - Groq raw response:
+[
+  "I stumbled upon a fascinating case study.\nAbout an AI creator who went from 0 to 100k followers.\nIn just 3 months.",
+  "What caught my attention was their content strategy.\nIt wasn't about creating viral posts.\nBut about crafting a narrative that resonated.",
+  "I dug deeper and found a surprising insight.\nTheir secret sauce was not the tech itself.\nBut the way they used it to tell human stories.",
+  "Now I'm obsessed with understanding.\nHow they wove their narrative into every post.\nAnd what we can learn from their approach."
+]
+2026-07-06 00:30:35,603 - INFO - âœ… Unique thread found (hash: 1a4a0fd0...)
+2026-07-06 00:30:35,604 - INFO - ðŸ“ Generated 4 posts:
+2026-07-06 00:30:35,604 - INFO - --- Post 1 ---
+I stumbled upon a fascinating case study.
+About an AI creator who went from 0 to 100k followers.
+In just 3 months.
+2026-07-06 00:30:35,604 - INFO - --- Post 2 ---
+What caught my attention was their content strategy.
+It wasn't about creating viral posts.
+But about crafting a narrative that resonated.
+2026-07-06 00:30:35,604 - INFO - --- Post 3 ---
+I dug deeper and found a surprising insight.
+Their secret sauce was not the tech itself.
+But the way they used it to tell human stories.
+2026-07-06 00:30:35,604 - INFO - --- Post 4 ---
+Now I'm obsessed with understanding.
+How they wove their narrative into every post.
+And what we can learn from their approach.
+2026-07-06 00:30:37,002 - INFO - ðŸŽ¨ Cover image prompt: A lone figure sits in a dimly lit, modern library, surrounded by towering shelves of old books and sleek, futuristic computer screens. The main subject, a young woman with a look of intense focus, is positioned in the centre of the frame, with a warm, golden light spilling from a table lamp beside her. The colour palette is a mix of cool blues and greys, evoking a sense of technology and innovation, with accents of warm, earthy tones from the old books and wooden furniture. The lighting is soft and diffused, with deep shadows cast across the woman's face and the surrounding environment, adding a sense of depth and intimacy to the scene. The camera angle is a low, over-the-shoulder shot, looking up at the woman as she pores over a leather-bound book, with a few loose pages and notes scattered across the table in front of her. The atmosphere is one of quiet contemplation and curiosity, with a sense of hope and discovery. The texture of the old books and wooden furniture adds a tactile, organic feel to the scene, while the sleek computer screens and modern lighting fixtures introduce a sense of sleekness and modernity. The style of the image is reminiscent of a cinematic oil painting, with bold brushstrokes and vivid, expressive colours. In the background, a large, abstract representation of a neural network or circuit board is visible, blurred and out of focus, symbolizing the complex, interconnected nature of the AI creator's narrative.
+2026-07-06 00:30:38,531 - INFO - ðŸ–¼ï¸  Saved cover image to images/2c8238951929c204.jpg
+2026-07-06 00:30:39,638 - INFO - ðŸ“¤ Pushed images/2c8238951929c204.jpg to GitHub.
+2026-07-06 00:30:39,909 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/2c8238951929c204.jpg
+2026-07-06 00:30:39,911 - INFO - Scheduling for: 2026-07-06T05:47:39.911761Z UTC
+2026-07-06 00:30:40,650 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4af7307e52c06f81bec15f
+2026-07-06 00:30:40,651 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-06 00:30:40,651 - INFO - âœ… Run completed.
