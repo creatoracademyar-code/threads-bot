@@ -459,3 +459,51 @@ And what we can learn from their approach.
 2026-07-06 00:30:40,650 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4af7307e52c06f81bec15f
 2026-07-06 00:30:40,651 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-06 00:30:40,651 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-06T06:30:39.659270
+============================================================
+2026-07-06 06:30:39,659 - INFO - ðŸš€ Starting automation run
+2026-07-06 06:30:39,659 - INFO - ðŸ“š Found 10 previously posted threads.
+2026-07-06 06:30:39,659 - INFO - ðŸ“ Will send 10 recent threads to Groq for avoidance.
+2026-07-06 06:30:39,659 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-06 06:30:40,775 - INFO - Groq raw response:
+[
+  "I've been noticing a strange habit.\nAmong successful AI creators.\nThey all seem to have a 'pre-game' ritual.",
+  "It's not about the tech they use.\nOr the content they create.\nBut about the mindset they're in.",
+  "I started digging into their routines.\nAnd found a surprising common thread.\nIt's not just about being productive.",
+  "But about being present.\nIn the moment, with their audience.\nThat's where the magic happens.",
+  "I'm still trying to understand this.\nAnd how to apply it to my own work.\nBut one thing is clear: \nIt's time to rethink our approach."
+]
+2026-07-06 06:30:40,776 - INFO - âœ… Unique thread found (hash: 7bd79758...)
+2026-07-06 06:30:40,776 - INFO - ðŸ“ Generated 5 posts:
+2026-07-06 06:30:40,776 - INFO - --- Post 1 ---
+I've been noticing a strange habit.
+Among successful AI creators.
+They all seem to have a 'pre-game' ritual.
+2026-07-06 06:30:40,777 - INFO - --- Post 2 ---
+It's not about the tech they use.
+Or the content they create.
+But about the mindset they're in.
+2026-07-06 06:30:40,777 - INFO - --- Post 3 ---
+I started digging into their routines.
+And found a surprising common thread.
+It's not just about being productive.
+2026-07-06 06:30:40,777 - INFO - --- Post 4 ---
+But about being present.
+In the moment, with their audience.
+That's where the magic happens.
+2026-07-06 06:30:40,777 - INFO - --- Post 5 ---
+I'm still trying to understand this.
+And how to apply it to my own work.
+But one thing is clear: 
+It's time to rethink our approach.
+2026-07-06 06:30:42,130 - INFO - ðŸŽ¨ Cover image prompt: A lone figure sits cross-legged on a polished wooden floor, surrounded by a serene, minimalist room with large windows that let in a soft, diffused light, casting a warm glow on the space. The colour palette is muted, with shades of creamy white, light grey, and natural wood tones, evoking a sense of calmness and clarity. The main subject, the figure, is dressed in simple, flowing attire, with eyes closed, hands placed gently on their knees, and a subtle, enigmatic smile on their face, radiating an aura of mindfulness and presence. The atmosphere is tranquil, with a hint of contemplation, as if the figure is on the cusp of a profound realization. In the background, a few, carefully placed objects are visible, such as a small, leather-bound book, a sleek, silver pen, and a delicate, glass candleholder, all of which seem to be made of natural, tactile materials that add depth and texture to the scene. The camera angle is a low, wide shot, looking up at the figure, which creates a sense of intimacy and vulnerability, while also emphasizing the figure's connection to the space and the moment. The style hint is cinematic, with a slight oil painting quality to the lighting and textures, which adds a sense of timelessness and depth to the image. The overall mood is one of quiet reflection, inviting the viewer to step into the stillness and contemplate the beauty of being present in the moment.
+2026-07-06 06:30:43,982 - INFO - ðŸ–¼ï¸  Saved cover image to images/006cc34a0c75a695.jpg
+2026-07-06 06:30:45,115 - INFO - ðŸ“¤ Pushed images/006cc34a0c75a695.jpg to GitHub.
+2026-07-06 06:30:45,309 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/006cc34a0c75a695.jpg
+2026-07-06 06:30:45,311 - INFO - Scheduling for: 2026-07-06T11:47:45.311475Z UTC
+2026-07-06 06:30:46,062 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4b4b957e52c06f81c1bac8
+2026-07-06 06:30:46,063 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-06 06:30:46,063 - INFO - âœ… Run completed.
