@@ -583,3 +583,50 @@ But one thing is clear: the future of AI influence is subtle, not loud.
 2026-07-06 18:30:45,374 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4bf4556b62473abedbf188
 2026-07-06 18:30:45,375 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-06 18:30:45,375 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-07T00:30:41.905784
+============================================================
+2026-07-07 00:30:41,905 - INFO - ðŸš€ Starting automation run
+2026-07-07 00:30:41,906 - INFO - ðŸ“š Found 13 previously posted threads.
+2026-07-07 00:30:41,906 - INFO - ðŸ“ Will send 13 recent threads to Groq for avoidance.
+2026-07-07 00:30:41,906 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-07 00:30:43,052 - INFO - Groq raw response:
+[
+  "I've been observing a pattern in AI content creation.\nIt's not about the tech, but the intent.\nWhat drives creators to produce?",
+  "Some create for fame, others for fortune.\nBut the most successful ones create for a different reason.\nIt's not about the end goal, but the process.",
+  "I've been studying the psychology of AI creators.\nAnd found a surprising common thread.\nIt's not about the content, but the why.",
+  "The ones who create with purpose, with passion.\nAre the ones who resonate with their audience.\nAnd build a loyal following.",
+  "I'm still unraveling the mystery of AI content creation.\nBut one thing is clear: it's not just about the tech.\nIt's about the human touch, the emotional connection."
+]
+2026-07-07 00:30:43,053 - INFO - âœ… Unique thread found (hash: 5fb5ebda...)
+2026-07-07 00:30:43,054 - INFO - ðŸ“ Generated 5 posts:
+2026-07-07 00:30:43,054 - INFO - --- Post 1 ---
+I've been observing a pattern in AI content creation.
+It's not about the tech, but the intent.
+What drives creators to produce?
+2026-07-07 00:30:43,054 - INFO - --- Post 2 ---
+Some create for fame, others for fortune.
+But the most successful ones create for a different reason.
+It's not about the end goal, but the process.
+2026-07-07 00:30:43,054 - INFO - --- Post 3 ---
+I've been studying the psychology of AI creators.
+And found a surprising common thread.
+It's not about the content, but the why.
+2026-07-07 00:30:43,054 - INFO - --- Post 4 ---
+The ones who create with purpose, with passion.
+Are the ones who resonate with their audience.
+And build a loyal following.
+2026-07-07 00:30:43,054 - INFO - --- Post 5 ---
+I'm still unraveling the mystery of AI content creation.
+But one thing is clear: it's not just about the tech.
+It's about the human touch, the emotional connection.
+2026-07-07 00:30:44,141 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, rustic studio, a lone figure sits at a wooden desk, surrounded by scattered papers, empty coffee cups, and vintage typewriters. The main subject, a young woman with a contemplative expression, is illuminated by a soft, warm glow emanating from a desk lamp, casting a golden light on her face and hands. The colour palette is muted, with earthy tones of brown, beige, and grey, evoking a sense of nostalgia and creativity. The lighting is intimate, with deep shadows accentuating the textures of the rough wooden desk and the woman's worn, leather-bound journal. The camera angle is a close-up, looking over the woman's shoulder, as if peeking into her private world. The atmosphere is serene, with a sense of quiet reflection, as if the woman is lost in thought, unraveling the mysteries of creativity. The texture of the wooden desk and the rough, handmade paper add a tactile quality to the scene, while the soft, diffused light creates a sense of depth and dimensionality. The style hint is cinematic, with a hint of film grain and a shallow depth of field, blurring the background and emphasizing the woman's face and hands. The overall mood is one of contemplation, creativity, and connection, as if the woman is tapping into a deeper sense of purpose and passion.
+2026-07-07 00:30:46,046 - INFO - ðŸ–¼ï¸  Saved cover image to images/da8a7ecc68b4641a.jpg
+2026-07-07 00:30:47,252 - INFO - ðŸ“¤ Pushed images/da8a7ecc68b4641a.jpg to GitHub.
+2026-07-07 00:30:47,516 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/da8a7ecc68b4641a.jpg
+2026-07-07 00:30:47,519 - INFO - Scheduling for: 2026-07-07T05:47:47.519064Z UTC
+2026-07-07 00:30:48,244 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4c48b82d30a04d756bc5b6
+2026-07-07 00:30:48,245 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-07 00:30:48,245 - INFO - âœ… Run completed.
