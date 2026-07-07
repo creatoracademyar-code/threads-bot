@@ -671,3 +671,45 @@ With a smaller, but more engaged audience.
 2026-07-07 06:30:46,463 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4c9d16adac4a509f5acab9
 2026-07-07 06:30:46,464 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-07 06:30:46,464 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-07T12:30:44.442829
+============================================================
+2026-07-07 12:30:44,442 - INFO - ðŸš€ Starting automation run
+2026-07-07 12:30:44,443 - INFO - ðŸ“š Found 15 previously posted threads.
+2026-07-07 12:30:44,443 - INFO - ðŸ“ Will send 15 recent threads to Groq for avoidance.
+2026-07-07 12:30:44,443 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-07 12:30:45,934 - INFO - Groq raw response:
+[
+  "I've been fascinated by the concept of 'saturation point'.\nWhen AI creators reach a point where their content feels repetitive.",
+  "They've explored every angle, every topic, every style.\nBut what happens next? Do they fade away or reinvent?",
+  "I've been studying the most successful AI creators.\nAnd found a surprising commonality. They all have a 'refresh' mechanism.",
+  "A way to reboot their creativity, to find new inspiration.\nIt's not about the tech, but about the human experience.",
+  "I'm still trying to understand this 'refresh' mechanism.\nAnd how to apply it to my own work. But one thing is clear: it's the key to longevity."
+]
+2026-07-07 12:30:45,935 - INFO - âœ… Unique thread found (hash: ca58e334...)
+2026-07-07 12:30:45,935 - INFO - ðŸ“ Generated 5 posts:
+2026-07-07 12:30:45,935 - INFO - --- Post 1 ---
+I've been fascinated by the concept of 'saturation point'.
+When AI creators reach a point where their content feels repetitive.
+2026-07-07 12:30:45,935 - INFO - --- Post 2 ---
+They've explored every angle, every topic, every style.
+But what happens next? Do they fade away or reinvent?
+2026-07-07 12:30:45,935 - INFO - --- Post 3 ---
+I've been studying the most successful AI creators.
+And found a surprising commonality. They all have a 'refresh' mechanism.
+2026-07-07 12:30:45,935 - INFO - --- Post 4 ---
+A way to reboot their creativity, to find new inspiration.
+It's not about the tech, but about the human experience.
+2026-07-07 12:30:45,935 - INFO - --- Post 5 ---
+I'm still trying to understand this 'refresh' mechanism.
+And how to apply it to my own work. But one thing is clear: it's the key to longevity.
+2026-07-07 12:30:47,559 - INFO - ðŸŽ¨ Cover image prompt: A lone figure sits at a wooden desk, surrounded by scattered papers, empty coffee cups, and outdated computer equipment, in a dimly lit, rustic attic studio with worn, wooden beams and dusty, cobweb-covered windows. The colour palette is a mix of warm, muted tones, with shades of brown, beige, and faded grey, evoking a sense of nostalgia and stagnation. Soft, diffused light seeps through the grimy windows, casting a melancholic glow on the scene, with deep shadows accentuating the feeling of creative exhaustion. The camera angle is a low, introspective shot, looking up at the figure from beneath the desk, conveying a sense of vulnerability and self-doubt. The atmosphere is contemplative and serene, with a hint of tension, as if the figure is on the cusp of a creative breakthrough. The texture of the worn wood, rough concrete, and faded paper adds a tactile quality to the scene, while the style hint is reminiscent of a moody, oil painting, with bold brushstrokes and vivid, expressive colours. In the background, a large, old-fashioned key hangs from a nail, symbolizing the elusive 'refresh' mechanism, waiting to be discovered and turned, to unlock a new wave of inspiration and creativity. The figure's face is tilted downwards, lost in thought, as if searching for the answer to their creative stagnation, with a hint of hope and determination in their eyes.
+2026-07-07 12:30:49,049 - INFO - ðŸ–¼ï¸  Saved cover image to images/4d724cb0a799acdd.jpg
+2026-07-07 12:30:50,186 - INFO - ðŸ“¤ Pushed images/4d724cb0a799acdd.jpg to GitHub.
+2026-07-07 12:30:50,343 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/4d724cb0a799acdd.jpg
+2026-07-07 12:30:50,345 - INFO - Scheduling for: 2026-07-07T17:47:50.345569Z UTC
+2026-07-07 12:30:51,049 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4cf17a0e2952ff3866aa1f
+2026-07-07 12:30:51,050 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-07 12:30:51,050 - INFO - âœ… Run completed.
