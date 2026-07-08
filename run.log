@@ -755,3 +755,40 @@ And how they can be used to build a loyal following.
 2026-07-07 18:30:50,097 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4d45d9b61c8b0fcf0a9fb7
 2026-07-07 18:30:50,097 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-07 18:30:50,097 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-08T00:30:39.465128
+============================================================
+2026-07-08 00:30:39,465 - INFO - ðŸš€ Starting automation run
+2026-07-08 00:30:39,465 - INFO - ðŸ“š Found 17 previously posted threads.
+2026-07-08 00:30:39,465 - INFO - ðŸ“ Will send 17 recent threads to Groq for avoidance.
+2026-07-08 00:30:39,465 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-08 00:30:40,507 - INFO - Groq raw response:
+[
+  "I've been noticing a weird gap in the AI creator space.",
+  "Everyone's focused on growth, but what about the ones who quietly disappear?",
+  "I started digging into the stories of AI creators who vanished.",
+  "What I found was surprising: they didn't fail, they just shifted focus.",
+  "Now I'm curious: what's behind this invisible exit strategy?"
+]
+2026-07-08 00:30:40,509 - INFO - âœ… Unique thread found (hash: 436ea8c0...)
+2026-07-08 00:30:40,509 - INFO - ðŸ“ Generated 5 posts:
+2026-07-08 00:30:40,509 - INFO - --- Post 1 ---
+I've been noticing a weird gap in the AI creator space.
+2026-07-08 00:30:40,509 - INFO - --- Post 2 ---
+Everyone's focused on growth, but what about the ones who quietly disappear?
+2026-07-08 00:30:40,509 - INFO - --- Post 3 ---
+I started digging into the stories of AI creators who vanished.
+2026-07-08 00:30:40,509 - INFO - --- Post 4 ---
+What I found was surprising: they didn't fail, they just shifted focus.
+2026-07-08 00:30:40,509 - INFO - --- Post 5 ---
+Now I'm curious: what's behind this invisible exit strategy?
+2026-07-08 00:30:41,754 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, abandoned alleyway, a lone figure stands at the edge of a fading spotlight, surrounded by the remnants of discarded projects and forgotten dreams. The walls, once a deep, rich blue, now wear a faded, peeling coat, revealing glimpses of rough, grey concrete beneath. The air is thick with the scent of damp earth and decay, and the only sound is the soft hum of a distant city, a reminder of the world moving on. The colour palette is muted, with shades of indigo, grey, and blue dominating the scene, punctuated by the faint, golden glow of a setting sun peeking through the alleyway's entrance. The lighting is soft and diffused, with long, dramatic shadows stretching across the ground, as if the figure is being slowly pulled back into the darkness. The camera angle is low, looking up at the figure, who is shrouded in a mix of light and shadow, their features obscured, yet their presence palpable. The atmosphere is one of quiet contemplation, a sense of hope and curiosity lingering in the air, like the faint whisper of a new beginning. The texture of the walls, the roughness of the concrete, and the smoothness of the figure's clothing all blend together to create a sense of depth and tactility, inviting the viewer to step into the scene. The style is cinematic, with a hint of film grain and a shallow depth of field, drawing the viewer's eye to the figure, and the secrets they might hold.
+2026-07-08 00:30:43,592 - INFO - ðŸ–¼ï¸  Saved cover image to images/0be4231fbfe93141.jpg
+2026-07-08 00:30:44,655 - INFO - ðŸ“¤ Pushed images/0be4231fbfe93141.jpg to GitHub.
+2026-07-08 00:30:44,759 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/0be4231fbfe93141.jpg
+2026-07-08 00:30:44,761 - INFO - Scheduling for: 2026-07-08T05:47:44.761434Z UTC
+2026-07-08 00:30:45,295 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4d9a35f4362e9785092e6f
+2026-07-08 00:30:45,296 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-08 00:30:45,296 - INFO - âœ… Run completed.
