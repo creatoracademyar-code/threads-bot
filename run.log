@@ -792,3 +792,45 @@ Now I'm curious: what's behind this invisible exit strategy?
 2026-07-08 00:30:45,295 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4d9a35f4362e9785092e6f
 2026-07-08 00:30:45,296 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-08 00:30:45,296 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-08T06:30:39.465480
+============================================================
+2026-07-08 06:30:39,465 - INFO - ðŸš€ Starting automation run
+2026-07-08 06:30:39,465 - INFO - ðŸ“š Found 18 previously posted threads.
+2026-07-08 06:30:39,466 - INFO - ðŸ“ Will send 18 recent threads to Groq for avoidance.
+2026-07-08 06:30:39,466 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-08 06:30:40,936 - INFO - Groq raw response:
+[
+  "I've been exploring the concept of 'digital legacy'.\nWhat happens to an AI creator's online presence after they're gone?",
+  "Is it a distant memory, a relic of the past?\nOr can it continue to inspire, to educate, and to influence?",
+  "I've been studying the most successful AI creators.\nAnd found a surprising commonality: they all think about their legacy.",
+  "They create with intention, with purpose.\nNot just for the present, but for the future.",
+  "Now I'm wondering: what does it take to build a lasting digital legacy?\nIs it just about creating great content, or is there more to it?"
+]
+2026-07-08 06:30:40,937 - INFO - âœ… Unique thread found (hash: 5c3c7f6f...)
+2026-07-08 06:30:40,937 - INFO - ðŸ“ Generated 5 posts:
+2026-07-08 06:30:40,937 - INFO - --- Post 1 ---
+I've been exploring the concept of 'digital legacy'.
+What happens to an AI creator's online presence after they're gone?
+2026-07-08 06:30:40,938 - INFO - --- Post 2 ---
+Is it a distant memory, a relic of the past?
+Or can it continue to inspire, to educate, and to influence?
+2026-07-08 06:30:40,938 - INFO - --- Post 3 ---
+I've been studying the most successful AI creators.
+And found a surprising commonality: they all think about their legacy.
+2026-07-08 06:30:40,938 - INFO - --- Post 4 ---
+They create with intention, with purpose.
+Not just for the present, but for the future.
+2026-07-08 06:30:40,938 - INFO - --- Post 5 ---
+Now I'm wondering: what does it take to build a lasting digital legacy?
+Is it just about creating great content, or is there more to it?
+2026-07-08 06:30:42,430 - INFO - ðŸŽ¨ Cover image prompt: In a vast, dimly lit library, a lone figure sits at a worn, wooden desk, surrounded by towering shelves of old, leather-bound books and humming servers. The main subject, a young, introspective woman with a contemplative expression, is poised with her fingers on the keys of a vintage typewriter, as if frozen in thought. The setting is a blend of traditional and modern elements, with soft, warm light spilling in through a large, arched window, casting a golden glow on the scene. The colour palette is predominantly monochromatic, with shades of grey, beige, and navy blue, punctuated by the warm, golden light and the soft, blue-green glow of the computer screens in the background. The lighting is diffuse, with deep shadows in the corners of the room, and a sense of depth and dimensionality created by the layered rows of books and the haze of dust in the air. The camera angle is a low, wide shot, looking up at the figure from the floor, creating a sense of grandeur and monumentality. The atmosphere is one of serene contemplation, with a sense of hope and possibility hanging in the air, like the promise of a new page waiting to be filled. The texture of the old books, the rough wood of the desk, and the smooth, cool surface of the typewriter keys add a tactile quality to the scene, inviting the viewer to touch and explore. The style of the image is reminiscent of a cinematic, oil-painted still life, with bold brushstrokes and a sense of depth and history.
+2026-07-08 06:30:46,143 - INFO - ðŸ–¼ï¸  Saved cover image to images/7d420938fc9fdc7f.jpg
+2026-07-08 06:30:47,271 - INFO - ðŸ“¤ Pushed images/7d420938fc9fdc7f.jpg to GitHub.
+2026-07-08 06:30:47,415 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/7d420938fc9fdc7f.jpg
+2026-07-08 06:30:47,417 - INFO - Scheduling for: 2026-07-08T11:47:47.417554Z UTC
+2026-07-08 06:30:48,253 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4dee9861ef6be239f4449f
+2026-07-08 06:30:48,254 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-08 06:30:48,254 - INFO - âœ… Run completed.
