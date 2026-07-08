@@ -876,3 +876,40 @@ To my own work, and to help others do the same.
 2026-07-08 12:30:50,382 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4e42fadd134f1a01b0a990
 2026-07-08 12:30:50,383 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-08 12:30:50,383 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-08T18:30:45.912670
+============================================================
+2026-07-08 18:30:45,912 - INFO - ðŸš€ Starting automation run
+2026-07-08 18:30:45,913 - INFO - ðŸ“š Found 20 previously posted threads.
+2026-07-08 18:30:45,913 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-08 18:30:45,913 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-08 18:30:46,887 - INFO - Groq raw response:
+[
+  "I've been studying the most successful AI creators.",
+  "One thing stands out: their ability to simplify complex ideas.",
+  "But what if I told you it's not just about dumbing down the tech?",
+  "It's about creating a sense of clarity, of focus.",
+  "I'm still trying to understand the art of simplification."
+]
+2026-07-08 18:30:46,888 - INFO - âœ… Unique thread found (hash: a626fbf3...)
+2026-07-08 18:30:46,888 - INFO - ðŸ“ Generated 5 posts:
+2026-07-08 18:30:46,889 - INFO - --- Post 1 ---
+I've been studying the most successful AI creators.
+2026-07-08 18:30:46,889 - INFO - --- Post 2 ---
+One thing stands out: their ability to simplify complex ideas.
+2026-07-08 18:30:46,889 - INFO - --- Post 3 ---
+But what if I told you it's not just about dumbing down the tech?
+2026-07-08 18:30:46,889 - INFO - --- Post 4 ---
+It's about creating a sense of clarity, of focus.
+2026-07-08 18:30:46,889 - INFO - --- Post 5 ---
+I'm still trying to understand the art of simplification.
+2026-07-08 18:30:48,387 - INFO - ðŸŽ¨ Cover image prompt: A lone figure sits at a rustic wooden desk, surrounded by stacks of old books and scattered papers, in a cozy, dimly lit library with tall, vaulted ceilings and rows of towering bookshelves that stretch up to the sky. The atmosphere is one of contemplative silence, with soft, warm light spilling in through a large, arched window, casting long, gentle shadows across the room. The colour palette is muted, with earthy tones of brown, beige, and grey, punctuated by the occasional splash of rich, emerald green from the leather-bound tomes. The lighting is diffused, with a subtle glow emanating from a single, ornate desk lamp, its metal surface worn to a soft, golden sheen. The camera angle is a low, intimate close-up, looking up at the figure from a slight angle, as if peeking over the edge of the desk. The texture of the wooden desk and the rough, stone walls adds a sense of tactile, organic depth to the scene, while the soft, whispery folds of the figure's clothing invite the viewer to lean in, as if sharing a quiet confidence. The style hint is one of cinematic realism, with a slight, dreamy softness to the focus, as if the entire scene is being viewed through a veil of quiet, contemplative thought. The figure's face is tilted downward, lost in thought, with a look of serene, focused intensity, as if on the cusp of a profound realization.
+2026-07-08 18:30:49,990 - INFO - ðŸ–¼ï¸  Saved cover image to images/a72172e5f09cd425.jpg
+2026-07-08 18:30:51,265 - INFO - ðŸ“¤ Pushed images/a72172e5f09cd425.jpg to GitHub.
+2026-07-08 18:30:51,447 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/a72172e5f09cd425.jpg
+2026-07-08 18:30:51,449 - INFO - Scheduling for: 2026-07-08T23:47:51.449439Z UTC
+2026-07-08 18:30:52,276 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4e975c6234de2bf23b31fe
+2026-07-08 18:30:52,276 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-08 18:30:52,277 - INFO - âœ… Run completed.
