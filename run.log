@@ -991,3 +991,40 @@ I'm still trying to understand the psychology behind this.
 2026-07-09 06:30:53,047 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4f401c96c2f64beaff19b7
 2026-07-09 06:30:53,048 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-09 06:30:53,048 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-09T12:35:43.382718
+============================================================
+2026-07-09 12:35:43,382 - INFO - ðŸš€ Starting automation run
+2026-07-09 12:35:43,383 - INFO - ðŸ“š Found 23 previously posted threads.
+2026-07-09 12:35:43,383 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-09 12:35:43,383 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-09 12:35:44,422 - INFO - Groq raw response:
+[
+  "I've been fascinated by the concept of 'hidden patterns' in AI content creation.",
+  "What if I told you that the most successful AI creators are not just skilled technicians,",
+  "but also masterful storytellers, weaving complex narratives that captivate and resonate?",
+  "I've been studying the psychology of AI storytelling, and what I've found is surprising.",
+  "The key to creating compelling AI content lies not in the tech itself, but in the emotional connection it creates."
+]
+2026-07-09 12:35:44,423 - INFO - âœ… Unique thread found (hash: d5e6cb3c...)
+2026-07-09 12:35:44,423 - INFO - ðŸ“ Generated 5 posts:
+2026-07-09 12:35:44,423 - INFO - --- Post 1 ---
+I've been fascinated by the concept of 'hidden patterns' in AI content creation.
+2026-07-09 12:35:44,423 - INFO - --- Post 2 ---
+What if I told you that the most successful AI creators are not just skilled technicians,
+2026-07-09 12:35:44,424 - INFO - --- Post 3 ---
+but also masterful storytellers, weaving complex narratives that captivate and resonate?
+2026-07-09 12:35:44,424 - INFO - --- Post 4 ---
+I've been studying the psychology of AI storytelling, and what I've found is surprising.
+2026-07-09 12:35:44,424 - INFO - --- Post 5 ---
+The key to creating compelling AI content lies not in the tech itself, but in the emotional connection it creates.
+2026-07-09 12:35:45,704 - INFO - ðŸŽ¨ Cover image prompt: A lone figure sits in a dimly lit, rustic library, surrounded by towering shelves of old, leather-bound books and flickering candles that cast a warm, golden glow. The room is filled with a soft, muted colour palette of earthy tones, with hints of rich wood and worn parchment. The main subject, a young woman with a look of intense focus, is seated at a wooden desk, surrounded by scattered papers, quills, and strange, glowing orbs that seem to pulse with a gentle, ethereal light. The lighting is soft and diffused, with deep shadows that add depth and mystery to the scene. The camera angle is a low, Dutch angle, looking up at the woman with a sense of reverence, as if she is a masterful storyteller weaving a spell. The atmosphere is one of serene contemplation, with a sense of hope and discovery hanging in the air. The texture of the old books and wooden desk adds a sense of rough, tactile realism to the scene, while the glowing orbs introduce a hint of futuristic, otherworldly wonder. The style of the image is reminiscent of a cinematic, oil-painted still life, with bold brushstrokes and vivid, expressive colours that seem to leap off the canvas. As the woman's hands move across the papers, her fingers leave trails of glittering, shimmering dust that seems to hold the secrets of the hidden patterns she is uncovering.
+2026-07-09 12:35:47,526 - INFO - ðŸ–¼ï¸  Saved cover image to images/740999cd696961a9.jpg
+2026-07-09 12:35:48,670 - INFO - ðŸ“¤ Pushed images/740999cd696961a9.jpg to GitHub.
+2026-07-09 12:35:48,829 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/740999cd696961a9.jpg
+2026-07-09 12:35:48,831 - INFO - Scheduling for: 2026-07-09T17:52:48.831112Z UTC
+2026-07-09 12:35:49,621 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4f95a5b3da8c61879224cb
+2026-07-09 12:35:49,622 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-09 12:35:49,623 - INFO - âœ… Run completed.
