@@ -1028,3 +1028,37 @@ The key to creating compelling AI content lies not in the tech itself, but in th
 2026-07-09 12:35:49,621 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4f95a5b3da8c61879224cb
 2026-07-09 12:35:49,622 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-09 12:35:49,623 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-09T18:30:37.638212
+============================================================
+2026-07-09 18:30:37,638 - INFO - ðŸš€ Starting automation run
+2026-07-09 18:30:37,638 - INFO - ðŸ“š Found 24 previously posted threads.
+2026-07-09 18:30:37,639 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-09 18:30:37,639 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-09 18:30:39,349 - INFO - Groq raw response:
+[
+  "I've been observing a peculiar trend.",
+  "AI creators who 'fail' often become the most successful.",
+  "What if I told you it's not about the failure itself,",
+  "But about the lessons they learn from it?"
+]
+2026-07-09 18:30:39,350 - INFO - âœ… Unique thread found (hash: b5fcea1d...)
+2026-07-09 18:30:39,350 - INFO - ðŸ“ Generated 4 posts:
+2026-07-09 18:30:39,350 - INFO - --- Post 1 ---
+I've been observing a peculiar trend.
+2026-07-09 18:30:39,350 - INFO - --- Post 2 ---
+AI creators who 'fail' often become the most successful.
+2026-07-09 18:30:39,350 - INFO - --- Post 3 ---
+What if I told you it's not about the failure itself,
+2026-07-09 18:30:39,350 - INFO - --- Post 4 ---
+But about the lessons they learn from it?
+2026-07-09 18:30:40,638 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, rustic attic filled with old, dusty machinery and scattered blueprints, a lone figure sits amidst the chaos, surrounded by faint, golden lighting that seeps through a small, grimy window. The main subject, a young inventor with a look of contemplation, is seated on a worn, wooden stool, with a soft, warm glow emanating from a nearby, old-fashioned lantern. The colour palette is predominantly monochromatic, with shades of brown, grey, and beige, punctuated by hints of warm, golden light that dance across the inventor's face and the surrounding environment. The lighting is soft and diffused, with deep, dramatic shadows that add depth and texture to the scene. The camera angle is a low, wide shot, looking up at the inventor from a slight angle, conveying a sense of hope and determination. The atmosphere is serene, yet tense, as if the inventor is on the cusp of a major breakthrough. The texture of the old machinery and wooden beams is rough and weathered, while the lantern's metal surface is smooth and polished. The style of the image is reminiscent of a cinematic, oil painting, with bold brushstrokes and vivid, expressive colours. The overall mood is one of quiet reflection, as if the inventor is absorbing the lessons of past failures, and preparing to embark on a new, successful journey.
+2026-07-09 18:30:42,545 - INFO - ðŸ–¼ï¸  Saved cover image to images/a0060ff17a3015b3.jpg
+2026-07-09 18:30:43,835 - INFO - ðŸ“¤ Pushed images/a0060ff17a3015b3.jpg to GitHub.
+2026-07-09 18:30:44,187 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/a0060ff17a3015b3.jpg
+2026-07-09 18:30:44,189 - INFO - Scheduling for: 2026-07-09T23:47:44.189318Z UTC
+2026-07-09 18:30:44,912 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4fe8d4a05e7137e7c7becb
+2026-07-09 18:30:44,913 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-09 18:30:44,913 - INFO - âœ… Run completed.
