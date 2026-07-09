@@ -913,3 +913,47 @@ I'm still trying to understand the art of simplification.
 2026-07-08 18:30:52,276 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4e975c6234de2bf23b31fe
 2026-07-08 18:30:52,276 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-08 18:30:52,277 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-09T00:30:41.788767
+============================================================
+2026-07-09 00:30:41,788 - INFO - ðŸš€ Starting automation run
+2026-07-09 00:30:41,789 - INFO - ðŸ“š Found 21 previously posted threads.
+2026-07-09 00:30:41,789 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-09 00:30:41,789 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-09 00:30:43,124 - INFO - Groq raw response:
+[
+  "I've been noticing a strange phenomenon.\nAI creators who focus on 'authenticity' are gaining traction.",
+  "But what does authenticity mean in the context of AI?\nIs it about being raw, unedited, and honest?",
+  "I've been studying the most successful AI creators.\nAnd found a surprising common thread: they all have a 'personal truth'.",
+  "A unique perspective that shines through their content.\nAnd resonates with their audience on a deeper level.",
+  "I'm still trying to understand how to apply this concept.\nTo create content that feels authentic, yet still engaging and informative."
+]
+2026-07-09 00:30:43,125 - INFO - âœ… Unique thread found (hash: 558c5bc1...)
+2026-07-09 00:30:43,126 - INFO - ðŸ“ Generated 5 posts:
+2026-07-09 00:30:43,126 - INFO - --- Post 1 ---
+I've been noticing a strange phenomenon.
+AI creators who focus on 'authenticity' are gaining traction.
+2026-07-09 00:30:43,126 - INFO - --- Post 2 ---
+But what does authenticity mean in the context of AI?
+Is it about being raw, unedited, and honest?
+2026-07-09 00:30:43,126 - INFO - --- Post 3 ---
+I've been studying the most successful AI creators.
+And found a surprising common thread: they all have a 'personal truth'.
+2026-07-09 00:30:43,126 - INFO - --- Post 4 ---
+A unique perspective that shines through their content.
+And resonates with their audience on a deeper level.
+2026-07-09 00:30:43,126 - INFO - --- Post 5 ---
+I'm still trying to understand how to apply this concept.
+To create content that feels authentic, yet still engaging and informative.
+2026-07-09 00:30:44,252 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, rustic studio with exposed brick walls and wooden beams, a lone figure sits at a worn, wooden desk, surrounded by scattered papers, empty coffee cups, and vintage computer equipment. The main subject, a young artist with a contemplative expression, is positioned in a warm, golden light that pours in through a nearby window, casting long shadows across the room. The colour palette is muted, with earthy tones of brown, beige, and grey, punctuated by the soft glow of old computer screens and the vibrant hues of scattered notes and sketches. The lighting is soft and diffused, with a slight grain to it, evoking a sense of intimacy and vulnerability. The camera angle is a close-up, looking over the artist's shoulder, as if the viewer is peeking into their private creative space. The atmosphere is serene, yet tense with anticipation, as if the artist is on the cusp of a breakthrough. The texture of the rough wood, worn leather, and cool metal adds depth and tactility to the scene, while the style hint is reminiscent of a cinematic, film-noir inspired oil painting, with bold brushstrokes and a sense of depth and dimensionality. The overall mood is one of quiet contemplation, as the artist searches for their own unique perspective and truth, amidst the chaos of creative uncertainty.
+2026-07-09 00:30:45,800 - INFO - ðŸ–¼ï¸  Saved cover image to images/3f7b84d3fc7ff270.jpg
+2026-07-09 00:30:46,948 - INFO - ðŸ“¤ Pushed images/3f7b84d3fc7ff270.jpg to GitHub.
+2026-07-09 00:30:50,109 - INFO - Image not yet reachable (status 429), retrying...
+2026-07-09 00:30:55,169 - INFO - Image not yet reachable (status 429), retrying...
+2026-07-09 00:31:00,131 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/3f7b84d3fc7ff270.jpg
+2026-07-09 00:31:00,133 - INFO - Scheduling for: 2026-07-09T05:48:00.133399Z UTC
+2026-07-09 00:31:00,869 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4eebc455b75a1caca783a8
+2026-07-09 00:31:00,870 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-09 00:31:00,870 - INFO - âœ… Run completed.
