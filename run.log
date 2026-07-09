@@ -957,3 +957,37 @@ To create content that feels authentic, yet still engaging and informative.
 2026-07-09 00:31:00,869 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4eebc455b75a1caca783a8
 2026-07-09 00:31:00,870 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-09 00:31:00,870 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-09T06:30:46.675467
+============================================================
+2026-07-09 06:30:46,675 - INFO - ðŸš€ Starting automation run
+2026-07-09 06:30:46,675 - INFO - ðŸ“š Found 22 previously posted threads.
+2026-07-09 06:30:46,676 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-09 06:30:46,676 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-09 06:30:48,127 - INFO - Groq raw response:
+[
+  "I've been studying the most successful AI creators.",
+  "One thing stands out: their ability to create a sense of anticipation.",
+  "They don't just release content, they build an experience.",
+  "I'm still trying to understand the psychology behind this."
+]
+2026-07-09 06:30:48,128 - INFO - âœ… Unique thread found (hash: 54b225cc...)
+2026-07-09 06:30:48,128 - INFO - ðŸ“ Generated 4 posts:
+2026-07-09 06:30:48,128 - INFO - --- Post 1 ---
+I've been studying the most successful AI creators.
+2026-07-09 06:30:48,128 - INFO - --- Post 2 ---
+One thing stands out: their ability to create a sense of anticipation.
+2026-07-09 06:30:48,129 - INFO - --- Post 3 ---
+They don't just release content, they build an experience.
+2026-07-09 06:30:48,129 - INFO - --- Post 4 ---
+I'm still trying to understand the psychology behind this.
+2026-07-09 06:30:49,238 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, futuristic laboratory, a lone figure sits at a sleek, metallic workstation, surrounded by rows of humming servers and wires. The main subject, a young woman with an intent gaze, is bathed in the soft, blue-green glow of multiple computer screens, her face illuminated by the faint light of code streaming down the monitors. The setting is a blend of industrial and technological elements, with concrete walls, polished metal accents, and a hint of neon lighting. The dominant colour palette is a cool, cyberpunk-inspired mix of blues, greens, and purples, with accents of silver and dark grey. The lighting is dramatic, with deep shadows cast across the room, and a sense of depth created by the layered screens and machinery. The camera angle is a low, wide shot, looking up at the woman from the floor, emphasizing her focus and determination. The atmosphere is one of intense concentration and anticipation, as if the woman is on the verge of a breakthrough. The texture of the scene is a mix of smooth, cool metals and the rough, industrial feel of the concrete floor, with a sense of tension and energy emanating from the wires and machinery. The style of the image is cinematic, with a hint of sci-fi and a touch of realism, as if captured in a moment of quiet intensity, just before the storm of creativity breaks.
+2026-07-09 06:30:51,275 - INFO - ðŸ–¼ï¸  Saved cover image to images/971c34a6008c8b16.jpg
+2026-07-09 06:30:52,365 - INFO - ðŸ“¤ Pushed images/971c34a6008c8b16.jpg to GitHub.
+2026-07-09 06:30:52,485 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/971c34a6008c8b16.jpg
+2026-07-09 06:30:52,487 - INFO - Scheduling for: 2026-07-09T11:47:52.487365Z UTC
+2026-07-09 06:30:53,047 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4f401c96c2f64beaff19b7
+2026-07-09 06:30:53,048 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-09 06:30:53,048 - INFO - âœ… Run completed.
