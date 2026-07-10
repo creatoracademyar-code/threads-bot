@@ -1141,3 +1141,40 @@ But for now, I'm still unraveling the mystery.
 2026-07-10 06:30:37,992 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a50918df50a99bddcce7274
 2026-07-10 06:30:37,993 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-10 06:30:37,993 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-10T12:30:37.306281
+============================================================
+2026-07-10 12:30:37,306 - INFO - ðŸš€ Starting automation run
+2026-07-10 12:30:37,306 - INFO - ðŸ“š Found 27 previously posted threads.
+2026-07-10 12:30:37,307 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-10 12:30:37,307 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-10 12:30:38,624 - INFO - Groq raw response:
+[
+  "I've been noticing a pattern in AI content creation.",
+  "It's not about the tech, but the 'human variable'.",
+  "What if I told you that the most successful AI creators",
+  "Are not just skilled technicians, but also master observers?",
+  "I've been studying their approach, and what I've found is surprising."
+]
+2026-07-10 12:30:38,625 - INFO - âœ… Unique thread found (hash: 8a4b15d4...)
+2026-07-10 12:30:38,626 - INFO - ðŸ“ Generated 5 posts:
+2026-07-10 12:30:38,626 - INFO - --- Post 1 ---
+I've been noticing a pattern in AI content creation.
+2026-07-10 12:30:38,626 - INFO - --- Post 2 ---
+It's not about the tech, but the 'human variable'.
+2026-07-10 12:30:38,626 - INFO - --- Post 3 ---
+What if I told you that the most successful AI creators
+2026-07-10 12:30:38,626 - INFO - --- Post 4 ---
+Are not just skilled technicians, but also master observers?
+2026-07-10 12:30:38,626 - INFO - --- Post 5 ---
+I've been studying their approach, and what I've found is surprising.
+2026-07-10 12:30:41,042 - INFO - ðŸŽ¨ Cover image prompt: A lone figure sits in a dimly lit, rustic study, surrounded by stacks of old books and scattered papers, with a warm, golden light spilling in through a small, circular window. The subject, a young woman with a curious expression, is positioned in the centre of the room, leaning forward in a worn, leather armchair, her hands clasped together in contemplation. The colour palette is dominated by earthy tones, with shades of brown, beige, and soft green, evoking a sense of nostalgia and intellectual pursuit. The lighting is soft and diffused, with deep shadows cast across the room, adding a sense of depth and mystery. The camera angle is a low, Dutch angle, looking up at the subject, which creates a sense of tension and intrigue. The atmosphere is one of quiet contemplation, with a hint of excitement and discovery, as if the subject is on the verge of uncovering a hidden truth. The texture of the old books, rough stone walls, and polished wood furniture adds a sense of tactility to the scene, while the style is reminiscent of a cinematic, film noir oil painting, with bold brushstrokes and vivid colours. The overall mood is one of hopeful anticipation, as if the subject is poised to unlock the secrets of the "human variable" and harness its power to create something new and innovative.
+2026-07-10 12:30:42,970 - INFO - ðŸ–¼ï¸  Saved cover image to images/10e2db9ed61560bb.jpg
+2026-07-10 12:30:44,402 - INFO - ðŸ“¤ Pushed images/10e2db9ed61560bb.jpg to GitHub.
+2026-07-10 12:30:44,683 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/10e2db9ed61560bb.jpg
+2026-07-10 12:30:44,685 - INFO - Scheduling for: 2026-07-10T17:47:44.685094Z UTC
+2026-07-10 12:30:45,634 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a50e5f5078f7fe9462278f0
+2026-07-10 12:30:45,635 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-10 12:30:45,635 - INFO - âœ… Run completed.
