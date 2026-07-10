@@ -1099,3 +1099,45 @@ It's about understanding the psychology of human connection.
 2026-07-10 00:30:39,589 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a503d2ff50a99bddccbf370
 2026-07-10 00:30:39,590 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-10 00:30:39,590 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-10T06:30:32.059871
+============================================================
+2026-07-10 06:30:32,059 - INFO - ðŸš€ Starting automation run
+2026-07-10 06:30:32,060 - INFO - ðŸ“š Found 26 previously posted threads.
+2026-07-10 06:30:32,060 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-10 06:30:32,060 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-10 06:30:33,113 - INFO - Groq raw response:
+[
+  "I've been studying the most successful AI creators.\nOne thing stands out: their ability to create 'emotional echoes'.",
+  "They don't just create content, they craft experiences.\nThat linger long after the initial engagement.",
+  "I've been trying to understand the psychology behind this.\nAnd what I've found is surprising.",
+  "It's not about the tech or the tools, but about\nUnderstanding the human heart.",
+  "I'll probably expand on this later.\nBut for now, I'm still unraveling the mystery."
+]
+2026-07-10 06:30:33,114 - INFO - âœ… Unique thread found (hash: a916c7d4...)
+2026-07-10 06:30:33,114 - INFO - ðŸ“ Generated 5 posts:
+2026-07-10 06:30:33,115 - INFO - --- Post 1 ---
+I've been studying the most successful AI creators.
+One thing stands out: their ability to create 'emotional echoes'.
+2026-07-10 06:30:33,115 - INFO - --- Post 2 ---
+They don't just create content, they craft experiences.
+That linger long after the initial engagement.
+2026-07-10 06:30:33,115 - INFO - --- Post 3 ---
+I've been trying to understand the psychology behind this.
+And what I've found is surprising.
+2026-07-10 06:30:33,115 - INFO - --- Post 4 ---
+It's not about the tech or the tools, but about
+Understanding the human heart.
+2026-07-10 06:30:33,115 - INFO - --- Post 5 ---
+I'll probably expand on this later.
+But for now, I'm still unraveling the mystery.
+2026-07-10 06:30:34,529 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, minimalist studio with walls lined with old, leather-bound books and faint, golden accents, a lone figure sits at a wooden desk, surrounded by scattered papers, empty coffee cups, and a few, flickering candles. The main subject, a young, introspective woman with a look of quiet contemplation, leans back in her chair, eyes cast upward, lost in thought, as if unraveling the threads of a complex puzzle. The setting is warm and intimate, with a distinct colour palette of muted, earthy tones - soft browns, creamy whites, and rich, velvety blacks - that evoke a sense of comfort and nostalgia. The lighting is soft and diffused, with the candles casting a warm, gentle glow on the woman's face, while the rest of the room is bathed in a subtle, crepuscular light, as if the sun has just set outside. The camera angle is a low, introspective shot, looking up at the woman from a slightly crouched position, which creates a sense of vulnerability and empathy. The atmosphere is serene and contemplative, with a sense of quiet intensity, as if the woman is on the verge of a profound discovery. The texture of the old books, the rough wood of the desk, and the smooth, cool glass of the coffee cups add a tactile quality to the scene, while the overall style hint is that of a cinematic, oil painting-inspired still life, with bold, expressive brushstrokes and a deep, rich colour palette. The woman's face, with its subtle, furrowed brow and parted lips, is the focal point of the image, inviting the viewer to step into her quiet, introspective world.
+2026-07-10 06:30:36,105 - INFO - ðŸ–¼ï¸  Saved cover image to images/a0a77e91d613f689.jpg
+2026-07-10 06:30:37,280 - INFO - ðŸ“¤ Pushed images/a0a77e91d613f689.jpg to GitHub.
+2026-07-10 06:30:37,430 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/a0a77e91d613f689.jpg
+2026-07-10 06:30:37,432 - INFO - Scheduling for: 2026-07-10T11:47:37.432288Z UTC
+2026-07-10 06:30:37,992 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a50918df50a99bddcce7274
+2026-07-10 06:30:37,993 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-10 06:30:37,993 - INFO - âœ… Run completed.
