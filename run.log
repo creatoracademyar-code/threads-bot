@@ -1178,3 +1178,40 @@ I've been studying their approach, and what I've found is surprising.
 2026-07-10 12:30:45,634 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a50e5f5078f7fe9462278f0
 2026-07-10 12:30:45,635 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-10 12:30:45,635 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-10T18:30:35.639688
+============================================================
+2026-07-10 18:30:35,639 - INFO - ðŸš€ Starting automation run
+2026-07-10 18:30:35,640 - INFO - ðŸ“š Found 28 previously posted threads.
+2026-07-10 18:30:35,640 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-10 18:30:35,640 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-10 18:30:36,761 - INFO - Groq raw response:
+[
+  "I've been fascinated by the concept of 'digital scarcity' in AI content creation.",
+  "What if I told you that the most successful AI creators are not just skilled technicians,",
+  "But also masters of creating a sense of exclusivity and rarity around their content?",
+  "I've been studying the psychology of digital scarcity, and what I've found is surprising.",
+  "It's not just about limiting access, but about creating a sense of anticipation and desire."
+]
+2026-07-10 18:30:36,762 - INFO - âœ… Unique thread found (hash: 8ddd7041...)
+2026-07-10 18:30:36,762 - INFO - ðŸ“ Generated 5 posts:
+2026-07-10 18:30:36,762 - INFO - --- Post 1 ---
+I've been fascinated by the concept of 'digital scarcity' in AI content creation.
+2026-07-10 18:30:36,763 - INFO - --- Post 2 ---
+What if I told you that the most successful AI creators are not just skilled technicians,
+2026-07-10 18:30:36,763 - INFO - --- Post 3 ---
+But also masters of creating a sense of exclusivity and rarity around their content?
+2026-07-10 18:30:36,763 - INFO - --- Post 4 ---
+I've been studying the psychology of digital scarcity, and what I've found is surprising.
+2026-07-10 18:30:36,763 - INFO - --- Post 5 ---
+It's not just about limiting access, but about creating a sense of anticipation and desire.
+2026-07-10 18:30:37,996 - INFO - ðŸŽ¨ Cover image prompt: A lone figure, shrouded in mist, stands at the edge of a sleek, modern laboratory, surrounded by rows of humming servers and flickering screens that cast a cool, blue-green glow. The setting is a blend of futuristic and industrial, with polished metal and glass surfaces reflecting the dim, golden light that seeps through the mist. The colour palette is predominantly monochromatic, with shades of grey, silver, and blue, punctuated by bursts of vibrant, electric blue that emanate from the screens. The lighting is soft and diffused, with deep shadows that add depth and mystery to the scene. The camera angle is low and wide, looking up at the figure, who is gazing out at the viewer with an enigmatic expression. The atmosphere is one of quiet anticipation, as if the figure is waiting for something to emerge from the mist. The texture of the scene is a mix of smooth, polished surfaces and rough, industrial materials, such as concrete and steel. The style of the image is cinematic, with a hint of sci-fi and a touch of surrealism, as if the scene is a dreamscape or a vision of a future world. The figure's clothing is sleek and modern, with a subtle sheen that suggests advanced materials and technology. The overall mood is one of intrigue and curiosity, inviting the viewer to step into the misty, high-tech world and uncover its secrets.
+2026-07-10 18:30:40,822 - INFO - ðŸ–¼ï¸  Saved cover image to images/3a2ac391038f84eb.jpg
+2026-07-10 18:30:42,283 - INFO - ðŸ“¤ Pushed images/3a2ac391038f84eb.jpg to GitHub.
+2026-07-10 18:30:42,542 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/3a2ac391038f84eb.jpg
+2026-07-10 18:30:42,544 - INFO - Scheduling for: 2026-07-10T23:47:42.544956Z UTC
+2026-07-10 18:30:43,282 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a513a533e68ff0f8dc02388
+2026-07-10 18:30:43,283 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-10 18:30:43,283 - INFO - âœ… Run completed.
