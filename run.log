@@ -1062,3 +1062,40 @@ But about the lessons they learn from it?
 2026-07-09 18:30:44,912 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a4fe8d4a05e7137e7c7becb
 2026-07-09 18:30:44,913 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-09 18:30:44,913 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-10T00:30:33.518692
+============================================================
+2026-07-10 00:30:33,518 - INFO - ðŸš€ Starting automation run
+2026-07-10 00:30:33,519 - INFO - ðŸ“š Found 25 previously posted threads.
+2026-07-10 00:30:33,519 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-10 00:30:33,519 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-10 00:30:34,495 - INFO - Groq raw response:
+[
+  "I've been studying the most successful AI creators.",
+  "One thing stands out: their ability to create 'micro-moments'.",
+  "Small, intimate experiences that leave a lasting impact.",
+  "But what if I told you it's not just about the tech or the tools?",
+  "It's about understanding the psychology of human connection."
+]
+2026-07-10 00:30:34,496 - INFO - âœ… Unique thread found (hash: 18bd55d5...)
+2026-07-10 00:30:34,496 - INFO - ðŸ“ Generated 5 posts:
+2026-07-10 00:30:34,496 - INFO - --- Post 1 ---
+I've been studying the most successful AI creators.
+2026-07-10 00:30:34,496 - INFO - --- Post 2 ---
+One thing stands out: their ability to create 'micro-moments'.
+2026-07-10 00:30:34,496 - INFO - --- Post 3 ---
+Small, intimate experiences that leave a lasting impact.
+2026-07-10 00:30:34,496 - INFO - --- Post 4 ---
+But what if I told you it's not just about the tech or the tools?
+2026-07-10 00:30:34,496 - INFO - --- Post 5 ---
+It's about understanding the psychology of human connection.
+2026-07-10 00:30:35,636 - INFO - ðŸŽ¨ Cover image prompt: In a serene, modern laboratory, a lone figure sits amidst a clutter of wires, screens, and futuristic equipment, surrounded by large glass windows that overlook a lush, vibrant forest. The main subject, a young woman with a contemplative expression, is seated in a sleek, minimalist chair, her hands gently cradling a small, glowing orb that pulsates with a soft, warm light. The colour palette is dominated by soothing blues and whites, with accents of rich, earthy tones that reflect the natural world outside. The lighting is soft and diffused, with a hint of golden hour warmth that seeps through the windows, casting gentle shadows across the woman's face and the surrounding environment. The camera angle is a thoughtful, low-angle shot, looking up at the woman with a sense of reverence, as if to emphasize her connection to the technology and the natural world. The atmosphere is one of quiet introspection, with a sense of hope and possibility that permeates the scene. The texture of the woman's clothing and the materials that surround her - smooth glass, polished metal, and rough-hewn wood - add depth and tactility to the image. The style is cinematic and photorealistic, with a hint of subtlety and restraint that invites the viewer to reflect on the psychology of human connection.
+2026-07-10 00:30:37,577 - INFO - ðŸ–¼ï¸  Saved cover image to images/b5a6ad5939ab5838.jpg
+2026-07-10 00:30:38,885 - INFO - ðŸ“¤ Pushed images/b5a6ad5939ab5838.jpg to GitHub.
+2026-07-10 00:30:39,029 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/b5a6ad5939ab5838.jpg
+2026-07-10 00:30:39,030 - INFO - Scheduling for: 2026-07-10T05:47:39.030713Z UTC
+2026-07-10 00:30:39,589 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a503d2ff50a99bddccbf370
+2026-07-10 00:30:39,590 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-10 00:30:39,590 - INFO - âœ… Run completed.
