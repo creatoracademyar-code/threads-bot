@@ -1215,3 +1215,40 @@ It's not just about limiting access, but about creating a sense of anticipation 
 2026-07-10 18:30:43,282 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a513a533e68ff0f8dc02388
 2026-07-10 18:30:43,283 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-10 18:30:43,283 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-11T00:30:38.832998
+============================================================
+2026-07-11 00:30:38,833 - INFO - ðŸš€ Starting automation run
+2026-07-11 00:30:38,833 - INFO - ðŸ“š Found 29 previously posted threads.
+2026-07-11 00:30:38,833 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-11 00:30:38,833 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-11 00:30:40,426 - INFO - Groq raw response:
+[
+  "I've been wondering: what if the key to AI success lies not in the code, but in the creator's mindset?",
+  "I started studying the most successful AI creators and found a surprising common thread: they all have a 'creative constraint'.",
+  "They don't try to do everything, but instead focus on one thing and do it exceptionally well.",
+  "This constraint sparks innovation, forces them to think outside the box, and leads to unique breakthroughs.",
+  "Now I'm curious: what would happen if we applied this principle to our own work?"
+]
+2026-07-11 00:30:40,427 - INFO - âœ… Unique thread found (hash: 63b0f7d7...)
+2026-07-11 00:30:40,427 - INFO - ðŸ“ Generated 5 posts:
+2026-07-11 00:30:40,427 - INFO - --- Post 1 ---
+I've been wondering: what if the key to AI success lies not in the code, but in the creator's mindset?
+2026-07-11 00:30:40,427 - INFO - --- Post 2 ---
+I started studying the most successful AI creators and found a surprising common thread: they all have a 'creative constraint'.
+2026-07-11 00:30:40,428 - INFO - --- Post 3 ---
+They don't try to do everything, but instead focus on one thing and do it exceptionally well.
+2026-07-11 00:30:40,428 - INFO - --- Post 4 ---
+This constraint sparks innovation, forces them to think outside the box, and leads to unique breakthroughs.
+2026-07-11 00:30:40,428 - INFO - --- Post 5 ---
+Now I'm curious: what would happen if we applied this principle to our own work?
+2026-07-11 00:30:41,842 - INFO - ðŸŽ¨ Cover image prompt: In a serene, minimalist studio with polished concrete floors and walls lined with towering, frosted glass windows, a lone figure sits at a sleek, metallic desk, surrounded by scattered notes and empty coffee cups. The main subject, a young, contemplative woman with a look of focused determination, leans forward, her hands clasped together as she gazes intensely at a small, intricately carved wooden puzzle box in front of her. The colour palette is predominantly monochromatic, with subtle hints of warm, golden light seeping through the windows, casting long, gentle shadows across the space. Soft, diffused lighting illuminates the scene, with a few strategically placed spotlights accentuating the textures of the materials, from the smooth, cool metal of the desk to the rough, organic wood of the puzzle box. The camera angle is a low, Dutch-angle shot, looking up at the woman from beneath, conveying a sense of tension and creative struggle. The atmosphere is one of hopeful, anticipatory silence, as if the woman is on the cusp of a breakthrough. The style hint is cinematic, with a slight oil-painting quality to the textures and lighting, inviting the viewer to step into the contemplative, creative world of the subject. In the background, blurred and out of focus, a sprawling, futuristic cityscape stretches towards the horizon, a reminder of the vast, unexplored possibilities waiting to be unlocked by the power of creative constraint.
+2026-07-11 00:30:43,147 - INFO - ðŸ–¼ï¸  Saved cover image to images/613b1fff40119469.jpg
+2026-07-11 00:30:44,505 - INFO - ðŸ“¤ Pushed images/613b1fff40119469.jpg to GitHub.
+2026-07-11 00:30:44,685 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/613b1fff40119469.jpg
+2026-07-11 00:30:44,687 - INFO - Scheduling for: 2026-07-11T05:47:44.687718Z UTC
+2026-07-11 00:30:45,607 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a518eb5c4586a8dc99b6d63
+2026-07-11 00:30:45,608 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-11 00:30:45,608 - INFO - âœ… Run completed.
