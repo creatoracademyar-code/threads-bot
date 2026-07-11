@@ -1252,3 +1252,41 @@ Now I'm curious: what would happen if we applied this principle to our own work?
 2026-07-11 00:30:45,607 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a518eb5c4586a8dc99b6d63
 2026-07-11 00:30:45,608 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-11 00:30:45,608 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-11T06:32:29.851588
+============================================================
+2026-07-11 06:32:29,851 - INFO - ðŸš€ Starting automation run
+2026-07-11 06:32:29,851 - INFO - ðŸ“š Found 30 previously posted threads.
+2026-07-11 06:32:29,852 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-11 06:32:29,852 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-11 06:32:31,165 - INFO - Groq raw response:
+[
+  "I've been noticing a strange paradox in AI content creation.\nWhat if the most successful creators are not the ones with the most skills, but the ones with the most 'gaps'?",
+  "I've been studying the most successful AI creators and found a surprising common thread:\nThey all have a 'blind spot' that fuels their creativity.",
+  "It's not about being perfect, but about being aware of their limitations.\nAnd using those limitations to create something unique and innovative.",
+  "I'm still trying to understand the psychology behind this.\nAnd how to apply it to my own work, without trying to force it."
+]
+2026-07-11 06:32:31,166 - INFO - âœ… Unique thread found (hash: ac3b7a29...)
+2026-07-11 06:32:31,166 - INFO - ðŸ“ Generated 4 posts:
+2026-07-11 06:32:31,166 - INFO - --- Post 1 ---
+I've been noticing a strange paradox in AI content creation.
+What if the most successful creators are not the ones with the most skills, but the ones with the most 'gaps'?
+2026-07-11 06:32:31,166 - INFO - --- Post 2 ---
+I've been studying the most successful AI creators and found a surprising common thread:
+They all have a 'blind spot' that fuels their creativity.
+2026-07-11 06:32:31,166 - INFO - --- Post 3 ---
+It's not about being perfect, but about being aware of their limitations.
+And using those limitations to create something unique and innovative.
+2026-07-11 06:32:31,166 - INFO - --- Post 4 ---
+I'm still trying to understand the psychology behind this.
+And how to apply it to my own work, without trying to force it.
+2026-07-11 06:32:32,382 - INFO - ðŸŽ¨ Cover image prompt: A lone figure sits at a wooden desk, surrounded by scattered papers, scribbled notes, and empty tea cups, in a cozy, dimly lit study with walls lined with old books and a large window that gazes out onto a misty, moonlit forest. The room is bathed in a warm, golden light, with soft shadows dancing across the walls, and a few stray rays of moonlight peeking through the window to illuminate the subject's introspective face. The colour palette is muted, with earthy tones of brown, beige, and grey, punctuated by the occasional splash of vibrant colour from a highlighted note or a scattered paint swatch. The overall atmosphere is one of serene contemplation, as if the figure is lost in thought, pondering the paradox of creativity and imperfection. The camera angle is a close-up, looking over the figure's shoulder, with a shallow depth of field that blurs the background and emphasizes the subject's furrowed brow and scribbling hand. The style is reminiscent of a warm, oil painting, with thick brushstrokes and textured layers that evoke a sense of rough, handmade craftsmanship. The figure's clothing is rumpled and comfortable, with a soft, woolen sweater and a pair of worn, corduroy pants, and their hair is messy and unkempt, as if they've been sitting at the desk for hours, lost in thought. The texture of the wooden desk and the rough, stone walls adds a sense of tactile, organic depth to the scene, while the soft, diffused light and the muted colours create a sense of dreamy, ethereal wonder.
+2026-07-11 06:32:33,956 - INFO - ðŸ–¼ï¸  Saved cover image to images/ece97c557458582b.jpg
+2026-07-11 06:32:35,056 - INFO - ðŸ“¤ Pushed images/ece97c557458582b.jpg to GitHub.
+2026-07-11 06:32:35,206 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/ece97c557458582b.jpg
+2026-07-11 06:32:35,208 - INFO - Scheduling for: 2026-07-11T11:49:35.208262Z UTC
+2026-07-11 06:32:35,995 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a51e3835e5a2e39df9e6d27
+2026-07-11 06:32:35,996 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-11 06:32:35,996 - INFO - âœ… Run completed.
