@@ -1332,3 +1332,40 @@ It's not about being a tech expert, but about being a student of human nature.
 2026-07-11 12:30:44,043 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a523773c4b9e094adffbab3
 2026-07-11 12:30:44,044 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-11 12:30:44,044 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-11T18:30:33.605041
+============================================================
+2026-07-11 18:30:33,605 - INFO - ðŸš€ Starting automation run
+2026-07-11 18:30:33,605 - INFO - ðŸ“š Found 32 previously posted threads.
+2026-07-11 18:30:33,605 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-11 18:30:33,605 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-11 18:30:35,084 - INFO - Groq raw response:
+[
+  "I've been observing a fascinating trend in AI business.",
+  "Successful AI entrepreneurs often have a 'secret asset' that sets them apart.",
+  "It's not their tech, not their funding, but something more intangible.",
+  "I've been trying to put my finger on what this asset is, and I think I've found it.",
+  "It's their ability to craft a compelling 'narrative of purpose'."
+]
+2026-07-11 18:30:35,085 - INFO - âœ… Unique thread found (hash: 2f0463c3...)
+2026-07-11 18:30:35,085 - INFO - ðŸ“ Generated 5 posts:
+2026-07-11 18:30:35,085 - INFO - --- Post 1 ---
+I've been observing a fascinating trend in AI business.
+2026-07-11 18:30:35,085 - INFO - --- Post 2 ---
+Successful AI entrepreneurs often have a 'secret asset' that sets them apart.
+2026-07-11 18:30:35,085 - INFO - --- Post 3 ---
+It's not their tech, not their funding, but something more intangible.
+2026-07-11 18:30:35,085 - INFO - --- Post 4 ---
+I've been trying to put my finger on what this asset is, and I think I've found it.
+2026-07-11 18:30:35,085 - INFO - --- Post 5 ---
+It's their ability to craft a compelling 'narrative of purpose'.
+2026-07-11 18:30:36,445 - INFO - ðŸŽ¨ Cover image prompt: A lone figure stands at the edge of a misty, moonlit lake, surrounded by towering trees that stretch towards the sky like nature's own cathedral. The air is filled with an ethereal, soft blue-grey mist that shrouds the landscape, evoking a sense of mystery and intrigue. The figure, silhouetted against the faint, lunar glow, is dressed in a long, flowing coat with a subtle sheen, suggesting a blend of elegance and wisdom. The colour palette is predominantly cool, with shades of indigo, silver, and pale blue, punctuated by the warm, golden light of a lantern held by the figure. The lantern's gentle glow casts a sense of hope and guidance, illuminating the misty path ahead. The camera angle is low, looking up at the figure, which conveys a sense of reverence and admiration. The atmosphere is serene, yet filled with a sense of anticipation, as if the figure is on the cusp of a profound revelation. The texture of the trees, the roughness of the coat, and the smoothness of the lantern all blend together to create a sense of depth and tactility, inviting the viewer to step into the scene. The style is cinematic, with a hint of oil painting, capturing the dreamy, enchanting quality of the moment, as if the very fabric of reality is being woven into a narrative of purpose.
+2026-07-11 18:30:39,326 - INFO - ðŸ–¼ï¸  Saved cover image to images/e9e2ae5de7627cee.jpg
+2026-07-11 18:30:40,443 - INFO - ðŸ“¤ Pushed images/e9e2ae5de7627cee.jpg to GitHub.
+2026-07-11 18:30:40,566 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/e9e2ae5de7627cee.jpg
+2026-07-11 18:30:40,568 - INFO - Scheduling for: 2026-07-11T23:47:40.568800Z UTC
+2026-07-11 18:30:41,440 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a528bd1c4b9e094ad02ac84
+2026-07-11 18:30:41,442 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-11 18:30:41,442 - INFO - âœ… Run completed.
