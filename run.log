@@ -1290,3 +1290,45 @@ And how to apply it to my own work, without trying to force it.
 2026-07-11 06:32:35,995 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a51e3835e5a2e39df9e6d27
 2026-07-11 06:32:35,996 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-11 06:32:35,996 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-11T12:30:36.514966
+============================================================
+2026-07-11 12:30:36,515 - INFO - ðŸš€ Starting automation run
+2026-07-11 12:30:36,515 - INFO - ðŸ“š Found 31 previously posted threads.
+2026-07-11 12:30:36,515 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-11 12:30:36,515 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-11 12:30:37,843 - INFO - Groq raw response:
+[
+  "I've been studying the most successful AI creators.\nOne thing stands out: their ability to create 'mental models'.",
+  "These models help them navigate the complex world of AI.\nAnd make decisions that seem almost intuitive.",
+  "But what if I told you that these models are not just about AI?\nThey're about understanding human behavior, too.",
+  "I've been trying to reverse-engineer these models.\nTo understand the psychology behind them.",
+  "And what I've found is surprising.\nIt's not about being a tech expert, but about being a student of human nature."
+]
+2026-07-11 12:30:37,844 - INFO - âœ… Unique thread found (hash: 11281a7b...)
+2026-07-11 12:30:37,844 - INFO - ðŸ“ Generated 5 posts:
+2026-07-11 12:30:37,844 - INFO - --- Post 1 ---
+I've been studying the most successful AI creators.
+One thing stands out: their ability to create 'mental models'.
+2026-07-11 12:30:37,844 - INFO - --- Post 2 ---
+These models help them navigate the complex world of AI.
+And make decisions that seem almost intuitive.
+2026-07-11 12:30:37,844 - INFO - --- Post 3 ---
+But what if I told you that these models are not just about AI?
+They're about understanding human behavior, too.
+2026-07-11 12:30:37,844 - INFO - --- Post 4 ---
+I've been trying to reverse-engineer these models.
+To understand the psychology behind them.
+2026-07-11 12:30:37,844 - INFO - --- Post 5 ---
+And what I've found is surprising.
+It's not about being a tech expert, but about being a student of human nature.
+2026-07-11 12:30:39,253 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, rustic study, a lone figure sits at a wooden desk, surrounded by piles of dusty, leather-bound books and scattered papers. The main subject is a young, introspective woman with a look of determined curiosity, her face illuminated by the soft, warm glow of a desk lamp. The setting is a blend of traditional and modern elements, with vintage furnishings and state-of-the-art computer equipment seamlessly integrated into the space. The colour palette is dominated by muted, earthy tones, with hints of rich, dark wood and the faint, blue-grey glow of a computer screen. The lighting is intimate and immersive, with deep shadows cast across the woman's face and the surrounding environment, creating a sense of quiet contemplation. The camera angle is a close, low-angle shot, looking up at the woman as she ponders the complexities of human psychology and artificial intelligence, her eyes narrowed in concentration. The atmosphere is one of serene, focused intensity, as if the woman is on the cusp of a profound discovery. The texture of the wooden desk and the rough, stone walls of the study add a sense of tactile, organic depth to the scene, while the smooth, polished surface of the computer equipment provides a sleek, modern contrast. The style of the image is reminiscent of a cinematic, oil painting, with bold, expressive brushstrokes and a deep, rich colour palette that draws the viewer into the quiet, introspective world of the study.
+2026-07-11 12:30:41,216 - INFO - ðŸ–¼ï¸  Saved cover image to images/e36e53ce65bc8044.jpg
+2026-07-11 12:30:42,875 - INFO - ðŸ“¤ Pushed images/e36e53ce65bc8044.jpg to GitHub.
+2026-07-11 12:30:43,136 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/e36e53ce65bc8044.jpg
+2026-07-11 12:30:43,138 - INFO - Scheduling for: 2026-07-11T17:47:43.138575Z UTC
+2026-07-11 12:30:44,043 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a523773c4b9e094adffbab3
+2026-07-11 12:30:44,044 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-11 12:30:44,044 - INFO - âœ… Run completed.
