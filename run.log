@@ -1406,3 +1406,40 @@ They don't just create content, they craft experiences that tap into our deepest
 2026-07-12 00:32:31,839 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a52e09ff6f7a02e8b08f4dd
 2026-07-12 00:32:31,840 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-12 00:32:31,840 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-12T06:32:38.906827
+============================================================
+2026-07-12 06:32:38,906 - INFO - ðŸš€ Starting automation run
+2026-07-12 06:32:38,907 - INFO - ðŸ“š Found 34 previously posted threads.
+2026-07-12 06:32:38,907 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-12 06:32:38,907 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-12 06:32:39,916 - INFO - Groq raw response:
+[
+  "I've been pondering a question.",
+  "What if the most successful AI creators are not the ones who know the most, but the ones who are most willing to ask questions?",
+  "I've been studying the most inquisitive AI creators, and what I've found is surprising.",
+  "Their curiosity is not just about learning, but about unlearning. Letting go of assumptions and embracing the unknown.",
+  "I'm still trying to understand the power of this mindset. And how it can be applied to our own work."
+]
+2026-07-12 06:32:39,917 - INFO - âœ… Unique thread found (hash: b040339a...)
+2026-07-12 06:32:39,917 - INFO - ðŸ“ Generated 5 posts:
+2026-07-12 06:32:39,917 - INFO - --- Post 1 ---
+I've been pondering a question.
+2026-07-12 06:32:39,917 - INFO - --- Post 2 ---
+What if the most successful AI creators are not the ones who know the most, but the ones who are most willing to ask questions?
+2026-07-12 06:32:39,917 - INFO - --- Post 3 ---
+I've been studying the most inquisitive AI creators, and what I've found is surprising.
+2026-07-12 06:32:39,917 - INFO - --- Post 4 ---
+Their curiosity is not just about learning, but about unlearning. Letting go of assumptions and embracing the unknown.
+2026-07-12 06:32:39,917 - INFO - --- Post 5 ---
+I'm still trying to understand the power of this mindset. And how it can be applied to our own work.
+2026-07-12 06:32:41,396 - INFO - ðŸŽ¨ Cover image prompt: A lone figure sits at a worn, wooden desk, surrounded by piles of dusty, leather-bound books and scattered papers, in a dimly lit, rustic library with tall, vaulted ceilings and narrow, Gothic windows. The colour palette is muted, with shades of earthy brown, faded green, and soft, golden light, evoking a sense of nostalgia and intellectual curiosity. The lighting is warm and intimate, with a soft, diffused glow emanating from a single, old-fashioned desk lamp, casting long, gentle shadows across the room. The camera angle is a close-up, looking over the figure's shoulder, as they lean forward, peering intently at an open book, their face filled with a mix of concentration and wonder. The atmosphere is one of contemplative quiet, with a sense of hopeful discovery, as if the figure is on the verge of uncovering a hidden truth. The texture of the old books and wooden desk is rough and tactile, while the papers and scattered notes are smooth and fragile, like delicate, fallen leaves. The style of the image is reminiscent of a warm, oil painting, with thick, expressive brushstrokes and a sense of depth and history, inviting the viewer to step into the cozy, intellectual world of the figure, and share in their journey of discovery and exploration. The overall mood is serene, yet tense with anticipation, as if the figure is poised on the threshold of a major breakthrough, and the viewer is being invited to join them on their path of inquiry and growth.
+2026-07-12 06:32:43,040 - INFO - ðŸ–¼ï¸  Saved cover image to images/085debfd9577f698.jpg
+2026-07-12 06:32:44,157 - INFO - ðŸ“¤ Pushed images/085debfd9577f698.jpg to GitHub.
+2026-07-12 06:32:44,277 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/085debfd9577f698.jpg
+2026-07-12 06:32:44,279 - INFO - Scheduling for: 2026-07-12T11:49:44.279799Z UTC
+2026-07-12 06:32:44,952 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a53350c5e5a2e39dfaa7479
+2026-07-12 06:32:44,953 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-12 06:32:44,953 - INFO - âœ… Run completed.
