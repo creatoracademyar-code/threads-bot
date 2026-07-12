@@ -1485,3 +1485,45 @@ And I'm determined to uncover the secrets behind this invisible influence.
 2026-07-12 12:32:42,629 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a53896a98dc012070360bd0
 2026-07-12 12:32:42,630 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-12 12:32:42,630 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-12T18:30:34.865049
+============================================================
+2026-07-12 18:30:34,865 - INFO - ðŸš€ Starting automation run
+2026-07-12 18:30:34,865 - INFO - ðŸ“š Found 36 previously posted threads.
+2026-07-12 18:30:34,866 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-12 18:30:34,866 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-12 18:30:36,489 - INFO - Groq raw response:
+[
+  "I've been studying the most successful AI creators.\nOne thing stands out: their ability to balance 'art' and 'science'.",
+  "But what if I told you that this balance is not just about tech vs. creativity?\nIt's about understanding the psychology of 'flow'.",
+  "I've been digging into the concept of flow in AI content creation.\nAnd what I've found is surprising: it's not just about being 'in the zone'.",
+  "It's about creating a sense of 'tension' and 'resolution'.\nA delicate dance between chaos and order.",
+  "I'm still trying to understand the nuances of this dance.\nAnd how it can be applied to create truly mesmerizing AI content."
+]
+2026-07-12 18:30:36,490 - INFO - âœ… Unique thread found (hash: 71e3339d...)
+2026-07-12 18:30:36,490 - INFO - ðŸ“ Generated 5 posts:
+2026-07-12 18:30:36,490 - INFO - --- Post 1 ---
+I've been studying the most successful AI creators.
+One thing stands out: their ability to balance 'art' and 'science'.
+2026-07-12 18:30:36,490 - INFO - --- Post 2 ---
+But what if I told you that this balance is not just about tech vs. creativity?
+It's about understanding the psychology of 'flow'.
+2026-07-12 18:30:36,490 - INFO - --- Post 3 ---
+I've been digging into the concept of flow in AI content creation.
+And what I've found is surprising: it's not just about being 'in the zone'.
+2026-07-12 18:30:36,490 - INFO - --- Post 4 ---
+It's about creating a sense of 'tension' and 'resolution'.
+A delicate dance between chaos and order.
+2026-07-12 18:30:36,490 - INFO - --- Post 5 ---
+I'm still trying to understand the nuances of this dance.
+And how it can be applied to create truly mesmerizing AI content.
+2026-07-12 18:30:37,851 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, futuristic laboratory, a lone figure sits amidst a maze of wires, circuits, and holographic screens, surrounded by a backdrop of dark, polished metal and glass. The main subject, a young creator with an intent gaze, is positioned at the centre, hands poised over a glowing, ethereal interface that pulsates with a mesmerizing blue-green light. The colour palette is predominantly cool, with hues of neon blue, purple, and silver, evoking a sense of innovation and cutting-edge technology. Soft, diffused light emanates from the holographic screens, casting an otherworldly glow on the creator's face, while dramatic shadows dance across the metallic surfaces, hinting at the complexity of the creative process. The camera angle is a low, wide shot, looking up at the creator, conveying a sense of awe and reverence for the artistic and scientific fusion. The atmosphere is one of intense focus and anticipation, as if the creator is on the cusp of unlocking a profound secret. The texture of the metal and glass surfaces is sleek and smooth, while the wires and circuits add a sense of organic, chaotic complexity, echoing the delicate balance between order and disorder. The style of the image is cinematic, with a hint of sci-fi futurism, inviting the viewer to step into a world where art and science converge in a beautiful, intricate dance.
+2026-07-12 18:30:44,922 - INFO - ðŸ–¼ï¸  Saved cover image to images/0b972b8e26c8c22d.jpg
+2026-07-12 18:30:46,199 - INFO - ðŸ“¤ Pushed images/0b972b8e26c8c22d.jpg to GitHub.
+2026-07-12 18:30:46,329 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/0b972b8e26c8c22d.jpg
+2026-07-12 18:30:46,331 - INFO - Scheduling for: 2026-07-12T23:47:46.331394Z UTC
+2026-07-12 18:30:46,854 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a53dd569cf8918f1dcb9dc6
+2026-07-12 18:30:46,855 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-12 18:30:46,855 - INFO - âœ… Run completed.
