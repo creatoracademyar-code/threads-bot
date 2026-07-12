@@ -1443,3 +1443,45 @@ I'm still trying to understand the power of this mindset. And how it can be appl
 2026-07-12 06:32:44,952 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a53350c5e5a2e39dfaa7479
 2026-07-12 06:32:44,953 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-12 06:32:44,953 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-12T12:32:35.992021
+============================================================
+2026-07-12 12:32:35,992 - INFO - ðŸš€ Starting automation run
+2026-07-12 12:32:35,992 - INFO - ðŸ“š Found 35 previously posted threads.
+2026-07-12 12:32:35,992 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-12 12:32:35,992 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-12 12:32:37,855 - INFO - Groq raw response:
+[
+  "I've been fascinated by the concept of 'invisible influence' in AI content creation.\nWhat if the most successful AI creators are not the ones with the most followers, but the ones with the most 'silent' impact?",
+  "I started studying the most successful AI creators and found a surprising common thread:\nThey all have a 'hidden network' of influencers who amplify their message.",
+  "But what if I told you that these influencers are not just human, but also AI themselves?\nThey're the 'ghostwriters' behind the scenes, shaping the narrative and driving the conversation.",
+  "I'm still trying to understand the dynamics of this hidden network.\nAnd how it can be leveraged to create a lasting impact in the AI creator space.",
+  "The more I dig, the more I realize that the true power of AI content creation lies not in the tech, but in the 'unseen' forces that shape it.\nAnd I'm determined to uncover the secrets behind this invisible influence."
+]
+2026-07-12 12:32:37,856 - INFO - âœ… Unique thread found (hash: 84523f5e...)
+2026-07-12 12:32:37,856 - INFO - ðŸ“ Generated 5 posts:
+2026-07-12 12:32:37,856 - INFO - --- Post 1 ---
+I've been fascinated by the concept of 'invisible influence' in AI content creation.
+What if the most successful AI creators are not the ones with the most followers, but the ones with the most 'silent' impact?
+2026-07-12 12:32:37,856 - INFO - --- Post 2 ---
+I started studying the most successful AI creators and found a surprising common thread:
+They all have a 'hidden network' of influencers who amplify their message.
+2026-07-12 12:32:37,856 - INFO - --- Post 3 ---
+But what if I told you that these influencers are not just human, but also AI themselves?
+They're the 'ghostwriters' behind the scenes, shaping the narrative and driving the conversation.
+2026-07-12 12:32:37,857 - INFO - --- Post 4 ---
+I'm still trying to understand the dynamics of this hidden network.
+And how it can be leveraged to create a lasting impact in the AI creator space.
+2026-07-12 12:32:37,857 - INFO - --- Post 5 ---
+The more I dig, the more I realize that the true power of AI content creation lies not in the tech, but in the 'unseen' forces that shape it.
+And I'm determined to uncover the secrets behind this invisible influence.
+2026-07-12 12:32:39,039 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, futuristic laboratory, a lone figure sits in front of a massive, curved screen displaying a complex network of interconnected nodes and lines, evoking a sense of intrigue and mystery. The setting is a blend of industrial and technological elements, with exposed metallic beams, concrete walls, and a plethora of wires and circuits. The dominant colour palette is a mix of deep blues and purples, with accents of neon green, creating an atmosphere of innovation and artificial intelligence. Soft, diffused light emanates from the screen, casting an ethereal glow on the figure's face, while dramatic shadows dance across the walls, hinting at the unknown. The camera angle is a low, wide shot, looking up at the figure, emphasizing their determination and curiosity. The atmosphere is tense and contemplative, with a sense of anticipation, as if the figure is on the cusp of uncovering a profound secret. The texture of the laboratory's walls and equipment is rough and industrial, while the screen's surface is smooth and sleek, reflecting the figure's profile. The style of the scene is cinematic, with a hint of sci-fi and mystery, inviting the viewer to step into the enigmatic world of AI content creation. In the background, a series of ghostly, translucent figures can be seen, representing the 'invisible influence' and 'hidden network' of AI entities, their presence felt but not fully visible, adding to the sense of intrigue and wonder.
+2026-07-12 12:32:40,682 - INFO - ðŸ–¼ï¸  Saved cover image to images/d32a2d10482b2425.jpg
+2026-07-12 12:32:41,798 - INFO - ðŸ“¤ Pushed images/d32a2d10482b2425.jpg to GitHub.
+2026-07-12 12:32:41,911 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/d32a2d10482b2425.jpg
+2026-07-12 12:32:41,913 - INFO - Scheduling for: 2026-07-12T17:49:41.913178Z UTC
+2026-07-12 12:32:42,629 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a53896a98dc012070360bd0
+2026-07-12 12:32:42,630 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-12 12:32:42,630 - INFO - âœ… Run completed.
