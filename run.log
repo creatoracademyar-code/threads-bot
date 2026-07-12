@@ -1369,3 +1369,40 @@ It's their ability to craft a compelling 'narrative of purpose'.
 2026-07-11 18:30:41,440 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a528bd1c4b9e094ad02ac84
 2026-07-11 18:30:41,442 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-11 18:30:41,442 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-12T00:32:25.572164
+============================================================
+2026-07-12 00:32:25,572 - INFO - ðŸš€ Starting automation run
+2026-07-12 00:32:25,572 - INFO - ðŸ“š Found 33 previously posted threads.
+2026-07-12 00:32:25,573 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-12 00:32:25,573 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-12 00:32:26,720 - INFO - Groq raw response:
+[
+  "I've been exploring the concept of 'hidden opportunities' in AI content creation.",
+  "What if I told you that the most successful AI creators are not just skilled technicians,",
+  "but also masterful observers of human behavior, able to spot gaps in the market?",
+  "I've been studying their approach, and what I've found is surprising.",
+  "They don't just create content, they craft experiences that tap into our deepest desires."
+]
+2026-07-12 00:32:26,721 - INFO - âœ… Unique thread found (hash: 81d5ec18...)
+2026-07-12 00:32:26,722 - INFO - ðŸ“ Generated 5 posts:
+2026-07-12 00:32:26,722 - INFO - --- Post 1 ---
+I've been exploring the concept of 'hidden opportunities' in AI content creation.
+2026-07-12 00:32:26,722 - INFO - --- Post 2 ---
+What if I told you that the most successful AI creators are not just skilled technicians,
+2026-07-12 00:32:26,722 - INFO - --- Post 3 ---
+but also masterful observers of human behavior, able to spot gaps in the market?
+2026-07-12 00:32:26,722 - INFO - --- Post 4 ---
+I've been studying their approach, and what I've found is surprising.
+2026-07-12 00:32:26,722 - INFO - --- Post 5 ---
+They don't just create content, they craft experiences that tap into our deepest desires.
+2026-07-12 00:32:27,802 - INFO - ðŸŽ¨ Cover image prompt: A lone figure stands at the edge of a misty, moonlit forest, peering out into the darkness with an air of quiet contemplation. The setting is a serene, natural landscape with towering trees and a carpet of soft, velvety moss underfoot. The colour palette is a muted blend of blues and greys, with hints of warm, golden light bleeding through the mist. The lighting is soft and diffused, with the moon casting an ethereal glow over the scene. The camera angle is a wide, low-angle shot, looking up at the figure from the forest floor, conveying a sense of reverence and awe. The atmosphere is one of hopeful anticipation, as if the figure is on the cusp of discovering a hidden truth. The texture of the moss and the rough bark of the trees adds a tactile, organic feel to the scene, while the misty air is filled with the faint, shimmering threads of spider silk. The style of the image is cinematic, with a hint of mystical, dreamlike quality, as if the scene is a glimpse into a hidden world of possibilities. The figure itself is shrouded in shadow, face obscured, emphasizing the universal, everyman quality of the moment, inviting the viewer to step into their shoes and explore the unknown.
+2026-07-12 00:32:29,627 - INFO - ðŸ–¼ï¸  Saved cover image to images/aaf21815ae461b15.jpg
+2026-07-12 00:32:30,765 - INFO - ðŸ“¤ Pushed images/aaf21815ae461b15.jpg to GitHub.
+2026-07-12 00:32:31,034 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/aaf21815ae461b15.jpg
+2026-07-12 00:32:31,036 - INFO - Scheduling for: 2026-07-12T05:49:31.036323Z UTC
+2026-07-12 00:32:31,839 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a52e09ff6f7a02e8b08f4dd
+2026-07-12 00:32:31,840 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-12 00:32:31,840 - INFO - âœ… Run completed.
