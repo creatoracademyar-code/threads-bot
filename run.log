@@ -1642,3 +1642,45 @@ And I'm finding surprising insights along the way.
 2026-07-13 12:31:23,392 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a54da9b1ab61bea47d51083
 2026-07-13 12:31:23,393 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-13 12:31:23,393 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-13T18:30:39.985664
+============================================================
+2026-07-13 18:30:39,985 - INFO - ðŸš€ Starting automation run
+2026-07-13 18:30:39,986 - INFO - ðŸ“š Found 40 previously posted threads.
+2026-07-13 18:30:39,986 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-13 18:30:39,986 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-13 18:30:41,480 - INFO - Groq raw response:
+[
+  "I've been studying AI creators who've achieved massive success.\nOne thing stands out: their ability to create 'digital legacies'.",
+  "A digital legacy is more than just a body of work.\nIt's a lasting impact that continues to inspire and influence others.",
+  "I've been trying to understand the psychology behind this.\nWhat sets these creators apart from others?",
+  "It's not just about their content, but about the 'echoes' they leave behind.\nThe ripples that continue to spread long after they're gone.",
+  "I'm still exploring the concept of digital legacies in AI content creation.\nAnd I'm finding surprising insights along the way."
+]
+2026-07-13 18:30:41,481 - INFO - âœ… Unique thread found (hash: 2019183f...)
+2026-07-13 18:30:41,481 - INFO - ðŸ“ Generated 5 posts:
+2026-07-13 18:30:41,481 - INFO - --- Post 1 ---
+I've been studying AI creators who've achieved massive success.
+One thing stands out: their ability to create 'digital legacies'.
+2026-07-13 18:30:41,481 - INFO - --- Post 2 ---
+A digital legacy is more than just a body of work.
+It's a lasting impact that continues to inspire and influence others.
+2026-07-13 18:30:41,481 - INFO - --- Post 3 ---
+I've been trying to understand the psychology behind this.
+What sets these creators apart from others?
+2026-07-13 18:30:41,481 - INFO - --- Post 4 ---
+It's not just about their content, but about the 'echoes' they leave behind.
+The ripples that continue to spread long after they're gone.
+2026-07-13 18:30:41,481 - INFO - --- Post 5 ---
+I'm still exploring the concept of digital legacies in AI content creation.
+And I'm finding surprising insights along the way.
+2026-07-13 18:30:42,700 - INFO - ðŸŽ¨ Cover image prompt: In a vast, futuristic library with towering shelves that stretch towards the sky, a lone figure stands at the edge of a tranquil, glowing pool of water. The setting is a serene, indoor space with a high, domed ceiling that disappears into darkness, giving the impression of infinite depth. The colour palette is predominantly cool and calming, with shades of soft blue, purple, and silver that evoke a sense of stillness and contemplation. The lighting is soft and diffused, with a warm, golden glow emanating from the pool, casting gentle ripples across the surrounding stone floor. The camera angle is a wide, low-angle shot, looking up at the figure from the edge of the pool, creating a sense of awe and reverence. The atmosphere is one of quiet reflection, with a sense of hope and curiosity emanating from the figure as they gaze out across the pool. The texture of the stone floor is rough and weathered, while the surface of the pool is smooth and glassy, creating a sense of contrast between the solid, earthly foundation and the fluid, ethereal water. In the distance, the shelves seem to fade into a misty, dreamlike haze, with faint, glowing outlines of books and digital artifacts that represent the 'echoes' and 'ripples' of the digital legacy. The style of the image is cinematic and highly detailed, with a mix of realistic and stylized elements that evoke a sense of wonder and exploration.
+2026-07-13 18:30:44,715 - INFO - ðŸ–¼ï¸  Saved cover image to images/865ccfef8ebda083.jpg
+2026-07-13 18:30:46,048 - INFO - ðŸ“¤ Pushed images/865ccfef8ebda083.jpg to GitHub.
+2026-07-13 18:30:46,217 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/865ccfef8ebda083.jpg
+2026-07-13 18:30:46,219 - INFO - Scheduling for: 2026-07-13T23:47:46.219361Z UTC
+2026-07-13 18:30:46,973 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a552ed6040f448f6a8e5782
+2026-07-13 18:30:46,974 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-13 18:30:46,974 - INFO - âœ… Run completed.
