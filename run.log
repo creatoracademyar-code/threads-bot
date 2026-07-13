@@ -1558,3 +1558,45 @@ But what does emotional labor mean in the context of AI?
 2026-07-13 00:32:21,011 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5432149372accfada8f78d
 2026-07-13 00:32:21,012 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-13 00:32:21,012 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-13T06:30:35.078115
+============================================================
+2026-07-13 06:30:35,078 - INFO - ðŸš€ Starting automation run
+2026-07-13 06:30:35,078 - INFO - ðŸ“š Found 38 previously posted threads.
+2026-07-13 06:30:35,079 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-13 06:30:35,079 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-13 06:30:36,567 - INFO - Groq raw response:
+[
+  "I've been studying the most successful AI creators.\nOne thing stands out: their ability to create 'content loops'.",
+  "A content loop is when a piece of content\n references another, creating a never-ending cycle.",
+  "But what if I told you that content loops\nare not just about linking to other posts?",
+  "They're about crafting a narrative that\nkeeps the audience engaged and curious.",
+  "I'm still trying to understand the psychology\nbehind this phenomenon. And how to apply it."
+]
+2026-07-13 06:30:36,568 - INFO - âœ… Unique thread found (hash: b1ea45c7...)
+2026-07-13 06:30:36,568 - INFO - ðŸ“ Generated 5 posts:
+2026-07-13 06:30:36,568 - INFO - --- Post 1 ---
+I've been studying the most successful AI creators.
+One thing stands out: their ability to create 'content loops'.
+2026-07-13 06:30:36,569 - INFO - --- Post 2 ---
+A content loop is when a piece of content
+ references another, creating a never-ending cycle.
+2026-07-13 06:30:36,569 - INFO - --- Post 3 ---
+But what if I told you that content loops
+are not just about linking to other posts?
+2026-07-13 06:30:36,569 - INFO - --- Post 4 ---
+They're about crafting a narrative that
+keeps the audience engaged and curious.
+2026-07-13 06:30:36,569 - INFO - --- Post 5 ---
+I'm still trying to understand the psychology
+behind this phenomenon. And how to apply it.
+2026-07-13 06:30:37,742 - INFO - ðŸŽ¨ Cover image prompt: A lone figure sits in a dimly lit, rustic study, surrounded by stacks of old, leather-bound books and flickering candles. The main subject, a young woman with a look of intense curiosity, is positioned in the centre of the room, leaning forward in a worn, wooden chair. The setting is a blend of old and new, with vintage typewriters and modern laptops scattered across a large, wooden desk. The colour palette is predominantly warm and muted, with shades of golden brown, beige, and soft grey, evoking a sense of nostalgia and intellectual pursuits. Soft, diffused light spills in through a large, circular window, casting a warm glow on the subject's face and illuminating the dusty tomes that line the shelves. The camera angle is a low-angle shot, looking up at the woman, which creates a sense of intimacy and emphasizes her determined expression. The atmosphere is one of quiet contemplation, with a hint of creative tension, as if the subject is on the verge of a breakthrough. The texture of the old books and wooden furniture adds a tactile quality to the scene, while the soft focus of the background creates a sense of depth and visual interest. The style of the image is reminiscent of a cinematic oil painting, with bold brushstrokes and vivid, expressive colours.
+2026-07-13 06:30:41,004 - INFO - ðŸ–¼ï¸  Saved cover image to images/2e430d2f9135b808.jpg
+2026-07-13 06:30:42,303 - INFO - ðŸ“¤ Pushed images/2e430d2f9135b808.jpg to GitHub.
+2026-07-13 06:30:42,453 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/2e430d2f9135b808.jpg
+2026-07-13 06:30:42,455 - INFO - Scheduling for: 2026-07-13T11:47:42.455772Z UTC
+2026-07-13 06:30:43,167 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5486139372accfadabd039
+2026-07-13 06:30:43,168 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-13 06:30:43,168 - INFO - âœ… Run completed.
