@@ -1600,3 +1600,45 @@ behind this phenomenon. And how to apply it.
 2026-07-13 06:30:43,167 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5486139372accfadabd039
 2026-07-13 06:30:43,168 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-13 06:30:43,168 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-13T12:31:16.197201
+============================================================
+2026-07-13 12:31:16,197 - INFO - ðŸš€ Starting automation run
+2026-07-13 12:31:16,197 - INFO - ðŸ“š Found 39 previously posted threads.
+2026-07-13 12:31:16,198 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-13 12:31:16,198 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-13 12:31:18,338 - INFO - Groq raw response:
+[
+  "I've been studying AI creators who've built massive audiences.\nOne thing stands out: their ability to craft a 'personal myth'.",
+  "A unique story that explains their journey, their struggles, and their triumphs.\nIt's not just about them, but about the audience they serve.",
+  "I've been trying to understand the psychology behind this.\nWhy do personal myths resonate so deeply with us?",
+  "It's not just about authenticity, but about creating a sense of connection.\nA sense of shared purpose and meaning.",
+  "I'm still exploring the concept of personal myths in AI content creation.\nAnd I'm finding surprising insights along the way."
+]
+2026-07-13 12:31:18,339 - INFO - âœ… Unique thread found (hash: c9f639da...)
+2026-07-13 12:31:18,339 - INFO - ðŸ“ Generated 5 posts:
+2026-07-13 12:31:18,339 - INFO - --- Post 1 ---
+I've been studying AI creators who've built massive audiences.
+One thing stands out: their ability to craft a 'personal myth'.
+2026-07-13 12:31:18,339 - INFO - --- Post 2 ---
+A unique story that explains their journey, their struggles, and their triumphs.
+It's not just about them, but about the audience they serve.
+2026-07-13 12:31:18,339 - INFO - --- Post 3 ---
+I've been trying to understand the psychology behind this.
+Why do personal myths resonate so deeply with us?
+2026-07-13 12:31:18,339 - INFO - --- Post 4 ---
+It's not just about authenticity, but about creating a sense of connection.
+A sense of shared purpose and meaning.
+2026-07-13 12:31:18,339 - INFO - --- Post 5 ---
+I'm still exploring the concept of personal myths in AI content creation.
+And I'm finding surprising insights along the way.
+2026-07-13 12:31:19,650 - INFO - ðŸŽ¨ Cover image prompt: A lone figure stands at the edge of a misty, moonlit lake, surrounded by towering trees that stretch towards the sky like nature's own cathedral. The atmosphere is serene, with a soft, ethereal glow that seems to emanate from the water itself, casting a warm, silvery light on the surrounding landscape. The colour palette is predominantly cool blues and greys, with hints of misty purple and blue-green, evoking a sense of mystery and contemplation. The lighting is diffused, with gentle, feathery shadows that dance across the figure's face and the surrounding trees, creating a sense of depth and dimensionality. The camera angle is a wide, low-angle shot, looking up at the figure from the water's edge, which creates a sense of reverence and awe. The figure itself is shrouded in a hooded cloak, made of a rough, woven material that catches the moonlight, adding a sense of texture and tactility to the scene. The overall style is cinematic, with a hint of dreamlike quality, as if the scene is a manifestation of the figure's inner world. The mood is one of quiet reflection, as if the figure is lost in thought, pondering the mysteries of the universe, and the sense of connection that binds us all together. The texture of the trees, the rough stone at the water's edge, and the soft, lapping water all add to the sense of atmosphere, creating a scene that is both peaceful and profound.
+2026-07-13 12:31:21,410 - INFO - ðŸ–¼ï¸  Saved cover image to images/5ce82a950e18b649.jpg
+2026-07-13 12:31:22,689 - INFO - ðŸ“¤ Pushed images/5ce82a950e18b649.jpg to GitHub.
+2026-07-13 12:31:22,818 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/5ce82a950e18b649.jpg
+2026-07-13 12:31:22,820 - INFO - Scheduling for: 2026-07-13T17:48:22.820851Z UTC
+2026-07-13 12:31:23,392 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a54da9b1ab61bea47d51083
+2026-07-13 12:31:23,393 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-13 12:31:23,393 - INFO - âœ… Run completed.
