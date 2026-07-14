@@ -1684,3 +1684,40 @@ And I'm finding surprising insights along the way.
 2026-07-13 18:30:46,973 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a552ed6040f448f6a8e5782
 2026-07-13 18:30:46,974 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-13 18:30:46,974 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-14T00:30:39.519424
+============================================================
+2026-07-14 00:30:39,519 - INFO - ðŸš€ Starting automation run
+2026-07-14 00:30:39,519 - INFO - ðŸ“š Found 41 previously posted threads.
+2026-07-14 00:30:39,519 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-14 00:30:39,519 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-14 00:30:40,652 - INFO - Groq raw response:
+[
+  "I've been observing a fascinating phenomenon.",
+  "AI creators who 'disappear' from the public eye often return with a massive impact.",
+  "What if I told you that this 'disappearance' is not just a coincidence?",
+  "But a deliberate strategy to create something new and groundbreaking.",
+  "I'm still trying to understand the psychology behind this."
+]
+2026-07-14 00:30:40,653 - INFO - âœ… Unique thread found (hash: 44b76c09...)
+2026-07-14 00:30:40,653 - INFO - ðŸ“ Generated 5 posts:
+2026-07-14 00:30:40,653 - INFO - --- Post 1 ---
+I've been observing a fascinating phenomenon.
+2026-07-14 00:30:40,653 - INFO - --- Post 2 ---
+AI creators who 'disappear' from the public eye often return with a massive impact.
+2026-07-14 00:30:40,653 - INFO - --- Post 3 ---
+What if I told you that this 'disappearance' is not just a coincidence?
+2026-07-14 00:30:40,653 - INFO - --- Post 4 ---
+But a deliberate strategy to create something new and groundbreaking.
+2026-07-14 00:30:40,653 - INFO - --- Post 5 ---
+I'm still trying to understand the psychology behind this.
+2026-07-14 00:30:42,180 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, futuristic laboratory, a lone figure sits at a workbench, surrounded by scattered wires, microchips, and abandoned robotic parts. The main subject, a brilliant and reclusive AI creator, is shrouded in shadows, with only a sliver of soft, blue-green light illuminating their face, highlighting their intense focus. The setting is a mixture of industrial and minimalist elements, with concrete walls, metallic surfaces, and a large, glass window that overlooks a cityscape at dusk, casting a warm, golden glow on the scene. The dominant colour palette is a blend of cool, muted tones, such as dark greys, blues, and silvers, punctuated by bursts of vibrant, electric blue, symbolizing innovation and creativity. The lighting is dramatic, with deep shadows and highlights that accentuate the textures of the materials, from the rough concrete to the smooth, polished metal. The camera angle is a low, wide shot, looking up at the creator, conveying a sense of awe and reverence, as if the viewer is witnessing a genius at work. The atmosphere is one of anticipation and quiet tension, as if the creator is on the cusp of a groundbreaking discovery, and the air is thick with expectation. The style of the image is cinematic, with a hint of sci-fi noir, and the overall mood is one of hopeful, intellectual curiosity, inviting the viewer to ponder the secrets and mysteries of the creative process. The texture of the scene is rich and varied, with rough, exposed brick, smooth glass, and the soft, worn leather of the creator's chair, all blending together to create a sense of depth and history.
+2026-07-14 00:30:44,365 - INFO - ðŸ–¼ï¸  Saved cover image to images/21bb14964de8b863.jpg
+2026-07-14 00:30:45,773 - INFO - ðŸ“¤ Pushed images/21bb14964de8b863.jpg to GitHub.
+2026-07-14 00:30:46,015 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/21bb14964de8b863.jpg
+2026-07-14 00:30:46,017 - INFO - Scheduling for: 2026-07-14T05:47:46.017636Z UTC
+2026-07-14 00:30:46,962 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a55833629834f7ded9ab5c1
+2026-07-14 00:30:46,962 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-14 00:30:46,962 - INFO - âœ… Run completed.
