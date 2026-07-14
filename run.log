@@ -1800,3 +1800,45 @@ They're not just creating content, but are crafting ' portals' that transport th
 2026-07-14 12:30:41,438 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a562bf10ab71a84c2fd2683
 2026-07-14 12:30:41,439 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-14 12:30:41,439 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-14T18:30:36.037750
+============================================================
+2026-07-14 18:30:36,037 - INFO - ðŸš€ Starting automation run
+2026-07-14 18:30:36,038 - INFO - ðŸ“š Found 44 previously posted threads.
+2026-07-14 18:30:36,038 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-14 18:30:36,038 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-14 18:30:37,706 - INFO - Groq raw response:
+[
+  "I've been fascinated by the concept of 'shadow work' in AI content creation.\nIt's the unseen effort that goes into creating something remarkable.",
+  "Most creators focus on the visible aspects: the tech, the tools, the metrics.\nBut what if I told you that the most successful AI creators are the ones who excel at shadow work?",
+  "I've been studying their approach, and what I've found is surprising.\nThey don't just create content, they craft an experience that lingers long after the initial engagement.",
+  "It's not just about the content itself, but about the ' whitespace' around it.\nThe silence, the pauses, the moments of reflection.",
+  "I'm still trying to understand the psychology behind this.\nAnd how to apply it to my own work, to create content that resonates deeply with others."
+]
+2026-07-14 18:30:37,707 - INFO - âœ… Unique thread found (hash: 81c8c1a9...)
+2026-07-14 18:30:37,707 - INFO - ðŸ“ Generated 5 posts:
+2026-07-14 18:30:37,707 - INFO - --- Post 1 ---
+I've been fascinated by the concept of 'shadow work' in AI content creation.
+It's the unseen effort that goes into creating something remarkable.
+2026-07-14 18:30:37,707 - INFO - --- Post 2 ---
+Most creators focus on the visible aspects: the tech, the tools, the metrics.
+But what if I told you that the most successful AI creators are the ones who excel at shadow work?
+2026-07-14 18:30:37,707 - INFO - --- Post 3 ---
+I've been studying their approach, and what I've found is surprising.
+They don't just create content, they craft an experience that lingers long after the initial engagement.
+2026-07-14 18:30:37,707 - INFO - --- Post 4 ---
+It's not just about the content itself, but about the ' whitespace' around it.
+The silence, the pauses, the moments of reflection.
+2026-07-14 18:30:37,707 - INFO - --- Post 5 ---
+I'm still trying to understand the psychology behind this.
+And how to apply it to my own work, to create content that resonates deeply with others.
+2026-07-14 18:30:38,861 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, minimalist studio with concrete walls and a polished wooden floor, a lone figure sits in contemplative silence, surrounded by the faint glow of computer screens and the soft hum of machinery. The room is bathed in a warm, golden light that seeps through a large window, casting long shadows across the space and emphasizing the quiet, reflective atmosphere. The colour palette is muted, with shades of grey, beige, and blue dominating the scene, punctuated by the occasional burst of warm, golden light. The lighting is soft and diffused, with deep shadows that add depth and texture to the image. The camera angle is low and wide, looking up at the figure from a slight distance, conveying a sense of reverence and introspection. The atmosphere is serene and hopeful, with a sense of anticipation and creativity hanging in the air. The figure is seated in a worn, leather armchair, surrounded by scraps of paper, empty coffee cups, and other ephemera, adding a sense of texture and humanity to the scene. The style is cinematic, with a hint of film grain and a shallow depth of field, drawing the viewer's eye to the figure and the subtle, nuanced emotions that play across their face. As the eye moves through the image, it becomes clear that the true subject is not the figure, but the space around them – the negative space, the whitespace, that gives the scene its depth, its nuance, and its emotional resonance.
+2026-07-14 18:30:40,851 - INFO - ðŸ–¼ï¸  Saved cover image to images/4eb276477a669f64.jpg
+2026-07-14 18:30:42,175 - INFO - ðŸ“¤ Pushed images/4eb276477a669f64.jpg to GitHub.
+2026-07-14 18:30:42,337 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/4eb276477a669f64.jpg
+2026-07-14 18:30:42,340 - INFO - Scheduling for: 2026-07-14T23:47:42.339992Z UTC
+2026-07-14 18:30:43,034 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a56805244689da7ea957f72
+2026-07-14 18:30:43,036 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-14 18:30:43,036 - INFO - âœ… Run completed.
