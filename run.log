@@ -1955,3 +1955,40 @@ And what I've found is surprising: it's not about the content, but about the 'fr
 2026-07-15 12:30:44,057 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a577d73eeab3bdf429f24a3
 2026-07-15 12:30:44,058 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-15 12:30:44,058 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-15T18:30:42.717796
+============================================================
+2026-07-15 18:30:42,717 - INFO - ðŸš€ Starting automation run
+2026-07-15 18:30:42,718 - INFO - ðŸ“š Found 48 previously posted threads.
+2026-07-15 18:30:42,718 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-15 18:30:42,718 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-15 18:30:44,244 - INFO - Groq raw response:
+[
+  "I've been fascinated by the concept of 'information decay' in AI content creation.",
+  "What if the most valuable information is not what's newly created, but what's been forgotten?",
+  "I've been studying the most successful AI creators and found a surprising pattern: they often revive 'dead' ideas and make them relevant again.",
+  "This got me thinking: what if the key to success lies not in creating something new, but in uncovering what's been lost?",
+  "I'm still exploring this idea, but it's leading me down a fascinating rabbit hole..."
+]
+2026-07-15 18:30:44,245 - INFO - âœ… Unique thread found (hash: 8374a5c2...)
+2026-07-15 18:30:44,245 - INFO - ðŸ“ Generated 5 posts:
+2026-07-15 18:30:44,246 - INFO - --- Post 1 ---
+I've been fascinated by the concept of 'information decay' in AI content creation.
+2026-07-15 18:30:44,246 - INFO - --- Post 2 ---
+What if the most valuable information is not what's newly created, but what's been forgotten?
+2026-07-15 18:30:44,246 - INFO - --- Post 3 ---
+I've been studying the most successful AI creators and found a surprising pattern: they often revive 'dead' ideas and make them relevant again.
+2026-07-15 18:30:44,246 - INFO - --- Post 4 ---
+This got me thinking: what if the key to success lies not in creating something new, but in uncovering what's been lost?
+2026-07-15 18:30:44,246 - INFO - --- Post 5 ---
+I'm still exploring this idea, but it's leading me down a fascinating rabbit hole...
+2026-07-15 18:30:45,455 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, rustic library, a lone figure sits at a worn, wooden desk, surrounded by stacks of dusty, leather-bound books and scattered, yellowed manuscripts. The main subject, a young researcher, is intently studying an ancient tome, its pages filled with forgotten knowledge, as soft, diffused light pours in through a nearby, grimy window, casting a warm, golden glow on the scene. The colour palette is muted, with earthy tones of brown, beige, and grey, evoking a sense of nostalgia and decay. The lighting is gentle, with deep shadows accentuating the textures of the old books and the rough, stone walls, while a few, strategically placed candles add a sense of warmth and intimacy. The camera angle is a low, Dutch angle, looking up at the researcher, conveying a sense of curiosity and discovery. The atmosphere is contemplative, with an air of hope and anticipation, as if the researcher is on the verge of uncovering a long-lost secret. The rough, wooden desk and the worn, leather armchair add a tactile sense of texture, while the dusty air is palpable, giving the scene a sense of depth and history. The style hint is that of a cinematic, oil painting, with bold brushstrokes and vivid, yet muted, colours, inviting the viewer to step into the world of forgotten knowledge and uncover its secrets.
+2026-07-15 18:30:47,168 - INFO - ðŸ–¼ï¸  Saved cover image to images/86fa50e2e5d2cbc2.jpg
+2026-07-15 18:30:48,739 - INFO - ðŸ“¤ Pushed images/86fa50e2e5d2cbc2.jpg to GitHub.
+2026-07-15 18:30:48,958 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/86fa50e2e5d2cbc2.jpg
+2026-07-15 18:30:48,960 - INFO - Scheduling for: 2026-07-15T23:47:48.960593Z UTC
+2026-07-15 18:30:49,850 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a57d1d9980b8bd8d6d41090
+2026-07-15 18:30:49,851 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-15 18:30:49,851 - INFO - âœ… Run completed.
