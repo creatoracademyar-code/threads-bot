@@ -1918,3 +1918,40 @@ And I'm finding surprising insights along the way.
 2026-07-15 06:30:45,256 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a572915c4270fddcc63ef89
 2026-07-15 06:30:45,257 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-15 06:30:45,258 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-15T12:30:36.959938
+============================================================
+2026-07-15 12:30:36,959 - INFO - ðŸš€ Starting automation run
+2026-07-15 12:30:36,960 - INFO - ðŸ“š Found 47 previously posted threads.
+2026-07-15 12:30:36,960 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-15 12:30:36,960 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-15 12:30:38,511 - INFO - Groq raw response:
+[
+  "I've been studying the most successful AI creators.",
+  "One thing stands out: their ability to create 'micro-moments' of connection.",
+  "These moments are not just about engagement, but about resonance.",
+  "I've been trying to understand the psychology behind this.",
+  "And what I've found is surprising: it's not about the content, but about the 'frequency' of connection."
+]
+2026-07-15 12:30:38,512 - INFO - âœ… Unique thread found (hash: a9d2ee33...)
+2026-07-15 12:30:38,512 - INFO - ðŸ“ Generated 5 posts:
+2026-07-15 12:30:38,512 - INFO - --- Post 1 ---
+I've been studying the most successful AI creators.
+2026-07-15 12:30:38,512 - INFO - --- Post 2 ---
+One thing stands out: their ability to create 'micro-moments' of connection.
+2026-07-15 12:30:38,512 - INFO - --- Post 3 ---
+These moments are not just about engagement, but about resonance.
+2026-07-15 12:30:38,512 - INFO - --- Post 4 ---
+I've been trying to understand the psychology behind this.
+2026-07-15 12:30:38,512 - INFO - --- Post 5 ---
+And what I've found is surprising: it's not about the content, but about the 'frequency' of connection.
+2026-07-15 12:30:40,289 - INFO - ðŸŽ¨ Cover image prompt: A lone figure sits in a dimly lit, minimalist room with walls lined with rows of old, leather-bound books and faint, blue-gray glow of computer screens in the background, evoking a sense of quiet contemplation. The main subject, a young woman with a thoughtful expression, is positioned in the center of the room, surrounded by a halo of soft, warm light that seems to emanate from a string of fairy lights above her. The dominant colour palette is a muted blend of cool blues and grays, punctuated by the warm, golden tones of the fairy lights, creating a sense of balance between technology and human connection. The lighting is soft and diffused, with long, gentle shadows that stretch across the room, adding depth and intimacy to the scene. The camera angle is a low, Dutch angle shot, looking up at the woman with a sense of reverence, as if she holds a precious secret. The atmosphere is one of serene, hopeful curiosity, as if the woman is on the verge of discovering a profound truth. The texture of the old books and the smooth, polished surface of the computer screens add a sense of tactile contrast to the scene, while the soft glow of the fairy lights creates a sense of ethereal wonder. The style of the image is reminiscent of a cinematic, film noir-inspired oil painting, with bold brushstrokes and a sense of moody, atmospheric depth.
+2026-07-15 12:30:41,965 - INFO - ðŸ–¼ï¸  Saved cover image to images/605f1e8c88568b41.jpg
+2026-07-15 12:30:43,249 - INFO - ðŸ“¤ Pushed images/605f1e8c88568b41.jpg to GitHub.
+2026-07-15 12:30:43,377 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/605f1e8c88568b41.jpg
+2026-07-15 12:30:43,379 - INFO - Scheduling for: 2026-07-15T17:47:43.379348Z UTC
+2026-07-15 12:30:44,057 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a577d73eeab3bdf429f24a3
+2026-07-15 12:30:44,058 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-15 12:30:44,058 - INFO - âœ… Run completed.
