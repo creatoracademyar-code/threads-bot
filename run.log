@@ -1876,3 +1876,45 @@ And what I've found is surprising: this vulnerability is not a weakness, but a s
 2026-07-15 00:30:45,476 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a56d4b5f682af5b236c4a99
 2026-07-15 00:30:45,478 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-15 00:30:45,478 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-15T06:30:37.228409
+============================================================
+2026-07-15 06:30:37,228 - INFO - ðŸš€ Starting automation run
+2026-07-15 06:30:37,228 - INFO - ðŸ“š Found 46 previously posted threads.
+2026-07-15 06:30:37,229 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-15 06:30:37,229 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-15 06:30:38,479 - INFO - Groq raw response:
+[
+  "I've been studying AI creators who've achieved massive success.\nOne thing stands out: their ability to identify 'keystone habits'.",
+  "A keystone habit is a small change that sparks a chain reaction.\nIt's the catalyst for a larger transformation.",
+  "I've been trying to understand how they identify these habits.\nAnd what I've found is surprising: it's not about the habit itself, but about the 'story' behind it.",
+  "The story of how they discovered it, how it changed them, and how it helped them grow.\nThis story is what resonates with their audience, not just the habit.",
+  "I'm still exploring the concept of keystone habits in AI content creation.\nAnd I'm finding surprising insights along the way."
+]
+2026-07-15 06:30:38,480 - INFO - âœ… Unique thread found (hash: 01d9b4ce...)
+2026-07-15 06:30:38,480 - INFO - ðŸ“ Generated 5 posts:
+2026-07-15 06:30:38,480 - INFO - --- Post 1 ---
+I've been studying AI creators who've achieved massive success.
+One thing stands out: their ability to identify 'keystone habits'.
+2026-07-15 06:30:38,480 - INFO - --- Post 2 ---
+A keystone habit is a small change that sparks a chain reaction.
+It's the catalyst for a larger transformation.
+2026-07-15 06:30:38,480 - INFO - --- Post 3 ---
+I've been trying to understand how they identify these habits.
+And what I've found is surprising: it's not about the habit itself, but about the 'story' behind it.
+2026-07-15 06:30:38,480 - INFO - --- Post 4 ---
+The story of how they discovered it, how it changed them, and how it helped them grow.
+This story is what resonates with their audience, not just the habit.
+2026-07-15 06:30:38,480 - INFO - --- Post 5 ---
+I'm still exploring the concept of keystone habits in AI content creation.
+And I'm finding surprising insights along the way.
+2026-07-15 06:30:39,898 - INFO - ðŸŽ¨ Cover image prompt: A lone figure sits in a cozy, rustic study surrounded by towering bookshelves and warm, golden lighting that seeps through the wooden blinds, casting a sense of comfort and introspection. The room is filled with a mix of earthy tones, from the rough, wooden desk to the soft, beige armchair, and the warm, honey-brown book spines that line the shelves. The dominant colour palette is a soothing blend of warm beige, rich wood, and soft sage, evoking a sense of calm and contemplation. A single, leather-bound book lies open on the desk, its pages dog-eared and annotated, as if the figure has been pouring over its contents. The lighting is soft and diffused, with a hint of warm glow emanating from a table lamp in the corner, casting a gentle shadow on the figure's face. The camera angle is a gentle, over-the-shoulder shot, looking down at the figure and the book, creating a sense of intimacy and quiet reflection. The atmosphere is serene and thoughtful, as if the figure is on the cusp of a profound realization. The texture of the rough wooden desk and the smooth, worn leather of the book add a tactile sense to the scene, while the soft, whispery pages of the book seem to rustle with an otherworldly energy. The style of the image is reminiscent of a warm, oil painting, with soft brushstrokes and a sense of depth and dimensionality that draws the viewer in.
+2026-07-15 06:30:43,043 - INFO - ðŸ–¼ï¸  Saved cover image to images/bf5c8a868f58c5c6.jpg
+2026-07-15 06:30:44,391 - INFO - ðŸ“¤ Pushed images/bf5c8a868f58c5c6.jpg to GitHub.
+2026-07-15 06:30:44,537 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/bf5c8a868f58c5c6.jpg
+2026-07-15 06:30:44,538 - INFO - Scheduling for: 2026-07-15T11:47:44.538679Z UTC
+2026-07-15 06:30:45,256 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a572915c4270fddcc63ef89
+2026-07-15 06:30:45,257 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-15 06:30:45,258 - INFO - âœ… Run completed.
