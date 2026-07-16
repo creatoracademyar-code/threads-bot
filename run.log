@@ -2066,3 +2066,45 @@ I'm still exploring the psychology behind this, and what I've found is surprisin
 2026-07-16 06:30:44,294 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a587a94791d9ddad47019e1
 2026-07-16 06:30:44,295 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-16 06:30:44,296 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-16T12:30:39.110271
+============================================================
+2026-07-16 12:30:39,110 - INFO - ðŸš€ Starting automation run
+2026-07-16 12:30:39,110 - INFO - ðŸ“š Found 51 previously posted threads.
+2026-07-16 12:30:39,111 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-16 12:30:39,111 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-16 12:30:40,520 - INFO - Groq raw response:
+[
+  "I've been studying the psychology of AI influencers.\nWhat drives their decisions, their creativity, and their impact?",
+  "One thing stands out: their ability to navigate 'paradoxes'.\nThey balance opposing forces, like art and science, or humanity and technology.",
+  "But what if I told you that these paradoxes are not just about AI?\nThey're about the fundamental nature of reality, and our place within it.",
+  "I've been digging deeper, and what I've found is surprising.\nIt's not just about the tech, but about the 'lenses' we use to see the world.",
+  "And I'm starting to realize that the most successful AI influencers\nare the ones who can shift between these lenses, effortlessly."
+]
+2026-07-16 12:30:40,521 - INFO - âœ… Unique thread found (hash: 0ccecd6c...)
+2026-07-16 12:30:40,521 - INFO - ðŸ“ Generated 5 posts:
+2026-07-16 12:30:40,521 - INFO - --- Post 1 ---
+I've been studying the psychology of AI influencers.
+What drives their decisions, their creativity, and their impact?
+2026-07-16 12:30:40,522 - INFO - --- Post 2 ---
+One thing stands out: their ability to navigate 'paradoxes'.
+They balance opposing forces, like art and science, or humanity and technology.
+2026-07-16 12:30:40,522 - INFO - --- Post 3 ---
+But what if I told you that these paradoxes are not just about AI?
+They're about the fundamental nature of reality, and our place within it.
+2026-07-16 12:30:40,522 - INFO - --- Post 4 ---
+I've been digging deeper, and what I've found is surprising.
+It's not just about the tech, but about the 'lenses' we use to see the world.
+2026-07-16 12:30:40,522 - INFO - --- Post 5 ---
+And I'm starting to realize that the most successful AI influencers
+are the ones who can shift between these lenses, effortlessly.
+2026-07-16 12:30:41,919 - INFO - ðŸŽ¨ Cover image prompt: In the heart of a futuristic, neon-lit city, a lone figure stands at the edge of a rooftop, gazing out at the labyrinthine metropolis below. The main subject, a woman with an ambiguous, androgynous appearance, embodies the fusion of human and artificial intelligence, her face an enigmatic blend of curiosity and contemplation. The setting sun casts a warm, golden glow over the scene, with soft, diffused light dancing across the rooftop's sleek, metallic surfaces and the woman's minimalist, high-tech attire. The colour palette is a mesmerizing balance of cool blues and purples, evoking the paradoxical harmony of art and science, with accents of bright, electric green hinting at the pulsing energy of the city. The camera angle is a low, wide shot, looking up at the woman from the rooftop's edge, emphasizing her connection to the vast, sprawling urban landscape. The atmosphere is one of serene, introspective tension, as if the woman is poised on the threshold of a profound realization. The texture of the rooftop's metal and glass surfaces is sleek and polished, reflecting the neon hues of the city like a still, dark mirror. The style of the image is cinematic, with a hint of sci-fi noir, inviting the viewer to step into the woman's world of paradoxes and lens-shifting perspectives. As the woman's gaze meets the horizon, the cityscape behind her begins to blur and distort, like the shifting lenses of perception, leaving the viewer wondering what lies beyond the boundaries of reality. The woman's hair and clothes seem to ripple and flow like the surface of a lake, as if the very fabric of her being is being reshaped by the paradoxes she navigates.
+2026-07-16 12:30:43,638 - INFO - ðŸ–¼ï¸  Saved cover image to images/fdc0a7cb46ae07c5.jpg
+2026-07-16 12:30:45,092 - INFO - ðŸ“¤ Pushed images/fdc0a7cb46ae07c5.jpg to GitHub.
+2026-07-16 12:30:45,287 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/fdc0a7cb46ae07c5.jpg
+2026-07-16 12:30:45,289 - INFO - Scheduling for: 2026-07-16T17:47:45.289748Z UTC
+2026-07-16 12:30:45,981 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a58cef5913a0681abd6f682
+2026-07-16 12:30:45,982 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-16 12:30:45,982 - INFO - âœ… Run completed.
