@@ -2108,3 +2108,45 @@ are the ones who can shift between these lenses, effortlessly.
 2026-07-16 12:30:45,981 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a58cef5913a0681abd6f682
 2026-07-16 12:30:45,982 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-16 12:30:45,982 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-16T18:30:28.446507
+============================================================
+2026-07-16 18:30:28,446 - INFO - ðŸš€ Starting automation run
+2026-07-16 18:30:28,446 - INFO - ðŸ“š Found 52 previously posted threads.
+2026-07-16 18:30:28,447 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-16 18:30:28,447 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-16 18:30:29,908 - INFO - Groq raw response:
+[
+  "I've been noticing a strange phenomenon in AI content creation.\nIt's the 'forgotten middle' – creators who are neither beginners nor experts.",
+  "They've passed the initial hurdle, but haven't yet reached mastery.\nThis middle ground is where most creators get stuck.",
+  "But what if I told you that this 'forgotten middle' is actually a sweet spot?\nA place where creators can experiment, take risks, and innovate.",
+  "I've been studying the most successful AI creators, and what I've found is surprising:\nThey often intentionally stay in this middle ground, refusing to be labeled as experts.",
+  "They know that the moment they're seen as experts, they'll lose their creative freedom.\nAnd that's when the real magic happens – in the unknown, the unexplored, and the uncharted."
+]
+2026-07-16 18:30:29,909 - INFO - âœ… Unique thread found (hash: 8fb790e2...)
+2026-07-16 18:30:29,909 - INFO - ðŸ“ Generated 5 posts:
+2026-07-16 18:30:29,909 - INFO - --- Post 1 ---
+I've been noticing a strange phenomenon in AI content creation.
+It's the 'forgotten middle' – creators who are neither beginners nor experts.
+2026-07-16 18:30:29,909 - INFO - --- Post 2 ---
+They've passed the initial hurdle, but haven't yet reached mastery.
+This middle ground is where most creators get stuck.
+2026-07-16 18:30:29,909 - INFO - --- Post 3 ---
+But what if I told you that this 'forgotten middle' is actually a sweet spot?
+A place where creators can experiment, take risks, and innovate.
+2026-07-16 18:30:29,909 - INFO - --- Post 4 ---
+I've been studying the most successful AI creators, and what I've found is surprising:
+They often intentionally stay in this middle ground, refusing to be labeled as experts.
+2026-07-16 18:30:29,909 - INFO - --- Post 5 ---
+They know that the moment they're seen as experts, they'll lose their creative freedom.
+And that's when the real magic happens – in the unknown, the unexplored, and the uncharted.
+2026-07-16 18:30:31,727 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, industrial-chic laboratory, a lone figure stands at the edge of a large, circular platform, surrounded by a halo of soft, golden light. The subject, a young adult with an inquisitive expression, is dressed in a sleek black jumpsuit, with a utility belt and various tools attached, conveying a sense of experimentation and innovation. The platform, made of rough, textured concrete, is scattered with an assortment of gadgets, wires, and futuristic equipment, evoking a sense of creative chaos. The colour palette is a blend of warm, earthy tones and cool, metallic blues, reflecting the intersection of human curiosity and technological advancement. The lighting is a mix of soft, diffused overhead lights and dramatic, low-angle spotlights, casting long shadows and emphasizing the subject's sense of exploration. From a low-angle perspective, the camera looks up at the figure, conveying a sense of empowerment and creative freedom. The atmosphere is one of hopeful anticipation, as if the subject is on the cusp of a groundbreaking discovery. The texture of the concrete and the metallic sheen of the equipment add a sense of tactility, while the overall style hints at a cinematic, sci-fi aesthetic, with a touch of gritty realism. The background is a blurred, dark grey, allowing the subject and the platform to take centre stage, symbolizing the focus on the 'forgotten middle' and the boundless possibilities it holds.
+2026-07-16 18:30:33,406 - INFO - ðŸ–¼ï¸  Saved cover image to images/c985f859a620b4ae.jpg
+2026-07-16 18:30:35,040 - INFO - ðŸ“¤ Pushed images/c985f859a620b4ae.jpg to GitHub.
+2026-07-16 18:30:35,314 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/c985f859a620b4ae.jpg
+2026-07-16 18:30:35,317 - INFO - Scheduling for: 2026-07-16T23:47:35.317134Z UTC
+2026-07-16 18:30:36,037 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a59234b4fe7c5b5775127d8
+2026-07-16 18:30:36,038 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-16 18:30:36,038 - INFO - âœ… Run completed.
