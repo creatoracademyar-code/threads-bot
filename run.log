@@ -2029,3 +2029,40 @@ It's not just about the content itself, but about the 'silence' between the line
 2026-07-16 00:30:48,880 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5826389fa595d8e572fd94
 2026-07-16 00:30:48,881 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-16 00:30:48,881 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-16T06:30:37.054921
+============================================================
+2026-07-16 06:30:37,054 - INFO - ðŸš€ Starting automation run
+2026-07-16 06:30:37,055 - INFO - ðŸ“š Found 50 previously posted threads.
+2026-07-16 06:30:37,055 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-16 06:30:37,055 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-16 06:30:38,717 - INFO - Groq raw response:
+[
+  "I've been studying AI creators who've mastered the art of 'attention architectures'.",
+  "They design experiences that capture and hold attention, often without us even realizing it.",
+  "But what if I told you that this is not just about clever tricks or manipulation?",
+  "It's about creating a 'harmony' between the creator, the audience, and the content.",
+  "I'm still exploring the psychology behind this, and what I've found is surprising..."
+]
+2026-07-16 06:30:38,718 - INFO - âœ… Unique thread found (hash: d8944e42...)
+2026-07-16 06:30:38,718 - INFO - ðŸ“ Generated 5 posts:
+2026-07-16 06:30:38,718 - INFO - --- Post 1 ---
+I've been studying AI creators who've mastered the art of 'attention architectures'.
+2026-07-16 06:30:38,719 - INFO - --- Post 2 ---
+They design experiences that capture and hold attention, often without us even realizing it.
+2026-07-16 06:30:38,719 - INFO - --- Post 3 ---
+But what if I told you that this is not just about clever tricks or manipulation?
+2026-07-16 06:30:38,719 - INFO - --- Post 4 ---
+It's about creating a 'harmony' between the creator, the audience, and the content.
+2026-07-16 06:30:38,719 - INFO - --- Post 5 ---
+I'm still exploring the psychology behind this, and what I've found is surprising...
+2026-07-16 06:30:39,911 - INFO - ðŸŽ¨ Cover image prompt: A lone figure sits in a serene, minimalist library with towering shelves of old, leather-bound books that stretch up to a vaulted, glass ceiling. The room is filled with a warm, soft light that filters through the glass, casting gentle shadows on the polished, dark wood floor. The colour palette is muted, with earthy tones of brown, beige, and green, evoking a sense of balance and harmony. The figure, lost in thought, is surrounded by scattered papers, pens, and empty coffee cups, with a few books open on a large, wooden desk. The camera angle is a low, wide shot, looking up at the figure from the floor, conveying a sense of contemplation and curiosity. The atmosphere is peaceful, with a sense of focused attention, as if the figure is on the verge of a profound discovery. The texture of the old books and the rough, wooden desk adds a sense of depth and tactility to the scene, while the soft, diffused light creates a dreamy, ethereal quality. The style hint is cinematic, with a slight oil painting quality to the lighting and colours, inviting the viewer to step into the serene, introspective world of the figure.
+2026-07-16 06:30:41,636 - INFO - ðŸ–¼ï¸  Saved cover image to images/aba80e4e855d625f.jpg
+2026-07-16 06:30:43,136 - INFO - ðŸ“¤ Pushed images/aba80e4e855d625f.jpg to GitHub.
+2026-07-16 06:30:43,513 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/aba80e4e855d625f.jpg
+2026-07-16 06:30:43,516 - INFO - Scheduling for: 2026-07-16T11:47:43.516384Z UTC
+2026-07-16 06:30:44,294 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a587a94791d9ddad47019e1
+2026-07-16 06:30:44,295 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-16 06:30:44,296 - INFO - âœ… Run completed.
