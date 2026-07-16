@@ -1992,3 +1992,40 @@ I'm still exploring this idea, but it's leading me down a fascinating rabbit hol
 2026-07-15 18:30:49,850 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a57d1d9980b8bd8d6d41090
 2026-07-15 18:30:49,851 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-15 18:30:49,851 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-16T00:30:39.401556
+============================================================
+2026-07-16 00:30:39,401 - INFO - ðŸš€ Starting automation run
+2026-07-16 00:30:39,401 - INFO - ðŸ“š Found 49 previously posted threads.
+2026-07-16 00:30:39,402 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-16 00:30:39,402 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-16 00:30:41,038 - INFO - Groq raw response:
+[
+  "I've been noticing a strange phenomenon in AI business.",
+  "Successful creators often have a 'hidden pattern' in their content.",
+  "It's not about the tech or the tools, but about the 'rhythm' of their message.",
+  "I've been trying to decode this pattern, and what I've found is surprising.",
+  "It's not just about the content itself, but about the 'silence' between the lines."
+]
+2026-07-16 00:30:41,039 - INFO - âœ… Unique thread found (hash: 23fd721d...)
+2026-07-16 00:30:41,039 - INFO - ðŸ“ Generated 5 posts:
+2026-07-16 00:30:41,039 - INFO - --- Post 1 ---
+I've been noticing a strange phenomenon in AI business.
+2026-07-16 00:30:41,039 - INFO - --- Post 2 ---
+Successful creators often have a 'hidden pattern' in their content.
+2026-07-16 00:30:41,039 - INFO - --- Post 3 ---
+It's not about the tech or the tools, but about the 'rhythm' of their message.
+2026-07-16 00:30:41,039 - INFO - --- Post 4 ---
+I've been trying to decode this pattern, and what I've found is surprising.
+2026-07-16 00:30:41,039 - INFO - --- Post 5 ---
+It's not just about the content itself, but about the 'silence' between the lines.
+2026-07-16 00:30:43,576 - INFO - ðŸŽ¨ Cover image prompt: A lone figure sits in a dimly lit, minimalist room with concrete walls and a polished metal desk, surrounded by faint, glowing blue lines that crisscross the space like an invisible grid. The atmosphere is contemplative, with soft, diffused light casting no harsh shadows, and the air is thick with an sense of quiet introspection. The colour palette is predominantly monochromatic, with muted greys and blues, punctuated by the faint glow of the lines, which pulse with a soft, rhythmic energy. The figure, lost in thought, is positioned in the centre of the frame, with the camera angle set to a low, wide shot, emphasizing the sense of space and the subtle patterns that underlie the scene. In the background, a large window with wet glass distorts the view of the city outside, blurring the lines between the internal, mental world and the external, physical one. The style of the image is cinematic, with a mix of realistic and stylized elements, inviting the viewer to ponder the hidden rhythms and patterns that underlie the surface of things. The overall mood is one of serene, hopeful curiosity, as if the figure is on the verge of uncovering a profound secret. The texture of the concrete walls and the polished metal desk adds a sense of tactile, material reality to the scene, grounding the more abstract, introspective elements.
+2026-07-16 00:30:45,755 - INFO - ðŸ–¼ï¸  Saved cover image to images/298ecd4c95a9a865.jpg
+2026-07-16 00:30:47,269 - INFO - ðŸ“¤ Pushed images/298ecd4c95a9a865.jpg to GitHub.
+2026-07-16 00:30:47,802 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/298ecd4c95a9a865.jpg
+2026-07-16 00:30:47,804 - INFO - Scheduling for: 2026-07-16T05:47:47.804368Z UTC
+2026-07-16 00:30:48,880 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5826389fa595d8e572fd94
+2026-07-16 00:30:48,881 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-16 00:30:48,881 - INFO - âœ… Run completed.
