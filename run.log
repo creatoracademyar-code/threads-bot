@@ -2192,3 +2192,45 @@ But one thing is clear: it's the key to creating content that stands the test of
 2026-07-17 00:30:37,992 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5977ad763686fc6b4a572c
 2026-07-17 00:30:37,994 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-17 00:30:37,994 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-17T06:30:27.515983
+============================================================
+2026-07-17 06:30:27,516 - INFO - ðŸš€ Starting automation run
+2026-07-17 06:30:27,516 - INFO - ðŸ“š Found 54 previously posted threads.
+2026-07-17 06:30:27,516 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-17 06:30:27,516 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-17 06:30:29,090 - INFO - Groq raw response:
+[
+  "I've been studying the most successful AI creators.\nOne thing stands out: their ability to create 'digital artifacts'.",
+  "These artifacts are not just digital products, but experiences that linger long after the initial engagement.\nThey have a 'half-life' that extends beyond the screen.",
+  "I've been trying to understand the psychology behind this.\nWhat makes a digital artifact truly impactful?",
+  "It's not just about the tech or the design, but about the 'emotional residue' it leaves behind.\nA residue that continues to inspire, provoke, or comfort.",
+  "I'm still exploring the concept of digital artifacts in AI content creation.\nAnd I'm finding surprising insights along the way."
+]
+2026-07-17 06:30:29,091 - INFO - âœ… Unique thread found (hash: 28ce306c...)
+2026-07-17 06:30:29,091 - INFO - ðŸ“ Generated 5 posts:
+2026-07-17 06:30:29,091 - INFO - --- Post 1 ---
+I've been studying the most successful AI creators.
+One thing stands out: their ability to create 'digital artifacts'.
+2026-07-17 06:30:29,092 - INFO - --- Post 2 ---
+These artifacts are not just digital products, but experiences that linger long after the initial engagement.
+They have a 'half-life' that extends beyond the screen.
+2026-07-17 06:30:29,092 - INFO - --- Post 3 ---
+I've been trying to understand the psychology behind this.
+What makes a digital artifact truly impactful?
+2026-07-17 06:30:29,092 - INFO - --- Post 4 ---
+It's not just about the tech or the design, but about the 'emotional residue' it leaves behind.
+A residue that continues to inspire, provoke, or comfort.
+2026-07-17 06:30:29,092 - INFO - --- Post 5 ---
+I'm still exploring the concept of digital artifacts in AI content creation.
+And I'm finding surprising insights along the way.
+2026-07-17 06:30:30,680 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, futuristic laboratory, a lone figure sits amidst a maze of sleek, silver workstations and glowing blue screens. The main subject, a young creator with an intent expression, is surrounded by fragments of digital artifacts: shattered screens, discarded motherboards, and tangled wires. The setting is a blend of industrial and futuristic elements, with rough concrete walls and polished metal surfaces. The colour palette is predominantly cool, with shades of blue and purple dominating the scene, punctuated by warm, golden accents from the soft, diffused light emanating from the screens. The lighting is muted, with deep shadows cast across the room, except for a single, harsh spotlight shining down on the creator's hands as they work. The camera angle is a low, wide shot, looking up at the creator from the floor, emphasizing their isolation and focus. The atmosphere is one of intense concentration and curiosity, with a sense of hopeful discovery lingering in the air. The texture of the scene is a mix of smooth, metallic surfaces and rough, concrete walls, with the addition of soft, glowing light from the screens. The style of the image is cinematic, with a hint of sci-fi and a touch of oil painting, blending realism with a sense of dreamlike wonder. In the background, a massive, dark screen displays a faint, ghostly image of a digital artifact, its presence felt but not fully seen, leaving a haunting, emotional residue that permeates the entire scene.
+2026-07-17 06:30:32,756 - INFO - ðŸ–¼ï¸  Saved cover image to images/e8bd3f17355d35e7.jpg
+2026-07-17 06:30:34,145 - INFO - ðŸ“¤ Pushed images/e8bd3f17355d35e7.jpg to GitHub.
+2026-07-17 06:30:34,434 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/e8bd3f17355d35e7.jpg
+2026-07-17 06:30:34,436 - INFO - Scheduling for: 2026-07-17T11:47:34.436273Z UTC
+2026-07-17 06:30:35,387 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a59cc0b763686fc6b4dc070
+2026-07-17 06:30:35,388 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-17 06:30:35,388 - INFO - âœ… Run completed.
