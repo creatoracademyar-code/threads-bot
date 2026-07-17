@@ -2150,3 +2150,45 @@ And that's when the real magic happens – in the unknown, the unexplored, and t
 2026-07-16 18:30:36,037 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a59234b4fe7c5b5775127d8
 2026-07-16 18:30:36,038 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-16 18:30:36,038 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-17T00:30:30.127654
+============================================================
+2026-07-17 00:30:30,127 - INFO - ðŸš€ Starting automation run
+2026-07-17 00:30:30,128 - INFO - ðŸ“š Found 53 previously posted threads.
+2026-07-17 00:30:30,128 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-17 00:30:30,128 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-17 00:30:31,930 - INFO - Groq raw response:
+[
+  "I've been studying the most successful AI creators.\nOne thing stands out: their ability to craft 'future memories'.",
+  "They don't just create content, they create experiences that feel nostalgic, even if they're new.\nWhat if I told you that this is not just about aesthetics, but about psychology?",
+  "I've been digging into the concept of 'temporal resonance' in AI content creation.\nIt's the ability to create a sense of timelessness, while still being relevant to the present.",
+  "The most successful AI creators are not just aware of the latest trends, but also have a deep understanding of the past.\nThey know how to weave together different eras, styles, and ideas to create something unique.",
+  "I'm still trying to understand the nuances of this 'temporal resonance'.\nBut one thing is clear: it's the key to creating content that stands the test of time."
+]
+2026-07-17 00:30:31,931 - INFO - âœ… Unique thread found (hash: b6fb9052...)
+2026-07-17 00:30:31,931 - INFO - ðŸ“ Generated 5 posts:
+2026-07-17 00:30:31,931 - INFO - --- Post 1 ---
+I've been studying the most successful AI creators.
+One thing stands out: their ability to craft 'future memories'.
+2026-07-17 00:30:31,931 - INFO - --- Post 2 ---
+They don't just create content, they create experiences that feel nostalgic, even if they're new.
+What if I told you that this is not just about aesthetics, but about psychology?
+2026-07-17 00:30:31,931 - INFO - --- Post 3 ---
+I've been digging into the concept of 'temporal resonance' in AI content creation.
+It's the ability to create a sense of timelessness, while still being relevant to the present.
+2026-07-17 00:30:31,931 - INFO - --- Post 4 ---
+The most successful AI creators are not just aware of the latest trends, but also have a deep understanding of the past.
+They know how to weave together different eras, styles, and ideas to create something unique.
+2026-07-17 00:30:31,931 - INFO - --- Post 5 ---
+I'm still trying to understand the nuances of this 'temporal resonance'.
+But one thing is clear: it's the key to creating content that stands the test of time.
+2026-07-17 00:30:33,346 - INFO - ðŸŽ¨ Cover image prompt: In a sprawling, old-world library with towering shelves and dusty tomes, a lone figure sits amidst a maze of vintage computers, futuristic gadgets, and scattered papers. The main subject, a young creator with an introspective gaze, is surrounded by a mixture of antique clocks, broken machinery, and sleek, modern devices, symbolizing the blend of past and present. The setting is bathed in a warm, golden light, with soft, diffused rays pouring in through a nearby window, casting long shadows across the room. The colour palette is a rich, nostalgic blend of warm browns, faded blues, and muted silvers, evoking a sense of timelessness. The camera angle is a low, wide shot, looking up at the creator from beneath a sprawling, ornate desk, as if the viewer is discovering a hidden, intimate world. The atmosphere is one of serene contemplation, with the creator's emotions conveyed through a subtle, hopeful smile. The texture of the scene is defined by the rough, worn wood of the library shelves, the smooth, cool metal of the gadgets, and the soft, yellowed parchment of the papers. The style of the image is reminiscent of a cinematic, oil-painted still life, with bold brushstrokes and vivid, realistic details that invite the viewer to step into the creator's timeless, dreamlike world.
+2026-07-17 00:30:35,110 - INFO - ðŸ–¼ï¸  Saved cover image to images/d78371039fa17f35.jpg
+2026-07-17 00:30:36,856 - INFO - ðŸ“¤ Pushed images/d78371039fa17f35.jpg to GitHub.
+2026-07-17 00:30:37,090 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/d78371039fa17f35.jpg
+2026-07-17 00:30:37,092 - INFO - Scheduling for: 2026-07-17T05:47:37.092690Z UTC
+2026-07-17 00:30:37,992 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5977ad763686fc6b4a572c
+2026-07-17 00:30:37,994 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-17 00:30:37,994 - INFO - âœ… Run completed.
