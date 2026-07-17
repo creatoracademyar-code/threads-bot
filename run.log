@@ -2271,3 +2271,45 @@ I'm still trying to understand the psychology behind this, and how to become a b
 2026-07-17 12:30:35,993 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5a206b113ff294390e4077
 2026-07-17 12:30:35,994 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-17 12:30:35,994 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-17T18:30:28.100766
+============================================================
+2026-07-17 18:30:28,100 - INFO - ðŸš€ Starting automation run
+2026-07-17 18:30:28,101 - INFO - ðŸ“š Found 56 previously posted threads.
+2026-07-17 18:30:28,101 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-17 18:30:28,101 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-17 18:30:29,615 - INFO - Groq raw response:
+[
+  "I've been fascinated by the concept of 'invisible influence' in AI content creation.\nIt's the unseen force that drives engagement, loyalty, and ultimately, success.",
+  "What if I told you that the most successful AI creators are not just influencers, but 'architects of influence'?\nThey design experiences that shape perceptions, emotions, and behaviors.",
+  "I've been studying the psychology behind this phenomenon, and what I've found is surprising:\nIt's not just about the content itself, but about the 'invisible threads' that connect it to the audience.",
+  "These threads are made of trust, empathy, and shared values.\nThey're the foundation upon which influence is built, and the key to creating a loyal following.",
+  "I'm still exploring the nuances of invisible influence, but one thing is clear:\nIt's the secret sauce that sets the most successful AI creators apart from the rest."
+]
+2026-07-17 18:30:29,616 - INFO - âœ… Unique thread found (hash: d66a15d1...)
+2026-07-17 18:30:29,617 - INFO - ðŸ“ Generated 5 posts:
+2026-07-17 18:30:29,617 - INFO - --- Post 1 ---
+I've been fascinated by the concept of 'invisible influence' in AI content creation.
+It's the unseen force that drives engagement, loyalty, and ultimately, success.
+2026-07-17 18:30:29,617 - INFO - --- Post 2 ---
+What if I told you that the most successful AI creators are not just influencers, but 'architects of influence'?
+They design experiences that shape perceptions, emotions, and behaviors.
+2026-07-17 18:30:29,617 - INFO - --- Post 3 ---
+I've been studying the psychology behind this phenomenon, and what I've found is surprising:
+It's not just about the content itself, but about the 'invisible threads' that connect it to the audience.
+2026-07-17 18:30:29,617 - INFO - --- Post 4 ---
+These threads are made of trust, empathy, and shared values.
+They're the foundation upon which influence is built, and the key to creating a loyal following.
+2026-07-17 18:30:29,617 - INFO - --- Post 5 ---
+I'm still exploring the nuances of invisible influence, but one thing is clear:
+It's the secret sauce that sets the most successful AI creators apart from the rest.
+2026-07-17 18:30:30,855 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, futuristic laboratory, a lone figure stands at the center, surrounded by an intricate network of glowing, ethereal threads that crisscross the room. The main subject, a young woman with an intent expression, is dressed in a sleek, high-tech jumpsuit, her eyes fixed on a holographic display projected in front of her. The setting is a blend of industrial and cyberpunk elements, with metallic surfaces, neon accents, and a sense of cutting-edge innovation. The dominant colour palette is a cool, monochromatic scheme with hues of blue and purple, punctuated by bursts of bright, electric blue that emanate from the threads and the hologram. Soft, diffused lighting illuminates the space, with dramatic shadows cast by the threads and the woman's figure, creating a sense of depth and dimensionality. The camera angle is a low, wide shot, looking up at the woman and the threads, conveying a sense of awe and wonder. The atmosphere is one of quiet contemplation and focused intensity, as if the woman is on the verge of uncovering a hidden secret. The texture of the metallic surfaces and the woman's jumpsuit adds a sense of tactile realism, while the glowing threads seem almost otherworldly, like a manifestation of the invisible influence they represent. The style of the image is cinematic and photorealistic, with a hint of sci-fi futurism, inviting the viewer to step into the world of the architect of influence.
+2026-07-17 18:30:33,470 - INFO - ðŸ–¼ï¸  Saved cover image to images/766b19e2e4c5201b.jpg
+2026-07-17 18:30:34,831 - INFO - ðŸ“¤ Pushed images/766b19e2e4c5201b.jpg to GitHub.
+2026-07-17 18:30:34,996 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/766b19e2e4c5201b.jpg
+2026-07-17 18:30:34,998 - INFO - Scheduling for: 2026-07-17T23:47:34.998553Z UTC
+2026-07-17 18:30:35,550 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5a74cbfc7fce1db700d583
+2026-07-17 18:30:35,552 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-17 18:30:35,552 - INFO - âœ… Run completed.
