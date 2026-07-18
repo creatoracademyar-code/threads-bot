@@ -2313,3 +2313,45 @@ It's the secret sauce that sets the most successful AI creators apart from the r
 2026-07-17 18:30:35,550 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5a74cbfc7fce1db700d583
 2026-07-17 18:30:35,552 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-17 18:30:35,552 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-18T00:31:41.471693
+============================================================
+2026-07-18 00:31:41,471 - INFO - ðŸš€ Starting automation run
+2026-07-18 00:31:41,472 - INFO - ðŸ“š Found 57 previously posted threads.
+2026-07-18 00:31:41,472 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-18 00:31:41,473 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-18 00:31:42,902 - INFO - Groq raw response:
+[
+  "I've been noticing a strange phenomenon in AI content creation.\nIt's the 'echoes' of old ideas in new content.",
+  "What if I told you that the most successful AI creators\nare not just innovators, but also 'archaeologists' of forgotten knowledge?",
+  "They dig up old ideas, dust them off, and recontextualize them\nfor a new audience. But why does this work?",
+  "I've been studying the psychology behind this phenomenon,\nand what I've found is surprising: it's not about the idea itself, but about the 'story' around it.",
+  "The story of how it was lost, how it was found, and how it was reborn.\nThis story is what resonates with the audience, not just the idea."
+]
+2026-07-18 00:31:42,903 - INFO - âœ… Unique thread found (hash: 702ca863...)
+2026-07-18 00:31:42,903 - INFO - ðŸ“ Generated 5 posts:
+2026-07-18 00:31:42,903 - INFO - --- Post 1 ---
+I've been noticing a strange phenomenon in AI content creation.
+It's the 'echoes' of old ideas in new content.
+2026-07-18 00:31:42,903 - INFO - --- Post 2 ---
+What if I told you that the most successful AI creators
+are not just innovators, but also 'archaeologists' of forgotten knowledge?
+2026-07-18 00:31:42,903 - INFO - --- Post 3 ---
+They dig up old ideas, dust them off, and recontextualize them
+for a new audience. But why does this work?
+2026-07-18 00:31:42,903 - INFO - --- Post 4 ---
+I've been studying the psychology behind this phenomenon,
+and what I've found is surprising: it's not about the idea itself, but about the 'story' around it.
+2026-07-18 00:31:42,904 - INFO - --- Post 5 ---
+The story of how it was lost, how it was found, and how it was reborn.
+This story is what resonates with the audience, not just the idea.
+2026-07-18 00:31:44,252 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, rustic archive room, a lone figure sits amidst dusty, old bookshelves, surrounded by piles of worn, leather-bound tomes and flickering candlelight. The main subject, a young, introspective archivist, is seated at a wooden desk, gently blowing dust off a vintage, golden-hued manuscript, as if uncovering a long-forgotten treasure. The setting is filled with warm, earthy tones, and the distinct colour palette features muted shades of sepia, umber, and sienna, evoking a sense of nostalgia and aged wisdom. Soft, diffused light spills from a nearby, grimy window, casting gentle, ethereal shadows on the walls, while the warm glow of the candles dances across the archivist's face, illuminating their intent, hopeful expression. The composition is a close-up, low-angle shot, with the camera looking up at the archivist, as if to emphasize their role as a guardian of forgotten knowledge. The atmosphere is serene, yet tense with anticipation, as if the viewer is about to uncover a long-hidden secret alongside the archivist. The texture of the old books, the rough, wooden desk, and the dusty air are palpable, inviting the viewer to touch, to feel the weight of history. The style hint is that of a cinematic, oil painting-inspired piece, with bold brushstrokes and rich, vibrant colours, as if to capture the essence of a bygone era, reborn in the present.
+2026-07-18 00:31:47,130 - INFO - ðŸ–¼ï¸  Saved cover image to images/0ce29e10597e103c.jpg
+2026-07-18 00:31:48,647 - INFO - ðŸ“¤ Pushed images/0ce29e10597e103c.jpg to GitHub.
+2026-07-18 00:31:48,874 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/0ce29e10597e103c.jpg
+2026-07-18 00:31:48,876 - INFO - Scheduling for: 2026-07-18T05:48:48.876940Z UTC
+2026-07-18 00:31:49,709 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5ac975399fe1a460f64266
+2026-07-18 00:31:49,710 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-18 00:31:49,711 - INFO - âœ… Run completed.
