@@ -2397,3 +2397,45 @@ But one thing is clear: it's the key to creating content that resonates, and tha
 2026-07-18 06:30:38,700 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5b1d8ed0af22d144c9b4da
 2026-07-18 06:30:38,702 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-18 06:30:38,702 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-18T12:32:37.865151
+============================================================
+2026-07-18 12:32:37,865 - INFO - ðŸš€ Starting automation run
+2026-07-18 12:32:37,865 - INFO - ðŸ“š Found 59 previously posted threads.
+2026-07-18 12:32:37,866 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-18 12:32:37,866 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-18 12:32:39,282 - INFO - Groq raw response:
+[
+  "I've been studying the psychology of AI creators who've built massive audiences.\nOne thing stands out: their ability to create 'mental shortcuts'.",
+  "These shortcuts are not just about simplifying complex ideas, but about creating a 'cognitive bridge' between the creator and the audience.\nWhat if I told you that this bridge is the key to building trust and loyalty?",
+  "I've been trying to understand how they create these mental shortcuts.\nAnd what I've found is surprising: it's not about the tech or the tools, but about the 'story' behind the idea.",
+  "The story of how it was discovered, how it was developed, and how it can be applied.\nThis story is what resonates with the audience, not just the idea itself.",
+  "I'm still exploring the concept of mental shortcuts in AI content creation.\nBut one thing is clear: it's the secret to making complex ideas feel accessible and memorable."
+]
+2026-07-18 12:32:39,283 - INFO - âœ… Unique thread found (hash: 0ebb5467...)
+2026-07-18 12:32:39,283 - INFO - ðŸ“ Generated 5 posts:
+2026-07-18 12:32:39,283 - INFO - --- Post 1 ---
+I've been studying the psychology of AI creators who've built massive audiences.
+One thing stands out: their ability to create 'mental shortcuts'.
+2026-07-18 12:32:39,283 - INFO - --- Post 2 ---
+These shortcuts are not just about simplifying complex ideas, but about creating a 'cognitive bridge' between the creator and the audience.
+What if I told you that this bridge is the key to building trust and loyalty?
+2026-07-18 12:32:39,283 - INFO - --- Post 3 ---
+I've been trying to understand how they create these mental shortcuts.
+And what I've found is surprising: it's not about the tech or the tools, but about the 'story' behind the idea.
+2026-07-18 12:32:39,283 - INFO - --- Post 4 ---
+The story of how it was discovered, how it was developed, and how it can be applied.
+This story is what resonates with the audience, not just the idea itself.
+2026-07-18 12:32:39,283 - INFO - --- Post 5 ---
+I'm still exploring the concept of mental shortcuts in AI content creation.
+But one thing is clear: it's the secret to making complex ideas feel accessible and memorable.
+2026-07-18 12:32:40,620 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, rustic library, a lone figure sits at a worn, wooden desk, surrounded by stacks of old, leather-bound books and scattered notes. The main subject, a young woman with a thoughtful expression, is positioned in the centre of the frame, illuminated by a soft, warm glow emanating from a desk lamp. The colour palette is dominated by earthy tones, with shades of brown, beige, and golden yellow, evoking a sense of nostalgia and intellectual curiosity. The lighting is gentle, with long shadows cast across the room, adding depth and texture to the scene. The camera angle is a low, slight Dutch angle, looking up at the woman, conveying a sense of intimacy and creative contemplation. The atmosphere is serene, with a hint of tension, as if the woman is on the cusp of a groundbreaking discovery. The texture of the rough, wooden desk and the smooth, parchment-like paper adds a tactile quality to the image. In the background, blurred bookshelves stretch upwards, lined with volumes that seem to fade into the darkness, symbolizing the vast, unexplored expanse of human knowledge. The style hint is that of a cinematic, oil painting-inspired 3D render, with subtle brushstrokes and a sense of depth that invites the viewer to step into the scene. The woman's eyes are cast downward, lost in thought, as if bridging the gap between her own understanding and the audience she hopes to connect with, her mind weaving a narrative that will make complex ideas feel accessible and memorable.
+2026-07-18 12:32:42,262 - INFO - ðŸ–¼ï¸  Saved cover image to images/28eddffae514b0f4.jpg
+2026-07-18 12:32:43,661 - INFO - ðŸ“¤ Pushed images/28eddffae514b0f4.jpg to GitHub.
+2026-07-18 12:32:43,787 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/28eddffae514b0f4.jpg
+2026-07-18 12:32:43,789 - INFO - Scheduling for: 2026-07-18T17:49:43.789737Z UTC
+2026-07-18 12:33:15,079 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5b728aa1f13bc0c99f192a
+2026-07-18 12:33:15,081 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-18 12:33:15,081 - INFO - âœ… Run completed.
