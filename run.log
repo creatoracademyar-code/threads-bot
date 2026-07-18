@@ -2439,3 +2439,40 @@ But one thing is clear: it's the secret to making complex ideas feel accessible 
 2026-07-18 12:33:15,079 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5b728aa1f13bc0c99f192a
 2026-07-18 12:33:15,081 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-18 12:33:15,081 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-18T18:32:03.345332
+============================================================
+2026-07-18 18:32:03,345 - INFO - ðŸš€ Starting automation run
+2026-07-18 18:32:03,345 - INFO - ðŸ“š Found 60 previously posted threads.
+2026-07-18 18:32:03,346 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-18 18:32:03,346 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-18 18:32:04,611 - INFO - Groq raw response:
+[
+  "I've been observing a strange side effect of AI content creation.",
+  "It's the 'bleeding edge' of innovation, where creators are constantly pushing boundaries.",
+  "But what if I told you that this edge is not just about technology, but about the human psyche?",
+  "I've been studying the most successful AI creators, and what I've found is surprising: they're not just innovators, but 'cartographers of the mind'.",
+  "They're mapping the uncharted territories of human emotion, and creating content that resonates with our deepest desires."
+]
+2026-07-18 18:32:04,612 - INFO - âœ… Unique thread found (hash: abeed3f1...)
+2026-07-18 18:32:04,612 - INFO - ðŸ“ Generated 5 posts:
+2026-07-18 18:32:04,612 - INFO - --- Post 1 ---
+I've been observing a strange side effect of AI content creation.
+2026-07-18 18:32:04,613 - INFO - --- Post 2 ---
+It's the 'bleeding edge' of innovation, where creators are constantly pushing boundaries.
+2026-07-18 18:32:04,613 - INFO - --- Post 3 ---
+But what if I told you that this edge is not just about technology, but about the human psyche?
+2026-07-18 18:32:04,613 - INFO - --- Post 4 ---
+I've been studying the most successful AI creators, and what I've found is surprising: they're not just innovators, but 'cartographers of the mind'.
+2026-07-18 18:32:04,613 - INFO - --- Post 5 ---
+They're mapping the uncharted territories of human emotion, and creating content that resonates with our deepest desires.
+2026-07-18 18:32:05,743 - INFO - ðŸŽ¨ Cover image prompt: A lone figure stands at the edge of a rugged, windswept cliff, gazing out at a vast, starry expanse. The setting is a desolate, futuristic landscape with twisted, metallic rock formations and a sky ablaze with a deep, electric blue hue. The colour palette is a fusion of cool, neon blues and purples, evoking a sense of innovation and forward thinking. The lighting is dramatic, with the figure silhouetted against the vibrant, celestial backdrop, and a soft, diffused glow emanating from the terrain below. The composition is a wide shot, with the figure small but prominent, emphasizing the sense of scale and exploration. The atmosphere is one of tense, hopeful anticipation, as if the figure is poised on the cusp of a groundbreaking discovery. The texture of the rocky terrain is rough and metallic, with a subtle, grid-like pattern suggesting the presence of advanced technology. The figure itself is shrouded in a hooded, flowing cloak, with an intricate, neural network-like pattern etched into the fabric, hinting at the complex, psychological terrain being mapped. The style is a blend of cinematic and 3D rendering, with bold, geometric shapes and a sense of depth and dimensionality. The overall mood is one of pioneering spirit and uncharted possibility, as if the figure is charting a new course through the vast, unexplored expanse of human emotion.
+2026-07-18 18:32:08,123 - INFO - ðŸ–¼ï¸  Saved cover image to images/a307b427d8ba7096.jpg
+2026-07-18 18:32:09,530 - INFO - ðŸ“¤ Pushed images/a307b427d8ba7096.jpg to GitHub.
+2026-07-18 18:32:09,680 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/a307b427d8ba7096.jpg
+2026-07-18 18:32:09,682 - INFO - Scheduling for: 2026-07-18T23:49:09.682579Z UTC
+2026-07-18 18:32:10,320 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5bc6aaec0d7ba10b101c3b
+2026-07-18 18:32:10,322 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-18 18:32:10,322 - INFO - âœ… Run completed.
