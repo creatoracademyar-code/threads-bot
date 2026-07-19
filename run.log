@@ -2476,3 +2476,45 @@ They're mapping the uncharted territories of human emotion, and creating content
 2026-07-18 18:32:10,320 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5bc6aaec0d7ba10b101c3b
 2026-07-18 18:32:10,322 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-18 18:32:10,322 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-19T00:31:45.694591
+============================================================
+2026-07-19 00:31:45,694 - INFO - ðŸš€ Starting automation run
+2026-07-19 00:31:45,695 - INFO - ðŸ“š Found 61 previously posted threads.
+2026-07-19 00:31:45,695 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-19 00:31:45,695 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-19 00:31:47,033 - INFO - Groq raw response:
+[
+  "I've been observing a fascinating pattern in AI content creation.\nIt's the 'cycle of obsolescence' – where ideas, trends, and even entire industries become outdated.",
+  "What if I told you that the most successful AI creators are not just adapting to this cycle, but actively accelerating it?\nThey're not just innovators, but 'obsolescence engineers'.",
+  "I've been studying their approach, and what I've found is surprising:\nThey're not afraid to 'kill' their own ideas, even if they're successful.",
+  "This got me thinking: what if the key to success in AI content creation is not about creating something new, but about 'curating' the old?\nRemoving what's no longer relevant, and making room for what's next.",
+  "I'm still exploring this idea, but one thing is clear:\nThe cycle of obsolescence is not just a natural process, but a deliberate strategy for growth."
+]
+2026-07-19 00:31:47,034 - INFO - âœ… Unique thread found (hash: 17cc76c8...)
+2026-07-19 00:31:47,034 - INFO - ðŸ“ Generated 5 posts:
+2026-07-19 00:31:47,034 - INFO - --- Post 1 ---
+I've been observing a fascinating pattern in AI content creation.
+It's the 'cycle of obsolescence' – where ideas, trends, and even entire industries become outdated.
+2026-07-19 00:31:47,034 - INFO - --- Post 2 ---
+What if I told you that the most successful AI creators are not just adapting to this cycle, but actively accelerating it?
+They're not just innovators, but 'obsolescence engineers'.
+2026-07-19 00:31:47,034 - INFO - --- Post 3 ---
+I've been studying their approach, and what I've found is surprising:
+They're not afraid to 'kill' their own ideas, even if they're successful.
+2026-07-19 00:31:47,034 - INFO - --- Post 4 ---
+This got me thinking: what if the key to success in AI content creation is not about creating something new, but about 'curating' the old?
+Removing what's no longer relevant, and making room for what's next.
+2026-07-19 00:31:47,034 - INFO - --- Post 5 ---
+I'm still exploring this idea, but one thing is clear:
+The cycle of obsolescence is not just a natural process, but a deliberate strategy for growth.
+2026-07-19 00:31:48,420 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, futuristic laboratory, a lone figure stands amidst a maze of workstations, each cluttered with outdated computer equipment, discarded motherboards, and tangled wires. The main subject, a visionary obsolescence engineer, is positioned at the centre, surrounded by a halo of soft, blue-green light emanating from a series of sleek, minimalist screens. The colour palette is predominantly cool, with muted tones of grey, silver, and dark blue, punctuated by the occasional burst of vibrant, electric blue, symbolizing innovation and progress. The lighting is dramatic, with deep shadows cast across the room, and a hint of warm, golden glow seeping through the blinds, representing the passing of time. The camera angle is low, looking up at the engineer, who is gazing intently at a massive, wall-sized screen displaying a mesmerizing pattern of interconnected nodes and cycles. The atmosphere is one of calculated tension, as if the engineer is poised on the cusp of a groundbreaking discovery. The texture of the scene is a mix of smooth, polished metal and rough, industrial concrete, with a subtle sheen on the screens and equipment, hinting at a style that is both photorealistic and cinematic. In the background, a massive, circular window offers a glimpse of a cityscape at dusk, with towering skyscrapers and neon lights, serving as a reminder of the ever-changing world outside the laboratory. The overall mood is one of hopeful anticipation, as the engineer stands ready to harness the power of the cycle of obsolescence to shape the future of AI content creation.
+2026-07-19 00:31:50,289 - INFO - ðŸ–¼ï¸  Saved cover image to images/ae3d075b925a4254.jpg
+2026-07-19 00:31:51,693 - INFO - ðŸ“¤ Pushed images/ae3d075b925a4254.jpg to GitHub.
+2026-07-19 00:31:51,920 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/ae3d075b925a4254.jpg
+2026-07-19 00:31:51,923 - INFO - Scheduling for: 2026-07-19T05:48:51.923001Z UTC
+2026-07-19 00:31:52,655 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5c1af8408c9cdb25c0c22c
+2026-07-19 00:31:52,657 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-19 00:31:52,657 - INFO - âœ… Run completed.
