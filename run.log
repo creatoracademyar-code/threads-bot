@@ -2555,3 +2555,40 @@ I'm still exploring this concept, but one thing is clear: it's the key to creati
 2026-07-19 06:30:32,231 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5c6f0891e65cf726ee9738
 2026-07-19 06:30:32,233 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-19 06:30:32,233 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-19T12:31:54.412642
+============================================================
+2026-07-19 12:31:54,412 - INFO - ðŸš€ Starting automation run
+2026-07-19 12:31:54,413 - INFO - ðŸ“š Found 63 previously posted threads.
+2026-07-19 12:31:54,413 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-19 12:31:54,413 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-19 12:31:55,562 - INFO - Groq raw response:
+[
+  "I've been studying the psychology of AI creators who've achieved massive success.",
+  "One thing stands out: their ability to craft a 'personal myth' – a narrative that defines their purpose and passion.",
+  "But what if I told you that this myth is not just about them, but about the 'collective unconscious' of their audience?",
+  "I've been trying to understand how they tap into this shared psyche, and what I've found is surprising.",
+  "It's not just about the content, but about the 'symbolic language' they use to speak to our deepest desires."
+]
+2026-07-19 12:31:55,563 - INFO - âœ… Unique thread found (hash: 11a84e41...)
+2026-07-19 12:31:55,563 - INFO - ðŸ“ Generated 5 posts:
+2026-07-19 12:31:55,563 - INFO - --- Post 1 ---
+I've been studying the psychology of AI creators who've achieved massive success.
+2026-07-19 12:31:55,563 - INFO - --- Post 2 ---
+One thing stands out: their ability to craft a 'personal myth' – a narrative that defines their purpose and passion.
+2026-07-19 12:31:55,563 - INFO - --- Post 3 ---
+But what if I told you that this myth is not just about them, but about the 'collective unconscious' of their audience?
+2026-07-19 12:31:55,563 - INFO - --- Post 4 ---
+I've been trying to understand how they tap into this shared psyche, and what I've found is surprising.
+2026-07-19 12:31:55,563 - INFO - --- Post 5 ---
+It's not just about the content, but about the 'symbolic language' they use to speak to our deepest desires.
+2026-07-19 12:31:56,921 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, intimate studio, a lone figure sits at a wooden desk, surrounded by stacks of dusty, leather-bound books and scattered papers with handwritten notes. The room is filled with the warm, golden light of a setting sun, which seeps through the grimy, wet glass of a skylight above, casting a sense of nostalgia and contemplation. The colour palette is predominantly muted, with shades of earthy brown, mossy green, and faded blue, evoking a sense of aged wisdom. The air is thick with the scent of old parchment and the soft glow of a table lamp, which casts dramatic shadows on the walls, emphasizing the figure's intense focus. The camera angle is a low, over-the-shoulder shot, looking up at the figure with a sense of reverence, as if witnessing a moment of profound insight. The atmosphere is serene, yet tense with anticipation, like the moment before a revelation. The texture of the wooden desk and the rough, stone walls adds a sense of organic, human touch, while the polished, silver frame of the table lamp hints at a subtle, sophisticated elegance. The style of the scene is reminiscent of a cinematic, oil-painting-inspired still life, with bold brushstrokes and vivid, expressive colours. The figure's face is tilted downwards, lost in thought, as their hands cradle a small, glowing orb, which pulsates with a soft, ethereal light, symbolizing the collective unconscious they are trying to tap into.
+2026-07-19 12:31:58,822 - INFO - ðŸ–¼ï¸  Saved cover image to images/c41a497622809d57.jpg
+2026-07-19 12:32:00,414 - INFO - ðŸ“¤ Pushed images/c41a497622809d57.jpg to GitHub.
+2026-07-19 12:32:00,762 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/c41a497622809d57.jpg
+2026-07-19 12:32:00,763 - INFO - Scheduling for: 2026-07-19T17:49:00.763951Z UTC
+2026-07-19 12:32:01,640 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5cc3c10424e7e331de2cc2
+2026-07-19 12:32:01,641 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-19 12:32:01,641 - INFO - âœ… Run completed.
