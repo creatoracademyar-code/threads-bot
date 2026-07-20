@@ -2718,3 +2718,40 @@ And I've stumbled upon a surprising strategy to achieve this...
 2026-07-20 12:30:43,697 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5e14f3b9621441f051353e
 2026-07-20 12:30:43,699 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-20 12:30:43,699 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-20T18:30:33.156605
+============================================================
+2026-07-20 18:30:33,156 - INFO - ðŸš€ Starting automation run
+2026-07-20 18:30:33,157 - INFO - ðŸ“š Found 67 previously posted threads.
+2026-07-20 18:30:33,157 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-20 18:30:33,157 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-20 18:30:35,789 - INFO - Groq raw response:
+[
+  "I've been studying the anatomy of a 'viral loop' in AI content creation.",
+  "It's the self-reinforcing cycle that drives engagement, shares, and ultimately, success.",
+  "But what if I told you that the most successful AI creators don't just chase virality, but 'curate' it?",
+  "They craft experiences that are not just memorable, but 'recallable'.",
+  "I'm still trying to understand the psychology behind this, and what I've found is surprising..."
+]
+2026-07-20 18:30:35,790 - INFO - âœ… Unique thread found (hash: 6562d58c...)
+2026-07-20 18:30:35,790 - INFO - ðŸ“ Generated 5 posts:
+2026-07-20 18:30:35,790 - INFO - --- Post 1 ---
+I've been studying the anatomy of a 'viral loop' in AI content creation.
+2026-07-20 18:30:35,790 - INFO - --- Post 2 ---
+It's the self-reinforcing cycle that drives engagement, shares, and ultimately, success.
+2026-07-20 18:30:35,790 - INFO - --- Post 3 ---
+But what if I told you that the most successful AI creators don't just chase virality, but 'curate' it?
+2026-07-20 18:30:35,790 - INFO - --- Post 4 ---
+They craft experiences that are not just memorable, but 'recallable'.
+2026-07-20 18:30:35,790 - INFO - --- Post 5 ---
+I'm still trying to understand the psychology behind this, and what I've found is surprising...
+2026-07-20 18:30:37,471 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, futuristic laboratory, a lone figure stands at the centre of a large, circular room filled with holographic screens and sleek, metallic equipment. The main subject, a young woman with an intent gaze, is surrounded by a mesmerizing vortex of glowing, ethereal orbs that represent the viral loop. The setting is a blend of urban, high-tech elements and organic, curved lines, with a distinct colour palette of cool blues and purples, punctuated by flashes of bright, electric green. The lighting is a mix of soft, diffused glow from the holographic screens and dramatic, high-contrast shadows cast by the sleek equipment, creating an atmosphere of tense, focused curiosity. The camera angle is a low, wide shot, looking up at the woman from the floor, emphasizing her role as a masterful curator of the viral loop. The air is filled with a sense of hopeful anticipation, as if the woman is on the verge of unlocking a profound secret. The texture of the metallic equipment and the smooth, glass-like surface of the holographic screens adds a sense of sleek, high-tech sophistication, while the woman's rough, stone-like sculpture of a brain in the foreground hints at the complex, organic nature of human psychology. The style of the image is cinematic, with a hint of futuristic, 3D rendering, inviting the viewer to step into the immersive, thought-provoking world of the laboratory.
+2026-07-20 18:30:39,596 - INFO - ðŸ–¼ï¸  Saved cover image to images/69de3bdd5f370c99.jpg
+2026-07-20 18:30:41,403 - INFO - ðŸ“¤ Pushed images/69de3bdd5f370c99.jpg to GitHub.
+2026-07-20 18:30:41,598 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/69de3bdd5f370c99.jpg
+2026-07-20 18:30:41,600 - INFO - Scheduling for: 2026-07-20T23:47:41.600577Z UTC
+2026-07-20 18:30:42,563 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5e6952a7ac89665f57962f
+2026-07-20 18:30:42,564 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-20 18:30:42,564 - INFO - âœ… Run completed.
