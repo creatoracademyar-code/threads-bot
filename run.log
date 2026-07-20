@@ -2634,3 +2634,45 @@ But one thing is clear: the disappearance of the creator's voice is not an end, 
 2026-07-19 18:32:04,061 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5d182367e8ff89c3ae4350
 2026-07-19 18:32:04,063 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-19 18:32:04,063 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-20T06:30:29.901632
+============================================================
+2026-07-20 06:30:29,901 - INFO - ðŸš€ Starting automation run
+2026-07-20 06:30:29,902 - INFO - ðŸ“š Found 65 previously posted threads.
+2026-07-20 06:30:29,902 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-20 06:30:29,902 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-20 06:30:31,438 - INFO - Groq raw response:
+[
+  "I've been observing a fascinating phenomenon in AI content creation.\nIt's the 'invisible scripts' that drive our behavior as creators.",
+  "These scripts are not just about code or algorithms, but about the 'unconscious patterns' that shape our decisions.\nWhat if I told you that the most successful AI creators are aware of these scripts?",
+  "They've learned to 'read' and 'write' them, using a secret language that's hidden in plain sight.\nI've been trying to decipher this language, and what I've found is surprising.",
+  "It's not just about the tech or the tools, but about the 'narrative codes' that underlie all human communication.\nI'm still exploring the implications of this discovery.",
+  "But one thing is clear: mastering these invisible scripts is the key to unlocking true creativity and innovation in AI content creation.\nAnd I'm just starting to scratch the surface..."
+]
+2026-07-20 06:30:31,439 - INFO - âœ… Unique thread found (hash: 72599bfe...)
+2026-07-20 06:30:31,439 - INFO - ðŸ“ Generated 5 posts:
+2026-07-20 06:30:31,439 - INFO - --- Post 1 ---
+I've been observing a fascinating phenomenon in AI content creation.
+It's the 'invisible scripts' that drive our behavior as creators.
+2026-07-20 06:30:31,439 - INFO - --- Post 2 ---
+These scripts are not just about code or algorithms, but about the 'unconscious patterns' that shape our decisions.
+What if I told you that the most successful AI creators are aware of these scripts?
+2026-07-20 06:30:31,439 - INFO - --- Post 3 ---
+They've learned to 'read' and 'write' them, using a secret language that's hidden in plain sight.
+I've been trying to decipher this language, and what I've found is surprising.
+2026-07-20 06:30:31,439 - INFO - --- Post 4 ---
+It's not just about the tech or the tools, but about the 'narrative codes' that underlie all human communication.
+I'm still exploring the implications of this discovery.
+2026-07-20 06:30:31,439 - INFO - --- Post 5 ---
+But one thing is clear: mastering these invisible scripts is the key to unlocking true creativity and innovation in AI content creation.
+And I'm just starting to scratch the surface...
+2026-07-20 06:30:33,042 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, futuristic laboratory, a lone figure sits at a sleek, metallic desk, surrounded by towering shelves lined with old, leather-bound books and glowing, ethereal screens. The main subject, a young creator with an inquisitive expression, is positioned in the center of the room, illuminated by a soft, diffused light that emanates from the screens, casting a mesmerizing glow on their face. The colour palette is a blend of cool, cyberpunk neons, with shades of blue and purple dominating the scene, punctuated by warm, golden hues that seep from the old books. The lighting is dramatic, with deep shadows accentuating the textures of the rough, concrete walls and the polished, metallic surfaces of the desk and screens. The camera angle is a low-angle shot, looking up at the creator, conveying a sense of awe and curiosity. The atmosphere is tense and hopeful, as if the creator is on the verge of uncovering a hidden truth. The texture of the old books and the rough concrete walls adds a sense of ruggedness, while the polished metal and glowing screens introduce a sense of sleekness and modernity. The style of the image is cinematic, with a hint of sci-fi, as if the scene is a still from a thought-provoking, futuristic film. The overall mood is one of quiet contemplation, as if the creator is deciphering a secret code that will unlock the doors to a new world of creativity and innovation.
+2026-07-20 06:30:34,839 - INFO - ðŸ–¼ï¸  Saved cover image to images/c66a10086caadbd4.jpg
+2026-07-20 06:30:36,460 - INFO - ðŸ“¤ Pushed images/c66a10086caadbd4.jpg to GitHub.
+2026-07-20 06:30:36,900 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/c66a10086caadbd4.jpg
+2026-07-20 06:30:36,902 - INFO - Scheduling for: 2026-07-20T11:47:36.902570Z UTC
+2026-07-20 06:30:37,600 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5dc08df2fa303f3bd0a207
+2026-07-20 06:30:37,602 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-20 06:30:37,602 - INFO - âœ… Run completed.
