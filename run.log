@@ -2755,3 +2755,40 @@ I'm still trying to understand the psychology behind this, and what I've found i
 2026-07-20 18:30:42,563 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5e6952a7ac89665f57962f
 2026-07-20 18:30:42,564 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-20 18:30:42,564 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-21T00:30:26.600274
+============================================================
+2026-07-21 00:30:26,600 - INFO - ðŸš€ Starting automation run
+2026-07-21 00:30:26,600 - INFO - ðŸ“š Found 68 previously posted threads.
+2026-07-21 00:30:26,601 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-21 00:30:26,601 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-21 00:30:27,910 - INFO - Groq raw response:
+[
+  "I've been noticing a strange divide in the AI creator community.",
+  "Some creators are obsessed with 'going viral', while others focus on building a loyal audience.",
+  "But what if I told you that these two approaches are not mutually exclusive?",
+  "In fact, the most successful AI creators have found a way to 'hack' the system, using virality to fuel their loyal following.",
+  "I've been studying their strategies, and what I've found is surprising..."
+]
+2026-07-21 00:30:27,911 - INFO - âœ… Unique thread found (hash: c7ae2327...)
+2026-07-21 00:30:27,912 - INFO - ðŸ“ Generated 5 posts:
+2026-07-21 00:30:27,912 - INFO - --- Post 1 ---
+I've been noticing a strange divide in the AI creator community.
+2026-07-21 00:30:27,912 - INFO - --- Post 2 ---
+Some creators are obsessed with 'going viral', while others focus on building a loyal audience.
+2026-07-21 00:30:27,912 - INFO - --- Post 3 ---
+But what if I told you that these two approaches are not mutually exclusive?
+2026-07-21 00:30:27,912 - INFO - --- Post 4 ---
+In fact, the most successful AI creators have found a way to 'hack' the system, using virality to fuel their loyal following.
+2026-07-21 00:30:27,912 - INFO - --- Post 5 ---
+I've been studying their strategies, and what I've found is surprising...
+2026-07-21 00:30:29,080 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, futuristic laboratory, a lone figure stands at the intersection of two pathways, symbolizing the divide in the AI creator community. The setting is a blend of industrial and digital elements, with exposed metallic beams, holographic screens, and a maze of wires. The colour palette is a mix of cool blues and neon greens, evoking a sense of technology and innovation. Soft, diffused light emanates from the screens, casting a gentle glow on the figure, while dramatic shadows accentuate the contrast between the two pathways. The camera angle is a low-angle shot, looking up at the figure, conveying a sense of power and agency. The atmosphere is one of hopeful curiosity, as the figure embodies the possibility of bridging the divide between virality and loyalty. The texture of the metallic beams and wires adds a sense of roughness and complexity, while the smooth, glowing screens represent the sleekness of digital technology. In the style of a cinematic 3D render, the image should capture the tension and possibility of this moment, with the figure poised to 'hack' the system and forge a new path. The overall mood is tense with anticipation, as the figure stands at the threshold of a new discovery.
+2026-07-21 00:30:31,184 - INFO - ðŸ–¼ï¸  Saved cover image to images/8b6a5dc521bd8911.jpg
+2026-07-21 00:30:32,805 - INFO - ðŸ“¤ Pushed images/8b6a5dc521bd8911.jpg to GitHub.
+2026-07-21 00:30:33,001 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/8b6a5dc521bd8911.jpg
+2026-07-21 00:30:33,003 - INFO - Scheduling for: 2026-07-21T05:47:33.003320Z UTC
+2026-07-21 00:30:33,760 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5ebda9ff844812f8aa8684
+2026-07-21 00:30:33,761 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-21 00:30:33,761 - INFO - âœ… Run completed.
