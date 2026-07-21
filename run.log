@@ -2876,3 +2876,45 @@ It's the key to creating content that truly resonates, and leaves a lasting impa
 2026-07-21 12:30:37,156 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5f666c199611bc0c4acd1a
 2026-07-21 12:30:37,157 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-21 12:30:37,157 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-21T18:30:32.992143
+============================================================
+2026-07-21 18:30:32,992 - INFO - ðŸš€ Starting automation run
+2026-07-21 18:30:32,992 - INFO - ðŸ“š Found 71 previously posted threads.
+2026-07-21 18:30:32,993 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-21 18:30:32,993 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-21 18:30:36,423 - INFO - Groq raw response:
+[
+  "I've been fascinated by the concept of 'digital legacies' in AI content creation.\nWhat happens to our online presence when we're gone?",
+  "I've been studying AI creators who've built massive followings, and one thing stands out:\ntheir ability to craft a 'posthumous narrative' that continues to inspire and influence long after they're gone.",
+  "But what if I told you that this narrative is not just about the creator, but about the 'digital echoes' they leave behind?\nThese echoes are not just about nostalgia, but about creating a sense of continuity and connection with the audience.",
+  "I've been trying to understand the psychology behind this, and what I've found is surprising:\nIt's not about the tech or the tools, but about the 'emotional resonance' they create with their audience.",
+  "I'm still exploring this idea, but one thing is clear:\nIt's the key to creating a lasting impact that transcends our physical presence, and leaves a lasting legacy in the digital world."
+]
+2026-07-21 18:30:36,424 - INFO - âœ… Unique thread found (hash: a023f008...)
+2026-07-21 18:30:36,424 - INFO - ðŸ“ Generated 5 posts:
+2026-07-21 18:30:36,425 - INFO - --- Post 1 ---
+I've been fascinated by the concept of 'digital legacies' in AI content creation.
+What happens to our online presence when we're gone?
+2026-07-21 18:30:36,425 - INFO - --- Post 2 ---
+I've been studying AI creators who've built massive followings, and one thing stands out:
+their ability to craft a 'posthumous narrative' that continues to inspire and influence long after they're gone.
+2026-07-21 18:30:36,425 - INFO - --- Post 3 ---
+But what if I told you that this narrative is not just about the creator, but about the 'digital echoes' they leave behind?
+These echoes are not just about nostalgia, but about creating a sense of continuity and connection with the audience.
+2026-07-21 18:30:36,425 - INFO - --- Post 4 ---
+I've been trying to understand the psychology behind this, and what I've found is surprising:
+It's not about the tech or the tools, but about the 'emotional resonance' they create with their audience.
+2026-07-21 18:30:36,425 - INFO - --- Post 5 ---
+I'm still exploring this idea, but one thing is clear:
+It's the key to creating a lasting impact that transcends our physical presence, and leaves a lasting legacy in the digital world.
+2026-07-21 18:30:37,875 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, futuristic museum, a lone figure stands before a massive, transparent screen that stretches from the floor to the ceiling, surrounded by a halo of soft, ethereal light. The screen displays a mesmerizing, swirling vortex of glowing, iridescent orbs that seem to pulse with a life of their own, set against a deep, rich blue background that evokes a sense of infinite digital space. The colour palette is predominantly cool, with hues of blue and purple dominating the scene, punctuated by occasional flashes of warm, golden light that seem to emanate from the orbs themselves. The lighting is soft and diffused, with subtle, shimmering highlights that dance across the screen's surface, casting a gentle, otherworldly glow on the surrounding environment. The camera angle is wide, with the figure standing at a slight distance, allowing the viewer to take in the full majesty of the screen and the eerie, dreamlike atmosphere it creates. The atmosphere is one of serene, contemplative wonder, as if the figure is lost in thought, pondering the mysteries of the digital realm. The texture of the screen is smooth and glassy, while the surrounding walls and floor are made of rough, dark concrete, providing a striking contrast between the physical and digital worlds. The style of the image is cinematic, with a hint of sci-fi futurism, as if the scene is set in a world where technology has transcended the boundaries between the physical and digital. The overall mood is one of hopeful, introspective curiosity, as if the figure is on the cusp of uncovering a profound truth about the nature of digital legacy and the human experience.
+2026-07-21 18:30:39,772 - INFO - ðŸ–¼ï¸  Saved cover image to images/a1cab57ae3decc84.jpg
+2026-07-21 18:30:41,131 - INFO - ðŸ“¤ Pushed images/a1cab57ae3decc84.jpg to GitHub.
+2026-07-21 18:30:41,278 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/a1cab57ae3decc84.jpg
+2026-07-21 18:30:41,280 - INFO - Scheduling for: 2026-07-21T23:47:41.280394Z UTC
+2026-07-21 18:30:41,855 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5fbad1f2f40c20d56e3c88
+2026-07-21 18:30:41,857 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-21 18:30:41,857 - INFO - âœ… Run completed.
