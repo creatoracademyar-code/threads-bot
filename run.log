@@ -2792,3 +2792,45 @@ I've been studying their strategies, and what I've found is surprising...
 2026-07-21 00:30:33,760 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5ebda9ff844812f8aa8684
 2026-07-21 00:30:33,761 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-21 00:30:33,761 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-21T06:30:26.449630
+============================================================
+2026-07-21 06:30:26,449 - INFO - ðŸš€ Starting automation run
+2026-07-21 06:30:26,450 - INFO - ðŸ“š Found 69 previously posted threads.
+2026-07-21 06:30:26,450 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-21 06:30:26,451 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-21 06:30:28,817 - INFO - Groq raw response:
+[
+  "I've been noticing a strange phenomenon in AI business.\nIt's the 'shadow work' that creators do, behind the scenes.",
+  "They're not just creating content, they're building a 'hidden architecture'.\nA framework that supports their entire operation.",
+  "I've been trying to understand the psychology behind this.\nAnd what I've found is surprising: it's not about the tech, but about the 'story' they tell themselves.",
+  "The story of how they want to be perceived, how they want to be seen.\nAnd how this story shapes their entire approach to AI content creation.",
+  "I'm still exploring this idea, but one thing is clear:\nIt's the key to unlocking true success in the AI creator space."
+]
+2026-07-21 06:30:28,818 - INFO - âœ… Unique thread found (hash: 9b67aaf6...)
+2026-07-21 06:30:28,818 - INFO - ðŸ“ Generated 5 posts:
+2026-07-21 06:30:28,818 - INFO - --- Post 1 ---
+I've been noticing a strange phenomenon in AI business.
+It's the 'shadow work' that creators do, behind the scenes.
+2026-07-21 06:30:28,818 - INFO - --- Post 2 ---
+They're not just creating content, they're building a 'hidden architecture'.
+A framework that supports their entire operation.
+2026-07-21 06:30:28,818 - INFO - --- Post 3 ---
+I've been trying to understand the psychology behind this.
+And what I've found is surprising: it's not about the tech, but about the 'story' they tell themselves.
+2026-07-21 06:30:28,818 - INFO - --- Post 4 ---
+The story of how they want to be perceived, how they want to be seen.
+And how this story shapes their entire approach to AI content creation.
+2026-07-21 06:30:28,818 - INFO - --- Post 5 ---
+I'm still exploring this idea, but one thing is clear:
+It's the key to unlocking true success in the AI creator space.
+2026-07-21 06:30:30,581 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, minimalist studio, a solitary figure sits at a sleek, polished wooden desk, surrounded by sparse, modern furnishings. The main subject, a young creator with an introspective expression, is positioned in a gentle, golden light that pours in through a large, wet glass window, casting subtle, shimmering reflections on the desk's surface. The colour palette is predominantly monochromatic, with muted greys and blues, punctuated by the warm, honey-like tones of the wooden desk and the soft, creamy hues of the creator's skin. The lighting is soft and diffused, with deep shadows accentuating the contours of the creator's face and the textures of the surrounding environment, including the rough, concrete walls and the smooth, metallic edges of the desk. The camera angle is a low, intimate close-up, capturing the creator's thoughtful gaze as they contemplate the 'hidden architecture' of their AI content creation. The atmosphere is serene and contemplative, with a sense of quiet focus, as if the creator is on the cusp of a profound realization. The style hint is cinematic, with a slight oil painting quality to the textures and lighting, evoking a sense of timelessness and depth. In the background, a blurred, cityscape stretches out, with towering skyscrapers and neon lights, symbolizing the vast, complex world of AI business that the creator is navigating. The overall mood is one of hopeful introspection, as the creator seeks to unlock the secrets of their own 'story' and the true key to success in the AI creator space.
+2026-07-21 06:30:32,216 - INFO - ðŸ–¼ï¸  Saved cover image to images/6da6c9f803173b16.jpg
+2026-07-21 06:30:33,727 - INFO - ðŸ“¤ Pushed images/6da6c9f803173b16.jpg to GitHub.
+2026-07-21 06:30:33,973 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/6da6c9f803173b16.jpg
+2026-07-21 06:30:33,975 - INFO - Scheduling for: 2026-07-21T11:47:33.975437Z UTC
+2026-07-21 06:30:44,538 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5f1214ca9685992e2c6c88
+2026-07-21 06:30:44,539 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-21 06:30:44,539 - INFO - âœ… Run completed.
