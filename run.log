@@ -2834,3 +2834,45 @@ It's the key to unlocking true success in the AI creator space.
 2026-07-21 06:30:44,538 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5f1214ca9685992e2c6c88
 2026-07-21 06:30:44,539 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-21 06:30:44,539 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-21T12:30:29.956513
+============================================================
+2026-07-21 12:30:29,956 - INFO - ðŸš€ Starting automation run
+2026-07-21 12:30:29,957 - INFO - ðŸ“š Found 70 previously posted threads.
+2026-07-21 12:30:29,957 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-21 12:30:29,957 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-21 12:30:31,423 - INFO - Groq raw response:
+[
+  "I've been studying AI creators who've built massive followings.\nOne thing stands out: their ability to craft 'hidden narratives'.",
+  "These narratives are not just about the content, but about the 'unseen forces' that drive engagement.\nThey're the underlying currents that shape our emotions, desires, and behaviors.",
+  "I've been trying to understand how they tap into these forces, and what I've found is surprising:\nIt's not about the tech or the tools, but about the 'mythological codes' they use to speak to our deepest desires.",
+  "These codes are not just about storytelling, but about creating a 'shared mythology' with their audience.\nA mythology that transcends the content itself, and speaks directly to our souls.",
+  "I'm still exploring the implications of this discovery, but one thing is clear:\nIt's the key to creating content that truly resonates, and leaves a lasting impact on our lives."
+]
+2026-07-21 12:30:31,424 - INFO - âœ… Unique thread found (hash: 96896c65...)
+2026-07-21 12:30:31,424 - INFO - ðŸ“ Generated 5 posts:
+2026-07-21 12:30:31,424 - INFO - --- Post 1 ---
+I've been studying AI creators who've built massive followings.
+One thing stands out: their ability to craft 'hidden narratives'.
+2026-07-21 12:30:31,424 - INFO - --- Post 2 ---
+These narratives are not just about the content, but about the 'unseen forces' that drive engagement.
+They're the underlying currents that shape our emotions, desires, and behaviors.
+2026-07-21 12:30:31,424 - INFO - --- Post 3 ---
+I've been trying to understand how they tap into these forces, and what I've found is surprising:
+It's not about the tech or the tools, but about the 'mythological codes' they use to speak to our deepest desires.
+2026-07-21 12:30:31,424 - INFO - --- Post 4 ---
+These codes are not just about storytelling, but about creating a 'shared mythology' with their audience.
+A mythology that transcends the content itself, and speaks directly to our souls.
+2026-07-21 12:30:31,424 - INFO - --- Post 5 ---
+I'm still exploring the implications of this discovery, but one thing is clear:
+It's the key to creating content that truly resonates, and leaves a lasting impact on our lives.
+2026-07-21 12:30:32,919 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, mystical library, a lone figure sits at a wooden desk, surrounded by ancient tomes and scattered parchment. The room is filled with a warm, golden light that seeps through the stained glass windows, casting intricate patterns on the stone floor. The colour palette is rich and muted, with shades of mahogany, sienna, and dusty blue, evoking a sense of nostalgia and forgotten knowledge. The lighting is soft and diffused, with deep shadows that add depth and mystery to the scene. The camera angle is low, looking up at the figure, who is illuminated by a single, flickering candle that casts an otherworldly glow on their face. The atmosphere is contemplative and introspective, with a sense of reverence for the ancient myths and codes that line the shelves. The texture of the old books and parchment is rough and worn, while the wooden desk is smooth and polished, reflecting the warm light. The style hint is cinematic, with a slight oil painting quality to the scene, as if it's been plucked from a forgotten era. The figure's face is tilted downward, lost in thought, as they decipher the hidden narratives and mythological codes that hold the key to creating lasting connections with others. The overall mood is one of quiet discovery, as if the figure is on the cusp of uncovering a long-hidden truth that will change their understanding of the world forever.
+2026-07-21 12:30:34,722 - INFO - ðŸ–¼ï¸  Saved cover image to images/861ec6567bfda125.jpg
+2026-07-21 12:30:36,219 - INFO - ðŸ“¤ Pushed images/861ec6567bfda125.jpg to GitHub.
+2026-07-21 12:30:36,369 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/861ec6567bfda125.jpg
+2026-07-21 12:30:36,372 - INFO - Scheduling for: 2026-07-21T17:47:36.372094Z UTC
+2026-07-21 12:30:37,156 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5f666c199611bc0c4acd1a
+2026-07-21 12:30:37,157 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-21 12:30:37,157 - INFO - âœ… Run completed.
