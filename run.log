@@ -2918,3 +2918,40 @@ It's the key to creating a lasting impact that transcends our physical presence,
 2026-07-21 18:30:41,855 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a5fbad1f2f40c20d56e3c88
 2026-07-21 18:30:41,857 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-21 18:30:41,857 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-22T00:30:26.528746
+============================================================
+2026-07-22 00:30:26,528 - INFO - ðŸš€ Starting automation run
+2026-07-22 00:30:26,529 - INFO - ðŸ“š Found 72 previously posted threads.
+2026-07-22 00:30:26,529 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-22 00:30:26,530 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-22 00:30:27,851 - INFO - Groq raw response:
+[
+  "I've been studying the most successful AI creators, trying to crack their code.",
+  "What if I told you that their secret sauce is not about the tech, but about 'pattern blindness'?",
+  "They've learned to ignore the obvious, and focus on the 'invisible patterns' that drive human behavior.",
+  "I've been trying to understand these patterns, and what I've found is surprising.",
+  "It's not about the data or the analytics, but about the 'unconscious rhythms' that shape our decisions."
+]
+2026-07-22 00:30:27,852 - INFO - âœ… Unique thread found (hash: 21022630...)
+2026-07-22 00:30:27,852 - INFO - ðŸ“ Generated 5 posts:
+2026-07-22 00:30:27,852 - INFO - --- Post 1 ---
+I've been studying the most successful AI creators, trying to crack their code.
+2026-07-22 00:30:27,852 - INFO - --- Post 2 ---
+What if I told you that their secret sauce is not about the tech, but about 'pattern blindness'?
+2026-07-22 00:30:27,852 - INFO - --- Post 3 ---
+They've learned to ignore the obvious, and focus on the 'invisible patterns' that drive human behavior.
+2026-07-22 00:30:27,852 - INFO - --- Post 4 ---
+I've been trying to understand these patterns, and what I've found is surprising.
+2026-07-22 00:30:27,852 - INFO - --- Post 5 ---
+It's not about the data or the analytics, but about the 'unconscious rhythms' that shape our decisions.
+2026-07-22 00:30:29,344 - INFO - ðŸŽ¨ Cover image prompt: A lone figure sits in a dimly lit, minimalist room with walls lined with floor-to-ceiling windows, overlooking a bustling cityscape at dusk. The main subject, a young woman with an intent expression, is seated at a sleek, polished wooden desk, surrounded by scattered papers, empty coffee cups, and a few scattered AI-themed books. The colour palette is predominantly cool blues and greys, with warm golden hour light spilling in through the windows, casting long shadows across the room. Soft, diffused light emanates from a single desk lamp, illuminating the woman's face and the intricate patterns of notes and diagrams on the papers. The camera angle is a low, wide shot, looking up at the woman from the corner of the room, conveying a sense of quiet contemplation and curiosity. The atmosphere is serene, yet tense with anticipation, as if the woman is on the cusp of a major discovery. The texture of the rough concrete cityscape outside contrasts with the smooth, polished wood of the desk and the crisp paper notes, adding depth to the scene. The style hint is cinematic, with a slight oil painting-inspired texture to the lighting and shadows, inviting the viewer to step into the world of the image. The woman's gaze is directed downward, lost in thought, as her fingers hover over a delicate, hand-drawn pattern on one of the papers, symbolizing her quest to uncover the 'invisible patterns' that drive human behavior.
+2026-07-22 00:30:31,319 - INFO - ðŸ–¼ï¸  Saved cover image to images/2f7d166c6e700907.jpg
+2026-07-22 00:30:33,188 - INFO - ðŸ“¤ Pushed images/2f7d166c6e700907.jpg to GitHub.
+2026-07-22 00:30:33,304 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/2f7d166c6e700907.jpg
+2026-07-22 00:30:33,307 - INFO - Scheduling for: 2026-07-22T05:47:33.307244Z UTC
+2026-07-22 00:30:33,943 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a600f29ab4498e061a69a51
+2026-07-22 00:30:33,944 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-22 00:30:33,944 - INFO - âœ… Run completed.
