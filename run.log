@@ -2955,3 +2955,44 @@ It's not about the data or the analytics, but about the 'unconscious rhythms' th
 2026-07-22 00:30:33,943 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a600f29ab4498e061a69a51
 2026-07-22 00:30:33,944 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-22 00:30:33,944 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-22T06:30:26.622839
+============================================================
+2026-07-22 06:30:26,622 - INFO - ðŸš€ Starting automation run
+2026-07-22 06:30:26,623 - INFO - ðŸ“š Found 73 previously posted threads.
+2026-07-22 06:30:26,623 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-22 06:30:26,623 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-22 06:30:28,496 - INFO - Groq raw response:
+[
+  "I've been studying the psychology of AI creators who've built massive audiences.\nOne thing stands out: their ability to create 'anticipatory content'.",
+  "They don't just react to trends, they anticipate them.\nBut how do they do it?",
+  "I've been trying to understand their thought process, and what I've found is surprising:\nIt's not about being a futurist, but about being a 'student of human desire'.",
+  "They've learned to read the 'unspoken needs' of their audience, and create content that meets those needs before they're even aware of them.",
+  "I'm still exploring this concept, but one thing is clear:\nIt's the key to creating content that resonates, and leaves a lasting impact on our lives."
+]
+2026-07-22 06:30:28,497 - INFO - âœ… Unique thread found (hash: 04b97165...)
+2026-07-22 06:30:28,497 - INFO - ðŸ“ Generated 5 posts:
+2026-07-22 06:30:28,497 - INFO - --- Post 1 ---
+I've been studying the psychology of AI creators who've built massive audiences.
+One thing stands out: their ability to create 'anticipatory content'.
+2026-07-22 06:30:28,497 - INFO - --- Post 2 ---
+They don't just react to trends, they anticipate them.
+But how do they do it?
+2026-07-22 06:30:28,497 - INFO - --- Post 3 ---
+I've been trying to understand their thought process, and what I've found is surprising:
+It's not about being a futurist, but about being a 'student of human desire'.
+2026-07-22 06:30:28,497 - INFO - --- Post 4 ---
+They've learned to read the 'unspoken needs' of their audience, and create content that meets those needs before they're even aware of them.
+2026-07-22 06:30:28,497 - INFO - --- Post 5 ---
+I'm still exploring this concept, but one thing is clear:
+It's the key to creating content that resonates, and leaves a lasting impact on our lives.
+2026-07-22 06:30:29,693 - INFO - ðŸŽ¨ Cover image prompt: A lone figure stands at the edge of a misty, moonlit lake, surrounded by towering trees that stretch towards the sky like nature's own cathedral. The air is filled with an ethereal, soft blue mist that slowly rises from the water's surface, casting an otherworldly glow on the scene. The colour palette is dominated by cool, muted tones of indigo, grey, and silver, with hints of warm, golden light peeking through the mist. The lighting is soft and diffused, with the moon hanging low in the sky, casting long, gentle shadows across the landscape. The camera angle is a wide, low-angle shot, looking up at the figure from the water's edge, conveying a sense of awe and wonder. The atmosphere is serene and contemplative, with a sense of anticipation and quiet expectation. The figure is dressed in a long, flowing coat made of rough, woolen material, with a subtle sheen that catches the moonlight, and their face is tilted upwards, lost in thought. The style hint is cinematic, with a slight oil painting texture, and the overall mood is one of hopeful introspection, as if the figure is on the cusp of uncovering a hidden truth. The texture of the trees, the roughness of the coat, and the smoothness of the water all blend together to create a sense of depth and dimensionality, inviting the viewer to step into the tranquil, dreamlike world.
+2026-07-22 06:30:31,393 - INFO - ðŸ–¼ï¸  Saved cover image to images/f86c96a44d5ddcef.jpg
+2026-07-22 06:30:32,767 - INFO - ðŸ“¤ Pushed images/f86c96a44d5ddcef.jpg to GitHub.
+2026-07-22 06:30:32,973 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/f86c96a44d5ddcef.jpg
+2026-07-22 06:30:32,974 - INFO - Scheduling for: 2026-07-22T11:47:32.974738Z UTC
+2026-07-22 06:30:33,638 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a60638924f2657e75bed37d
+2026-07-22 06:30:33,639 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-22 06:30:33,639 - INFO - âœ… Run completed.
