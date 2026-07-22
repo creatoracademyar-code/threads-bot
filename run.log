@@ -3038,3 +3038,45 @@ It's not about the tech or the tools, but about the 'emotional harmonics' that d
 2026-07-22 12:30:38,523 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a60b7ee6ea9a220168a3629
 2026-07-22 12:30:38,525 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-22 12:30:38,525 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-22T18:30:37.446063
+============================================================
+2026-07-22 18:30:37,446 - INFO - ðŸš€ Starting automation run
+2026-07-22 18:30:37,446 - INFO - ðŸ“š Found 75 previously posted threads.
+2026-07-22 18:30:37,447 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-22 18:30:37,447 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-22 18:30:39,071 - INFO - Groq raw response:
+[
+  "I've been noticing a strange phenomenon in AI content creation.\nIt's the 'paradox of specificity'.",
+  "The more specific a creator is, the broader their appeal.\nBut how does this work?",
+  "I've been studying the most successful AI creators, and what I've found is surprising:\nThey're not trying to appeal to everyone, they're trying to 'own' a specific niche.",
+  "This niche is not just a topic, but a 'psychological resonance' that speaks to a specific audience.\nAnd what I've found is that this resonance is the key to creating content that truly resonates.",
+  "I'm still exploring this idea, but one thing is clear:\nIt's the key to unlocking true success in AI content creation, and I'm just starting to scratch the surface..."
+]
+2026-07-22 18:30:39,072 - INFO - âœ… Unique thread found (hash: 52dce4d8...)
+2026-07-22 18:30:39,072 - INFO - ðŸ“ Generated 5 posts:
+2026-07-22 18:30:39,072 - INFO - --- Post 1 ---
+I've been noticing a strange phenomenon in AI content creation.
+It's the 'paradox of specificity'.
+2026-07-22 18:30:39,072 - INFO - --- Post 2 ---
+The more specific a creator is, the broader their appeal.
+But how does this work?
+2026-07-22 18:30:39,072 - INFO - --- Post 3 ---
+I've been studying the most successful AI creators, and what I've found is surprising:
+They're not trying to appeal to everyone, they're trying to 'own' a specific niche.
+2026-07-22 18:30:39,072 - INFO - --- Post 4 ---
+This niche is not just a topic, but a 'psychological resonance' that speaks to a specific audience.
+And what I've found is that this resonance is the key to creating content that truly resonates.
+2026-07-22 18:30:39,072 - INFO - --- Post 5 ---
+I'm still exploring this idea, but one thing is clear:
+It's the key to unlocking true success in AI content creation, and I'm just starting to scratch the surface...
+2026-07-22 18:30:40,680 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, minimalist studio, a lone figure sits at a sleek, metallic desk, surrounded by sparse, modern furnishings. The main subject, a young creator with an introspective expression, is positioned in a thoughtful pose, with their elbows rested on the desk and hands clasped together. The setting is dominated by a massive, floor-to-ceiling window that overlooks a bustling cityscape at dusk, with warm, golden hour light spilling in and casting long shadows across the room. The colour palette is a blend of cool, industrial tones, such as polished steel and concrete, juxtaposed with the vibrant, sunset hues of orange, pink, and purple that seep in from the outside. Soft, diffused light emanates from a series of futuristic, neon-lit strips embedded in the ceiling, adding an ethereal glow to the scene. The camera angle is a low, Dutch-angle shot, looking up at the creator with a sense of reverence, as if they hold the key to unlocking a profound secret. The atmosphere is one of contemplative curiosity, with the creator's emotions conveyed through their intent, focused expression. The texture of the metallic desk and the rough, unpolished concrete walls adds a sense of industrial ruggedness to the scene, while the smooth, glass surface of the window provides a sleek, modern contrast. The style of the image is cinematic, with a hint of sci-fi futurism, reminiscent of a 3D render, but with a photorealistic attention to detail that draws the viewer into the world of the creator.
+2026-07-22 18:30:42,762 - INFO - ðŸ–¼ï¸  Saved cover image to images/049f2c205dd0bb57.jpg
+2026-07-22 18:30:44,454 - INFO - ðŸ“¤ Pushed images/049f2c205dd0bb57.jpg to GitHub.
+2026-07-22 18:30:44,991 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/049f2c205dd0bb57.jpg
+2026-07-22 18:30:44,993 - INFO - Scheduling for: 2026-07-22T23:47:44.993059Z UTC
+2026-07-22 18:30:45,689 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a610c55ce73edf23701cf97
+2026-07-22 18:30:45,691 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-22 18:30:45,691 - INFO - âœ… Run completed.
