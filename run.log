@@ -3117,3 +3117,45 @@ It's not about the tech or the tools, but about the 'narrative architecture' the
 2026-07-23 00:31:06,785 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a6160ca40dd92a7ca3c830a
 2026-07-23 00:31:06,786 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-23 00:31:06,786 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-23T06:30:29.512693
+============================================================
+2026-07-23 06:30:29,512 - INFO - ðŸš€ Starting automation run
+2026-07-23 06:30:29,513 - INFO - ðŸ“š Found 77 previously posted threads.
+2026-07-23 06:30:29,513 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-23 06:30:29,513 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-23 06:30:31,575 - INFO - Groq raw response:
+[
+  "I've been fascinated by the concept of 'hidden biases' in AI content creation.\nWhat if I told you that our subconscious minds are secretly influencing our content?",
+  "I've been studying the most successful AI creators, and what I've found is surprising:\nThey're not just aware of their biases, but have learned to 'hack' them.",
+  "But how do they do it?\nIt's not about being objective, but about being 'aware' of their subjective reality.",
+  "I've been trying to understand the psychology behind this, and what I've found is surprising:\nIt's not about the tech or the tools, but about the 'inner narrative' that drives our creativity.",
+  "I'm still exploring this idea, and what it means for the future of AI content creation.\nBut one thing is clear: it's the key to creating content that truly resonates, and leaves a lasting impact on our lives."
+]
+2026-07-23 06:30:31,577 - INFO - âœ… Unique thread found (hash: cdd3490a...)
+2026-07-23 06:30:31,577 - INFO - ðŸ“ Generated 5 posts:
+2026-07-23 06:30:31,577 - INFO - --- Post 1 ---
+I've been fascinated by the concept of 'hidden biases' in AI content creation.
+What if I told you that our subconscious minds are secretly influencing our content?
+2026-07-23 06:30:31,577 - INFO - --- Post 2 ---
+I've been studying the most successful AI creators, and what I've found is surprising:
+They're not just aware of their biases, but have learned to 'hack' them.
+2026-07-23 06:30:31,577 - INFO - --- Post 3 ---
+But how do they do it?
+It's not about being objective, but about being 'aware' of their subjective reality.
+2026-07-23 06:30:31,577 - INFO - --- Post 4 ---
+I've been trying to understand the psychology behind this, and what I've found is surprising:
+It's not about the tech or the tools, but about the 'inner narrative' that drives our creativity.
+2026-07-23 06:30:31,577 - INFO - --- Post 5 ---
+I'm still exploring this idea, and what it means for the future of AI content creation.
+But one thing is clear: it's the key to creating content that truly resonates, and leaves a lasting impact on our lives.
+2026-07-23 06:30:33,452 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, futuristic laboratory, a lone figure sits in front of a sleek, metallic console, surrounded by screens displaying swirling patterns of code and neural networks. The main subject, a young woman with a contemplative expression, is illuminated by the soft, blue-green glow of the screens, which casts an ethereal light on her face. The colour palette is predominantly cool and muted, with shades of indigo, silver, and grey, evoking a sense of calm, introspective curiosity. The lighting is diffused, with subtle shadows dancing across the subject's features, adding depth and nuance to the scene. The camera angle is a low, slightly canted close-up, emphasizing the subject's introspective gaze, as if she is lost in thought, exploring the inner workings of her own mind. The atmosphere is serene, yet tense with anticipation, as if the subject is on the cusp of a breakthrough. The texture of the console and screens is smooth and sleek, with a subtle sheen, while the subject's skin has a soft, realistic texture, inviting the viewer to step into the scene. The style of the image is cinematic, with a hint of sci-fi futurism, as if it could be a still from a thought-provoking film exploring the intersection of technology and human consciousness. The overall mood is one of hopeful introspection, as if the subject is unlocking the secrets of her own subconscious, and, by extension, the hidden biases that shape our understanding of the world.
+2026-07-23 06:30:35,380 - INFO - ðŸ–¼ï¸  Saved cover image to images/535d447eb0ef843b.jpg
+2026-07-23 06:30:36,981 - INFO - ðŸ“¤ Pushed images/535d447eb0ef843b.jpg to GitHub.
+2026-07-23 06:30:37,302 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/535d447eb0ef843b.jpg
+2026-07-23 06:30:37,304 - INFO - Scheduling for: 2026-07-23T11:47:37.304766Z UTC
+2026-07-23 06:30:38,018 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a61b50d9a99c6a7551b6c1b
+2026-07-23 06:30:38,020 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-23 06:30:38,020 - INFO - âœ… Run completed.
