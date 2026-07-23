@@ -3159,3 +3159,44 @@ But one thing is clear: it's the key to creating content that truly resonates, a
 2026-07-23 06:30:38,018 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a61b50d9a99c6a7551b6c1b
 2026-07-23 06:30:38,020 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-23 06:30:38,020 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-23T12:30:25.063851
+============================================================
+2026-07-23 12:30:25,063 - INFO - ðŸš€ Starting automation run
+2026-07-23 12:30:25,064 - INFO - ðŸ“š Found 78 previously posted threads.
+2026-07-23 12:30:25,065 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-23 12:30:25,065 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-23 12:30:28,031 - INFO - Groq raw response:
+[
+  "I've been studying AI creators who've built massive audiences.\nOne thing stands out: their ability to create 'micro-moments' of connection.",
+  "These moments are not just about engagement, but about creating a sense of 'shared intimacy'.\nThey're the secret to building a loyal following.",
+  "But what if I told you that these moments are not just about the content, but about the 'emotional texture' of the creator?",
+  "I've been trying to understand how they craft this texture, and what I've found is surprising.\nIt's not about the tech or the tools, but about the 'vulnerability loops' they create.",
+  "I'm still exploring this idea, but one thing is clear: it's the key to creating a lasting impact on our lives.\nAnd I've stumbled upon a surprising strategy to achieve this..."
+]
+2026-07-23 12:30:28,032 - INFO - âœ… Unique thread found (hash: c55328a3...)
+2026-07-23 12:30:28,032 - INFO - ðŸ“ Generated 5 posts:
+2026-07-23 12:30:28,032 - INFO - --- Post 1 ---
+I've been studying AI creators who've built massive audiences.
+One thing stands out: their ability to create 'micro-moments' of connection.
+2026-07-23 12:30:28,033 - INFO - --- Post 2 ---
+These moments are not just about engagement, but about creating a sense of 'shared intimacy'.
+They're the secret to building a loyal following.
+2026-07-23 12:30:28,033 - INFO - --- Post 3 ---
+But what if I told you that these moments are not just about the content, but about the 'emotional texture' of the creator?
+2026-07-23 12:30:28,033 - INFO - --- Post 4 ---
+I've been trying to understand how they craft this texture, and what I've found is surprising.
+It's not about the tech or the tools, but about the 'vulnerability loops' they create.
+2026-07-23 12:30:28,033 - INFO - --- Post 5 ---
+I'm still exploring this idea, but one thing is clear: it's the key to creating a lasting impact on our lives.
+And I've stumbled upon a surprising strategy to achieve this...
+2026-07-23 12:30:29,450 - INFO - ðŸŽ¨ Cover image prompt: In a warm, golden-lit studio with rustic wooden accents and plush, velvet furnishings, a solitary figure sits in a comfortable, oversized armchair, surrounded by soft, diffused light that spills in through a large, wet glass window. The colour palette is muted, with warm beige tones, deep blues, and rich turquoises, evoking a sense of intimacy and vulnerability. The subject, a young woman with a thoughtful expression, is positioned in a gentle, low-angle shot, as if the viewer is sitting at her feet, creating a sense of shared connection. Her face is illuminated by a soft, natural light, with subtle, dramatic shadows accentuating her features, while the background remains blurred, drawing focus to her emotional expression. The atmosphere is serene, with a hint of hopeful curiosity, as if she is on the cusp of a profound realization. The texture of the scene is tactile, with the roughness of the wooden floorboards and the softness of the velvet chair inviting the viewer to step into the space. The style is cinematic, with a hint of oil painting, as if the scene has been lifted from a poignant, character-driven film. The overall mood is one of quiet contemplation, as if the woman is reflecting on the 'vulnerability loops' that underpin the deepest human connections.
+2026-07-23 12:30:31,112 - INFO - ðŸ–¼ï¸  Saved cover image to images/2366b4f127eb1391.jpg
+2026-07-23 12:30:32,641 - INFO - ðŸ“¤ Pushed images/2366b4f127eb1391.jpg to GitHub.
+2026-07-23 12:30:32,785 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/2366b4f127eb1391.jpg
+2026-07-23 12:30:32,787 - INFO - Scheduling for: 2026-07-23T17:47:32.787855Z UTC
+2026-07-23 12:30:33,302 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a620969418db1c47ab5435a
+2026-07-23 12:30:33,304 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-23 12:30:33,304 - INFO - âœ… Run completed.
