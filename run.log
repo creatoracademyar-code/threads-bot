@@ -3080,3 +3080,40 @@ It's the key to unlocking true success in AI content creation, and I'm just star
 2026-07-22 18:30:45,689 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a610c55ce73edf23701cf97
 2026-07-22 18:30:45,691 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-22 18:30:45,691 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-23T00:30:27.502204
+============================================================
+2026-07-23 00:30:27,502 - INFO - ðŸš€ Starting automation run
+2026-07-23 00:30:27,502 - INFO - ðŸ“š Found 76 previously posted threads.
+2026-07-23 00:30:27,503 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-23 00:30:27,503 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-23 00:30:28,897 - INFO - Groq raw response:
+[
+  "I've been studying the most successful AI creators, trying to understand their mindset.",
+  "What if I told you that they're not just focused on creating content, but on 'crafting a reality'?",
+  "A reality that resonates with their audience, and blurs the lines between the physical and digital worlds.",
+  "I've been trying to decipher the psychology behind this, and what I've found is surprising.",
+  "It's not about the tech or the tools, but about the 'narrative architecture' they use to build their world."
+]
+2026-07-23 00:30:28,898 - INFO - âœ… Unique thread found (hash: 9e72e579...)
+2026-07-23 00:30:28,898 - INFO - ðŸ“ Generated 5 posts:
+2026-07-23 00:30:28,898 - INFO - --- Post 1 ---
+I've been studying the most successful AI creators, trying to understand their mindset.
+2026-07-23 00:30:28,898 - INFO - --- Post 2 ---
+What if I told you that they're not just focused on creating content, but on 'crafting a reality'?
+2026-07-23 00:30:28,898 - INFO - --- Post 3 ---
+A reality that resonates with their audience, and blurs the lines between the physical and digital worlds.
+2026-07-23 00:30:28,898 - INFO - --- Post 4 ---
+I've been trying to decipher the psychology behind this, and what I've found is surprising.
+2026-07-23 00:30:28,898 - INFO - --- Post 5 ---
+It's not about the tech or the tools, but about the 'narrative architecture' they use to build their world.
+2026-07-23 00:30:30,344 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, futuristic laboratory, a solitary figure sits amidst a maze of sleek, silver workstations and towering servers, surrounded by a halo of soft, ethereal light. The main subject, a young creator with an intent gaze, is positioned at the centre of the composition, with a subtle, golden glow emanating from the holographic screens and futuristic gadgets that envelop them. The colour palette is a blend of cool, cyberpunk blues and purples, with accents of warm, golden light that evoke a sense of innovation and discovery. The lighting is dramatic, with deep shadows cast across the creator's face and the surrounding environment, while the soft, diffused glow of the screens and neon accents adds a sense of depth and atmosphere. The camera angle is a low, Dutch angle shot, looking up at the creator with a sense of reverence and awe, as if witnessing a master architect at work. The atmosphere is one of intense focus and quiet contemplation, with the creator's hands poised over a holographic interface, shaping and crafting a virtual world that blurs the boundaries between reality and fantasy. The texture of the scene is a mix of smooth, polished metal and glass, with the rough, tactile sensation of leather and wood hinted at in the creator's chair and the surrounding decor. The style of the image is cinematic and hyper-realistic, with intricate details and subtle reflections that invite the viewer to step into the creator's virtual realm.
+2026-07-23 00:30:32,182 - INFO - ðŸ–¼ï¸  Saved cover image to images/7de4428c9edf8910.jpg
+2026-07-23 00:30:33,784 - INFO - ðŸ“¤ Pushed images/7de4428c9edf8910.jpg to GitHub.
+2026-07-23 00:30:33,957 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/7de4428c9edf8910.jpg
+2026-07-23 00:30:33,960 - INFO - Scheduling for: 2026-07-23T05:47:33.959987Z UTC
+2026-07-23 00:31:06,785 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a6160ca40dd92a7ca3c830a
+2026-07-23 00:31:06,786 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-23 00:31:06,786 - INFO - âœ… Run completed.
