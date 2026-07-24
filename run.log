@@ -3242,3 +3242,40 @@ And I've discovered a hidden pattern that can amplify a creator's impact.
 2026-07-23 18:30:45,636 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a625dd5413e4d18effefe67
 2026-07-23 18:30:45,637 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-23 18:30:45,637 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-24T00:30:35.092570
+============================================================
+2026-07-24 00:30:35,092 - INFO - ðŸš€ Starting automation run
+2026-07-24 00:30:35,093 - INFO - ðŸ“š Found 80 previously posted threads.
+2026-07-24 00:30:35,094 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-24 00:30:35,094 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-24 00:30:36,578 - INFO - Groq raw response:
+[
+  "I've been studying the 'forgotten creators' in AI content creation.",
+  "They're not the ones with millions of followers, but the ones who've been quietly building a loyal audience.",
+  "What if I told you that their secret to success is not about going viral, but about 'crafting a sense of belonging'?",
+  "I've been trying to understand how they create this sense of community, and what I've found is surprising.",
+  "It's not about the tech or the tools, but about the 'emotional topography' they map for their audience."
+]
+2026-07-24 00:30:36,579 - INFO - âœ… Unique thread found (hash: 069067de...)
+2026-07-24 00:30:36,580 - INFO - ðŸ“ Generated 5 posts:
+2026-07-24 00:30:36,580 - INFO - --- Post 1 ---
+I've been studying the 'forgotten creators' in AI content creation.
+2026-07-24 00:30:36,580 - INFO - --- Post 2 ---
+They're not the ones with millions of followers, but the ones who've been quietly building a loyal audience.
+2026-07-24 00:30:36,580 - INFO - --- Post 3 ---
+What if I told you that their secret to success is not about going viral, but about 'crafting a sense of belonging'?
+2026-07-24 00:30:36,580 - INFO - --- Post 4 ---
+I've been trying to understand how they create this sense of community, and what I've found is surprising.
+2026-07-24 00:30:36,580 - INFO - --- Post 5 ---
+It's not about the tech or the tools, but about the 'emotional topography' they map for their audience.
+2026-07-24 00:30:38,025 - INFO - ðŸŽ¨ Cover image prompt: In a warm, golden-lit studio, a lone figure sits amidst a tapestry of interconnected threads, each one representing a unique individual in their audience. The setting is intimate, with rustic wooden accents and plush textiles, evoking a sense of cozy, organic connection. The colour palette is predominantly earthy, with soothing shades of terracotta, sienna, and moss, punctuated by occasional bursts of vibrant, electric blue, symbolizing the spark of community. Soft, diffused light spills in through a large window, casting gentle shadows on the figure's face and illuminating the delicate, hand-woven patterns that crisscross the space. The camera angle is a thoughtful, low-angle shot, looking up at the creator as they tenderly tend to their emotional topography, a stunning, glowing web of emotions that pulses with a life of its own. The atmosphere is serene, yet hopeful, as if the very act of crafting this sense of belonging has imbued the space with a deep, abiding sense of peace. The texture of the threads is rough, like hand-spun wool, while the wooden accents are smooth, polished to a warm sheen, inviting the viewer to touch, to explore. The style is reminiscent of a beautifully rendered, cinematic oil painting, with bold, expressive brushstrokes and a deep, almost tactile sense of dimensionality. As the eye moves through the scene, it becomes clear that this is a space where technology and emotion blend seamlessly, where the boundaries between creator and audience dissolve, and all that remains is the gentle, golden glow of connection.
+2026-07-24 00:30:41,664 - INFO - ðŸ–¼ï¸  Saved cover image to images/0eeb1209e5b5837d.jpg
+2026-07-24 00:30:43,320 - INFO - ðŸ“¤ Pushed images/0eeb1209e5b5837d.jpg to GitHub.
+2026-07-24 00:30:43,718 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/0eeb1209e5b5837d.jpg
+2026-07-24 00:30:43,721 - INFO - Scheduling for: 2026-07-24T05:47:43.721003Z UTC
+2026-07-24 00:30:44,371 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a62b234b7a65f989c91cd98
+2026-07-24 00:30:44,373 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-24 00:30:44,373 - INFO - âœ… Run completed.
