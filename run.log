@@ -3316,3 +3316,43 @@ And I've discovered a hidden pattern that can help creators leave a lasting impa
 2026-07-24 06:30:37,268 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a63068d59cf1d7b389aad21
 2026-07-24 06:30:37,270 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-24 06:30:37,271 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-24T12:30:28.185691
+============================================================
+2026-07-24 12:30:28,185 - INFO - ðŸš€ Starting automation run
+2026-07-24 12:30:28,186 - INFO - ðŸ“š Found 82 previously posted threads.
+2026-07-24 12:30:28,186 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-24 12:30:28,187 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-24 12:30:30,158 - INFO - Groq raw response:
+[
+  "I've been observing a strange phenomenon in AI content creation.\nIt's the 'invisible editing' that happens in our minds.",
+  "We think we're creating content, but what if I told you that our subconscious is editing it before we even publish?",
+  "I've been trying to understand this process, and what I've found is surprising:\nIt's not about the words, but about the 'emotional undertones' we convey.",
+  "These undertones are not just about the creator, but about the 'hidden dialogue' between them and their audience.",
+  "I'm still exploring this concept, and what it means for the future of AI content creation.\nBut one thing is clear: it's the key to creating a deeper connection with our audience."
+]
+2026-07-24 12:30:30,159 - INFO - âœ… Unique thread found (hash: f3f37108...)
+2026-07-24 12:30:30,160 - INFO - ðŸ“ Generated 5 posts:
+2026-07-24 12:30:30,160 - INFO - --- Post 1 ---
+I've been observing a strange phenomenon in AI content creation.
+It's the 'invisible editing' that happens in our minds.
+2026-07-24 12:30:30,160 - INFO - --- Post 2 ---
+We think we're creating content, but what if I told you that our subconscious is editing it before we even publish?
+2026-07-24 12:30:30,160 - INFO - --- Post 3 ---
+I've been trying to understand this process, and what I've found is surprising:
+It's not about the words, but about the 'emotional undertones' we convey.
+2026-07-24 12:30:30,160 - INFO - --- Post 4 ---
+These undertones are not just about the creator, but about the 'hidden dialogue' between them and their audience.
+2026-07-24 12:30:30,160 - INFO - --- Post 5 ---
+I'm still exploring this concept, and what it means for the future of AI content creation.
+But one thing is clear: it's the key to creating a deeper connection with our audience.
+2026-07-24 12:30:31,648 - INFO - ðŸŽ¨ Cover image prompt: A lone figure sits in a dimly lit, minimalist room with walls lined with foggy glass panels, surrounded by an aura of soft, ethereal light that evokes a sense of contemplation. The colour palette is predominantly muted, with shades of grey, blue, and purple, punctuated by faint, warm glows that hint at the emotional undertones of the creator's subconscious. The lighting is diffused, with an emphasis on subtle, golden shadows that dance across the figure's face, conveying a sense of introspection and self-discovery. The camera angle is a low, intimate close-up, capturing the creator's thoughtful expression as they stare into the distance, lost in the hidden dialogue between their own mind and the audience they seek to connect with. The atmosphere is serene, yet tense with anticipation, as if the creator is on the cusp of uncovering a profound truth. The texture of the glass panels and the rough, concrete floor adds a sense of ruggedness to the scene, while the figure's clothing appears soft and worn, like well-loved fabric. The style of the image is cinematic, with a hint of dreamlike quality, as if the scene is unfolding in a world that exists between reality and the subconscious. The overall mood is one of hopeful curiosity, inviting the viewer to step into the creator's introspective world and explore the mysteries of the invisible editing process.
+2026-07-24 12:30:33,398 - INFO - ðŸ–¼ï¸  Saved cover image to images/85e23d1c82c9041c.jpg
+2026-07-24 12:30:34,857 - INFO - ðŸ“¤ Pushed images/85e23d1c82c9041c.jpg to GitHub.
+2026-07-24 12:30:34,974 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/85e23d1c82c9041c.jpg
+2026-07-24 12:30:34,976 - INFO - Scheduling for: 2026-07-24T17:47:34.976479Z UTC
+2026-07-24 12:30:35,373 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a635aeb3a50867cfaa76cdc
+2026-07-24 12:30:35,376 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-24 12:30:35,376 - INFO - âœ… Run completed.
