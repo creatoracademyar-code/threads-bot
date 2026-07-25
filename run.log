@@ -3398,3 +3398,45 @@ But one thing is clear: it's the key to creating content that truly transforms, 
 2026-07-24 18:30:41,004 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a63af50d6cb850e9f368ded
 2026-07-24 18:30:41,006 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-24 18:30:41,006 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-25T00:30:24.615837
+============================================================
+2026-07-25 00:30:24,615 - INFO - ðŸš€ Starting automation run
+2026-07-25 00:30:24,616 - INFO - ðŸ“š Found 84 previously posted threads.
+2026-07-25 00:30:24,617 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-25 00:30:24,617 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-25 00:30:26,067 - INFO - Groq raw response:
+[
+  "I've been noticing a strange phenomenon in AI content creation.\nIt's the 'accidental authenticity' that emerges when creators let their guard down.",
+  "What if I told you that this authenticity is not just a byproduct of being genuine, but a deliberate choice?\nA choice to 'expose' the imperfections and vulnerabilities that make us human.",
+  "I've been studying the most successful AI creators, and what I've found is surprising:\nThey're not trying to hide their flaws, but to 'amplify' them.",
+  "This amplification is not just about being transparent, but about creating a 'shared sense of imperfection' with their audience.\nA sense of imperfection that transcends the content itself, and speaks directly to our souls.",
+  "I'm still exploring this concept of accidental authenticity, and what it means for the future of AI content creation.\nBut one thing is clear: it's the key to creating a deeper connection with our audience, and leaving a lasting impact on their lives."
+]
+2026-07-25 00:30:26,068 - INFO - âœ… Unique thread found (hash: 3742c222...)
+2026-07-25 00:30:26,068 - INFO - ðŸ“ Generated 5 posts:
+2026-07-25 00:30:26,068 - INFO - --- Post 1 ---
+I've been noticing a strange phenomenon in AI content creation.
+It's the 'accidental authenticity' that emerges when creators let their guard down.
+2026-07-25 00:30:26,068 - INFO - --- Post 2 ---
+What if I told you that this authenticity is not just a byproduct of being genuine, but a deliberate choice?
+A choice to 'expose' the imperfections and vulnerabilities that make us human.
+2026-07-25 00:30:26,068 - INFO - --- Post 3 ---
+I've been studying the most successful AI creators, and what I've found is surprising:
+They're not trying to hide their flaws, but to 'amplify' them.
+2026-07-25 00:30:26,068 - INFO - --- Post 4 ---
+This amplification is not just about being transparent, but about creating a 'shared sense of imperfection' with their audience.
+A sense of imperfection that transcends the content itself, and speaks directly to our souls.
+2026-07-25 00:30:26,068 - INFO - --- Post 5 ---
+I'm still exploring this concept of accidental authenticity, and what it means for the future of AI content creation.
+But one thing is clear: it's the key to creating a deeper connection with our audience, and leaving a lasting impact on their lives.
+2026-07-25 00:30:27,535 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, rustic studio, a lone figure sits at a wooden workbench, surrounded by scattered tools, wires, and half-finished projects. The main subject, a young creator with a look of intense focus, is hunched over a makeshift console, their hands moving deftly as they work on a mysterious device. The setting is a blend of old and new, with vintage machinery and modern technology coexisting in a beautiful mess. The colour palette is predominantly warm and earthy, with shades of worn wood, copper, and golden light spilling in through a small window. The lighting is soft and diffused, with a hint of dramatic shadows cast by the creator's hands and the surrounding equipment. The camera angle is a low, intimate close-up, capturing the creator's hands and the device they're working on, with the rest of the studio fading into the background. The atmosphere is one of serene concentration, with a sense of hope and possibility hanging in the air. The texture of the wooden workbench and the rough, unfinished quality of the device add a tactile sense of realism to the scene. The style of the image is reminiscent of a cinematic oil painting, with bold brushstrokes and a sense of depth and dimensionality. As the creator's hands move, the device begins to glow with a soft, ethereal light, symbolizing the emergence of accidental authenticity and the connection it fosters with others. The overall mood is contemplative and uplifting, inviting the viewer to reflect on the beauty of imperfection and the power of vulnerability.
+2026-07-25 00:30:29,084 - INFO - ðŸ–¼ï¸  Saved cover image to images/f927bc098902dc60.jpg
+2026-07-25 00:30:30,570 - INFO - ðŸ“¤ Pushed images/f927bc098902dc60.jpg to GitHub.
+2026-07-25 00:30:30,715 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/f927bc098902dc60.jpg
+2026-07-25 00:30:30,718 - INFO - Scheduling for: 2026-07-25T05:47:30.718684Z UTC
+2026-07-25 00:30:31,069 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a6403a69d853f39877de658
+2026-07-25 00:30:31,071 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-25 00:30:31,071 - INFO - âœ… Run completed.
