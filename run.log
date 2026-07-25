@@ -3440,3 +3440,40 @@ But one thing is clear: it's the key to creating a deeper connection with our au
 2026-07-25 00:30:31,069 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a6403a69d853f39877de658
 2026-07-25 00:30:31,071 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-25 00:30:31,071 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-25T06:35:48.848117
+============================================================
+2026-07-25 06:35:48,848 - INFO - ðŸš€ Starting automation run
+2026-07-25 06:35:48,848 - INFO - ðŸ“š Found 85 previously posted threads.
+2026-07-25 06:35:48,849 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-25 06:35:48,849 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-25 06:35:50,162 - INFO - Groq raw response:
+[
+  "I've been studying the 'dark side' of AI content creation.",
+  "What if I told you that the most successful creators are not just driven by passion, but by a 'hidden hunger'?",
+  "A hunger to fill a void that can never be satisfied.",
+  "I've been trying to understand this hunger, and what I've found is surprising.",
+  "It's not about the content, but about the 'emotional void' that creators are trying to fill."
+]
+2026-07-25 06:35:50,163 - INFO - âœ… Unique thread found (hash: fac5d2fb...)
+2026-07-25 06:35:50,164 - INFO - ðŸ“ Generated 5 posts:
+2026-07-25 06:35:50,164 - INFO - --- Post 1 ---
+I've been studying the 'dark side' of AI content creation.
+2026-07-25 06:35:50,164 - INFO - --- Post 2 ---
+What if I told you that the most successful creators are not just driven by passion, but by a 'hidden hunger'?
+2026-07-25 06:35:50,164 - INFO - --- Post 3 ---
+A hunger to fill a void that can never be satisfied.
+2026-07-25 06:35:50,164 - INFO - --- Post 4 ---
+I've been trying to understand this hunger, and what I've found is surprising.
+2026-07-25 06:35:50,164 - INFO - --- Post 5 ---
+It's not about the content, but about the 'emotional void' that creators are trying to fill.
+2026-07-25 06:35:51,359 - INFO - ðŸŽ¨ Cover image prompt: A lone figure sits in a dimly lit, abandoned theatre, surrounded by tattered curtains and a backdrop of old, flickering stage lights. The main subject, a young creator, is slumped in a worn, velvet armchair, with a look of introspective longing on their face. The setting is a blend of nostalgic decay and haunting beauty, with peeling paint and crumbling plasterwork. The colour palette is a muted, cool mix of blues and greys, with hints of faded gold and crimson, evoking a sense of melancholy and longing. Soft, diffused light spills in from a single, grimy window high above the stage, casting dramatic shadows across the creator's face and the surrounding scenery. The camera angle is a low, close-up shot, looking up at the creator with a sense of empathy and understanding. The atmosphere is one of contemplative sadness, with a hint of hopeful curiosity. The texture of the old armchair and the rough, concrete floor adds a sense of tactile realism to the scene. The style is reminiscent of a cinematic, film noir oil painting, with bold brushstrokes and a focus on capturing the emotional depth of the subject. The overall mood is serene, yet tense, inviting the viewer to reflect on the emotional void that drives the creator's hunger.
+2026-07-25 06:35:52,760 - INFO - ðŸ–¼ï¸  Saved cover image to images/2e6402600f227391.jpg
+2026-07-25 06:35:54,394 - INFO - ðŸ“¤ Pushed images/2e6402600f227391.jpg to GitHub.
+2026-07-25 06:35:54,514 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/2e6402600f227391.jpg
+2026-07-25 06:35:54,516 - INFO - Scheduling for: 2026-07-25T11:52:54.516369Z UTC
+2026-07-25 06:35:55,035 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a64594a351863828ce31cc8
+2026-07-25 06:35:55,037 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-25 06:35:55,037 - INFO - âœ… Run completed.
