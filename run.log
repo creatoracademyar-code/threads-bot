@@ -3556,3 +3556,40 @@ It's not about the tech or the tools, but about the 'conceptual hierarchies' the
 2026-07-26 00:32:08,817 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a655588351863828cec9885
 2026-07-26 00:32:08,818 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-26 00:32:08,819 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-26T06:30:29.897348
+============================================================
+2026-07-26 06:30:29,897 - INFO - ðŸš€ Starting automation run
+2026-07-26 06:30:29,898 - INFO - ðŸ“š Found 88 previously posted threads.
+2026-07-26 06:30:29,898 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-26 06:30:29,898 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-26 06:30:31,011 - INFO - Groq raw response:
+[
+  "I've been observing a strange phenomenon in AI content creation.",
+  "Creators who focus on 'process over product' seem to build a loyal audience.",
+  "But what if I told you that this approach is not just about creativity, but about 'revealing the unseen'?",
+  "I've been trying to understand how they balance transparency and mystery.",
+  "And what I've found is surprising: it's not about the content, but about the 'emotional rhythm' they create."
+]
+2026-07-26 06:30:31,012 - INFO - âœ… Unique thread found (hash: 628ffdd0...)
+2026-07-26 06:30:31,012 - INFO - ðŸ“ Generated 5 posts:
+2026-07-26 06:30:31,013 - INFO - --- Post 1 ---
+I've been observing a strange phenomenon in AI content creation.
+2026-07-26 06:30:31,013 - INFO - --- Post 2 ---
+Creators who focus on 'process over product' seem to build a loyal audience.
+2026-07-26 06:30:31,013 - INFO - --- Post 3 ---
+But what if I told you that this approach is not just about creativity, but about 'revealing the unseen'?
+2026-07-26 06:30:31,013 - INFO - --- Post 4 ---
+I've been trying to understand how they balance transparency and mystery.
+2026-07-26 06:30:31,013 - INFO - --- Post 5 ---
+And what I've found is surprising: it's not about the content, but about the 'emotional rhythm' they create.
+2026-07-26 06:30:32,222 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, rustic studio with worn wooden floors and earthy tones, a lone figure sits at a workbench, surrounded by scattered papers, paintbrushes, and half-finished canvases. The main subject, a young artist with a contemplative expression, is illuminated by a soft, golden light that pours in through a grimy, wet glass window, casting a warm glow on their face and hands. The colour palette is predominantly composed of muted, earthy hues, with splashes of vibrant blues and greens from the artwork and materials. The lighting is diffused, with deep shadows in the corners of the room, adding a sense of depth and intimacy to the scene. The camera angle is a low, over-the-shoulder shot, looking up at the artist, conveying a sense of vulnerability and creativity. The atmosphere is serene, with a hint of tension, as if the artist is on the cusp of a breakthrough. The texture of the rough wooden workbench and the smooth, wet glass window add a tactile quality to the image. The style is reminiscent of a cinematic, oil painting, with bold brushstrokes and expressive textures, inviting the viewer to step into the artist's world and experience the emotional rhythm of their creative process.
+2026-07-26 06:30:33,992 - INFO - ðŸ–¼ï¸  Saved cover image to images/61bd31ee52f9465c.jpg
+2026-07-26 06:30:35,552 - INFO - ðŸ“¤ Pushed images/61bd31ee52f9465c.jpg to GitHub.
+2026-07-26 06:30:35,939 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/61bd31ee52f9465c.jpg
+2026-07-26 06:30:35,941 - INFO - Scheduling for: 2026-07-26T11:47:35.941678Z UTC
+2026-07-26 06:30:36,739 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a65a98c2df0a0f1fdcf2ab5
+2026-07-26 06:30:36,740 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-26 06:30:36,740 - INFO - âœ… Run completed.
