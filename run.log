@@ -3635,3 +3635,41 @@ I'm still exploring this concept, and what I've found is fascinating...
 2026-07-26 12:30:34,325 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a65fdea12fafbaf49e0737a
 2026-07-26 12:30:34,327 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-26 12:30:34,327 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-26T18:30:25.070201
+============================================================
+2026-07-26 18:30:25,070 - INFO - ðŸš€ Starting automation run
+2026-07-26 18:30:25,070 - INFO - ðŸ“š Found 90 previously posted threads.
+2026-07-26 18:30:25,071 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-26 18:30:25,071 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-26 18:30:27,034 - INFO - Groq raw response:
+[
+  "I've been studying the most successful AI creators, trying to crack their code.\nOne thing stands out: their ability to create 'emotional artifacts'.",
+  "These artifacts are not just about the content, but about the 'sensory experiences' they evoke.\nThey're the secret to creating a lasting impact on our lives.",
+  "I've been trying to understand how they craft these experiences, and what I've found is surprising:\nIt's not about the tech or the tools, but about the 'intuitive storytelling' they use.",
+  "This storytelling is not just about the narrative, but about the 'unspoken emotions' that drive human connection.\nI'm still exploring this concept, and what I've found is fascinating..."
+]
+2026-07-26 18:30:27,035 - INFO - âœ… Unique thread found (hash: 5ee4a490...)
+2026-07-26 18:30:27,035 - INFO - ðŸ“ Generated 4 posts:
+2026-07-26 18:30:27,035 - INFO - --- Post 1 ---
+I've been studying the most successful AI creators, trying to crack their code.
+One thing stands out: their ability to create 'emotional artifacts'.
+2026-07-26 18:30:27,035 - INFO - --- Post 2 ---
+These artifacts are not just about the content, but about the 'sensory experiences' they evoke.
+They're the secret to creating a lasting impact on our lives.
+2026-07-26 18:30:27,035 - INFO - --- Post 3 ---
+I've been trying to understand how they craft these experiences, and what I've found is surprising:
+It's not about the tech or the tools, but about the 'intuitive storytelling' they use.
+2026-07-26 18:30:27,035 - INFO - --- Post 4 ---
+This storytelling is not just about the narrative, but about the 'unspoken emotions' that drive human connection.
+I'm still exploring this concept, and what I've found is fascinating...
+2026-07-26 18:30:28,200 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, intimate studio, a young artist sits surrounded by various creative tools and technological devices, with a large, wooden worktable at the centre. The main subject is a delicate, glowing orb that rests on the table, emitting a soft, pulsing light that illuminates the artist's contemplative face. The setting is a blend of traditional and modern elements, with vintage furniture and wooden accents juxtaposed with sleek, futuristic gadgets and wires. The colour palette is a mix of warm, golden hues and cool, blue tones, evoking a sense of nostalgia and innovation. The lighting is soft and diffused, with a few dramatic shadows cast by the orb's gentle glow, creating an atmosphere of serene contemplation. The camera angle is a close-up, low-angle shot, looking up at the artist and the orb, conveying a sense of hope and wonder. The texture of the wooden table and the rough, stone walls adds a sense of organic, human touch to the scene, while the smooth, metallic surfaces of the technological devices provide a hint of modernity. The style of the image is cinematic, with a slight oil painting quality to the lighting and textures, inviting the viewer to step into the artist's intimate, creative world. The overall emotion of the scene is one of quiet fascination and curiosity, as if the artist is on the verge of uncovering a hidden secret, and the viewer is invited to share in the discovery.
+2026-07-26 18:30:29,646 - INFO - ðŸ–¼ï¸  Saved cover image to images/1c0d472d444dea7f.jpg
+2026-07-26 18:30:31,107 - INFO - ðŸ“¤ Pushed images/1c0d472d444dea7f.jpg to GitHub.
+2026-07-26 18:30:31,244 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/1c0d472d444dea7f.jpg
+2026-07-26 18:30:31,246 - INFO - Scheduling for: 2026-07-26T23:47:31.246886Z UTC
+2026-07-26 18:30:31,633 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a665247ecad4329a915394a
+2026-07-26 18:30:31,635 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-26 18:30:31,635 - INFO - âœ… Run completed.
