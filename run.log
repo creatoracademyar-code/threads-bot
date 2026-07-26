@@ -3519,3 +3519,40 @@ I'm still exploring the implications of this discovery, but one thing is clear..
 2026-07-25 18:32:00,760 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a6501202df0a0f1fdc8e234
 2026-07-25 18:32:00,762 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-25 18:32:00,762 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-26T00:32:01.866977
+============================================================
+2026-07-26 00:32:01,866 - INFO - ðŸš€ Starting automation run
+2026-07-26 00:32:01,867 - INFO - ðŸ“š Found 87 previously posted threads.
+2026-07-26 00:32:01,867 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-26 00:32:01,867 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-26 00:32:03,049 - INFO - Groq raw response:
+[
+  "I've been studying the most successful AI creators, trying to understand their 'mental frameworks'.",
+  "What if I told you that they're not just thinking about content, but about 'cognitive architectures'?",
+  "They're designing mental blueprints that help their audience navigate complex ideas.",
+  "I've been trying to reverse-engineer these frameworks, and what I've found is surprising:",
+  "It's not about the tech or the tools, but about the 'conceptual hierarchies' they use to organize their thoughts."
+]
+2026-07-26 00:32:03,050 - INFO - âœ… Unique thread found (hash: 55935577...)
+2026-07-26 00:32:03,050 - INFO - ðŸ“ Generated 5 posts:
+2026-07-26 00:32:03,050 - INFO - --- Post 1 ---
+I've been studying the most successful AI creators, trying to understand their 'mental frameworks'.
+2026-07-26 00:32:03,050 - INFO - --- Post 2 ---
+What if I told you that they're not just thinking about content, but about 'cognitive architectures'?
+2026-07-26 00:32:03,050 - INFO - --- Post 3 ---
+They're designing mental blueprints that help their audience navigate complex ideas.
+2026-07-26 00:32:03,050 - INFO - --- Post 4 ---
+I've been trying to reverse-engineer these frameworks, and what I've found is surprising:
+2026-07-26 00:32:03,050 - INFO - --- Post 5 ---
+It's not about the tech or the tools, but about the 'conceptual hierarchies' they use to organize their thoughts.
+2026-07-26 00:32:04,627 - INFO - ðŸŽ¨ Cover image prompt: A lone figure sits amidst a sprawling, futuristic library, surrounded by towering shelves of glowing, ethereal books that seem to hum with gentle, blue-purple light. The setting is a blend of modern, minimalist architecture and ancient, mystical wisdom, with polished, silver-metal accents and rough, stone walls. The colour palette is predominantly composed of cool, calming hues, with soft blues and purples dominating the scene, punctuated by flashes of warm, golden light that dance across the figure's face. The lighting is soft and diffused, with a subtle, gradient-like quality that suggests a mix of natural and artificial illumination, casting gentle, shimmering shadows across the room. The camera angle is a low, Dutch-angle shot, looking up at the figure with a sense of reverence and curiosity, as if trying to decipher the secrets of their mind. The atmosphere is one of serene, introspective contemplation, with the figure lost in thought, surrounded by swirling, abstract patterns of light and colour that evoke a sense of complex, mental frameworks. The texture of the scene is a mix of smooth, polished surfaces and rough, organic materials, with the glowing books and sleek, metallic accents contrasting with the rough, stone walls and the figure's worn, leather-bound journal. The style of the image is reminiscent of a cinematic, science fiction film, with a hint of mystical, dreamlike quality, as if the scene is a representation of the figure's inner world, a 3D rendering of their mental landscape. The figure's face is tilted upwards, eyes closed, as if lost in the labyrinthine corridors of their own mind, with the glowing books and swirling patterns of light seeming to emanate from their very thoughts.
+2026-07-26 00:32:06,579 - INFO - ðŸ–¼ï¸  Saved cover image to images/e1f418326a5340f2.jpg
+2026-07-26 00:32:08,094 - INFO - ðŸ“¤ Pushed images/e1f418326a5340f2.jpg to GitHub.
+2026-07-26 00:32:08,355 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/e1f418326a5340f2.jpg
+2026-07-26 00:32:08,357 - INFO - Scheduling for: 2026-07-26T05:49:08.357065Z UTC
+2026-07-26 00:32:08,817 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a655588351863828cec9885
+2026-07-26 00:32:08,818 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-26 00:32:08,819 - INFO - âœ… Run completed.
