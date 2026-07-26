@@ -3593,3 +3593,45 @@ And what I've found is surprising: it's not about the content, but about the 'em
 2026-07-26 06:30:36,739 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a65a98c2df0a0f1fdcf2ab5
 2026-07-26 06:30:36,740 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-26 06:30:36,740 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-26T12:30:27.503647
+============================================================
+2026-07-26 12:30:27,503 - INFO - ðŸš€ Starting automation run
+2026-07-26 12:30:27,504 - INFO - ðŸ“š Found 89 previously posted threads.
+2026-07-26 12:30:27,505 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-26 12:30:27,505 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-26 12:30:29,118 - INFO - Groq raw response:
+[
+  "I've been noticing a strange gap in AI content creation.\nBetween the 'vision' and the 'execution'.",
+  "Most creators have a clear idea of what they want to achieve, but struggle to bring it to life.\nWhat's missing?",
+  "I've been studying the most successful AI creators, and what I've found is surprising:\nThey're not just focused on the end result, but on the 'journey' itself.",
+  "They're using a secret technique to 'encode' their vision into every step of the creation process.\nWant to know what it is?",
+  "It's not about the tech or the tools, but about the 'creative cartography' they use to navigate their ideas.\nI'm still exploring this concept, and what I've found is fascinating..."
+]
+2026-07-26 12:30:29,119 - INFO - âœ… Unique thread found (hash: 069bbf55...)
+2026-07-26 12:30:29,119 - INFO - ðŸ“ Generated 5 posts:
+2026-07-26 12:30:29,119 - INFO - --- Post 1 ---
+I've been noticing a strange gap in AI content creation.
+Between the 'vision' and the 'execution'.
+2026-07-26 12:30:29,119 - INFO - --- Post 2 ---
+Most creators have a clear idea of what they want to achieve, but struggle to bring it to life.
+What's missing?
+2026-07-26 12:30:29,119 - INFO - --- Post 3 ---
+I've been studying the most successful AI creators, and what I've found is surprising:
+They're not just focused on the end result, but on the 'journey' itself.
+2026-07-26 12:30:29,119 - INFO - --- Post 4 ---
+They're using a secret technique to 'encode' their vision into every step of the creation process.
+Want to know what it is?
+2026-07-26 12:30:29,119 - INFO - --- Post 5 ---
+It's not about the tech or the tools, but about the 'creative cartography' they use to navigate their ideas.
+I'm still exploring this concept, and what I've found is fascinating...
+2026-07-26 12:30:30,602 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, industrial-chic studio, a lone figure sits amidst a maze of vintage maps, scattered papers, and empty coffee cups, surrounded by towering shelves of dusty, leather-bound books. The main subject, a young creator with a look of intense focus, is hunched over a beautifully crafted, antique wooden desk, with a faint, golden glow emanating from a lone, tabletop lamp. The colour palette is a moody blend of warm, earthy tones, with rich browns, deep blues, and muted greens, evoking a sense of nostalgia and intellectual curiosity. Soft, diffused light spills in through a grimy, skylight window above, casting long, dramatic shadows across the room, and illuminating the creator's face with a sense of determination. The camera angle is a low, Dutch angle, looking up at the creator, as if to emphasize their sense of exploration and discovery. The atmosphere is one of quiet, contemplative tension, as if the creator is on the cusp of a major breakthrough. The texture of the old maps, the rough, wooden desk, and the worn, leather books adds a sense of tactile, organic depth to the scene, while the faint, glow of the lamp hints at a sense of futuristic, technological possibility. The style of the image is cinematic, with a hint of gritty, film noir realism, as if to suggest that the creator's journey is not just about the destination, but about the dark, winding path they must navigate to get there.
+2026-07-26 12:30:32,079 - INFO - ðŸ–¼ï¸  Saved cover image to images/0aa079d504ff3495.jpg
+2026-07-26 12:30:33,742 - INFO - ðŸ“¤ Pushed images/0aa079d504ff3495.jpg to GitHub.
+2026-07-26 12:30:33,889 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/0aa079d504ff3495.jpg
+2026-07-26 12:30:33,891 - INFO - Scheduling for: 2026-07-26T17:47:33.891577Z UTC
+2026-07-26 12:30:34,325 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a65fdea12fafbaf49e0737a
+2026-07-26 12:30:34,327 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-26 12:30:34,327 - INFO - âœ… Run completed.
