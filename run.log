@@ -3710,3 +3710,40 @@ It's not about the tech or the tools, but about the 'value loops' they create.
 2026-07-27 00:32:40,861 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a66a72879ae388ebdb0117e
 2026-07-27 00:32:40,862 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-27 00:32:40,862 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-27T06:30:30.740073
+============================================================
+2026-07-27 06:30:30,740 - INFO - ðŸš€ Starting automation run
+2026-07-27 06:30:30,740 - INFO - ðŸ“š Found 92 previously posted threads.
+2026-07-27 06:30:30,741 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-27 06:30:30,741 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-27 06:30:32,623 - INFO - Groq raw response:
+[
+  "I've been studying the 'invisible scripts' that drive AI creator success.",
+  "What if I told you that these scripts are not just about code, but about 'mental models'?",
+  "I've found that the most successful creators have a unique ability to 'rewrite' their own mental scripts.",
+  "But how do they do it? It's not about willpower or motivation, but about 'reframing' their perception of reality.",
+  "I'm still exploring this concept, and what I've found is surprising: it's the key to unlocking true creativity and innovation in AI content creation."
+]
+2026-07-27 06:30:32,624 - INFO - âœ… Unique thread found (hash: 0498850b...)
+2026-07-27 06:30:32,624 - INFO - ðŸ“ Generated 5 posts:
+2026-07-27 06:30:32,624 - INFO - --- Post 1 ---
+I've been studying the 'invisible scripts' that drive AI creator success.
+2026-07-27 06:30:32,624 - INFO - --- Post 2 ---
+What if I told you that these scripts are not just about code, but about 'mental models'?
+2026-07-27 06:30:32,624 - INFO - --- Post 3 ---
+I've found that the most successful creators have a unique ability to 'rewrite' their own mental scripts.
+2026-07-27 06:30:32,624 - INFO - --- Post 4 ---
+But how do they do it? It's not about willpower or motivation, but about 'reframing' their perception of reality.
+2026-07-27 06:30:32,624 - INFO - --- Post 5 ---
+I'm still exploring this concept, and what I've found is surprising: it's the key to unlocking true creativity and innovation in AI content creation.
+2026-07-27 06:30:34,134 - INFO - ðŸŽ¨ Cover image prompt: In a serene, futuristic laboratory with sleek, polished metal surfaces and sparse, minimalist decor, a lone figure sits in contemplative silence, surrounded by towering shelves of old, leather-bound books and glowing, holographic screens. The main subject, a young, introspective woman with an intent gaze, is positioned at the centre of the room, surrounded by a halo of soft, ethereal light that emanates from the holographic displays. The colour palette is a blend of cool, calming blues and purples, punctuated by bursts of vibrant, electric green that represent the spark of creativity and innovation. The lighting is soft and diffused, with subtle, gradient-like transitions between light and shadow that create a sense of depth and dimensionality. The camera angle is a low, wide shot, looking up at the woman from a slight angle, which conveys a sense of hope and empowerment. The atmosphere is one of quiet, introspective tension, as if the woman is on the cusp of a major breakthrough. The texture of the metal surfaces and the rough, worn leather of the books adds a sense of tactile realism to the scene, while the holographic screens provide a hint of futuristic, high-tech sophistication. The style of the image is cinematic and photorealistic, with subtle, nuanced lighting and shading that creates a sense of depth and immersion. In the background, a large, abstract representation of a mental model or script can be seen, with glowing, neon-like lines and curves that pulse and shimmer, representing the dynamic, ever-changing nature of the woman's thoughts and perceptions.
+2026-07-27 06:30:36,570 - INFO - ðŸ–¼ï¸  Saved cover image to images/ff6204d0c026443c.jpg
+2026-07-27 06:30:42,013 - INFO - ðŸ“¤ Pushed images/ff6204d0c026443c.jpg to GitHub.
+2026-07-27 06:30:42,259 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/ff6204d0c026443c.jpg
+2026-07-27 06:30:42,261 - INFO - Scheduling for: 2026-07-27T11:47:42.261244Z UTC
+2026-07-27 06:30:42,929 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a66fb12e194da5313a1a28d
+2026-07-27 06:30:42,930 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-27 06:30:42,930 - INFO - âœ… Run completed.
