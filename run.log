@@ -3788,3 +3788,45 @@ It's the key to creating a lasting impact on our lives, and I'm just starting to
 2026-07-27 12:30:43,147 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a674f72224d9daaf5f6aa1f
 2026-07-27 12:30:43,150 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-27 12:30:43,150 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-27T18:30:37.052602
+============================================================
+2026-07-27 18:30:37,052 - INFO - ðŸš€ Starting automation run
+2026-07-27 18:30:37,053 - INFO - ðŸ“š Found 94 previously posted threads.
+2026-07-27 18:30:37,053 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-27 18:30:37,053 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-27 18:30:38,410 - INFO - Groq raw response:
+[
+  "I've been fascinated by the concept of 'beginner's luck' in AI content creation.\nWhat if I told you that newcomers often outperform seasoned creators?",
+  "Their secret? They're not held back by 'expert blinders'.\nThey're free to experiment and explore new ideas.",
+  "I've been studying these newcomers, and what I've found is surprising:\nThey're not afraid to 'break the rules' and challenge conventional wisdom.",
+  "This fearlessness is not just about creativity, but about 'emotional permission'.\nThey've given themselves permission to take risks and try new things.",
+  "I'm still exploring this concept, and what I've found is fascinating...\nIt's the key to staying innovative and fresh in AI content creation."
+]
+2026-07-27 18:30:38,411 - INFO - âœ… Unique thread found (hash: 23cad94e...)
+2026-07-27 18:30:38,411 - INFO - ðŸ“ Generated 5 posts:
+2026-07-27 18:30:38,411 - INFO - --- Post 1 ---
+I've been fascinated by the concept of 'beginner's luck' in AI content creation.
+What if I told you that newcomers often outperform seasoned creators?
+2026-07-27 18:30:38,411 - INFO - --- Post 2 ---
+Their secret? They're not held back by 'expert blinders'.
+They're free to experiment and explore new ideas.
+2026-07-27 18:30:38,411 - INFO - --- Post 3 ---
+I've been studying these newcomers, and what I've found is surprising:
+They're not afraid to 'break the rules' and challenge conventional wisdom.
+2026-07-27 18:30:38,411 - INFO - --- Post 4 ---
+This fearlessness is not just about creativity, but about 'emotional permission'.
+They've given themselves permission to take risks and try new things.
+2026-07-27 18:30:38,411 - INFO - --- Post 5 ---
+I'm still exploring this concept, and what I've found is fascinating...
+It's the key to staying innovative and fresh in AI content creation.
+2026-07-27 18:30:39,836 - INFO - ðŸŽ¨ Cover image prompt: A young artist stands at the edge of a sprawling, futuristic cityscape, surrounded by a maze of neon-lit skyscrapers and holographic advertisements, with a vast, starry night sky above. The main subject, dressed in a sleek black jumpsuit, gazes out at the viewer with a fearless and determined expression, as if embracing the infinite possibilities of the city. The colour palette is a blend of cool blues and purples, with accents of bright, electric pink, evoking a sense of innovation and creativity. The lighting is a mix of soft, diffused neon glow and the warm, golden light of the setting sun, casting long shadows across the dark, polished concrete beneath their feet. The camera angle is a low, wide shot, looking up at the artist from the ground, emphasizing their confidence and daring. The atmosphere is one of hopeful anticipation, as if the artist is on the cusp of a groundbreaking discovery. The texture of the city's metallic and glass surfaces is sleek and modern, with a subtle sheen that suggests a sense of cutting-edge technology. The style of the image is cinematic and hyper-realistic, with bold lines and vibrant colours, as if it were a still from a futuristic sci-fi film. In the foreground, a few scattered, broken rules and shattered conventions lie shattered on the ground, symbolizing the artist's fearlessness and willingness to challenge the status quo.
+2026-07-27 18:30:41,397 - INFO - ðŸ–¼ï¸  Saved cover image to images/5920228c7c50d29e.jpg
+2026-07-27 18:30:43,133 - INFO - ðŸ“¤ Pushed images/5920228c7c50d29e.jpg to GitHub.
+2026-07-27 18:30:43,496 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/5920228c7c50d29e.jpg
+2026-07-27 18:30:43,498 - INFO - Scheduling for: 2026-07-27T23:47:43.498376Z UTC
+2026-07-27 18:30:44,630 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a67a3d48114fe4b0de27c27
+2026-07-27 18:30:44,632 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-27 18:30:44,632 - INFO - âœ… Run completed.
