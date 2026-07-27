@@ -3673,3 +3673,40 @@ I'm still exploring this concept, and what I've found is fascinating...
 2026-07-26 18:30:31,633 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a665247ecad4329a915394a
 2026-07-26 18:30:31,635 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-26 18:30:31,635 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-27T00:32:33.505838
+============================================================
+2026-07-27 00:32:33,505 - INFO - ðŸš€ Starting automation run
+2026-07-27 00:32:33,506 - INFO - ðŸ“š Found 91 previously posted threads.
+2026-07-27 00:32:33,506 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-27 00:32:33,506 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-27 00:32:34,604 - INFO - Groq raw response:
+[
+  "I've been noticing a strange phenomenon in AI business.",
+  "Some creators are making a fortune, while others struggle to make a dime.",
+  "What's the difference between them?",
+  "I've been studying the most successful AI creators, and what I've found is surprising:",
+  "It's not about the tech or the tools, but about the 'value loops' they create."
+]
+2026-07-27 00:32:34,605 - INFO - âœ… Unique thread found (hash: 489be8c6...)
+2026-07-27 00:32:34,605 - INFO - ðŸ“ Generated 5 posts:
+2026-07-27 00:32:34,605 - INFO - --- Post 1 ---
+I've been noticing a strange phenomenon in AI business.
+2026-07-27 00:32:34,605 - INFO - --- Post 2 ---
+Some creators are making a fortune, while others struggle to make a dime.
+2026-07-27 00:32:34,605 - INFO - --- Post 3 ---
+What's the difference between them?
+2026-07-27 00:32:34,605 - INFO - --- Post 4 ---
+I've been studying the most successful AI creators, and what I've found is surprising:
+2026-07-27 00:32:34,605 - INFO - --- Post 5 ---
+It's not about the tech or the tools, but about the 'value loops' they create.
+2026-07-27 00:32:36,351 - INFO - ðŸŽ¨ Cover image prompt: In a sleek, modern conference room with a glass wall overlooking a bustling cityscape at dusk, a lone figure stands at the forefront, illuminated by the warm glow of a setting sun. The main subject, a contemplative entrepreneur, is positioned in a powerful stance, with one hand on a polished, metallic lectern and the other gesturing towards a massive, circular, glass-topped table. The table's surface reflects the vibrant, golden hues of the sky, while the city outside is a tapestry of cool, neon blues and purples, symbolizing the contrast between innovation and tradition. The colour palette is predominantly composed of muted, professional tones, such as charcoal grey, beige, and navy blue, with accents of rich, burnished wood and the faint gleam of silver. Soft, diffused light pours in through the glass wall, casting gentle shadows on the figure's face and emphasizing the sense of depth and dimensionality in the scene. From a low-angle perspective, the camera looks up at the entrepreneur, conveying a sense of admiration and respect, while the atmosphere is one of quiet confidence and introspection. The texture of the glass table and the rough, stone-like material of the city's skyscrapers outside add a sense of tactility to the image. The style is cinematic and photorealistic, with subtle, nuanced gradations of light and shadow that evoke a sense of authenticity and realism, inviting the viewer to step into the world of the image. The overall mood is hopeful and optimistic, as if the entrepreneur is on the cusp of a groundbreaking discovery, with the 'value loops' they create waiting to be unleashed like ripples on the surface of the glass table.
+2026-07-27 00:32:38,135 - INFO - ðŸ–¼ï¸  Saved cover image to images/2c5fa11054ea2ba8.jpg
+2026-07-27 00:32:39,652 - INFO - ðŸ“¤ Pushed images/2c5fa11054ea2ba8.jpg to GitHub.
+2026-07-27 00:32:40,052 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/2c5fa11054ea2ba8.jpg
+2026-07-27 00:32:40,053 - INFO - Scheduling for: 2026-07-27T05:49:40.053646Z UTC
+2026-07-27 00:32:40,861 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a66a72879ae388ebdb0117e
+2026-07-27 00:32:40,862 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-27 00:32:40,862 - INFO - âœ… Run completed.
