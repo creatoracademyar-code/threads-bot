@@ -3914,3 +3914,40 @@ It's the key to creating content that truly resonates, and leaves a lasting impa
 2026-07-28 06:30:31,797 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a684c87f548c7887af7d68e
 2026-07-28 06:30:31,799 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-28 06:30:31,799 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-28T12:30:35.786510
+============================================================
+2026-07-28 12:30:35,786 - INFO - ðŸš€ Starting automation run
+2026-07-28 12:30:35,787 - INFO - ðŸ“š Found 97 previously posted threads.
+2026-07-28 12:30:35,787 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-28 12:30:35,787 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-28 12:30:36,925 - INFO - Groq raw response:
+[
+  "I've been studying the most successful AI creators, trying to understand their 'creative triggers'.",
+  "What if I told you that these triggers are not just about inspiration, but about 'emotional catalysts'?",
+  "I've found that they're using a secret technique to 'ignite' their creativity, and it's not about the tech or the tools.",
+  "It's about the 'inner spark' that drives them to create something new and innovative.",
+  "I'm still exploring this concept, and what I've found is surprising... I've written it all down, trying to make sense of it."
+]
+2026-07-28 12:30:36,926 - INFO - âœ… Unique thread found (hash: 3e4a5535...)
+2026-07-28 12:30:36,926 - INFO - ðŸ“ Generated 5 posts:
+2026-07-28 12:30:36,926 - INFO - --- Post 1 ---
+I've been studying the most successful AI creators, trying to understand their 'creative triggers'.
+2026-07-28 12:30:36,926 - INFO - --- Post 2 ---
+What if I told you that these triggers are not just about inspiration, but about 'emotional catalysts'?
+2026-07-28 12:30:36,926 - INFO - --- Post 3 ---
+I've found that they're using a secret technique to 'ignite' their creativity, and it's not about the tech or the tools.
+2026-07-28 12:30:36,926 - INFO - --- Post 4 ---
+It's about the 'inner spark' that drives them to create something new and innovative.
+2026-07-28 12:30:36,926 - INFO - --- Post 5 ---
+I'm still exploring this concept, and what I've found is surprising... I've written it all down, trying to make sense of it.
+2026-07-28 12:30:38,150 - INFO - ðŸŽ¨ Cover image prompt: A lone figure sits at a worn, wooden desk, surrounded by towering stacks of dusty, leather-bound books and scattered sheets of paper, in a dimly lit, rustic study with stone walls and a vaulted ceiling. The room is bathed in the warm, golden light of a setting sun, which pours in through a large, arched window with wet, glass panes, casting a misty glow on the space. The colour palette is predominantly earthy, with shades of beige, brown, and sienna, punctuated by the soft, blue-grey of the stone walls. The lighting is soft and diffused, with deep, dramatic shadows cast by the books and papers, creating an atmosphere of contemplation and introspection. The camera angle is a low, wide shot, looking up at the figure, who is hunched over a piece of paper, quill pen in hand, with a look of intense focus and curiosity on their face. The texture of the wooden desk, the rough stone walls, and the smooth, wet glass of the windowpane add depth and tactility to the scene. The style is reminiscent of a 19th-century oil painting, with thick, expressive brushstrokes and a sense of nostalgic, old-world charm. The overall mood is one of quiet, determined creativity, as if the figure is on the verge of uncovering a long-hidden secret, and the air is charged with anticipation and possibility.
+2026-07-28 12:30:40,452 - INFO - ðŸ–¼ï¸  Saved cover image to images/c04c37209dcf18bd.jpg
+2026-07-28 12:30:42,286 - INFO - ðŸ“¤ Pushed images/c04c37209dcf18bd.jpg to GitHub.
+2026-07-28 12:30:42,536 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/c04c37209dcf18bd.jpg
+2026-07-28 12:30:42,538 - INFO - Scheduling for: 2026-07-28T17:47:42.538003Z UTC
+2026-07-28 12:30:43,295 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a68a0f3b3f253db0e3d847c
+2026-07-28 12:30:43,296 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-28 12:30:43,296 - INFO - âœ… Run completed.
