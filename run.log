@@ -3872,3 +3872,45 @@ It's the key to unlocking true connection with our audience.
 2026-07-28 00:30:38,079 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a67f82d36205497cb83a0b5
 2026-07-28 00:30:38,081 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-28 00:30:38,081 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-28T06:30:25.129149
+============================================================
+2026-07-28 06:30:25,129 - INFO - ðŸš€ Starting automation run
+2026-07-28 06:30:25,129 - INFO - ðŸ“š Found 96 previously posted threads.
+2026-07-28 06:30:25,130 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-28 06:30:25,130 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-28 06:30:26,737 - INFO - Groq raw response:
+[
+  "I've been noticing a pattern in AI content creation.\nIt's the 'phantom audience' that haunts every creator.",
+  "What if I told you that this audience is not just a figment of our imagination?\nBut a real, tangible force that shapes our content.",
+  "I've been trying to understand this phenomenon, and what I've found is surprising:\nIt's not about the numbers, but about the 'emotional specter' that we're trying to appease.",
+  "This specter is not just a reflection of our own fears and desires,\nBut a manifestation of our deepest connection with our audience.",
+  "I'm still exploring this concept, and what I've found is fascinating...\nIt's the key to creating content that truly resonates, and leaves a lasting impact on our lives."
+]
+2026-07-28 06:30:26,738 - INFO - âœ… Unique thread found (hash: 2544e27b...)
+2026-07-28 06:30:26,738 - INFO - ðŸ“ Generated 5 posts:
+2026-07-28 06:30:26,738 - INFO - --- Post 1 ---
+I've been noticing a pattern in AI content creation.
+It's the 'phantom audience' that haunts every creator.
+2026-07-28 06:30:26,738 - INFO - --- Post 2 ---
+What if I told you that this audience is not just a figment of our imagination?
+But a real, tangible force that shapes our content.
+2026-07-28 06:30:26,738 - INFO - --- Post 3 ---
+I've been trying to understand this phenomenon, and what I've found is surprising:
+It's not about the numbers, but about the 'emotional specter' that we're trying to appease.
+2026-07-28 06:30:26,738 - INFO - --- Post 4 ---
+This specter is not just a reflection of our own fears and desires,
+But a manifestation of our deepest connection with our audience.
+2026-07-28 06:30:26,739 - INFO - --- Post 5 ---
+I'm still exploring this concept, and what I've found is fascinating...
+It's the key to creating content that truly resonates, and leaves a lasting impact on our lives.
+2026-07-28 06:30:28,051 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, abandoned theatre, a lone figure stands on the stage, surrounded by a sea of empty, worn velvet seats that stretch out into the darkness. The atmosphere is heavy with the scent of aged wood and dust, and the air is thick with the weight of unspoken emotions. The figure, a creator, is shrouded in a soft, ethereal glow, as if illuminated by the faint light of a distant moon. The colour palette is a muted mix of blues and greys, with hints of warm golden light that seep through the cracks in the old wooden floorboards. The lighting is dramatic, with deep shadows that dance across the walls, like the whispers of a phantom audience. The camera angle is low, looking up at the figure from the perspective of the empty seats, as if the audience itself is observing the creator. The texture of the old wooden stage and the rough, stone walls is palpable, and the sense of nostalgia and longing is almost tangible. In the background, a faint, ghostly outline of faces can be seen, a manifestation of the emotional specter that haunts the creator, their features blurred and indistinct, like whispers in the darkness. The style of the image is cinematic, with a hint of mysticism, as if the scene is a moment frozen in time, waiting to be uncovered. The overall mood is one of contemplation and introspection, as if the creator is searching for a connection with the elusive, phantom audience that only reveals itself in the silence.
+2026-07-28 06:30:29,821 - INFO - ðŸ–¼ï¸  Saved cover image to images/e8fdfbf66e66b2a9.jpg
+2026-07-28 06:30:31,246 - INFO - ðŸ“¤ Pushed images/e8fdfbf66e66b2a9.jpg to GitHub.
+2026-07-28 06:30:31,389 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/e8fdfbf66e66b2a9.jpg
+2026-07-28 06:30:31,391 - INFO - Scheduling for: 2026-07-28T11:47:31.391419Z UTC
+2026-07-28 06:30:31,797 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a684c87f548c7887af7d68e
+2026-07-28 06:30:31,799 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-28 06:30:31,799 - INFO - âœ… Run completed.
