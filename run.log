@@ -4068,3 +4068,41 @@ I've started to document my findings, and I think it's just the beginning of som
 2026-07-29 06:30:40,079 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a699e0fe9aefbbb12a91f6b
 2026-07-29 06:30:40,081 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-29 06:30:40,081 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-29T12:30:31.306569
+============================================================
+2026-07-29 12:30:31,306 - INFO - ðŸš€ Starting automation run
+2026-07-29 12:30:31,307 - INFO - ðŸ“š Found 101 previously posted threads.
+2026-07-29 12:30:31,308 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-29 12:30:31,308 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-29 12:30:32,722 - INFO - Groq raw response:
+[
+  "I've been studying the most successful AI creators, trying to understand their 'hidden patterns'.\nOne thing stands out: their ability to create 'emotional contagion'.",
+  "What if I told you that this contagion is not just about content, but about 'infecting' their audience with a specific mindset?\nA mindset that's not just about ideas, but about 'emotional resonance'.",
+  "I've been trying to reverse-engineer this pattern, and what I've found is surprising:\nIt's not about the tech or the tools, but about the 'storytelling cadence' they use.",
+  "This cadence is not just about the narrative, but about the 'rhythmic flow' that creates a deep connection with their audience.\nI'm still exploring this concept, and what I've found is fascinating..."
+]
+2026-07-29 12:30:32,722 - INFO - âœ… Unique thread found (hash: bb0ebb3f...)
+2026-07-29 12:30:32,723 - INFO - ðŸ“ Generated 4 posts:
+2026-07-29 12:30:32,723 - INFO - --- Post 1 ---
+I've been studying the most successful AI creators, trying to understand their 'hidden patterns'.
+One thing stands out: their ability to create 'emotional contagion'.
+2026-07-29 12:30:32,723 - INFO - --- Post 2 ---
+What if I told you that this contagion is not just about content, but about 'infecting' their audience with a specific mindset?
+A mindset that's not just about ideas, but about 'emotional resonance'.
+2026-07-29 12:30:32,723 - INFO - --- Post 3 ---
+I've been trying to reverse-engineer this pattern, and what I've found is surprising:
+It's not about the tech or the tools, but about the 'storytelling cadence' they use.
+2026-07-29 12:30:32,723 - INFO - --- Post 4 ---
+This cadence is not just about the narrative, but about the 'rhythmic flow' that creates a deep connection with their audience.
+I'm still exploring this concept, and what I've found is fascinating...
+2026-07-29 12:30:34,166 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, minimalist studio with polished concrete floors and walls lined with old, leather-bound books, a lone figure sits at a wooden desk, surrounded by scattered notes and empty coffee cups. The main subject, a young woman with a contemplative expression, is positioned in the centre of the frame, her face illuminated by the soft, warm glow of a desk lamp, casting a golden light on her features. The colour palette is predominantly monochromatic, with shades of grey, beige, and blue, punctuated by the warm, yellow tone of the lamp, evoking a sense of introspection and creativity. The lighting is soft and diffused, with deep shadows in the background, creating a sense of depth and intimacy. The camera angle is a close-up, looking over the woman's shoulder, as if the viewer is peeking into her private world, with the desk and notes blurred in the foreground, drawing attention to her face and hands. The atmosphere is serene and contemplative, with a sense of focused intensity, as if the woman is on the verge of a breakthrough. The texture of the old books, the rough wood of the desk, and the smooth concrete floor add a tactile quality to the scene, inviting the viewer to step into the woman's world. The style hint is cinematic, with a slight grain and a shallow depth of field, reminiscent of a thought-provoking, independent film, capturing the essence of a creative mind at work.
+2026-07-29 12:30:35,691 - INFO - ðŸ–¼ï¸  Saved cover image to images/77c23db97f184744.jpg
+2026-07-29 12:30:37,945 - INFO - ðŸ“¤ Pushed images/77c23db97f184744.jpg to GitHub.
+2026-07-29 12:30:38,133 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/77c23db97f184744.jpg
+2026-07-29 12:30:38,135 - INFO - Scheduling for: 2026-07-29T17:47:38.135209Z UTC
+2026-07-29 12:30:38,696 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a69f26e0e304a8826167acf
+2026-07-29 12:30:38,698 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-29 12:30:38,698 - INFO - âœ… Run completed.
