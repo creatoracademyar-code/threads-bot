@@ -3993,3 +3993,37 @@ But one thing is clear: it's the key to unlocking true financial freedom in AI c
 2026-07-28 18:30:41,179 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a68f5514c8c8bdee9a94af2
 2026-07-28 18:30:41,181 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-28 18:30:41,181 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-29T00:30:30.164354
+============================================================
+2026-07-29 00:30:30,164 - INFO - ðŸš€ Starting automation run
+2026-07-29 00:30:30,164 - INFO - ðŸ“š Found 99 previously posted threads.
+2026-07-29 00:30:30,165 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-29 00:30:30,165 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-29 00:30:33,772 - INFO - Groq raw response:
+[
+  "I've been observing a strange phenomenon in AI content creation.",
+  "What if I told you that the most successful creators are not just driven by passion, but by a deep understanding of their audience's 'shadow selves'?",
+  "They're not just creating content, but 'mapping' the hidden desires and fears of their audience.",
+  "I've been trying to understand how they do it, and what I've found is surprising: It's not about data or analytics, but about 'emotional cartography'."
+]
+2026-07-29 00:30:33,773 - INFO - âœ… Unique thread found (hash: b7492b29...)
+2026-07-29 00:30:33,773 - INFO - ðŸ“ Generated 4 posts:
+2026-07-29 00:30:33,773 - INFO - --- Post 1 ---
+I've been observing a strange phenomenon in AI content creation.
+2026-07-29 00:30:33,773 - INFO - --- Post 2 ---
+What if I told you that the most successful creators are not just driven by passion, but by a deep understanding of their audience's 'shadow selves'?
+2026-07-29 00:30:33,773 - INFO - --- Post 3 ---
+They're not just creating content, but 'mapping' the hidden desires and fears of their audience.
+2026-07-29 00:30:33,773 - INFO - --- Post 4 ---
+I've been trying to understand how they do it, and what I've found is surprising: It's not about data or analytics, but about 'emotional cartography'.
+2026-07-29 00:30:36,563 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, atmospheric studio, a lone figure sits at a vintage, wooden desk, surrounded by scattered, yellowed maps and torn, black paper scraps. The main subject, a young, introspective woman with an intent gaze, is pouring over a large, hand-drawn chart that appears to be a mix of psychological diagrams and cryptic, symbolic notations. The setting is a blend of old, mystical and modern, psychological elements, with the walls lined with dusty, leather-bound books and flickering, candle-like lamps casting a warm, golden glow. The colour palette is predominantly dark, muted tones, with flashes of deep, rich blues and purples, evoking a sense of mystery and creative intensity. Soft, diffused light spills in through a small, grimy window, casting long, ominous shadows across the room, while the woman's face is illuminated by a single, harsh spotlight, emphasizing her focused, almost obsessive expression. The camera angle is a low, Dutch-angle shot, looking up at the woman, which adds to the sense of tension and unease, as if the viewer is being drawn into her intense, emotional world. The atmosphere is one of quiet, contemplative intensity, with the woman's rough, sketchy maps and notes seeming to pulse with a life of their own, like a tangible, emotional cartography. The texture of the old maps, the rough wood of the desk, and the soft, worn leather of the books all add to the tactile, almost sensual quality of the scene, which is rendered in a highly stylized, cinematic manner, with bold, expressive brushstrokes and deep, rich colours, reminiscent of a dramatic, oil painting.
+2026-07-29 00:30:39,063 - INFO - ðŸ–¼ï¸  Saved cover image to images/93a4de4136f57840.jpg
+2026-07-29 00:30:40,636 - INFO - ðŸ“¤ Pushed images/93a4de4136f57840.jpg to GitHub.
+2026-07-29 00:30:40,981 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/93a4de4136f57840.jpg
+2026-07-29 00:30:40,982 - INFO - Scheduling for: 2026-07-29T05:47:40.982906Z UTC
+2026-07-29 00:30:41,807 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a6949b134a0a0955d72bb39
+2026-07-29 00:30:41,809 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-29 00:30:41,809 - INFO - âœ… Run completed.
