@@ -4106,3 +4106,37 @@ I'm still exploring this concept, and what I've found is fascinating...
 2026-07-29 12:30:38,696 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a69f26e0e304a8826167acf
 2026-07-29 12:30:38,698 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-29 12:30:38,698 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-29T18:30:30.833356
+============================================================
+2026-07-29 18:30:30,833 - INFO - ðŸš€ Starting automation run
+2026-07-29 18:30:30,834 - INFO - ðŸ“š Found 102 previously posted threads.
+2026-07-29 18:30:30,835 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-29 18:30:30,835 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-29 18:30:32,423 - INFO - Groq raw response:
+[
+  "I've been studying the most successful AI creators, trying to understand their 'creative rhythms'.",
+  "What if I told you that their content is not just about the message, but about the 'emotional tempo' they convey?",
+  "I've found that they're using a secret technique to 'orchestrate' their content, and it's not about the tech or the tools.",
+  "It's about the 'silent beats' that resonate with their audience, creating a deep connection that transcends the content itself."
+]
+2026-07-29 18:30:32,424 - INFO - âœ… Unique thread found (hash: d0602dd3...)
+2026-07-29 18:30:32,424 - INFO - ðŸ“ Generated 4 posts:
+2026-07-29 18:30:32,424 - INFO - --- Post 1 ---
+I've been studying the most successful AI creators, trying to understand their 'creative rhythms'.
+2026-07-29 18:30:32,424 - INFO - --- Post 2 ---
+What if I told you that their content is not just about the message, but about the 'emotional tempo' they convey?
+2026-07-29 18:30:32,424 - INFO - --- Post 3 ---
+I've found that they're using a secret technique to 'orchestrate' their content, and it's not about the tech or the tools.
+2026-07-29 18:30:32,424 - INFO - --- Post 4 ---
+It's about the 'silent beats' that resonate with their audience, creating a deep connection that transcends the content itself.
+2026-07-29 18:30:34,025 - INFO - ðŸŽ¨ Cover image prompt: A lone figure sits in a dimly lit, soundproof music studio, surrounded by vintage audio equipment and vinyl records, with a sleek, silver laptop open on a wooden desk. The setting is a blend of old and new, with warm, golden lighting spilling in through a small window, casting long shadows across the room. The colour palette is a mix of rich, earthy tones, such as walnut and leather, with hints of cool, electric blue emanating from the laptop screen. Soft, diffused light illuminates the subject's face, emphasizing their intent, creative expression. The camera angle is a low, over-the-shoulder shot, looking up at the figure, conveying a sense of reverence and curiosity. The atmosphere is contemplative, with a sense of anticipation, as if the figure is about to uncover a hidden secret. The texture of the old wooden desk and the rough, stone walls adds a sense of organic, tactile depth to the scene, while the smooth, metallic surfaces of the audio equipment provide a contrasting sense of modernity. The style of the image is cinematic, with a hint of film grain and a shallow depth of field, drawing the viewer's attention to the figure and their creative process. The overall mood is one of hopeful discovery, as if the figure is on the verge of unlocking a new understanding of the creative rhythm that underlies all successful art.
+2026-07-29 18:30:35,753 - INFO - ðŸ–¼ï¸  Saved cover image to images/588f2277133f1e42.jpg
+2026-07-29 18:30:37,607 - INFO - ðŸ“¤ Pushed images/588f2277133f1e42.jpg to GitHub.
+2026-07-29 18:30:37,842 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/588f2277133f1e42.jpg
+2026-07-29 18:30:37,844 - INFO - Scheduling for: 2026-07-29T23:47:37.844939Z UTC
+2026-07-29 18:30:38,543 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a6a46cec8e22269d55f27c0
+2026-07-29 18:30:38,545 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-29 18:30:38,545 - INFO - âœ… Run completed.
