@@ -4220,3 +4220,43 @@ I've written it all down, trying to make sense of it.
 2026-07-30 06:30:39,469 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a6aef8fb2299d92e6c66870
 2026-07-30 06:30:39,471 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-30 06:30:39,471 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-30T12:30:27.832328
+============================================================
+2026-07-30 12:30:27,832 - INFO - ðŸš€ Starting automation run
+2026-07-30 12:30:27,833 - INFO - ðŸ“š Found 105 previously posted threads.
+2026-07-30 12:30:27,833 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-30 12:30:27,833 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-30 12:30:29,414 - INFO - Groq raw response:
+[
+  "I've been observing a strange phenomenon in AI content creation.\nIt's the 'invisibility cloak' that surrounds some creators.",
+  "What if I told you that this cloak is not just about being unknown,\nbut about being 'unseen'?",
+  "I've been studying the most successful AI creators, and what I've found is surprising:\nThey're not trying to be visible, but 'felt'.",
+  "This feeling is not just about emotions, but about 'resonance'.\nIt's the key to creating a lasting impact on our lives.",
+  "I'm still exploring this concept, and what I've found is fascinating...\nI've started to document my findings, and I think it's just the beginning."
+]
+2026-07-30 12:30:29,415 - INFO - âœ… Unique thread found (hash: 00a8815e...)
+2026-07-30 12:30:29,416 - INFO - ðŸ“ Generated 5 posts:
+2026-07-30 12:30:29,416 - INFO - --- Post 1 ---
+I've been observing a strange phenomenon in AI content creation.
+It's the 'invisibility cloak' that surrounds some creators.
+2026-07-30 12:30:29,416 - INFO - --- Post 2 ---
+What if I told you that this cloak is not just about being unknown,
+but about being 'unseen'?
+2026-07-30 12:30:29,416 - INFO - --- Post 3 ---
+I've been studying the most successful AI creators, and what I've found is surprising:
+They're not trying to be visible, but 'felt'.
+2026-07-30 12:30:29,416 - INFO - --- Post 4 ---
+This feeling is not just about emotions, but about 'resonance'.
+It's the key to creating a lasting impact on our lives.
+2026-07-30 12:30:29,416 - INFO - --- Post 5 ---
+I'm still exploring this concept, and what I've found is fascinating...
+I've started to document my findings, and I think it's just the beginning.
+2026-07-30 12:30:30,975 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, intimate studio, a lone figure sits at a wooden desk, surrounded by scattered papers, empty coffee cups, and faint, glowing screens. The main subject, a young creator, is shrouded in a soft, ethereal mist that envelops their upper body, symbolizing the 'invisibility cloak'. The setting is a blend of rustic and modern elements, with exposed brick walls, polished metal accents, and sleek, minimalist furniture. The colour palette is predominantly monochromatic, with warm, golden hues seeping in through the mist, evoking a sense of mystery and intrigue. Soft, diffused light emanates from the screens and a single, tableside lamp, casting gentle shadows on the creator's face and the surrounding environment. The camera angle is a low, close-up shot, looking up at the creator, conveying a sense of intimacy and contemplation. The atmosphere is serene, with a hint of tension, as if the creator is on the cusp of a groundbreaking discovery. The texture of the wooden desk and the rough, exposed brick walls adds a sense of tactile realism, while the mist and the glowing screens introduce an otherworldly, dreamlike quality. The style hint is cinematic, with a touch of magic realism, inviting the viewer to step into the creator's world and experience the 'resonance' that permeates their work. The overall mood is one of hopeful, quiet exploration, as the creator delves deeper into the mysteries of the 'invisibility cloak' and the power of being 'felt'.
+2026-07-30 12:30:31,657 - WARNING - âš ï¸  Cover image generation failed, posting without image: 400 Client Error: Bad Request for url: https://api.cloudflare.com/client/v4/accounts/0db16d4f827bfe2499b09c66dd44fd4a/ai/run/@cf/black-forest-labs/flux-1-schnell
+2026-07-30 12:30:31,658 - INFO - Scheduling for: 2026-07-30T17:47:31.658837Z UTC
+2026-07-30 12:30:34,867 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a6b43ea4bf18872f2f64d24
+2026-07-30 12:30:34,869 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-30 12:30:34,869 - INFO - âœ… Run completed.
