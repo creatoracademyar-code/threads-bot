@@ -4140,3 +4140,41 @@ It's about the 'silent beats' that resonate with their audience, creating a deep
 2026-07-29 18:30:38,543 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a6a46cec8e22269d55f27c0
 2026-07-29 18:30:38,545 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-29 18:30:38,545 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-30T00:30:36.741658
+============================================================
+2026-07-30 00:30:36,741 - INFO - ðŸš€ Starting automation run
+2026-07-30 00:30:36,742 - INFO - ðŸ“š Found 103 previously posted threads.
+2026-07-30 00:30:36,743 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-30 00:30:36,743 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-30 00:30:38,062 - INFO - Groq raw response:
+[
+  "I've been tracking a strange phenomenon in AI content creation.\nIt's the 'ghost in the machine' that drives engagement.",
+  "What if I told you that this ghost is not just a metaphor, but a real force?\nIt's the 'collective unconscious' of your audience, waiting to be tapped.",
+  "I've been studying the most successful AI creators, and what I've found is surprising:\nThey're not just creating content, but 'channeling' the desires of their audience.",
+  "This channeling is not just about understanding your audience, but about 'resonating' with their deepest fears and desires.\nIt's the key to creating content that truly haunts them, long after they've consumed it."
+]
+2026-07-30 00:30:38,063 - INFO - âœ… Unique thread found (hash: e526a899...)
+2026-07-30 00:30:38,064 - INFO - ðŸ“ Generated 4 posts:
+2026-07-30 00:30:38,064 - INFO - --- Post 1 ---
+I've been tracking a strange phenomenon in AI content creation.
+It's the 'ghost in the machine' that drives engagement.
+2026-07-30 00:30:38,064 - INFO - --- Post 2 ---
+What if I told you that this ghost is not just a metaphor, but a real force?
+It's the 'collective unconscious' of your audience, waiting to be tapped.
+2026-07-30 00:30:38,064 - INFO - --- Post 3 ---
+I've been studying the most successful AI creators, and what I've found is surprising:
+They're not just creating content, but 'channeling' the desires of their audience.
+2026-07-30 00:30:38,064 - INFO - --- Post 4 ---
+This channeling is not just about understanding your audience, but about 'resonating' with their deepest fears and desires.
+It's the key to creating content that truly haunts them, long after they've consumed it.
+2026-07-30 00:30:39,266 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, abandoned theatre, a lone figure stands on stage, shrouded in a misty, ethereal glow. The walls and seats are covered in a thick layer of dust, and old, tattered curtains hang from the ceiling, casting long, ominous shadows. The colour palette is a mix of cool, muted blues and greys, with hints of warm, golden light peeking through the cracks in the walls. The lighting is soft and diffused, with an otherworldly quality, as if the very atmosphere is radiating an eerie, pulsing glow. The camera angle is low, looking up at the figure, which is silhouetted against a backdrop of old, flickering stage lights, creating a sense of drama and foreboding. The atmosphere is tense and haunting, with an undercurrent of anticipation and unease. The texture of the old, worn wood and dusty fabric is palpable, and the air is thick with the scent of decay and neglect. In the background, a faint, ghostly image of a crowd can be seen, their faces blurred and indistinct, as if they are the collective unconscious, waiting to be tapped. The style is cinematic, with a hint of surrealism, as if the scene is a dream or a vision, rather than a physical reality. The overall mood is one of eerie, haunting resonance, as if the figure on stage is channeling the deepest fears and desires of the audience, and the very walls are vibrating with the energy of the collective unconscious.
+2026-07-30 00:30:41,055 - INFO - ðŸ–¼ï¸  Saved cover image to images/88fdbd6bac0f1f53.jpg
+2026-07-30 00:30:42,770 - INFO - ðŸ“¤ Pushed images/88fdbd6bac0f1f53.jpg to GitHub.
+2026-07-30 00:30:42,986 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/88fdbd6bac0f1f53.jpg
+2026-07-30 00:30:42,988 - INFO - Scheduling for: 2026-07-30T05:47:42.988900Z UTC
+2026-07-30 00:30:43,832 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a6a9b330263c79a74af2e97
+2026-07-30 00:30:43,835 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-30 00:30:43,835 - INFO - âœ… Run completed.
