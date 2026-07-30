@@ -4178,3 +4178,45 @@ It's the key to creating content that truly haunts them, long after they've cons
 2026-07-30 00:30:43,832 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a6a9b330263c79a74af2e97
 2026-07-30 00:30:43,835 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-30 00:30:43,835 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-30T06:30:32.554513
+============================================================
+2026-07-30 06:30:32,554 - INFO - ðŸš€ Starting automation run
+2026-07-30 06:30:32,555 - INFO - ðŸ“š Found 104 previously posted threads.
+2026-07-30 06:30:32,556 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-30 06:30:32,556 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-30 06:30:34,082 - INFO - Groq raw response:
+[
+  "I've been exploring the concept of 'digital legacy' in AI content creation.\nWhat if your online presence outlived you?",
+  "I've been studying AI creators who've built a lasting impact on their audience.\nOne thing stands out: their ability to create 'timeless' content.",
+  "But what makes content timeless?\nIs it the message, the medium, or something more?",
+  "I've been trying to understand the secret to creating content that stands the test of time.\nAnd what I've found is surprising: it's not about being 'evergreen', but about being 'echoic'.",
+  "I'm still exploring this concept, and what I've found is fascinating...\nI've written it all down, trying to make sense of it."
+]
+2026-07-30 06:30:34,083 - INFO - âœ… Unique thread found (hash: 04af6f1e...)
+2026-07-30 06:30:34,083 - INFO - ðŸ“ Generated 5 posts:
+2026-07-30 06:30:34,083 - INFO - --- Post 1 ---
+I've been exploring the concept of 'digital legacy' in AI content creation.
+What if your online presence outlived you?
+2026-07-30 06:30:34,083 - INFO - --- Post 2 ---
+I've been studying AI creators who've built a lasting impact on their audience.
+One thing stands out: their ability to create 'timeless' content.
+2026-07-30 06:30:34,083 - INFO - --- Post 3 ---
+But what makes content timeless?
+Is it the message, the medium, or something more?
+2026-07-30 06:30:34,083 - INFO - --- Post 4 ---
+I've been trying to understand the secret to creating content that stands the test of time.
+And what I've found is surprising: it's not about being 'evergreen', but about being 'echoic'.
+2026-07-30 06:30:34,083 - INFO - --- Post 5 ---
+I'm still exploring this concept, and what I've found is fascinating...
+I've written it all down, trying to make sense of it.
+2026-07-30 06:30:35,483 - INFO - ðŸŽ¨ Cover image prompt: In a serene, dimly lit study, a lone figure sits at a worn, wooden desk, surrounded by stacks of old books and scattered papers. The main subject, a young woman with a contemplative expression, is illuminated by the soft, warm glow of a desk lamp, casting a golden light on her face and the pages of her journal. The colour palette is muted, with earthy tones of brown, beige, and grey, evoking a sense of nostalgia and timelessness. The lighting is intimate, with deep shadows accentuating the textures of the wooden desk and the rough, parchment-like paper. The camera angle is a low, over-the-shoulder shot, looking down at the woman's hands as she writes, conveying a sense of vulnerability and introspection. The atmosphere is one of quiet contemplation, with a sense of hope and discovery emanating from the woman's focused expression. The texture of the wooden desk and the rough paper adds a tactile quality to the scene, while the soft, diffused light and the muted colours create a sense of depth and atmosphere. The style of the image is reminiscent of a cinematic oil painting, with bold brushstrokes and a sense of movement, as if the scene is about to unfold into a larger narrative. The woman's hair is tied back, revealing a few loose strands that frame her face, adding a sense of imperfection and humanity to the scene. The background is a soft blur, with hints of old bookshelves and faded photographs, creating a sense of history and legacy that underscores the theme of the image.
+2026-07-30 06:30:36,831 - INFO - ðŸ–¼ï¸  Saved cover image to images/bb4976e1af4d1d77.jpg
+2026-07-30 06:30:38,596 - INFO - ðŸ“¤ Pushed images/bb4976e1af4d1d77.jpg to GitHub.
+2026-07-30 06:30:38,950 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/bb4976e1af4d1d77.jpg
+2026-07-30 06:30:38,952 - INFO - Scheduling for: 2026-07-30T11:47:38.952638Z UTC
+2026-07-30 06:30:39,469 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a6aef8fb2299d92e6c66870
+2026-07-30 06:30:39,471 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-30 06:30:39,471 - INFO - âœ… Run completed.
