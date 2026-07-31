@@ -4340,3 +4340,44 @@ They help their audience remember and revisit their content, long after it's bee
 2026-07-31 00:30:43,130 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a6becb2bb30a36747fe659d
 2026-07-31 00:30:43,132 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-31 00:30:43,132 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-31T06:30:30.612762
+============================================================
+2026-07-31 06:30:30,612 - INFO - ðŸš€ Starting automation run
+2026-07-31 06:30:30,613 - INFO - ðŸ“š Found 108 previously posted threads.
+2026-07-31 06:30:30,614 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-31 06:30:30,614 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-31 06:30:32,456 - INFO - Groq raw response:
+[
+  "I've been noticing a strange phenomenon in AI content creation.\nIt's the 'forgotten chapter' that most creators overlook.",
+  "What if I told you that this chapter is not just about content, but about the 'hidden narrative' that drives engagement?",
+  "I've been studying the most successful AI creators, and what I've found is surprising:\nThey're not just telling stories, but 'encoding' their audience's desires into every piece of content.",
+  "This encoding is not just about persuasion, but about 'resonant frequency'.\nIt's the key to creating a lasting impact on our lives.",
+  "I've started to document my findings, and what I've found is fascinating...\nIt's the beginning of a new era in AI content creation, and I'm excited to see where it takes us."
+]
+2026-07-31 06:30:32,457 - INFO - âœ… Unique thread found (hash: 13a11966...)
+2026-07-31 06:30:32,458 - INFO - ðŸ“ Generated 5 posts:
+2026-07-31 06:30:32,458 - INFO - --- Post 1 ---
+I've been noticing a strange phenomenon in AI content creation.
+It's the 'forgotten chapter' that most creators overlook.
+2026-07-31 06:30:32,458 - INFO - --- Post 2 ---
+What if I told you that this chapter is not just about content, but about the 'hidden narrative' that drives engagement?
+2026-07-31 06:30:32,458 - INFO - --- Post 3 ---
+I've been studying the most successful AI creators, and what I've found is surprising:
+They're not just telling stories, but 'encoding' their audience's desires into every piece of content.
+2026-07-31 06:30:32,458 - INFO - --- Post 4 ---
+This encoding is not just about persuasion, but about 'resonant frequency'.
+It's the key to creating a lasting impact on our lives.
+2026-07-31 06:30:32,458 - INFO - --- Post 5 ---
+I've started to document my findings, and what I've found is fascinating...
+It's the beginning of a new era in AI content creation, and I'm excited to see where it takes us.
+2026-07-31 06:30:33,858 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, futuristic laboratory, a lone figure sits at a sleek, metallic desk, surrounded by holographic screens and wires. The main subject, a young woman with an intent gaze, leans forward, her hands hovering over a glowing, ethereal interface. The setting is a blend of industrial and cyberpunk elements, with rough, concrete walls and polished, silver accents. A predominantly cool, blue-purple colour palette dominates the scene, with hints of warm, golden light emanating from the holographic displays. The lighting is soft and diffused, with dramatic shadows cast across the woman's face and the surrounding environment. The camera angle is a low, Dutch angle, looking up at the woman, emphasizing her determination and focus. The atmosphere is one of quiet intensity, with a sense of anticipation and discovery. The texture of the metallic surfaces and the rough, concrete walls adds a sense of grit and realism to the scene. The style of the image is cinematic, with a hint of sci-fi and mystery, reminiscent of a futuristic, psychological thriller. In the background, a massive, floor-to-ceiling window reveals a cityscape at dusk, with towering skyscrapers and neon lights reflecting off the wet, glass surface, adding a sense of depth and context to the scene. The woman's eyes seem to hold a deep understanding, as if she has uncovered a hidden truth, and the image exudes a sense of hope and excitement for the possibilities that this new discovery may hold.
+2026-07-31 06:30:35,580 - INFO - ðŸ–¼ï¸  Saved cover image to images/f4a07e9d0f365df7.jpg
+2026-07-31 06:30:37,273 - INFO - ðŸ“¤ Pushed images/f4a07e9d0f365df7.jpg to GitHub.
+2026-07-31 06:30:37,448 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/f4a07e9d0f365df7.jpg
+2026-07-31 06:30:37,450 - INFO - Scheduling for: 2026-07-31T11:47:37.450169Z UTC
+2026-07-31 06:30:38,001 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a6c410d369d7a6b6a35f19e
+2026-07-31 06:30:38,003 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-31 06:30:38,003 - INFO - âœ… Run completed.
