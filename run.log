@@ -4423,3 +4423,38 @@ But about the 'hidden dynamics' that drive human connection.
 2026-07-31 12:30:33,979 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a6c9569ebe00edff5551df4
 2026-07-31 12:30:33,981 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-31 12:30:33,981 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-31T18:37:14.605228
+============================================================
+2026-07-31 18:37:14,605 - INFO - ðŸš€ Starting automation run
+2026-07-31 18:37:14,606 - INFO - ðŸ“š Found 110 previously posted threads.
+2026-07-31 18:37:14,606 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-31 18:37:14,606 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-31 18:37:15,811 - INFO - Groq raw response:
+[
+  "I've been studying the most successful AI creators, trying to understand their 'creative acceleration'.",
+  "What if I told you that they're not just moving fast, but 'accelerating' their audience's journey?",
+  "I've found that they're using a secret technique to 'bridge' the gap between their audience's desires and their own creative vision.",
+  "This bridge is not just about content, but about the 'emotional velocity' they create.",
+  "I've started to document my findings, and what I've found is fascinating... I think it's just the beginning of something much bigger."
+]
+2026-07-31 18:37:15,812 - INFO - âœ… Unique thread found (hash: 023db06d...)
+2026-07-31 18:37:15,812 - INFO - ðŸ“ Generated 5 posts:
+2026-07-31 18:37:15,812 - INFO - --- Post 1 ---
+I've been studying the most successful AI creators, trying to understand their 'creative acceleration'.
+2026-07-31 18:37:15,812 - INFO - --- Post 2 ---
+What if I told you that they're not just moving fast, but 'accelerating' their audience's journey?
+2026-07-31 18:37:15,812 - INFO - --- Post 3 ---
+I've found that they're using a secret technique to 'bridge' the gap between their audience's desires and their own creative vision.
+2026-07-31 18:37:15,812 - INFO - --- Post 4 ---
+This bridge is not just about content, but about the 'emotional velocity' they create.
+2026-07-31 18:37:15,812 - INFO - --- Post 5 ---
+I've started to document my findings, and what I've found is fascinating... I think it's just the beginning of something much bigger.
+2026-07-31 18:37:17,125 - INFO - ðŸŽ¨ Cover image prompt: In a vast, futuristic laboratory with sleek, silver walls and polished concrete floors, a lone figure stands at the edge of a massive, curved bridge that stretches across a deep, dark chasm. The bridge is made of a latticework of glowing, ethereal fibers that pulse with a soft, blue light, symbolizing the connection between the creator's vision and their audience's desires. The color palette is predominantly cool, with shades of indigo, blue, and purple, evoking a sense of innovation and forward thinking. The laboratory is bathed in a soft, diffused light, with dramatic shadows cast across the walls and floor, creating a sense of depth and dimensionality. The camera angle is low, looking up at the figure and the bridge, conveying a sense of awe and wonder. The atmosphere is one of hopeful anticipation, as if the figure is on the cusp of a major breakthrough. The texture of the bridge's fibers is smooth and luminous, while the concrete floor is rough and tactile. In the distance, a massive, circular window frames a stunning, starry night sky, hinting at the infinite possibilities that lie ahead. The style is cinematic, with a hint of sci-fi futurism, and the overall mood is one of excitement and discovery. The figure, dressed in a simple, white jumpsuit, stands with their arms outstretched, as if embracing the vast, uncharted territory that lies before them.
+2026-07-31 18:37:17,635 - WARNING - âš ï¸  Cover image generation failed, posting without image: 400 Client Error: Bad Request for url: https://api.cloudflare.com/client/v4/accounts/0db16d4f827bfe2499b09c66dd44fd4a/ai/run/@cf/black-forest-labs/flux-1-schnell
+2026-07-31 18:37:17,636 - INFO - Scheduling for: 2026-07-31T23:54:17.636612Z UTC
+2026-07-31 18:37:18,109 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a6ceb5def3b8a12e11c26fe
+2026-07-31 18:37:18,190 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-31 18:37:18,190 - INFO - âœ… Run completed.
