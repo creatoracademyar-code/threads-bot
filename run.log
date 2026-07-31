@@ -4302,3 +4302,41 @@ It's the beginning of a new era in AI content creation, and I'm excited to see w
 2026-07-30 18:30:41,823 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a6b9851413d5d2dad80f244
 2026-07-30 18:30:41,825 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-30 18:30:41,825 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-31T00:30:34.814766
+============================================================
+2026-07-31 00:30:34,814 - INFO - ðŸš€ Starting automation run
+2026-07-31 00:30:34,815 - INFO - ðŸ“š Found 107 previously posted threads.
+2026-07-31 00:30:34,816 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-31 00:30:34,816 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-31 00:30:36,169 - INFO - Groq raw response:
+[
+  "I've been studying AI creators who've built massive followings.\nOne thing stands out: their ability to create 'looping narratives'.",
+  "These narratives are not just about storytelling, but about 'cyclical engagement'.\nThey keep their audience hooked, wondering what's next.",
+  "I've been trying to understand how they craft these narratives, and what I've found is surprising:\nIt's not about the plot, but about the 'emotional echoes' they create.",
+  "These echoes are not just about resonance, but about 'memory anchors'.\nThey help their audience remember and revisit their content, long after it's been consumed."
+]
+2026-07-31 00:30:36,169 - INFO - âœ… Unique thread found (hash: 344c3649...)
+2026-07-31 00:30:36,170 - INFO - ðŸ“ Generated 4 posts:
+2026-07-31 00:30:36,170 - INFO - --- Post 1 ---
+I've been studying AI creators who've built massive followings.
+One thing stands out: their ability to create 'looping narratives'.
+2026-07-31 00:30:36,170 - INFO - --- Post 2 ---
+These narratives are not just about storytelling, but about 'cyclical engagement'.
+They keep their audience hooked, wondering what's next.
+2026-07-31 00:30:36,170 - INFO - --- Post 3 ---
+I've been trying to understand how they craft these narratives, and what I've found is surprising:
+It's not about the plot, but about the 'emotional echoes' they create.
+2026-07-31 00:30:36,170 - INFO - --- Post 4 ---
+These echoes are not just about resonance, but about 'memory anchors'.
+They help their audience remember and revisit their content, long after it's been consumed.
+2026-07-31 00:30:37,441 - INFO - ðŸŽ¨ Cover image prompt: A lone figure stands at the centre of a surreal, dreamlike landscape, surrounded by a maze of interconnected, glowing pathways that stretch and curve like a labyrinth. The setting is a blend of indoor and outdoor elements, with crumbling, ancient stone walls giving way to a vast, starry night sky. The colour palette is a deep, rich mix of blues and purples, with hints of golden light that seem to pulse and shimmer like the pathways. The lighting is soft and diffused, with an otherworldly glow that casts no shadows, imbuing the scene with an ethereal, hypnotic quality. The camera angle is a wide, low-angle shot, looking up at the figure from the centre of the maze, creating a sense of awe and wonder. The atmosphere is one of serene, introspective contemplation, as if the figure is lost in thought, navigating the twists and turns of their own mind. The pathways and walls are made of a smooth, glass-like material that reflects and distorts the light, giving the scene a sense of depth and texture. The style is reminiscent of a cinematic, 3D-rendered landscape, with intricate details and subtle gradients that invite the viewer to step into the world. In the distance, faint, ghostly echoes of the figure can be seen, repeating and reverberating through the maze, creating a sense of cyclical movement and endless possibility.
+2026-07-31 00:30:40,683 - INFO - ðŸ–¼ï¸  Saved cover image to images/26826cbc7522b9de.jpg
+2026-07-31 00:30:42,351 - INFO - ðŸ“¤ Pushed images/26826cbc7522b9de.jpg to GitHub.
+2026-07-31 00:30:42,615 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/26826cbc7522b9de.jpg
+2026-07-31 00:30:42,616 - INFO - Scheduling for: 2026-07-31T05:47:42.616776Z UTC
+2026-07-31 00:30:43,130 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a6becb2bb30a36747fe659d
+2026-07-31 00:30:43,132 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-31 00:30:43,132 - INFO - âœ… Run completed.
