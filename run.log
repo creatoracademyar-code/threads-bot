@@ -4381,3 +4381,45 @@ It's the beginning of a new era in AI content creation, and I'm excited to see w
 2026-07-31 06:30:38,001 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a6c410d369d7a6b6a35f19e
 2026-07-31 06:30:38,003 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-31 06:30:38,003 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-07-31T12:30:26.799714
+============================================================
+2026-07-31 12:30:26,799 - INFO - ðŸš€ Starting automation run
+2026-07-31 12:30:26,800 - INFO - ðŸ“š Found 109 previously posted threads.
+2026-07-31 12:30:26,801 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-07-31 12:30:26,801 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-07-31 12:30:28,497 - INFO - Groq raw response:
+[
+  "I've been exploring the concept of 'digital alchemy' in AI content creation.\nWhat if you could turn your audience's fears into fuel for your content?",
+  "I've been studying the most successful AI creators, and what I've found is surprising:\nThey're not trying to avoid their audience's fears, but to 'transmute' them into something valuable.",
+  "This transmutation is not just about content, but about the 'emotional transference' that occurs between creator and audience.\nIt's the key to creating a lasting impact on our lives.",
+  "I've started to experiment with this concept, and what I've found is fascinating...\nI've written it all down, trying to make sense of it.",
+  "The more I explore this idea, the more I realize that it's not just about content creation...\nBut about the 'hidden dynamics' that drive human connection."
+]
+2026-07-31 12:30:28,498 - INFO - âœ… Unique thread found (hash: d9b752d7...)
+2026-07-31 12:30:28,498 - INFO - ðŸ“ Generated 5 posts:
+2026-07-31 12:30:28,498 - INFO - --- Post 1 ---
+I've been exploring the concept of 'digital alchemy' in AI content creation.
+What if you could turn your audience's fears into fuel for your content?
+2026-07-31 12:30:28,498 - INFO - --- Post 2 ---
+I've been studying the most successful AI creators, and what I've found is surprising:
+They're not trying to avoid their audience's fears, but to 'transmute' them into something valuable.
+2026-07-31 12:30:28,498 - INFO - --- Post 3 ---
+This transmutation is not just about content, but about the 'emotional transference' that occurs between creator and audience.
+It's the key to creating a lasting impact on our lives.
+2026-07-31 12:30:28,498 - INFO - --- Post 4 ---
+I've started to experiment with this concept, and what I've found is fascinating...
+I've written it all down, trying to make sense of it.
+2026-07-31 12:30:28,498 - INFO - --- Post 5 ---
+The more I explore this idea, the more I realize that it's not just about content creation...
+But about the 'hidden dynamics' that drive human connection.
+2026-07-31 12:30:29,815 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, mystical laboratory, a lone figure sits at a wooden workbench, surrounded by candles, strange artifacts, and scattered papers. The main subject, a young creator with an intent gaze, is hunched over a leather-bound journal, quill pen in hand, as if pouring their thoughts and emotions onto the pages. The setting is a blend of ancient alchemy and modern technology, with vintage equipment and futuristic gadgets scattered throughout the room. The colour palette is predominantly warm and golden, with hints of deep blues and purples, evoking a sense of mystery and transformation. Soft, diffused light emanates from the candles, casting gentle shadows on the creator's face and the surrounding environment. The camera angle is a low, intimate close-up, as if the viewer is peeking over the creator's shoulder, witnessing the emotional transference taking place. The atmosphere is serene, yet tense with anticipation, as if the creator is on the cusp of a profound discovery. The texture of the wooden workbench, the roughness of the stone walls, and the smoothness of the leather journal all contribute to a sense of tactile depth, while the faint glow of luminescent orbs and flickering candles hints at the magical, almost otherworldly nature of the digital alchemy. The style of the image is reminiscent of a cinematic, oil-painted still life, with bold brushstrokes and vivid colours, inviting the viewer to step into the mystical world of the creator.
+2026-07-31 12:30:31,363 - INFO - ðŸ–¼ï¸  Saved cover image to images/a6b62458daae0d3c.jpg
+2026-07-31 12:30:33,239 - INFO - ðŸ“¤ Pushed images/a6b62458daae0d3c.jpg to GitHub.
+2026-07-31 12:30:33,381 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/a6b62458daae0d3c.jpg
+2026-07-31 12:30:33,383 - INFO - Scheduling for: 2026-07-31T17:47:33.383529Z UTC
+2026-07-31 12:30:33,979 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a6c9569ebe00edff5551df4
+2026-07-31 12:30:33,981 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-07-31 12:30:33,981 - INFO - âœ… Run completed.
