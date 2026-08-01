@@ -4458,3 +4458,45 @@ I've started to document my findings, and what I've found is fascinating... I th
 2026-07-31 18:37:18,109 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a6ceb5def3b8a12e11c26fe
 2026-07-31 18:37:18,190 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-07-31 18:37:18,190 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-01T00:31:57.009677
+============================================================
+2026-08-01 00:31:57,009 - INFO - ðŸš€ Starting automation run
+2026-08-01 00:31:57,010 - INFO - ðŸ“š Found 111 previously posted threads.
+2026-08-01 00:31:57,011 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-01 00:31:57,011 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-01 00:31:58,300 - INFO - Groq raw response:
+[
+  "I've been observing a strange phenomenon in AI content creation.\nIt's the 'curiosity gap' that separates successful creators from the rest.",
+  "What if I told you that this gap is not just about content, but about the 'unspoken questions' that haunt your audience?\nThey're the keys to creating a lasting impact on their lives.",
+  "I've been studying the most successful AI creators, and what I've found is surprising:\nThey're not trying to answer every question, but to 'deepen the mystery'.",
+  "This mystery is not just about intrigue, but about the 'emotional investment' it creates.\nIt's the key to turning your audience into loyal followers.",
+  "I've started to experiment with this concept, and what I've found is fascinating...\nI've written it all down, trying to make sense of it."
+]
+2026-08-01 00:31:58,301 - INFO - âœ… Unique thread found (hash: 0f3fcd52...)
+2026-08-01 00:31:58,302 - INFO - ðŸ“ Generated 5 posts:
+2026-08-01 00:31:58,302 - INFO - --- Post 1 ---
+I've been observing a strange phenomenon in AI content creation.
+It's the 'curiosity gap' that separates successful creators from the rest.
+2026-08-01 00:31:58,302 - INFO - --- Post 2 ---
+What if I told you that this gap is not just about content, but about the 'unspoken questions' that haunt your audience?
+They're the keys to creating a lasting impact on their lives.
+2026-08-01 00:31:58,302 - INFO - --- Post 3 ---
+I've been studying the most successful AI creators, and what I've found is surprising:
+They're not trying to answer every question, but to 'deepen the mystery'.
+2026-08-01 00:31:58,302 - INFO - --- Post 4 ---
+This mystery is not just about intrigue, but about the 'emotional investment' it creates.
+It's the key to turning your audience into loyal followers.
+2026-08-01 00:31:58,302 - INFO - --- Post 5 ---
+I've started to experiment with this concept, and what I've found is fascinating...
+I've written it all down, trying to make sense of it.
+2026-08-01 00:31:59,513 - INFO - ðŸŽ¨ Cover image prompt: A lone figure sits at a worn, wooden desk, surrounded by stacks of old, leather-bound books and scattered papers, in a dimly lit, rustic study with stone walls and a vaulted ceiling. The room is bathed in the soft, warm glow of a single, flickering candle, casting long, dramatic shadows across the space. The colour palette is muted, with earthy tones of brown, beige, and grey, punctuated by the occasional splash of golden light. The air is thick with the scent of old parchment and the feeling of quiet contemplation. The figure, lost in thought, stares intently at a small, glowing orb that hovers above the desk, its gentle, ethereal light illuminating the lines of curiosity and wonder etched on their face. The camera angle is low, looking up at the figure, emphasizing their introspective mood and the sense of mystery that surrounds them. The atmosphere is serene, yet tense with anticipation, as if the figure is on the verge of uncovering a long-hidden secret. The texture of the old books and the rough stone walls adds a sense of depth and history to the scene, while the soft, diffused light and the gentle glow of the orb suggest a sense of otherworldly wonder. The style is reminiscent of a cinematic, oil painting, with bold brushstrokes and vivid, expressive colours. The overall emotion is one of hopeful curiosity, as if the figure is poised on the threshold of a great discovery.
+2026-08-01 00:32:01,106 - INFO - ðŸ–¼ï¸  Saved cover image to images/e3f8f99f7a4ee40c.jpg
+2026-08-01 00:32:02,706 - INFO - ðŸ“¤ Pushed images/e3f8f99f7a4ee40c.jpg to GitHub.
+2026-08-01 00:32:02,942 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/e3f8f99f7a4ee40c.jpg
+2026-08-01 00:32:02,944 - INFO - Scheduling for: 2026-08-01T05:49:02.944447Z UTC
+2026-08-01 00:32:03,606 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a6d3e834c4e74ba2a2fd95d
+2026-08-01 00:32:03,608 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-01 00:32:03,609 - INFO - âœ… Run completed.
