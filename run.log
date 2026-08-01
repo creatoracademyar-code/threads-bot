@@ -4500,3 +4500,40 @@ I've written it all down, trying to make sense of it.
 2026-08-01 00:32:03,606 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a6d3e834c4e74ba2a2fd95d
 2026-08-01 00:32:03,608 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-01 00:32:03,609 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-01T06:30:33.586977
+============================================================
+2026-08-01 06:30:33,587 - INFO - ðŸš€ Starting automation run
+2026-08-01 06:30:33,587 - INFO - ðŸ“š Found 112 previously posted threads.
+2026-08-01 06:30:33,588 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-01 06:30:33,588 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-01 06:30:34,882 - INFO - Groq raw response:
+[
+  "I've been studying AI creators who've mastered the art of 'silent storytelling'.",
+  "What if I told you that their content is not just about the message, but about the 'unspoken narrative' that resonates with their audience?",
+  "I've found that they're using a secret technique to 'embed' their story into every piece of content, without ever saying a word.",
+  "This technique is not just about subtlety, but about 'emotional imprinting'. It's the key to creating a lasting impact on our lives.",
+  "I've started to document my findings, and what I've found is fascinating... I think it's just the beginning of something much bigger."
+]
+2026-08-01 06:30:34,884 - INFO - âœ… Unique thread found (hash: 427510e3...)
+2026-08-01 06:30:34,884 - INFO - ðŸ“ Generated 5 posts:
+2026-08-01 06:30:34,884 - INFO - --- Post 1 ---
+I've been studying AI creators who've mastered the art of 'silent storytelling'.
+2026-08-01 06:30:34,884 - INFO - --- Post 2 ---
+What if I told you that their content is not just about the message, but about the 'unspoken narrative' that resonates with their audience?
+2026-08-01 06:30:34,884 - INFO - --- Post 3 ---
+I've found that they're using a secret technique to 'embed' their story into every piece of content, without ever saying a word.
+2026-08-01 06:30:34,884 - INFO - --- Post 4 ---
+This technique is not just about subtlety, but about 'emotional imprinting'. It's the key to creating a lasting impact on our lives.
+2026-08-01 06:30:34,884 - INFO - --- Post 5 ---
+I've started to document my findings, and what I've found is fascinating... I think it's just the beginning of something much bigger.
+2026-08-01 06:30:36,261 - INFO - ðŸŽ¨ Cover image prompt: A lone figure sits in a dimly lit, minimalist studio, surrounded by empty white walls and a few scattered papers with faint scribbles. The main subject, a young woman with a contemplative expression, is positioned in the centre of the room, with a large, blank canvas behind her, illuminated by a soft, diffused light that casts no harsh shadows. The colour palette is predominantly monochrome, with hints of warm beige and pale grey, evoking a sense of serenity and quiet focus. The lighting is subdued, with a single, spherical pendant lamp above the woman's head, casting a gentle glow on her face and the papers in front of her. The camera angle is a low-angle shot, looking up at the woman from a slight incline, which creates a sense of intimacy and importance. The atmosphere is one of hopeful anticipation, as if the woman is on the cusp of a major discovery. The texture of the blank canvas and the rough, handmade paper notes adds a sense of tactility to the scene, while the smooth, polished wood of the desk and chair provides a subtle contrast. The style of the image is cinematic, with a slight film grain and a shallow depth of field, drawing the viewer's attention to the woman's face and the canvas behind her. The overall mood is one of creative potential, as if the blank canvas is waiting to be filled with the unspoken narrative that will resonate with the audience.
+2026-08-01 06:30:37,769 - INFO - ðŸ–¼ï¸  Saved cover image to images/42c303372f926d3a.jpg
+2026-08-01 06:30:39,247 - INFO - ðŸ“¤ Pushed images/42c303372f926d3a.jpg to GitHub.
+2026-08-01 06:30:39,390 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/42c303372f926d3a.jpg
+2026-08-01 06:30:39,392 - INFO - Scheduling for: 2026-08-01T11:47:39.392538Z UTC
+2026-08-01 06:30:39,767 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a6d928ff93d764d93876ede
+2026-08-01 06:30:39,769 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-01 06:30:39,769 - INFO - âœ… Run completed.
