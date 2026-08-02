@@ -4692,3 +4692,45 @@ I'm still exploring this concept, and what I've found is fascinating... I've sta
 2026-08-02 06:33:23,446 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a6ee4b32bbc9e05873f5313
 2026-08-02 06:33:23,449 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-02 06:33:23,449 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-02T12:30:28.266133
+============================================================
+2026-08-02 12:30:28,266 - INFO - ðŸš€ Starting automation run
+2026-08-02 12:30:28,266 - INFO - ðŸ“š Found 117 previously posted threads.
+2026-08-02 12:30:28,267 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-02 12:30:28,267 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-02 12:30:29,729 - INFO - Groq raw response:
+[
+  "I've been noticing a pattern in AI content creation.\nIt's the 'beginner's blindspot' that holds many creators back.",
+  "What if I told you that this blindspot is not just about lack of experience,\nbut about a fundamental misunderstanding of what drives engagement?",
+  "I've been studying the most successful AI creators, and what I've found is surprising:\nThey're not focusing on the latest trends or technologies, but on something much deeper.",
+  "It's about understanding the 'hidden rhythms' of their audience's attention.\nAnd using that knowledge to create content that resonates on a deeper level.",
+  "I've started to experiment with this concept, and what I've found is fascinating...\nI've written it all down, trying to make sense of it."
+]
+2026-08-02 12:30:29,730 - INFO - âœ… Unique thread found (hash: fae7cb10...)
+2026-08-02 12:30:29,730 - INFO - ðŸ“ Generated 5 posts:
+2026-08-02 12:30:29,730 - INFO - --- Post 1 ---
+I've been noticing a pattern in AI content creation.
+It's the 'beginner's blindspot' that holds many creators back.
+2026-08-02 12:30:29,730 - INFO - --- Post 2 ---
+What if I told you that this blindspot is not just about lack of experience,
+but about a fundamental misunderstanding of what drives engagement?
+2026-08-02 12:30:29,730 - INFO - --- Post 3 ---
+I've been studying the most successful AI creators, and what I've found is surprising:
+They're not focusing on the latest trends or technologies, but on something much deeper.
+2026-08-02 12:30:29,731 - INFO - --- Post 4 ---
+It's about understanding the 'hidden rhythms' of their audience's attention.
+And using that knowledge to create content that resonates on a deeper level.
+2026-08-02 12:30:29,731 - INFO - --- Post 5 ---
+I've started to experiment with this concept, and what I've found is fascinating...
+I've written it all down, trying to make sense of it.
+2026-08-02 12:30:30,989 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, rustic study, a lone figure sits at a worn, wooden desk, surrounded by stacks of dusty books and scattered papers. The main subject, a young creator, is intently focused on a leather-bound journal, their face illuminated by the soft, warm glow of a table lamp. The colour palette is a muted blend of earthy tones, with shades of brown, beige, and grey, punctuated by the occasional burst of golden light from the lamp. The lighting is intimate and cozy, with deep shadows cast across the room, emphasizing the sense of quiet contemplation. The camera angle is a low, over-the-shoulder shot, looking down at the creator's hands as they scribble notes in the journal, conveying a sense of introspection and discovery. The atmosphere is one of serene curiosity, as if the creator is on the cusp of uncovering a hidden truth. The texture of the rough, wooden desk and the smooth, worn leather of the journal add a tactile quality to the scene, while the faint scent of old books and parchment wafts through the air. The style of the image is reminiscent of a cinematic oil painting, with bold brushstrokes and rich, vibrant colours, inviting the viewer to step into the creator's world of quiet reflection and insight. As the creator's eyes light up with understanding, the shadows in the room seem to recede, symbolizing the illumination of knowledge and the overcoming of the 'beginner's blindspot'.
+2026-08-02 12:30:32,965 - INFO - ðŸ–¼ï¸  Saved cover image to images/89f3e816174fe6fb.jpg
+2026-08-02 12:30:34,571 - INFO - ðŸ“¤ Pushed images/89f3e816174fe6fb.jpg to GitHub.
+2026-08-02 12:30:34,708 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/89f3e816174fe6fb.jpg
+2026-08-02 12:30:34,710 - INFO - Scheduling for: 2026-08-02T17:47:34.710191Z UTC
+2026-08-02 12:30:35,250 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a6f386b5dc5613cefdd798d
+2026-08-02 12:30:35,252 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-02 12:30:35,252 - INFO - âœ… Run completed.
