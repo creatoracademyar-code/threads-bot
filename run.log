@@ -4851,3 +4851,40 @@ I'm still exploring this concept, and what I've found is surprising...
 2026-08-03 06:30:39,743 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a70358f2bbc9e05874fb236
 2026-08-03 06:30:39,746 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-03 06:30:39,746 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-03T12:30:28.179589
+============================================================
+2026-08-03 12:30:28,179 - INFO - ðŸš€ Starting automation run
+2026-08-03 12:30:28,180 - INFO - ðŸ“š Found 121 previously posted threads.
+2026-08-03 12:30:28,181 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-03 12:30:28,181 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-03 12:30:29,606 - INFO - Groq raw response:
+[
+  "I've been studying the most successful AI creators, trying to understand their 'productivity paradox'.",
+  "What if I told you that they're not just working harder, but 'working smarter'?",
+  "I've found that they're using a secret technique to 'harvest' their creativity, and it's not about the tools or the tech.",
+  "It's about the 'mental architecture' they've built to support their creative process.",
+  "I'm still exploring this concept, and what I've found is fascinating... I've started to document my findings."
+]
+2026-08-03 12:30:29,607 - INFO - âœ… Unique thread found (hash: c391ba8f...)
+2026-08-03 12:30:29,607 - INFO - ðŸ“ Generated 5 posts:
+2026-08-03 12:30:29,607 - INFO - --- Post 1 ---
+I've been studying the most successful AI creators, trying to understand their 'productivity paradox'.
+2026-08-03 12:30:29,607 - INFO - --- Post 2 ---
+What if I told you that they're not just working harder, but 'working smarter'?
+2026-08-03 12:30:29,607 - INFO - --- Post 3 ---
+I've found that they're using a secret technique to 'harvest' their creativity, and it's not about the tools or the tech.
+2026-08-03 12:30:29,608 - INFO - --- Post 4 ---
+It's about the 'mental architecture' they've built to support their creative process.
+2026-08-03 12:30:29,608 - INFO - --- Post 5 ---
+I'm still exploring this concept, and what I've found is fascinating... I've started to document my findings.
+2026-08-03 12:30:31,021 - INFO - ðŸŽ¨ Cover image prompt: In a serene, minimalist study, a lone figure sits in contemplation, surrounded by towering shelves of leather-bound books and scattered papers. The main subject, a young adult with a thoughtful expression, is positioned in a comfortable, ergonomic chair, with a few scribbled notes and an empty cup of coffee on a wooden desk in front of them. The setting is illuminated by soft, diffused natural light pouring in through a large window, casting a warm glow on the rough, stone walls and the polished, dark wood furniture. A distinct colour palette of muted earth tones, including beige, sienna, and umber, dominates the scene, with accents of deep blue and green from the books and papers. The atmosphere is one of focused introspection, with the figure lost in thought, as if trying to unravel the mysteries of the 'productivity paradox'. The camera angle is a low-angle shot, looking up at the figure, conveying a sense of quiet confidence and determination. The style hint is that of a cinematic, oil painting-inspired render, with subtle texture and depth to the materials, including the rough stone, smooth wood, and crisp paper. The overall mood is hopeful and inquisitive, as if the figure is on the cusp of a major breakthrough, with the 'mental architecture' of their creative process beginning to take shape.
+2026-08-03 12:30:32,803 - INFO - ðŸ–¼ï¸  Saved cover image to images/cc561be9b26dbc56.jpg
+2026-08-03 12:30:34,718 - INFO - ðŸ“¤ Pushed images/cc561be9b26dbc56.jpg to GitHub.
+2026-08-03 12:30:34,907 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/cc561be9b26dbc56.jpg
+2026-08-03 12:30:34,909 - INFO - Scheduling for: 2026-08-03T17:47:34.909662Z UTC
+2026-08-03 12:30:35,843 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7089eb2a63c5d4fdfa4e28
+2026-08-03 12:30:35,910 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-03 12:30:35,910 - INFO - âœ… Run completed.
