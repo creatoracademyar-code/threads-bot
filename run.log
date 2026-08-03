@@ -4772,3 +4772,44 @@ I've been trying to understand the 'hidden dynamics' that drive it, and what I'v
 2026-08-02 18:30:36,868 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a6f8ccc98d2f31dff10708e
 2026-08-02 18:30:36,871 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-02 18:30:36,871 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-03T00:30:33.216255
+============================================================
+2026-08-03 00:30:33,216 - INFO - ðŸš€ Starting automation run
+2026-08-03 00:30:33,217 - INFO - ðŸ“š Found 119 previously posted threads.
+2026-08-03 00:30:33,217 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-03 00:30:33,218 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-03 00:30:34,649 - INFO - Groq raw response:
+[
+  "I've been fascinated by the concept of 'monetization myths' in AI content creation.\nWhat if I told you that most creators are leaving money on the table?",
+  "They're so focused on growing their audience, they forget about the 'revenue rhythm' that can make or break their business.\nI've been studying the most successful AI creators, and what I've found is surprising:",
+  "It's not about the size of their audience, but about the 'monetization momentum' they've built.\nThey've learned to harness the power of their content to drive revenue, without sacrificing their values or audience trust.",
+  "I've started to document my findings, and what I've found is fascinating...\nIt's not just about the money, but about the 'freedom flow' that comes with it.",
+  "I'll probably expand on this later, but for now, let's just say that I've discovered a new way to think about monetization in AI content creation."
+]
+2026-08-03 00:30:34,651 - INFO - âœ… Unique thread found (hash: 4d32d380...)
+2026-08-03 00:30:34,651 - INFO - ðŸ“ Generated 5 posts:
+2026-08-03 00:30:34,651 - INFO - --- Post 1 ---
+I've been fascinated by the concept of 'monetization myths' in AI content creation.
+What if I told you that most creators are leaving money on the table?
+2026-08-03 00:30:34,651 - INFO - --- Post 2 ---
+They're so focused on growing their audience, they forget about the 'revenue rhythm' that can make or break their business.
+I've been studying the most successful AI creators, and what I've found is surprising:
+2026-08-03 00:30:34,651 - INFO - --- Post 3 ---
+It's not about the size of their audience, but about the 'monetization momentum' they've built.
+They've learned to harness the power of their content to drive revenue, without sacrificing their values or audience trust.
+2026-08-03 00:30:34,651 - INFO - --- Post 4 ---
+I've started to document my findings, and what I've found is fascinating...
+It's not just about the money, but about the 'freedom flow' that comes with it.
+2026-08-03 00:30:34,651 - INFO - --- Post 5 ---
+I'll probably expand on this later, but for now, let's just say that I've discovered a new way to think about monetization in AI content creation.
+2026-08-03 00:30:35,845 - INFO - ðŸŽ¨ Cover image prompt: A lone figure stands at the edge of a serene, moonlit lake, surrounded by towering trees that stretch towards the sky like nature's own cathedral. The setting is a secluded, misty forest, with the soft, silver light of the moon casting a gentle glow on the water's surface. The colour palette is a soothing blend of blues and purples, with hints of green from the foliage, evoking a sense of calm and contemplation. The lighting is soft and diffused, with the moon's rays dancing across the ripples on the lake, creating a sense of movement and flow. The camera angle is a wide shot, taken from a low position, looking up at the figure, which gives a sense of grandeur and importance to the scene. The atmosphere is one of quiet reflection, with the figure lost in thought, surrounded by the peacefulness of nature. The texture of the trees' bark and the roughness of the rocks at the water's edge add a sense of ruggedness to the scene, while the smooth, glassy surface of the lake provides a sense of serenity. The style of the image is cinematic, with a hint of mysticism, as if the figure is on the verge of uncovering a hidden truth, much like the revelations discovered in the world of AI content creation. The overall mood is one of hopeful anticipation, as if the figure is poised to unlock the secrets of monetization and unleash a new wave of creativity and freedom.
+2026-08-03 00:30:39,247 - INFO - ðŸ–¼ï¸  Saved cover image to images/b4c988b5c2de33e0.jpg
+2026-08-03 00:30:40,989 - INFO - ðŸ“¤ Pushed images/b4c988b5c2de33e0.jpg to GitHub.
+2026-08-03 00:30:41,185 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/b4c988b5c2de33e0.jpg
+2026-08-03 00:30:41,187 - INFO - Scheduling for: 2026-08-03T05:47:41.187192Z UTC
+2026-08-03 00:30:42,014 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a6fe13161a1f4fc18854fc8
+2026-08-03 00:30:42,017 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-03 00:30:42,017 - INFO - âœ… Run completed.
