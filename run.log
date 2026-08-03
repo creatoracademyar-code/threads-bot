@@ -4813,3 +4813,41 @@ I'll probably expand on this later, but for now, let's just say that I've discov
 2026-08-03 00:30:42,014 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a6fe13161a1f4fc18854fc8
 2026-08-03 00:30:42,017 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-03 00:30:42,017 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-03T06:30:31.434559
+============================================================
+2026-08-03 06:30:31,434 - INFO - ðŸš€ Starting automation run
+2026-08-03 06:30:31,435 - INFO - ðŸ“š Found 120 previously posted threads.
+2026-08-03 06:30:31,436 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-03 06:30:31,436 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-03 06:30:32,761 - INFO - Groq raw response:
+[
+  "I've been studying AI creators who've built massive audiences.\nOne thing stands out: their ability to create 'emotional cartography'.",
+  "They're mapping their audience's emotional landscapes, and using that knowledge to create content that resonates.\nBut what if I told you that this cartography is not just about understanding your audience?",
+  "It's about understanding the 'emotional undertows' that drive their desires and fears.\nI've started to experiment with this concept, and what I've found is fascinating...",
+  "The most successful creators are not just creating content, but 'emotional wayfinders' that guide their audience through the complexities of life.\nI'm still exploring this concept, and what I've found is surprising..."
+]
+2026-08-03 06:30:32,762 - INFO - âœ… Unique thread found (hash: ab5b8125...)
+2026-08-03 06:30:32,763 - INFO - ðŸ“ Generated 4 posts:
+2026-08-03 06:30:32,763 - INFO - --- Post 1 ---
+I've been studying AI creators who've built massive audiences.
+One thing stands out: their ability to create 'emotional cartography'.
+2026-08-03 06:30:32,763 - INFO - --- Post 2 ---
+They're mapping their audience's emotional landscapes, and using that knowledge to create content that resonates.
+But what if I told you that this cartography is not just about understanding your audience?
+2026-08-03 06:30:32,763 - INFO - --- Post 3 ---
+It's about understanding the 'emotional undertows' that drive their desires and fears.
+I've started to experiment with this concept, and what I've found is fascinating...
+2026-08-03 06:30:32,763 - INFO - --- Post 4 ---
+The most successful creators are not just creating content, but 'emotional wayfinders' that guide their audience through the complexities of life.
+I'm still exploring this concept, and what I've found is surprising...
+2026-08-03 06:30:33,956 - INFO - ðŸŽ¨ Cover image prompt: A lone figure stands at the edge of a serene, moonlit lake, surrounded by towering trees that stretch towards the sky like nature's own cathedral. The atmosphere is contemplative, with a soft, silvery light casting a gentle glow on the scene. The colour palette is dominated by shades of indigo, blue, and purple, evoking a sense of mystery and introspection. In the distance, a subtle, shimmering mist rises from the water, symbolizing the emotional undertows that drive human desires and fears. The figure, lost in thought, holds a delicate, glowing compass in their hand, its face a mesmerizing swirl of colours that seem to shift and pulse like the emotions it navigates. The camera angle is a low, wide shot, looking up at the figure from the water's edge, conveying a sense of hope and guidance. The texture of the trees' bark and the figure's clothing is rough and organic, while the compass seems almost otherworldly, its glow casting an ethereal light on the surrounding environment. The style of the image is cinematic, with a hint of magical realism, as if the scene is a dreamscape where the boundaries between reality and emotion are blurred. The overall mood is one of serene tension, as if the figure is poised on the threshold of a great discovery, with the compass serving as a symbol of their role as an emotional wayfinder.
+2026-08-03 06:30:35,486 - INFO - ðŸ–¼ï¸  Saved cover image to images/d2daabe7d4e0e69e.jpg
+2026-08-03 06:30:39,192 - INFO - ðŸ“¤ Pushed images/d2daabe7d4e0e69e.jpg to GitHub.
+2026-08-03 06:30:39,308 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/d2daabe7d4e0e69e.jpg
+2026-08-03 06:30:39,309 - INFO - Scheduling for: 2026-08-03T11:47:39.309841Z UTC
+2026-08-03 06:30:39,743 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a70358f2bbc9e05874fb236
+2026-08-03 06:30:39,746 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-03 06:30:39,746 - INFO - âœ… Run completed.
