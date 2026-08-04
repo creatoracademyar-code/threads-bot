@@ -4967,3 +4967,41 @@ I've started to document my findings, and what I've found is fascinating... I th
 2026-08-04 00:30:41,495 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7132b12e9d172962a673a2
 2026-08-04 00:30:41,497 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-04 00:30:41,497 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-04T06:30:33.126256
+============================================================
+2026-08-04 06:30:33,126 - INFO - ðŸš€ Starting automation run
+2026-08-04 06:30:33,127 - INFO - ðŸ“š Found 124 previously posted threads.
+2026-08-04 06:30:33,128 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-04 06:30:33,128 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-04 06:30:34,461 - INFO - Groq raw response:
+[
+  "I've been studying the 'invisible scripts' that drive AI content creation.\nWhat if I told you that most creators are following a hidden narrative?",
+  "It's not just about the story they're telling, but about the 'unconscious patterns' that shape their content.\nI've found that these patterns are not just random, but 'predictable'.",
+  "The most successful creators are not just aware of these patterns, but 'weave' them into their narrative.\nIt's a delicate dance of 'emotional manipulation', but not in a bad way.",
+  "I've started to document my findings, and what I've found is fascinating...\nIt's not just about the tech or the tools, but about the 'human psychology' that drives engagement."
+]
+2026-08-04 06:30:34,462 - INFO - âœ… Unique thread found (hash: d20f4f0e...)
+2026-08-04 06:30:34,462 - INFO - ðŸ“ Generated 4 posts:
+2026-08-04 06:30:34,462 - INFO - --- Post 1 ---
+I've been studying the 'invisible scripts' that drive AI content creation.
+What if I told you that most creators are following a hidden narrative?
+2026-08-04 06:30:34,462 - INFO - --- Post 2 ---
+It's not just about the story they're telling, but about the 'unconscious patterns' that shape their content.
+I've found that these patterns are not just random, but 'predictable'.
+2026-08-04 06:30:34,462 - INFO - --- Post 3 ---
+The most successful creators are not just aware of these patterns, but 'weave' them into their narrative.
+It's a delicate dance of 'emotional manipulation', but not in a bad way.
+2026-08-04 06:30:34,462 - INFO - --- Post 4 ---
+I've started to document my findings, and what I've found is fascinating...
+It's not just about the tech or the tools, but about the 'human psychology' that drives engagement.
+2026-08-04 06:30:36,101 - INFO - ðŸŽ¨ Cover image prompt: A lone figure, shrouded in a warm, golden light, sits in a dimly lit, rustic study surrounded by towering shelves of old, leather-bound books and scattered papers. The room is filled with a sense of nostalgia and curiosity, as if the air is thick with the weight of uncovered secrets. The colour palette is muted, with earthy tones of brown, beige, and dusty blue, evoking a sense of aged wisdom. Soft, diffused light spills from a single, ornate lamp on the desk, casting long, dramatic shadows across the room. The camera angle is low, looking up at the figure, who is intently focused on a large, vintage-style loom, weaving a intricate tapestry of threads in shades of crimson, silver, and gold. The atmosphere is one of serene contemplation, as if the figure is on the cusp of uncovering a long-hidden truth. The texture of the old books and wooden shelves adds a sense of rough, tactile depth to the scene, while the smooth, silky threads of the loom seem to glow with an otherworldly intensity. The style of the image is reminiscent of a cinematic oil painting, with bold brushstrokes and vivid, expressive colours. The overall mood is hopeful and introspective, inviting the viewer to step into the quiet, mysterious world of the study and unravel the secrets hidden within the tangled threads of the loom.
+2026-08-04 06:30:37,795 - INFO - ðŸ–¼ï¸  Saved cover image to images/3706d21e547b9bb7.jpg
+2026-08-04 06:30:39,289 - INFO - ðŸ“¤ Pushed images/3706d21e547b9bb7.jpg to GitHub.
+2026-08-04 06:30:39,446 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/3706d21e547b9bb7.jpg
+2026-08-04 06:30:39,448 - INFO - Scheduling for: 2026-08-04T11:47:39.448157Z UTC
+2026-08-04 06:30:40,096 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a71870f6eec7f47aa7183b0
+2026-08-04 06:30:40,098 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-04 06:30:40,098 - INFO - âœ… Run completed.
