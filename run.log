@@ -5005,3 +5005,37 @@ It's not just about the tech or the tools, but about the 'human psychology' that
 2026-08-04 06:30:40,096 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a71870f6eec7f47aa7183b0
 2026-08-04 06:30:40,098 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-04 06:30:40,098 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-04T12:30:26.744262
+============================================================
+2026-08-04 12:30:26,744 - INFO - ðŸš€ Starting automation run
+2026-08-04 12:30:26,745 - INFO - ðŸ“š Found 125 previously posted threads.
+2026-08-04 12:30:26,746 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-04 12:30:26,746 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-04 12:30:28,319 - INFO - Groq raw response:
+[
+  "I've been thinking about the concept of 'digital legacy' in AI content creation.",
+  "What if I told you that some creators are building a legacy that will outlast them?",
+  "It's not just about creating content, but about crafting a 'timeless narrative' that resonates with future generations.",
+  "I've started to explore this idea, and what I've found is fascinating... I've written it all down, trying to make sense of it."
+]
+2026-08-04 12:30:28,320 - INFO - âœ… Unique thread found (hash: 7396f050...)
+2026-08-04 12:30:28,320 - INFO - ðŸ“ Generated 4 posts:
+2026-08-04 12:30:28,320 - INFO - --- Post 1 ---
+I've been thinking about the concept of 'digital legacy' in AI content creation.
+2026-08-04 12:30:28,320 - INFO - --- Post 2 ---
+What if I told you that some creators are building a legacy that will outlast them?
+2026-08-04 12:30:28,320 - INFO - --- Post 3 ---
+It's not just about creating content, but about crafting a 'timeless narrative' that resonates with future generations.
+2026-08-04 12:30:28,320 - INFO - --- Post 4 ---
+I've started to explore this idea, and what I've found is fascinating... I've written it all down, trying to make sense of it.
+2026-08-04 12:30:29,662 - INFO - ðŸŽ¨ Cover image prompt: A lone figure sits at a worn, wooden desk, surrounded by towering shelves filled with leather-bound books and vintage technological artifacts, in a dimly lit, rustic study. The room is filled with a warm, golden light that seeps through the dusty, stained glass windows, casting intricate patterns on the floor. The colour palette is muted, with earthy tones of brown, beige, and olive green, punctuated by the soft glow of a single, antique lamp. The light is soft and diffused, with deep shadows that add depth and mystery to the scene. The camera angle is a low, wide shot, looking up at the figure from the corner of the room, creating a sense of reverence and awe. The atmosphere is contemplative and introspective, with a sense of hope and curiosity. The texture of the wooden desk and the rough, stone walls adds a tactile quality to the scene, while the smooth, polished surface of the lamp and the figure's writing instrument provides a sense of elegance. The style of the image is reminiscent of a cinematic, oil painting, with bold brushstrokes and vivid, expressive colours. The figure's face is tilted downward, lost in thought, as they write in a large, leather-bound book, the pen moving slowly and deliberately across the page.
+2026-08-04 12:30:31,206 - INFO - ðŸ–¼ï¸  Saved cover image to images/7307c36684a173d1.jpg
+2026-08-04 12:30:33,054 - INFO - ðŸ“¤ Pushed images/7307c36684a173d1.jpg to GitHub.
+2026-08-04 12:30:33,563 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/7307c36684a173d1.jpg
+2026-08-04 12:30:33,565 - INFO - Scheduling for: 2026-08-04T17:47:33.565292Z UTC
+2026-08-04 12:30:34,437 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a71db6ae4949315289d8dee
+2026-08-04 12:30:34,440 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-04 12:30:34,440 - INFO - âœ… Run completed.
