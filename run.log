@@ -5039,3 +5039,41 @@ I've started to explore this idea, and what I've found is fascinating... I've wr
 2026-08-04 12:30:34,437 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a71db6ae4949315289d8dee
 2026-08-04 12:30:34,440 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-04 12:30:34,440 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-04T18:30:33.106761
+============================================================
+2026-08-04 18:30:33,106 - INFO - ðŸš€ Starting automation run
+2026-08-04 18:30:33,107 - INFO - ðŸ“š Found 126 previously posted threads.
+2026-08-04 18:30:33,108 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-04 18:30:33,108 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-04 18:30:34,880 - INFO - Groq raw response:
+[
+  "I've been exploring the concept of 'AI fatigue' in content creation.\nWhat if I told you that some creators are losing their edge?",
+  "They're not just burned out, but 'algorithmically exhausted'.\nTheir content is starting to feel like a repeat of what's already been said.",
+  "I've been studying the most successful AI creators, and what I've found is surprising:\nThey're not trying to outsmart the algorithm, but to 'out-create' themselves.",
+  "They're pushing the boundaries of what's possible with AI, and creating something truly unique.\nI've started to document my findings, and what I've found is fascinating..."
+]
+2026-08-04 18:30:34,881 - INFO - âœ… Unique thread found (hash: 3049da69...)
+2026-08-04 18:30:34,881 - INFO - ðŸ“ Generated 4 posts:
+2026-08-04 18:30:34,881 - INFO - --- Post 1 ---
+I've been exploring the concept of 'AI fatigue' in content creation.
+What if I told you that some creators are losing their edge?
+2026-08-04 18:30:34,881 - INFO - --- Post 2 ---
+They're not just burned out, but 'algorithmically exhausted'.
+Their content is starting to feel like a repeat of what's already been said.
+2026-08-04 18:30:34,881 - INFO - --- Post 3 ---
+I've been studying the most successful AI creators, and what I've found is surprising:
+They're not trying to outsmart the algorithm, but to 'out-create' themselves.
+2026-08-04 18:30:34,881 - INFO - --- Post 4 ---
+They're pushing the boundaries of what's possible with AI, and creating something truly unique.
+I've started to document my findings, and what I've found is fascinating...
+2026-08-04 18:30:36,323 - INFO - ðŸŽ¨ Cover image prompt: A lone figure sits at a sleek, metallic desk, surrounded by a dimly lit, minimalist room with walls lined with rows of humming servers and cables. The main subject, a young creator with a look of intense focus, stares at a large, curved screen displaying a mesmerizing swirl of code and AI-generated patterns in a predominantly cool, neon-blue colour palette with hints of purple and pink. The soft, diffused light of the screen illuminates their face, casting a warm glow on their features, while the rest of the room remains shrouded in a gentle, blue-grey mist. The camera angle is a low, Dutch-angle shot, looking up at the creator with a sense of awe and curiosity, as if peeking into a hidden world. The atmosphere is one of serene, contemplative intensity, with a hint of tension and anticipation. The texture of the metallic desk and the smooth, glassy screen adds a sense of modernity and sophistication, while the rough, industrial cables and servers in the background provide a gritty, realistic contrast. The style of the image is cinematic and hyper-realistic, with a hint of futuristic, high-tech sheen, inviting the viewer to step into the creator's world and explore the boundaries of AI-generated art. The overall mood is hopeful and innovative, as if the creator is on the cusp of a groundbreaking discovery.
+2026-08-04 18:30:39,499 - INFO - ðŸ–¼ï¸  Saved cover image to images/819ef476acc0f78c.jpg
+2026-08-04 18:30:41,175 - INFO - ðŸ“¤ Pushed images/819ef476acc0f78c.jpg to GitHub.
+2026-08-04 18:30:41,310 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/819ef476acc0f78c.jpg
+2026-08-04 18:30:41,312 - INFO - Scheduling for: 2026-08-04T23:47:41.312790Z UTC
+2026-08-04 18:30:41,858 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a722fd13cbc4f5f0768689a
+2026-08-04 18:30:41,861 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-04 18:30:41,861 - INFO - âœ… Run completed.
