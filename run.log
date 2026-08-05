@@ -5114,3 +5114,41 @@ It's not just about the content, but about the 'cultural revival' that's happeni
 2026-08-05 00:30:39,223 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a72842e26354a038b4f610d
 2026-08-05 00:30:39,225 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-05 00:30:39,225 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-05T06:30:33.041902
+============================================================
+2026-08-05 06:30:33,041 - INFO - ðŸš€ Starting automation run
+2026-08-05 06:30:33,042 - INFO - ðŸ“š Found 128 previously posted threads.
+2026-08-05 06:30:33,043 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-05 06:30:33,043 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-05 06:30:34,359 - INFO - Groq raw response:
+[
+  "I've been studying the most successful AI creators, trying to understand their 'beginner's mindset'.\nWhat if I told you that it's not just about being new, but about 'staying curious'?",
+  "They're not afraid to ask 'dumb' questions or challenge their own assumptions.\nIt's a powerful way to stay ahead of the curve and create something truly innovative.",
+  "I've found that the most successful creators are not just experts, but 'expert learners'.\nThey're constantly seeking out new knowledge and experiences to fuel their creativity.",
+  "But what does it take to maintain this mindset?\nI've started to experiment with this concept, and what I've found is fascinating..."
+]
+2026-08-05 06:30:34,360 - INFO - âœ… Unique thread found (hash: 14a9166e...)
+2026-08-05 06:30:34,360 - INFO - ðŸ“ Generated 4 posts:
+2026-08-05 06:30:34,360 - INFO - --- Post 1 ---
+I've been studying the most successful AI creators, trying to understand their 'beginner's mindset'.
+What if I told you that it's not just about being new, but about 'staying curious'?
+2026-08-05 06:30:34,360 - INFO - --- Post 2 ---
+They're not afraid to ask 'dumb' questions or challenge their own assumptions.
+It's a powerful way to stay ahead of the curve and create something truly innovative.
+2026-08-05 06:30:34,360 - INFO - --- Post 3 ---
+I've found that the most successful creators are not just experts, but 'expert learners'.
+They're constantly seeking out new knowledge and experiences to fuel their creativity.
+2026-08-05 06:30:34,360 - INFO - --- Post 4 ---
+But what does it take to maintain this mindset?
+I've started to experiment with this concept, and what I've found is fascinating...
+2026-08-05 06:30:35,679 - INFO - ðŸŽ¨ Cover image prompt: A young, introspective woman sits at a wooden desk, surrounded by stacks of dusty books and scattered notes, in a cozy, rustic library with large, arched windows that let in a warm, golden light. The colour palette is muted, with earthy tones of brown, beige, and green, evoking a sense of nostalgia and curiosity. Soft, diffused light pours in from the windows, casting gentle shadows on the woman's face as she leans forward, her eyes wide with wonder. Her hands are clasped together, with a pencil tucked behind her ear, as if she's about to start writing or drawing at any moment. The camera angle is a slight low-angle, looking up at the woman, conveying a sense of hope and aspiration. The atmosphere is serene, with a sense of quiet contemplation, as if the woman is on the verge of a major discovery. The texture of the wooden desk and the rough stone walls of the library add a sense of depth and history to the scene. The style is reminiscent of a warm, oil painting, with subtle brushstrokes and a focus on capturing the play of light on the woman's face and the surrounding environment. In the background, blurred and out of focus, are hints of futuristic, high-tech elements, such as sleek, metallic machinery or glowing, ethereal screens, symbolizing the intersection of traditional knowledge and modern innovation.
+2026-08-05 06:30:37,573 - INFO - ðŸ–¼ï¸  Saved cover image to images/047fbda46a3a8f95.jpg
+2026-08-05 06:30:39,192 - INFO - ðŸ“¤ Pushed images/047fbda46a3a8f95.jpg to GitHub.
+2026-08-05 06:30:39,466 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/047fbda46a3a8f95.jpg
+2026-08-05 06:30:39,468 - INFO - Scheduling for: 2026-08-05T11:47:39.468316Z UTC
+2026-08-05 06:30:40,055 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a72d88fc549049f46558f4b
+2026-08-05 06:30:40,057 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-05 06:30:40,057 - INFO - âœ… Run completed.
