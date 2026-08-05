@@ -5077,3 +5077,40 @@ I've started to document my findings, and what I've found is fascinating...
 2026-08-04 18:30:41,858 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a722fd13cbc4f5f0768689a
 2026-08-04 18:30:41,861 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-04 18:30:41,861 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-05T00:30:30.297748
+============================================================
+2026-08-05 00:30:30,297 - INFO - ðŸš€ Starting automation run
+2026-08-05 00:30:30,298 - INFO - ðŸ“š Found 127 previously posted threads.
+2026-08-05 00:30:30,299 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-05 00:30:30,299 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-05 00:30:32,016 - INFO - Groq raw response:
+[
+  "I've been noticing a trend in AI content creation.\nIt's the 'rebirth' of old ideas, reimagined for a new era.",
+  "What if I told you that some of the most successful AI creators are not innovating, but 'reinnovating'?",
+  "They're taking forgotten concepts and breathing new life into them.\nIt's a powerful way to create something fresh, yet familiar.",
+  "I've started to document my findings, and what I've found is fascinating...\nIt's not just about the content, but about the 'cultural revival' that's happening."
+]
+2026-08-05 00:30:32,017 - INFO - âœ… Unique thread found (hash: e94e15d2...)
+2026-08-05 00:30:32,017 - INFO - ðŸ“ Generated 4 posts:
+2026-08-05 00:30:32,017 - INFO - --- Post 1 ---
+I've been noticing a trend in AI content creation.
+It's the 'rebirth' of old ideas, reimagined for a new era.
+2026-08-05 00:30:32,017 - INFO - --- Post 2 ---
+What if I told you that some of the most successful AI creators are not innovating, but 'reinnovating'?
+2026-08-05 00:30:32,017 - INFO - --- Post 3 ---
+They're taking forgotten concepts and breathing new life into them.
+It's a powerful way to create something fresh, yet familiar.
+2026-08-05 00:30:32,017 - INFO - --- Post 4 ---
+I've started to document my findings, and what I've found is fascinating...
+It's not just about the content, but about the 'cultural revival' that's happening.
+2026-08-05 00:30:33,359 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, vintage-inspired studio filled with retro-futuristic equipment, a lone figure sits amidst a clutter of old cameras, vinyl records, and dusty books. The main subject, a young woman with a curious gaze, is surrounded by a tapestry of forgotten concepts and innovative ideas, represented by scattered papers, blueprints, and sketches. The setting is a blend of nostalgic and futuristic elements, with warm, golden hour lighting casting a sense of nostalgia over the scene. The colour palette is a mix of rich, earthy tones, such as worn leather and aged wood, alongside vibrant, electric blues and purples, hinting at the fusion of old and new. The lighting is soft and diffused, with deep shadows accentuating the textures of the various materials, from the rough, cracked leather of an old armchair to the smooth, polished surface of a vintage camera lens. The camera angle is a low, Dutch-angle shot, looking up at the woman as she pours over her findings, giving the scene a sense of dynamic tension and creative energy. The atmosphere is one of hopeful curiosity, as if the woman is on the cusp of uncovering a hidden truth. The style of the image is reminiscent of a cinematic, oil-painted still life, with bold brushstrokes and vivid, expressive colours. In the background, a large, circular window frames a cityscape at dusk, with sleek, modern skyscrapers and neon lights reflecting off the wet, glass surface of the window, symbolizing the intersection of past and present.
+2026-08-05 00:30:35,406 - INFO - ðŸ–¼ï¸  Saved cover image to images/e06d7578baebd5c9.jpg
+2026-08-05 00:30:37,329 - INFO - ðŸ“¤ Pushed images/e06d7578baebd5c9.jpg to GitHub.
+2026-08-05 00:30:37,979 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/e06d7578baebd5c9.jpg
+2026-08-05 00:30:37,981 - INFO - Scheduling for: 2026-08-05T05:47:37.981337Z UTC
+2026-08-05 00:30:39,223 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a72842e26354a038b4f610d
+2026-08-05 00:30:39,225 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-05 00:30:39,225 - INFO - âœ… Run completed.
