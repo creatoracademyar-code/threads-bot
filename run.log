@@ -5190,3 +5190,41 @@ I'm still exploring this concept, and what I've found is surprising...
 2026-08-05 12:30:36,153 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a732ceb394ab8247d6891d1
 2026-08-05 12:30:36,156 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-05 12:30:36,156 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-05T18:31:53.379507
+============================================================
+2026-08-05 18:31:53,379 - INFO - ðŸš€ Starting automation run
+2026-08-05 18:31:53,380 - INFO - ðŸ“š Found 130 previously posted threads.
+2026-08-05 18:31:53,381 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-05 18:31:53,381 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-05 18:31:54,845 - INFO - Groq raw response:
+[
+  "I've been observing a phenomenon in AI content creation.\nIt's the 'paradox of originality'.",
+  "What if I told you that the most successful creators\nare not trying to be original, but 'authentically derivative'?",
+  "They're not afraid to borrow from others,\nbut to 'recontextualize' their ideas in a unique way.",
+  "I've started to experiment with this concept,\nand what I've found is fascinating... The line between originality and imitation is thinner than I thought."
+]
+2026-08-05 18:31:54,847 - INFO - âœ… Unique thread found (hash: 623ffbb6...)
+2026-08-05 18:31:54,847 - INFO - ðŸ“ Generated 4 posts:
+2026-08-05 18:31:54,847 - INFO - --- Post 1 ---
+I've been observing a phenomenon in AI content creation.
+It's the 'paradox of originality'.
+2026-08-05 18:31:54,847 - INFO - --- Post 2 ---
+What if I told you that the most successful creators
+are not trying to be original, but 'authentically derivative'?
+2026-08-05 18:31:54,847 - INFO - --- Post 3 ---
+They're not afraid to borrow from others,
+but to 'recontextualize' their ideas in a unique way.
+2026-08-05 18:31:54,847 - INFO - --- Post 4 ---
+I've started to experiment with this concept,
+and what I've found is fascinating... The line between originality and imitation is thinner than I thought.
+2026-08-05 18:31:56,228 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, vintage-inspired library with walls lined with old, leather-bound books and flickering candles, a young creator sits at a wooden desk, surrounded by scattered papers, quills, and half-empty inkwells. The main subject, the creator, is a woman with a thoughtful expression, leaning forward with her elbows on the desk, as if lost in contemplation. The room is bathed in a warm, golden light, reminiscent of a setting sun, with soft, diffused shadows dancing across the walls. The colour palette is predominantly composed of warm, earthy tones, such as beige, brown, and golden yellow, with hints of rich, dark greens from the old books. The camera angle is a low, Dutch-angle shot, looking up at the creator, as if to convey a sense of introspection and curiosity. The atmosphere is serene, with a sense of quiet contemplation, as if the creator is on the cusp of a profound discovery. The texture of the old books, the rough wood of the desk, and the soft, worn leather of the chair add a tactile quality to the scene. The style hint is that of a cinematic, oil painting-inspired rendering, with bold brushstrokes and vivid, expressive colours. In the background, blurred and out of focus, rows of bookshelves stretch upwards, disappearing into the darkness, symbolizing the vast, uncharted territories of knowledge and inspiration.
+2026-08-05 18:31:57,881 - INFO - ðŸ–¼ï¸  Saved cover image to images/3ef1b95b3c2e1d22.jpg
+2026-08-05 18:32:02,079 - INFO - ðŸ“¤ Pushed images/3ef1b95b3c2e1d22.jpg to GitHub.
+2026-08-05 18:32:02,211 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/3ef1b95b3c2e1d22.jpg
+2026-08-05 18:32:02,213 - INFO - Scheduling for: 2026-08-05T23:49:02.213682Z UTC
+2026-08-05 18:32:02,758 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7381a2ba6e6192ca38a2a0
+2026-08-05 18:32:02,761 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-05 18:32:02,761 - INFO - âœ… Run completed.
