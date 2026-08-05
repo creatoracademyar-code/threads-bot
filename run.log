@@ -5152,3 +5152,41 @@ I've started to experiment with this concept, and what I've found is fascinating
 2026-08-05 06:30:40,055 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a72d88fc549049f46558f4b
 2026-08-05 06:30:40,057 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-05 06:30:40,057 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-05T12:30:29.345761
+============================================================
+2026-08-05 12:30:29,345 - INFO - ðŸš€ Starting automation run
+2026-08-05 12:30:29,346 - INFO - ðŸ“š Found 129 previously posted threads.
+2026-08-05 12:30:29,347 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-05 12:30:29,347 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-05 12:30:30,594 - INFO - Groq raw response:
+[
+  "I've been studying the most successful AI creators, trying to understand their 'creative cadence'.\nWhat if I told you that it's not just about producing content, but about the 'rhythm' of their creation?",
+  "They're not just creating in isolation, but in 'harmony' with their audience.\nI've found that they're using a secret technique to 'attune' themselves to their audience's needs.",
+  "It's not just about understanding your audience, but about 'resonating' with them on a deeper level.\nI've started to experiment with this concept, and what I've found is fascinating...",
+  "The most successful creators are not just creating content, but 'conducting' a symphony of emotions and ideas.\nI'm still exploring this concept, and what I've found is surprising..."
+]
+2026-08-05 12:30:30,595 - INFO - âœ… Unique thread found (hash: 97b17ee8...)
+2026-08-05 12:30:30,596 - INFO - ðŸ“ Generated 4 posts:
+2026-08-05 12:30:30,596 - INFO - --- Post 1 ---
+I've been studying the most successful AI creators, trying to understand their 'creative cadence'.
+What if I told you that it's not just about producing content, but about the 'rhythm' of their creation?
+2026-08-05 12:30:30,596 - INFO - --- Post 2 ---
+They're not just creating in isolation, but in 'harmony' with their audience.
+I've found that they're using a secret technique to 'attune' themselves to their audience's needs.
+2026-08-05 12:30:30,596 - INFO - --- Post 3 ---
+It's not just about understanding your audience, but about 'resonating' with them on a deeper level.
+I've started to experiment with this concept, and what I've found is fascinating...
+2026-08-05 12:30:30,596 - INFO - --- Post 4 ---
+The most successful creators are not just creating content, but 'conducting' a symphony of emotions and ideas.
+I'm still exploring this concept, and what I've found is surprising...
+2026-08-05 12:30:32,021 - INFO - ðŸŽ¨ Cover image prompt: A lone figure, a creator, stands at the edge of a grand, dimly lit concert hall, surrounded by a sprawling cityscape visible through the glass walls behind them. The colour palette is a blend of warm, golden hues and cool, muted blues, evoking a sense of harmony and balance. Soft, diffused light spills in from the city outside, casting a gentle glow on the creator's face, while the concert hall's interior is bathed in a warm, golden light, as if the very atmosphere is alive with creative energy. The camera angle is a low, wide shot, looking up at the creator, who stands poised, as if about to conduct an invisible orchestra. The atmosphere is one of serene anticipation, as if the creator is on the cusp of uncovering a profound secret. The texture of the scene is rich and layered, with the rough, concrete walls of the concert hall contrasting with the smooth, polished wood of the creator's instrument, a violin, which lies at their feet. The style of the image is cinematic, with bold, expressive brushstrokes and a sense of depth and dimensionality, as if the scene is about to come alive. In the background, a subtle, gradient-like blur suggests the presence of a vast, unseen audience, waiting to be attuned to the creator's rhythm.
+2026-08-05 12:30:33,635 - INFO - ðŸ–¼ï¸  Saved cover image to images/4c8b4caeb1e49b3b.jpg
+2026-08-05 12:30:35,221 - INFO - ðŸ“¤ Pushed images/4c8b4caeb1e49b3b.jpg to GitHub.
+2026-08-05 12:30:35,362 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/4c8b4caeb1e49b3b.jpg
+2026-08-05 12:30:35,364 - INFO - Scheduling for: 2026-08-05T17:47:35.364609Z UTC
+2026-08-05 12:30:36,153 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a732ceb394ab8247d6891d1
+2026-08-05 12:30:36,156 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-05 12:30:36,156 - INFO - âœ… Run completed.
