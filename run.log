@@ -5228,3 +5228,37 @@ and what I've found is fascinating... The line between originality and imitation
 2026-08-05 18:32:02,758 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7381a2ba6e6192ca38a2a0
 2026-08-05 18:32:02,761 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-05 18:32:02,761 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-06T00:30:29.127885
+============================================================
+2026-08-06 00:30:29,127 - INFO - ðŸš€ Starting automation run
+2026-08-06 00:30:29,128 - INFO - ðŸ“š Found 131 previously posted threads.
+2026-08-06 00:30:29,129 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-06 00:30:29,129 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-06 00:30:30,103 - INFO - Groq raw response:
+[
+  "I've been thinking about the concept of 'digital assets' in AI content creation.",
+  "What if I told you that some creators are building a treasure trove of digital assets that will outlast them?",
+  "It's not just about creating content, but about crafting a 'digital estate' that resonates with future generations.",
+  "I've started to explore this idea, and what I've found is fascinating... I've written it all down, trying to make sense of it."
+]
+2026-08-06 00:30:30,104 - INFO - âœ… Unique thread found (hash: ddde2cf9...)
+2026-08-06 00:30:30,105 - INFO - ðŸ“ Generated 4 posts:
+2026-08-06 00:30:30,105 - INFO - --- Post 1 ---
+I've been thinking about the concept of 'digital assets' in AI content creation.
+2026-08-06 00:30:30,105 - INFO - --- Post 2 ---
+What if I told you that some creators are building a treasure trove of digital assets that will outlast them?
+2026-08-06 00:30:30,105 - INFO - --- Post 3 ---
+It's not just about creating content, but about crafting a 'digital estate' that resonates with future generations.
+2026-08-06 00:30:30,105 - INFO - --- Post 4 ---
+I've started to explore this idea, and what I've found is fascinating... I've written it all down, trying to make sense of it.
+2026-08-06 00:30:31,317 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, rustic study, a lone figure sits at a worn, wooden desk, surrounded by stacks of dusty, leather-bound books and scattered, yellowed papers. The main subject, a young creator, is intensely focused on writing in a vintage, brown leather journal, their hand moving swiftly as they try to capture their thoughts. The setting is a blend of old and new, with a sleek, silver laptop sitting open on the edge of the desk, its screen casting a soft, blue glow on the creator's face. The colour palette is muted, with warm, earthy tones of beige, brown, and golden hour hues, evoking a sense of nostalgia and timelessness. Soft, diffused light pours in through a nearby window, casting gentle shadows on the walls and illuminating the creator's determined expression. The camera angle is a close-up, shot from a slightly low angle, looking up at the creator, conveying a sense of intimacy and importance. The atmosphere is one of contemplative hope, as if the creator is on the cusp of uncovering a profound truth. The texture of the wooden desk, the roughness of the stone walls, and the smoothness of the leather journal all add depth and tactility to the scene. The style hint is cinematic, with a slight oil painting quality to the lighting and colours, inviting the viewer to step into the creator's world.
+2026-08-06 00:30:33,823 - INFO - ðŸ–¼ï¸  Saved cover image to images/b741c7916c15817f.jpg
+2026-08-06 00:30:35,638 - INFO - ðŸ“¤ Pushed images/b741c7916c15817f.jpg to GitHub.
+2026-08-06 00:30:35,845 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/b741c7916c15817f.jpg
+2026-08-06 00:30:35,847 - INFO - Scheduling for: 2026-08-06T05:47:35.847457Z UTC
+2026-08-06 00:30:36,610 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a73d5ac2770c3bfc758c7a1
+2026-08-06 00:30:36,613 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-06 00:30:36,613 - INFO - âœ… Run completed.
