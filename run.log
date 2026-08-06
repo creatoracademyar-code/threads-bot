@@ -5262,3 +5262,41 @@ I've started to explore this idea, and what I've found is fascinating... I've wr
 2026-08-06 00:30:36,610 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a73d5ac2770c3bfc758c7a1
 2026-08-06 00:30:36,613 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-06 00:30:36,613 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-06T06:30:40.022623
+============================================================
+2026-08-06 06:30:40,022 - INFO - ðŸš€ Starting automation run
+2026-08-06 06:30:40,023 - INFO - ðŸ“š Found 132 previously posted threads.
+2026-08-06 06:30:40,024 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-06 06:30:40,024 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-06 06:30:41,265 - INFO - Groq raw response:
+[
+  "I've been tracking a surprising trend in AI content creation.\nIt's the rise of 'anti-influencers'.",
+  "They're not trying to build a massive following or create viral content.\nInstead, they're focusing on something much deeper.",
+  "I've found that these anti-influencers are using a secret technique to 'resonate' with their audience.\nIt's not about being loud or flashy, but about being 'quietly authentic'.",
+  "They're creating content that's not just memorable, but 'hauntingly relatable'.\nI've started to document my findings, and what I've found is fascinating..."
+]
+2026-08-06 06:30:41,267 - INFO - âœ… Unique thread found (hash: a5f046a1...)
+2026-08-06 06:30:41,267 - INFO - ðŸ“ Generated 4 posts:
+2026-08-06 06:30:41,267 - INFO - --- Post 1 ---
+I've been tracking a surprising trend in AI content creation.
+It's the rise of 'anti-influencers'.
+2026-08-06 06:30:41,267 - INFO - --- Post 2 ---
+They're not trying to build a massive following or create viral content.
+Instead, they're focusing on something much deeper.
+2026-08-06 06:30:41,267 - INFO - --- Post 3 ---
+I've found that these anti-influencers are using a secret technique to 'resonate' with their audience.
+It's not about being loud or flashy, but about being 'quietly authentic'.
+2026-08-06 06:30:41,267 - INFO - --- Post 4 ---
+They're creating content that's not just memorable, but 'hauntingly relatable'.
+I've started to document my findings, and what I've found is fascinating...
+2026-08-06 06:30:42,436 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, minimalist studio with concrete floors and walls lined with old, wooden bookshelves, a lone figure sits at a simple, wooden desk. The main subject, a young woman with an introspective expression, is positioned in the center of the frame, surrounded by scattered notes, empty coffee cups, and a few, carefully chosen personal items. The colour palette is muted, with shades of soft grey, beige, and pale blue dominating the scene, evoking a sense of calm contemplation. The lighting is soft and diffused, with a single, warm desk lamp casting a gentle glow on the woman's face, creating deep, introspective shadows. The camera angle is a close-up, shot from a slightly low perspective, looking up at the woman, conveying a sense of quiet intimacy and vulnerability. The atmosphere is serene, with a hint of melancholy, inviting the viewer to reflect on the beauty of authenticity. The texture of the wooden desk and the rough concrete floor adds a sense of tactility to the scene, while the woman's worn, leather journal and the faded, fabric of her clothing hint at a life of quiet dedication. The style of the image is cinematic, with a slight grain and a shallow depth of field, blurring the background and emphasizing the subject's introspective mood.
+2026-08-06 06:30:44,477 - INFO - ðŸ–¼ï¸  Saved cover image to images/cf81fc04651e7bdd.jpg
+2026-08-06 06:30:46,165 - INFO - ðŸ“¤ Pushed images/cf81fc04651e7bdd.jpg to GitHub.
+2026-08-06 06:30:46,373 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/cf81fc04651e7bdd.jpg
+2026-08-06 06:30:46,375 - INFO - Scheduling for: 2026-08-06T11:47:46.375710Z UTC
+2026-08-06 06:30:46,985 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a742a166128a0491d2d83fa
+2026-08-06 06:30:46,988 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-06 06:30:46,988 - INFO - âœ… Run completed.
