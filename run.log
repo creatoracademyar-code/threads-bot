@@ -5300,3 +5300,45 @@ I've started to document my findings, and what I've found is fascinating...
 2026-08-06 06:30:46,985 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a742a166128a0491d2d83fa
 2026-08-06 06:30:46,988 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-06 06:30:46,988 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-06T12:30:33.195051
+============================================================
+2026-08-06 12:30:33,195 - INFO - ðŸš€ Starting automation run
+2026-08-06 12:30:33,195 - INFO - ðŸ“š Found 133 previously posted threads.
+2026-08-06 12:30:33,196 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-06 12:30:33,196 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-06 12:30:34,756 - INFO - Groq raw response:
+[
+  "I've been exploring the concept of 'hidden leverage' in AI content creation.\nWhat if I told you that some creators are using a secret technique to amplify their impact?",
+  "It's not about the size of their audience or the quality of their content.\nIt's about understanding the 'social proof' that drives engagement.",
+  "I've found that the most successful creators are using a subtle strategy to build credibility.\nThey're not just creating content, but 'curating' a narrative that resonates with their audience.",
+  "This narrative is not just about storytelling, but about 'emotional validation'.\nIt's the key to creating a lasting connection with their audience.",
+  "I've started to experiment with this concept, and what I've found is fascinating...\nI've written it all down, trying to make sense of the hidden forces that drive AI content creation."
+]
+2026-08-06 12:30:34,757 - INFO - âœ… Unique thread found (hash: ab53d16e...)
+2026-08-06 12:30:34,757 - INFO - ðŸ“ Generated 5 posts:
+2026-08-06 12:30:34,757 - INFO - --- Post 1 ---
+I've been exploring the concept of 'hidden leverage' in AI content creation.
+What if I told you that some creators are using a secret technique to amplify their impact?
+2026-08-06 12:30:34,757 - INFO - --- Post 2 ---
+It's not about the size of their audience or the quality of their content.
+It's about understanding the 'social proof' that drives engagement.
+2026-08-06 12:30:34,758 - INFO - --- Post 3 ---
+I've found that the most successful creators are using a subtle strategy to build credibility.
+They're not just creating content, but 'curating' a narrative that resonates with their audience.
+2026-08-06 12:30:34,758 - INFO - --- Post 4 ---
+This narrative is not just about storytelling, but about 'emotional validation'.
+It's the key to creating a lasting connection with their audience.
+2026-08-06 12:30:34,758 - INFO - --- Post 5 ---
+I've started to experiment with this concept, and what I've found is fascinating...
+I've written it all down, trying to make sense of the hidden forces that drive AI content creation.
+2026-08-06 12:30:36,023 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, minimalist studio with concrete walls and a polished metal floor, a lone figure sits at a sleek, wooden desk, surrounded by scattered papers and empty coffee cups. The main subject, a young creator with a contemplative expression, is illuminated by a soft, diffused light that pours in through a large, wet glass window behind them, casting a subtle glow on their face and the papers in front of them. The colour palette is predominantly monochrome, with hints of warm, golden light that seep in through the window, symbolizing the spark of creativity and insight. The camera angle is a low, over-the-shoulder shot, looking up at the creator, conveying a sense of intimacy and curiosity. The atmosphere is serene, with a hint of tension, as if the creator is on the verge of uncovering a hidden truth. The texture of the rough concrete walls and the smooth, polished metal floor adds depth to the scene, while the wet glass window creates a sense of misty, unclear boundaries, hinting at the elusive nature of the 'hidden leverage' concept. The style of the image is cinematic, with a slight oil painting quality to the lighting and textures, inviting the viewer to step into the creator's world of discovery and exploration. The overall mood is one of hopeful fascination, as if the creator is about to unlock a powerful secret that will change the way they approach their craft.
+2026-08-06 12:30:38,206 - INFO - ðŸ–¼ï¸  Saved cover image to images/13f762fb4c858170.jpg
+2026-08-06 12:30:39,990 - INFO - ðŸ“¤ Pushed images/13f762fb4c858170.jpg to GitHub.
+2026-08-06 12:30:40,298 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/13f762fb4c858170.jpg
+2026-08-06 12:30:40,300 - INFO - Scheduling for: 2026-08-06T17:47:40.300037Z UTC
+2026-08-06 12:30:40,846 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a747e70902bae670af116c1
+2026-08-06 12:30:40,848 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-06 12:30:40,848 - INFO - âœ… Run completed.
