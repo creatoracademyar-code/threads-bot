@@ -5342,3 +5342,45 @@ I've written it all down, trying to make sense of the hidden forces that drive A
 2026-08-06 12:30:40,846 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a747e70902bae670af116c1
 2026-08-06 12:30:40,848 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-06 12:30:40,848 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-07T00:30:33.413810
+============================================================
+2026-08-07 00:30:33,413 - INFO - ðŸš€ Starting automation run
+2026-08-07 00:30:33,414 - INFO - ðŸ“š Found 134 previously posted threads.
+2026-08-07 00:30:33,415 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-07 00:30:33,415 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-07 00:30:34,987 - INFO - Groq raw response:
+[
+  "I've been noticing a strange phenomenon in AI content creation.\nIt's the 'ghosts' of abandoned projects.",
+  "What if I told you that these ghosts are not just failed attempts,\nbut 'hidden opportunities' in disguise?",
+  "I've started to explore this concept, and what I've found is fascinating...\nIt's not just about reviving old ideas, but about 'reanimating' them with new life.",
+  "The most successful creators are not just focused on their current projects,\nbut on 'exhuming' the potential of their past endeavors.",
+  "I've written it all down, trying to make sense of it.\nAnd I think I've just scratched the surface of something much bigger."
+]
+2026-08-07 00:30:34,988 - INFO - âœ… Unique thread found (hash: dad7952c...)
+2026-08-07 00:30:34,989 - INFO - ðŸ“ Generated 5 posts:
+2026-08-07 00:30:34,989 - INFO - --- Post 1 ---
+I've been noticing a strange phenomenon in AI content creation.
+It's the 'ghosts' of abandoned projects.
+2026-08-07 00:30:34,989 - INFO - --- Post 2 ---
+What if I told you that these ghosts are not just failed attempts,
+but 'hidden opportunities' in disguise?
+2026-08-07 00:30:34,989 - INFO - --- Post 3 ---
+I've started to explore this concept, and what I've found is fascinating...
+It's not just about reviving old ideas, but about 'reanimating' them with new life.
+2026-08-07 00:30:34,989 - INFO - --- Post 4 ---
+The most successful creators are not just focused on their current projects,
+but on 'exhuming' the potential of their past endeavors.
+2026-08-07 00:30:34,989 - INFO - --- Post 5 ---
+I've written it all down, trying to make sense of it.
+And I think I've just scratched the surface of something much bigger.
+2026-08-07 00:30:36,807 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, abandoned laboratory, a lone figure stands amidst a clutter of old machinery, dusty workbenches, and forgotten experiments. The main subject, a young inventor, is surrounded by faint, ethereal glows emanating from antique computer screens, flickering light bulbs, and soft, pulsing orbs that seem to embody the 'ghosts' of abandoned projects. The setting is a blend of industrial decay and mystical renewal, with a colour palette that shifts from cool, muted blues and greys to warm, golden hues, evoking a sense of nostalgia and possibility. The lighting is soft and diffused, with dramatic shadows cast by the faint glows, and an air of anticipation that suggests the dawn of a new discovery. The camera angle is a low, wide shot, looking up at the inventor, who stands at the centre of the scene, surrounded by the remnants of past endeavors, with a sense of hope and curiosity etched on their face. The atmosphere is one of serene contemplation, as if the inventor is on the cusp of uncovering a hidden truth, with a texture that blends rough, rusty metal and smooth, worn wood, and a style that hints at a cinematic, dreamlike quality, reminiscent of a futuristic, sci-fi oil painting. The overall mood is tense with anticipation, yet hopeful, as the inventor reaches out to touch one of the glowing orbs, symbolizing the 'reanimation' of old ideas and the 'exhuming' of hidden potential. The scene is bathed in an otherworldly glow, as if the very act of creation is about to be reborn from the ashes of abandoned dreams.
+2026-08-07 00:30:39,287 - INFO - ðŸ–¼ï¸  Saved cover image to images/fc50d5f1ce6bd981.jpg
+2026-08-07 00:30:41,157 - INFO - ðŸ“¤ Pushed images/fc50d5f1ce6bd981.jpg to GitHub.
+2026-08-07 00:30:41,391 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/fc50d5f1ce6bd981.jpg
+2026-08-07 00:30:41,393 - INFO - Scheduling for: 2026-08-07T05:47:41.393474Z UTC
+2026-08-07 00:30:42,009 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7527318b39b04b79efbf79
+2026-08-07 00:30:42,011 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-07 00:30:42,011 - INFO - âœ… Run completed.
