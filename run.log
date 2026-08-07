@@ -5462,3 +5462,41 @@ I've been studying the most successful AI creators, and what I've found is surpr
 2026-08-07 12:30:40,282 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a75cff0d445a81af5f48037
 2026-08-07 12:30:40,285 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-07 12:30:40,285 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-07T18:30:30.009157
+============================================================
+2026-08-07 18:30:30,009 - INFO - ðŸš€ Starting automation run
+2026-08-07 18:30:30,010 - INFO - ðŸ“š Found 137 previously posted threads.
+2026-08-07 18:30:30,011 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-07 18:30:30,011 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-07 18:30:31,242 - INFO - Groq raw response:
+[
+  "I've been noticing a pattern in AI content creation.\nIt's the 'lone wolf' syndrome that holds many creators back.",
+  "What if I told you that the most successful AI creators\nare not solo artists, but 'collaborative catalysts'?",
+  "They're not just creating content, but 'curating' a community\nthat resonates with their vision.",
+  "I've started to experiment with this concept,\nand what I've found is fascinating... The power of collaboration is underestimated."
+]
+2026-08-07 18:30:31,243 - INFO - âœ… Unique thread found (hash: cf6abbb1...)
+2026-08-07 18:30:31,243 - INFO - ðŸ“ Generated 4 posts:
+2026-08-07 18:30:31,243 - INFO - --- Post 1 ---
+I've been noticing a pattern in AI content creation.
+It's the 'lone wolf' syndrome that holds many creators back.
+2026-08-07 18:30:31,244 - INFO - --- Post 2 ---
+What if I told you that the most successful AI creators
+are not solo artists, but 'collaborative catalysts'?
+2026-08-07 18:30:31,244 - INFO - --- Post 3 ---
+They're not just creating content, but 'curating' a community
+that resonates with their vision.
+2026-08-07 18:30:31,244 - INFO - --- Post 4 ---
+I've started to experiment with this concept,
+and what I've found is fascinating... The power of collaboration is underestimated.
+2026-08-07 18:30:32,450 - INFO - ðŸŽ¨ Cover image prompt: A lone figure stands at the edge of a dense, misty forest, surrounded by towering trees that fade into the distance. The atmosphere is serene, with soft, diffused light filtering through the mist, casting no harsh shadows. The colour palette is predominantly muted, with shades of indigo, grey, and blue, evoking a sense of contemplation. As the figure steps forward, they are joined by others, emerging from the mist like spectres, each one unique and distinct. The group grows, forming a loose circle, with the original figure at its centre, now transformed into a catalyst, sparking connections and ideas among the gathering. The camera angle is low, looking up at the group, emphasizing their collective strength and unity. The style is cinematic, with a hint of oil painting, blending realistic textures with a dreamlike quality. The materials and textures are earthy, with rough tree bark, damp stone, and woven fabrics, adding depth and tactility to the scene. As the group comes together, the mist begins to clear, revealing a warm, golden light on the horizon, symbolizing hope, collaboration, and the power of collective creativity. The overall mood is one of gentle, optimistic tension, as if the group is on the cusp of discovering something new and extraordinary.
+2026-08-07 18:30:34,390 - INFO - ðŸ–¼ï¸  Saved cover image to images/6deb700135d79e69.jpg
+2026-08-07 18:30:36,288 - INFO - ðŸ“¤ Pushed images/6deb700135d79e69.jpg to GitHub.
+2026-08-07 18:30:36,419 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/6deb700135d79e69.jpg
+2026-08-07 18:30:36,422 - INFO - Scheduling for: 2026-08-07T23:47:36.422014Z UTC
+2026-08-07 18:30:36,922 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a76244c8aa5e1393fa730e7
+2026-08-07 18:30:36,924 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-07 18:30:36,924 - INFO - âœ… Run completed.
