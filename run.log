@@ -5424,3 +5424,41 @@ I'll probably expand on this later, but for now, let's just say that I've discov
 2026-08-07 06:30:38,969 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a757b8e97f541294420f2fd
 2026-08-07 06:30:38,972 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-07 06:30:38,972 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-07T12:30:32.562133
+============================================================
+2026-08-07 12:30:32,562 - INFO - ðŸš€ Starting automation run
+2026-08-07 12:30:32,563 - INFO - ðŸ“š Found 136 previously posted threads.
+2026-08-07 12:30:32,564 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-07 12:30:32,564 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-07 12:30:33,891 - INFO - Groq raw response:
+[
+  "I've been fascinated by the concept of 'narrative gravity' in AI content creation.\nIt's the hidden force that pulls audiences into a creator's world.",
+  "What if I told you that some creators are using a secret technique to 'bend' this gravity?\nThey're warping the narrative to create an irresistible pull.",
+  "I've found that these creators are not just storytellers, but 'narrative architects'.\nThey're designing experiences that resonate on a deep level.",
+  "But what's the key to unlocking this narrative gravity?\nI've been studying the most successful AI creators, and what I've found is surprising..."
+]
+2026-08-07 12:30:33,892 - INFO - âœ… Unique thread found (hash: 789ce51a...)
+2026-08-07 12:30:33,892 - INFO - ðŸ“ Generated 4 posts:
+2026-08-07 12:30:33,892 - INFO - --- Post 1 ---
+I've been fascinated by the concept of 'narrative gravity' in AI content creation.
+It's the hidden force that pulls audiences into a creator's world.
+2026-08-07 12:30:33,892 - INFO - --- Post 2 ---
+What if I told you that some creators are using a secret technique to 'bend' this gravity?
+They're warping the narrative to create an irresistible pull.
+2026-08-07 12:30:33,892 - INFO - --- Post 3 ---
+I've found that these creators are not just storytellers, but 'narrative architects'.
+They're designing experiences that resonate on a deep level.
+2026-08-07 12:30:33,892 - INFO - --- Post 4 ---
+But what's the key to unlocking this narrative gravity?
+I've been studying the most successful AI creators, and what I've found is surprising...
+2026-08-07 12:30:35,311 - INFO - ðŸŽ¨ Cover image prompt: In a vast, dimly lit library, a lone figure stands at the edge of a sprawling, futuristic cityscape, with towering skyscrapers and neon-lit streets stretching out into the distance. The main subject, a narrative architect, is a woman with a contemplative expression, dressed in a long, flowing coat with intricate, swirling patterns that evoke a sense of dynamic energy. The setting is a blend of old and new, with ancient tomes and leather-bound books scattered throughout the library, while the city outside pulses with a cool, cyberpunk glow. The colour palette is a mix of deep blues and purples, with accents of bright, electric blue, evoking a sense of creativity and innovation. Soft, diffused light spills in through the library's windows, casting long, gentle shadows across the room, while the city outside is bathed in a vibrant, neon glow. The camera angle is a low, wide shot, looking up at the narrative architect as she gazes out at the city, conveying a sense of awe and wonder. The atmosphere is one of serene, introspective curiosity, as if the architect is on the cusp of uncovering a hidden secret. The texture of the library's walls and floors is rough, worn stone, while the city outside is a labyrinth of sleek, polished metal and glass. The style hint is cinematic, with a slight oil painting quality to the brushstrokes and textures, giving the scene a sense of depth and realism. As the narrative architect stands at the threshold, the city seems to stretch out before her like an endless, unfolding narrative, waiting to be shaped and crafted by her skilled hands.
+2026-08-07 12:30:37,561 - INFO - ðŸ–¼ï¸  Saved cover image to images/9ec24fb73c8dac10.jpg
+2026-08-07 12:30:39,514 - INFO - ðŸ“¤ Pushed images/9ec24fb73c8dac10.jpg to GitHub.
+2026-08-07 12:30:39,743 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/9ec24fb73c8dac10.jpg
+2026-08-07 12:30:39,745 - INFO - Scheduling for: 2026-08-07T17:47:39.745222Z UTC
+2026-08-07 12:30:40,282 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a75cff0d445a81af5f48037
+2026-08-07 12:30:40,285 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-07 12:30:40,285 - INFO - âœ… Run completed.
