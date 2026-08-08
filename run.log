@@ -5574,3 +5574,41 @@ I've started to experiment with this concept, and what I've found is fascinating
 2026-08-08 06:30:40,151 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/57c08d9e21d25e7b.jpg
 2026-08-08 06:30:40,153 - INFO - Scheduling for: 2026-08-08T11:47:40.153533Z UTC
 2026-08-08 06:30:43,237 - ERROR - âŒ Buffer posting failed: 401 Client Error: Unauthorized for url: https://api.buffer.com/graphql
+
+
+============================================================
+  NEW RUN  2026-08-08T12:30:29.482003
+============================================================
+2026-08-08 12:30:29,482 - INFO - ðŸš€ Starting automation run
+2026-08-08 12:30:29,482 - INFO - ðŸ“š Found 139 previously posted threads.
+2026-08-08 12:30:29,484 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-08 12:30:29,484 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-08 12:30:31,047 - INFO - Groq raw response:
+[
+  "I've been studying AI creators who've struggled to scale.\nOne thing stands out: their 'visibility vacuum'.",
+  "They're creating great content, but it's not being seen.\nWhat if I told you that this vacuum is not just about reach, but about 'perceptual presence'?",
+  "I've found that the most successful creators are not just visible, but 'perceptually embedded' in their audience's minds.\nThey're using a secret technique to 'echo' their message, long after the initial impression.",
+  "It's not just about being seen, but about being 'felt' on a deeper level.\nI've started to experiment with this concept, and what I've found is fascinating..."
+]
+2026-08-08 12:30:31,048 - INFO - âœ… Unique thread found (hash: 9cc7d5d1...)
+2026-08-08 12:30:31,048 - INFO - ðŸ“ Generated 4 posts:
+2026-08-08 12:30:31,048 - INFO - --- Post 1 ---
+I've been studying AI creators who've struggled to scale.
+One thing stands out: their 'visibility vacuum'.
+2026-08-08 12:30:31,048 - INFO - --- Post 2 ---
+They're creating great content, but it's not being seen.
+What if I told you that this vacuum is not just about reach, but about 'perceptual presence'?
+2026-08-08 12:30:31,048 - INFO - --- Post 3 ---
+I've found that the most successful creators are not just visible, but 'perceptually embedded' in their audience's minds.
+They're using a secret technique to 'echo' their message, long after the initial impression.
+2026-08-08 12:30:31,048 - INFO - --- Post 4 ---
+It's not just about being seen, but about being 'felt' on a deeper level.
+I've started to experiment with this concept, and what I've found is fascinating...
+2026-08-08 12:30:32,687 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, intimate studio with walls lined with vintage sound equipment and faded acoustic panels, a lone figure sits amidst a tangle of wires and microphones, surrounded by the faint glow of softbox lights. The main subject, a young creator with a look of intense focus, is positioned in a low-angle shot, as if the viewer is looking up at them from the floor, emphasizing their determined presence. The colour palette is a moody blend of deep blues and muted greys, evoking a sense of contemplation and creative struggle. The lighting is dramatic, with deep shadows cast across the creator's face, accentuating their concentrated expression, while a single, warm spotlight shines down, symbolizing the spark of inspiration. The atmosphere is one of serene intensity, as if the creator is on the cusp of a breakthrough, with the rough texture of the wooden desk and the smooth, metallic sheen of the microphones adding a sense of tactile realism to the scene. In the background, a large, glass window filters the outside world, casting a diffuse, ethereal glow, hinting at the vast, unseen audience beyond. The style of the image is cinematic, with a shallow depth of field, blurring the surroundings and drawing the viewer's attention to the creator's face, while the overall mood is hopeful, suggesting that the secret to 'perceptual presence' is within reach. The creator's hands, poised over a vintage mixing console, seem to be conducting an invisible symphony, as if the very air is vibrating with the resonance of their message.
+2026-08-08 12:30:35,279 - INFO - ðŸ–¼ï¸  Saved cover image to images/854198045468df78.jpg
+2026-08-08 12:30:37,210 - INFO - ðŸ“¤ Pushed images/854198045468df78.jpg to GitHub.
+2026-08-08 12:30:37,411 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/854198045468df78.jpg
+2026-08-08 12:30:37,413 - INFO - Scheduling for: 2026-08-08T17:47:37.413829Z UTC
+2026-08-08 12:30:38,444 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a77216e2c3e8e5fce74ddd0
+2026-08-08 12:30:38,447 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-08 12:30:38,447 - INFO - âœ… Run completed.
