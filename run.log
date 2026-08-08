@@ -5612,3 +5612,41 @@ I've started to experiment with this concept, and what I've found is fascinating
 2026-08-08 12:30:38,444 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a77216e2c3e8e5fce74ddd0
 2026-08-08 12:30:38,447 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-08 12:30:38,447 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-08T18:30:30.479203
+============================================================
+2026-08-08 18:30:30,479 - INFO - ðŸš€ Starting automation run
+2026-08-08 18:30:30,480 - INFO - ðŸ“š Found 140 previously posted threads.
+2026-08-08 18:30:30,480 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-08 18:30:30,480 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-08 18:30:31,813 - INFO - Groq raw response:
+[
+  "I've been noticing a strange phenomenon in AI content creation.\nIt's the 'forgotten middle' where many creators get stuck.",
+  "What if I told you that it's not just about finding your niche,\nbut about 'occupying' a unique space in your audience's minds?",
+  "I've started to study the most successful AI creators,\nand what I've found is fascinating... They're not just creating content, but 'crafting' a sense of belonging.",
+  "But what's the key to unlocking this sense of belonging?\nI've been experimenting with this concept, and what I've found is surprising... It's not just about the content, but about the 'emotional topography' you create."
+]
+2026-08-08 18:30:31,814 - INFO - âœ… Unique thread found (hash: 5e84f497...)
+2026-08-08 18:30:31,815 - INFO - ðŸ“ Generated 4 posts:
+2026-08-08 18:30:31,815 - INFO - --- Post 1 ---
+I've been noticing a strange phenomenon in AI content creation.
+It's the 'forgotten middle' where many creators get stuck.
+2026-08-08 18:30:31,815 - INFO - --- Post 2 ---
+What if I told you that it's not just about finding your niche,
+but about 'occupying' a unique space in your audience's minds?
+2026-08-08 18:30:31,815 - INFO - --- Post 3 ---
+I've started to study the most successful AI creators,
+and what I've found is fascinating... They're not just creating content, but 'crafting' a sense of belonging.
+2026-08-08 18:30:31,815 - INFO - --- Post 4 ---
+But what's the key to unlocking this sense of belonging?
+I've been experimenting with this concept, and what I've found is surprising... It's not just about the content, but about the 'emotional topography' you create.
+2026-08-08 18:30:33,085 - INFO - ðŸŽ¨ Cover image prompt: In a vast, dimly lit, futuristic library, a lone figure sits at a sleek, metallic desk, surrounded by towering shelves of glowing, ethereal books that seem to hum with an otherworldly energy. The main subject, a contemplative creator, is positioned in the centre of the frame, with their face illuminated by the soft, blue-green glow of a holographic interface that hovers above the desk. The colour palette is predominantly cool, with shades of indigo, silver, and neon blue, evoking a sense of innovation and cutting-edge technology. The lighting is muted, with deep shadows cast across the figure's face, emphasizing their introspective mood. The camera angle is a low, wide shot, looking up at the creator from the floor, conveying a sense of awe and reverence for the creative process. The atmosphere is one of serene, focused contemplation, as if the creator is on the cusp of a profound discovery. The texture of the metallic desk and the smooth, glassy surface of the holographic interface add a sense of sophistication and modernity to the scene. The style of the image is cinematic, with a hint of sci-fi futurism, as if rendered in a high-definition, 3D environment. In the background, rows of books seem to fade into the distance, their glowing spines weaving together to form a complex, emotional topography that underscores the creator's journey.
+2026-08-08 18:30:34,617 - INFO - ðŸ–¼ï¸  Saved cover image to images/28fcf5bf86b92612.jpg
+2026-08-08 18:30:36,743 - INFO - ðŸ“¤ Pushed images/28fcf5bf86b92612.jpg to GitHub.
+2026-08-08 18:30:37,181 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/28fcf5bf86b92612.jpg
+2026-08-08 18:30:37,183 - INFO - Scheduling for: 2026-08-08T23:47:37.183101Z UTC
+2026-08-08 18:30:38,078 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7775cd9c08137afa1ebf4d
+2026-08-08 18:30:38,080 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-08 18:30:38,080 - INFO - âœ… Run completed.
