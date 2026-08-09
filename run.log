@@ -5650,3 +5650,43 @@ I've been experimenting with this concept, and what I've found is surprising... 
 2026-08-08 18:30:38,078 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7775cd9c08137afa1ebf4d
 2026-08-08 18:30:38,080 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-08 18:30:38,080 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-09T00:30:28.578425
+============================================================
+2026-08-09 00:30:28,578 - INFO - ðŸš€ Starting automation run
+2026-08-09 00:30:28,579 - INFO - ðŸ“š Found 141 previously posted threads.
+2026-08-09 00:30:28,580 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-09 00:30:28,580 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-09 00:30:30,067 - INFO - Groq raw response:
+[
+  "I've been studying the most successful AI creators, trying to understand their 'monetization mindset'.\nWhat if I told you that it's not just about making money, but about 'value alignment'?",
+  "They're not just creating content, but 'crafting' a unique experience that resonates with their audience.\nI've found that they're using a secret technique to 'price' their offerings, based on the value they provide, not just the cost of production.",
+  "But what's the key to unlocking this value alignment?\nI've started to experiment with this concept, and what I've found is fascinating... It's not just about the money, but about the 'emotional return' on investment.",
+  "The most successful creators are not just focused on their revenue, but on the 'impact' they have on their audience.\nThey're creating a 'virtuous cycle' of value, where everyone benefits, not just the creator.",
+  "I've written it all down, trying to make sense of the hidden forces that drive AI monetization.\nAnd I think I've just scratched the surface of something much bigger."
+]
+2026-08-09 00:30:30,069 - INFO - âœ… Unique thread found (hash: 872e5da1...)
+2026-08-09 00:30:30,069 - INFO - ðŸ“ Generated 5 posts:
+2026-08-09 00:30:30,069 - INFO - --- Post 1 ---
+I've been studying the most successful AI creators, trying to understand their 'monetization mindset'.
+What if I told you that it's not just about making money, but about 'value alignment'?
+2026-08-09 00:30:30,069 - INFO - --- Post 2 ---
+They're not just creating content, but 'crafting' a unique experience that resonates with their audience.
+I've found that they're using a secret technique to 'price' their offerings, based on the value they provide, not just the cost of production.
+2026-08-09 00:30:30,069 - INFO - --- Post 3 ---
+But what's the key to unlocking this value alignment?
+I've started to experiment with this concept, and what I've found is fascinating... It's not just about the money, but about the 'emotional return' on investment.
+2026-08-09 00:30:30,069 - INFO - --- Post 4 ---
+The most successful creators are not just focused on their revenue, but on the 'impact' they have on their audience.
+They're creating a 'virtuous cycle' of value, where everyone benefits, not just the creator.
+2026-08-09 00:30:30,069 - INFO - --- Post 5 ---
+I've written it all down, trying to make sense of the hidden forces that drive AI monetization.
+And I think I've just scratched the surface of something much bigger.
+2026-08-09 00:30:31,666 - INFO - ðŸŽ¨ Cover image prompt: In a sleek, modern laboratory with polished metal surfaces and glass partitions, a lone figure stands at the centre, surrounded by a halo of soft, diffused light. The main subject, a young creator with an intent expression, is positioned in front of a massive, transparent glass board covered in intricate, swirling patterns of light and colour, evoking a sense of dynamic energy and innovation. The colour palette is predominantly cool and futuristic, with hues of blue and purple dominating the scene, punctuated by accents of warm golden light. The lighting is gentle, with a subtle gradient of brightness that suggests a sense of depth and dimensionality, as if the very ideas and concepts are emanating from the glass board itself. The camera angle is slightly low, looking up at the creator, conveying a sense of admiration and respect for their groundbreaking work. The atmosphere is one of serene contemplation, as if the creator is on the cusp of a major breakthrough, with the soft hum of machinery and the faint glow of computer screens in the background adding a sense of tension and anticipation. The texture of the glass and metal surfaces is smooth and reflective, while the creator's clothing and hair have a subtle, organic texture, adding a touch of warmth to the otherwise futuristic setting. The style of the image is cinematic and photorealistic, with a hint of stylization that suggests a world of limitless possibility and innovation, as if the boundaries between reality and virtual reality are blurring. The overall mood is hopeful and optimistic, with a sense of excitement and discovery that draws the viewer into the creator's world of cutting-edge ideas and visionary thinking.
+2026-08-09 00:30:33,270 - INFO - ðŸ–¼ï¸  Saved cover image to images/0cbc1b041550c51c.jpg
+2026-08-09 00:30:35,216 - INFO - ðŸ“¤ Pushed images/0cbc1b041550c51c.jpg to GitHub.
+2026-08-09 00:30:35,418 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/0cbc1b041550c51c.jpg
+2026-08-09 00:30:35,420 - INFO - Scheduling for: 2026-08-09T05:47:35.420387Z UTC
+2026-08-09 00:30:40,974 - ERROR - âŒ Buffer posting failed: Buffer error: Invalid post: Image could not be read from its URL.
