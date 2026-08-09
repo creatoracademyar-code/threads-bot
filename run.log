@@ -5690,3 +5690,45 @@ And I think I've just scratched the surface of something much bigger.
 2026-08-09 00:30:35,418 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/0cbc1b041550c51c.jpg
 2026-08-09 00:30:35,420 - INFO - Scheduling for: 2026-08-09T05:47:35.420387Z UTC
 2026-08-09 00:30:40,974 - ERROR - âŒ Buffer posting failed: Buffer error: Invalid post: Image could not be read from its URL.
+
+
+============================================================
+  NEW RUN  2026-08-09T06:30:29.626966
+============================================================
+2026-08-09 06:30:29,627 - INFO - ðŸš€ Starting automation run
+2026-08-09 06:30:29,628 - INFO - ðŸ“š Found 141 previously posted threads.
+2026-08-09 06:30:29,629 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-09 06:30:29,629 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-09 06:30:31,075 - INFO - Groq raw response:
+[
+  "I've been studying AI creators who've made a lasting impact.\nOne thing stands out: their 'obsession' with a single idea.",
+  "What if I told you that this obsession is not just about focus,\nbut about 'uncovering' the hidden potential within that idea?",
+  "I've found that the most successful creators are not just passionate,\nbut 'possessed' by their vision. They're willing to go all-in.",
+  "But what's the cost of this obsession?\nI've seen creators sacrifice everything for their art. Is it worth it?",
+  "I'm still exploring this concept, and what I've found is fascinating...\nI've started to document my findings, and I think I've just scratched the surface."
+]
+2026-08-09 06:30:31,076 - INFO - âœ… Unique thread found (hash: c2964b0f...)
+2026-08-09 06:30:31,077 - INFO - ðŸ“ Generated 5 posts:
+2026-08-09 06:30:31,077 - INFO - --- Post 1 ---
+I've been studying AI creators who've made a lasting impact.
+One thing stands out: their 'obsession' with a single idea.
+2026-08-09 06:30:31,077 - INFO - --- Post 2 ---
+What if I told you that this obsession is not just about focus,
+but about 'uncovering' the hidden potential within that idea?
+2026-08-09 06:30:31,077 - INFO - --- Post 3 ---
+I've found that the most successful creators are not just passionate,
+but 'possessed' by their vision. They're willing to go all-in.
+2026-08-09 06:30:31,077 - INFO - --- Post 4 ---
+But what's the cost of this obsession?
+I've seen creators sacrifice everything for their art. Is it worth it?
+2026-08-09 06:30:31,077 - INFO - --- Post 5 ---
+I'm still exploring this concept, and what I've found is fascinating...
+I've started to document my findings, and I think I've just scratched the surface.
+2026-08-09 06:30:32,304 - INFO - ðŸŽ¨ Cover image prompt: A lone figure sits at a cluttered, worn wooden desk, surrounded by stacks of dusty books and scattered papers, in a dimly lit, rustic study with stone walls and a vaulted ceiling. The room is bathed in the soft, warm glow of a single, flickering candle, casting long, dramatic shadows across the space. The colour palette is muted, with earthy tones of brown, beige, and grey, punctuated by the occasional splash of warm, golden light. The air is thick with the scent of old leather and parchment, and the texture of rough stone and worn wood dominates the scene. The figure, lost in thought, is illuminated by a narrow beam of light, as if a doorway to a hidden world has opened, revealing the depths of their obsession. The camera angle is a low, intimate close-up, looking up at the figure, emphasizing their intensity and focus. The atmosphere is one of quiet, contemplative intensity, as if the figure is on the cusp of uncovering a long-hidden secret. The style is reminiscent of a rich, expressive oil painting, with bold brushstrokes and vivid, textured colours, inviting the viewer to step into the warm, golden world of the creator's obsession. The overall mood is one of hopeful, anticipatory tension, as if the figure is poised on the threshold of a major breakthrough, and the viewer is drawn into the mystery, eager to uncover the secrets that lie within.
+2026-08-09 06:30:34,184 - INFO - ðŸ–¼ï¸  Saved cover image to images/2ffd0f8cfdda1c4e.jpg
+2026-08-09 06:30:36,033 - INFO - ðŸ“¤ Pushed images/2ffd0f8cfdda1c4e.jpg to GitHub.
+2026-08-09 06:30:37,128 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/2ffd0f8cfdda1c4e.jpg
+2026-08-09 06:30:37,130 - INFO - Scheduling for: 2026-08-09T11:47:37.130716Z UTC
+2026-08-09 06:30:37,985 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a781e8d13d01138ced6eb47
+2026-08-09 06:30:37,988 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-09 06:30:37,988 - INFO - âœ… Run completed.
