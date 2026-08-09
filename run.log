@@ -5774,3 +5774,37 @@ And I think I've just scratched the surface of something much bigger.
 2026-08-09 12:30:34,066 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7872e9a69527d8fa6b1a41
 2026-08-09 12:30:34,069 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-09 12:30:34,069 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-09T18:30:26.582642
+============================================================
+2026-08-09 18:30:26,582 - INFO - ðŸš€ Starting automation run
+2026-08-09 18:30:26,583 - INFO - ðŸ“š Found 143 previously posted threads.
+2026-08-09 18:30:26,583 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-09 18:30:26,583 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-09 18:30:27,544 - INFO - Groq raw response:
+[
+  "I've been fascinated by the 'dark side' of AI content creation.",
+  "What if I told you that some creators are using AI to 'hack' their audience's emotions?",
+  "They're not just creating content, but 'engineering' experiences that resonate on a deep level.",
+  "I've started to explore this concept, and what I've found is surprising... It's not just about manipulation, but about 'emotional resonance'."
+]
+2026-08-09 18:30:27,545 - INFO - âœ… Unique thread found (hash: 907cb302...)
+2026-08-09 18:30:27,545 - INFO - ðŸ“ Generated 4 posts:
+2026-08-09 18:30:27,545 - INFO - --- Post 1 ---
+I've been fascinated by the 'dark side' of AI content creation.
+2026-08-09 18:30:27,545 - INFO - --- Post 2 ---
+What if I told you that some creators are using AI to 'hack' their audience's emotions?
+2026-08-09 18:30:27,545 - INFO - --- Post 3 ---
+They're not just creating content, but 'engineering' experiences that resonate on a deep level.
+2026-08-09 18:30:27,545 - INFO - --- Post 4 ---
+I've started to explore this concept, and what I've found is surprising... It's not just about manipulation, but about 'emotional resonance'.
+2026-08-09 18:30:28,743 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, futuristic laboratory, a lone figure sits in front of a bank of computer screens, surrounded by a labyrinth of wires and sleek, metallic machinery. The main subject, a young woman with an intent gaze, is illuminated by the soft, blue-green glow of the screens, which casts an ethereal light on her face. The colour palette is predominantly dark, with shades of indigo, purple, and silver, evoking a sense of mystery and innovation. The lighting is dramatic, with deep shadows accentuating the contours of the woman's face and the machinery around her, while a hint of golden light peeks through the cracks, symbolizing the spark of creativity. The camera angle is a low, close-up shot, emphasizing the woman's determination and focus. The atmosphere is tense, yet hopeful, as if the woman is on the cusp of a groundbreaking discovery. The texture of the scene is a mix of smooth, polished metal and rough, industrial concrete, with the faint glow of LED lights and the soft hum of machinery filling the air. The style of the image is cinematic, with a hint of sci-fi noir, inviting the viewer to step into the mysterious world of AI-driven content creation, where the boundaries between technology and human emotion are blurred. The woman's hands are poised over the keyboard, as if about to unleash a new wave of creative energy, while the screens behind her pulse with an otherworldly power, waiting to be harnessed.
+2026-08-09 18:30:30,434 - INFO - ðŸ–¼ï¸  Saved cover image to images/57a4168104a3bb16.jpg
+2026-08-09 18:30:32,072 - INFO - ðŸ“¤ Pushed images/57a4168104a3bb16.jpg to GitHub.
+2026-08-09 18:30:32,289 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/57a4168104a3bb16.jpg
+2026-08-09 18:30:32,291 - INFO - Scheduling for: 2026-08-09T23:47:32.291200Z UTC
+2026-08-09 18:30:33,149 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a78c7481e2489cdb8d3851b
+2026-08-09 18:30:33,151 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-09 18:30:33,151 - INFO - âœ… Run completed.
