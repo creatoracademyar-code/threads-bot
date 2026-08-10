@@ -5880,3 +5880,37 @@ I've been digging deeper, and what I've found is surprising... It's not just abo
 2026-08-10 06:30:48,719 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a797018472e1a5200f05305
 2026-08-10 06:30:48,722 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-10 06:30:48,722 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-10T12:30:30.002179
+============================================================
+2026-08-10 12:30:30,002 - INFO - ðŸš€ Starting automation run
+2026-08-10 12:30:30,003 - INFO - ðŸ“š Found 146 previously posted threads.
+2026-08-10 12:30:30,004 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-10 12:30:30,004 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-10 12:30:31,139 - INFO - Groq raw response:
+[
+  "I've been studying the most successful AI creators, trying to understand their 'brand architecture'.",
+  "What if I told you that it's not just about creating a consistent visual identity, but about 'crafting' a unique narrative?",
+  "They're using a secret technique to 'map' their audience's desires, and 'bridge' the gap between their content and their audience's needs.",
+  "I've started to experiment with this concept, and what I've found is fascinating... The most successful creators are not just building a brand, but 'designing' an experience."
+]
+2026-08-10 12:30:31,140 - INFO - âœ… Unique thread found (hash: e970533f...)
+2026-08-10 12:30:31,141 - INFO - ðŸ“ Generated 4 posts:
+2026-08-10 12:30:31,141 - INFO - --- Post 1 ---
+I've been studying the most successful AI creators, trying to understand their 'brand architecture'.
+2026-08-10 12:30:31,141 - INFO - --- Post 2 ---
+What if I told you that it's not just about creating a consistent visual identity, but about 'crafting' a unique narrative?
+2026-08-10 12:30:31,141 - INFO - --- Post 3 ---
+They're using a secret technique to 'map' their audience's desires, and 'bridge' the gap between their content and their audience's needs.
+2026-08-10 12:30:31,141 - INFO - --- Post 4 ---
+I've started to experiment with this concept, and what I've found is fascinating... The most successful creators are not just building a brand, but 'designing' an experience.
+2026-08-10 12:30:32,607 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, futuristic laboratory, a lone figure sits at a sleek, metallic workbench, surrounded by holographic screens and wires. The main subject, a young woman with a look of intense focus, is intently crafting a intricate, glowing blueprint that represents the brand architecture. The setting is a blend of industrial and technological elements, with rough concrete walls and polished metal surfaces. The colour palette is a mix of cool blues and purples, with accents of bright, electric blue that evoke a sense of innovation and creativity. Soft, diffused light emanates from the holographic screens, casting a gentle glow on the woman's face and the surrounding environment. The camera angle is a low, over-the-shoulder shot, looking up at the woman as she works, conveying a sense of intimacy and curiosity. The atmosphere is one of quiet contemplation and experimentation, with a sense of hope and discovery. The texture of the metallic workbench and the rough concrete walls adds a sense of depth and tactility to the scene. The style of the image is cinematic and hyper-realistic, with subtle hints of 3D rendering and advanced visual effects. In the background, a large, dark window reflects the glow of the cityscape, symbolizing the connection between the creator's inner world and the external reality.
+2026-08-10 12:30:34,302 - INFO - ðŸ–¼ï¸  Saved cover image to images/13f5c01c10577066.jpg
+2026-08-10 12:30:36,100 - INFO - ðŸ“¤ Pushed images/13f5c01c10577066.jpg to GitHub.
+2026-08-10 12:30:36,328 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/13f5c01c10577066.jpg
+2026-08-10 12:30:36,330 - INFO - Scheduling for: 2026-08-10T17:47:36.330855Z UTC
+2026-08-10 12:30:37,326 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a79c46cb1fce69f12e93b2e
+2026-08-10 12:30:37,329 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-10 12:30:37,329 - INFO - âœ… Run completed.
