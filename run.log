@@ -5914,3 +5914,41 @@ I've started to experiment with this concept, and what I've found is fascinating
 2026-08-10 12:30:37,326 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a79c46cb1fce69f12e93b2e
 2026-08-10 12:30:37,329 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-10 12:30:37,329 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-10T18:30:38.123642
+============================================================
+2026-08-10 18:30:38,123 - INFO - ðŸš€ Starting automation run
+2026-08-10 18:30:38,124 - INFO - ðŸ“š Found 147 previously posted threads.
+2026-08-10 18:30:38,125 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-10 18:30:38,125 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-10 18:30:39,443 - INFO - Groq raw response:
+[
+  "I've been observing a phenomenon in AI content creation.\nIt's the 'invisible divide' between creators who 'get' AI and those who don't.",
+  "What if I told you that this divide is not just about knowledge,\nbut about a fundamental shift in mindset?",
+  "I've found that the most successful AI creators are not just adapting to AI,\nbut 'evolving' with it. They're changing their very approach to creativity.",
+  "I've started to document my findings, and what I've found is fascinating...\nIt's not just about AI, but about the 'human evolution' that's happening alongside it."
+]
+2026-08-10 18:30:39,445 - INFO - âœ… Unique thread found (hash: af406400...)
+2026-08-10 18:30:39,445 - INFO - ðŸ“ Generated 4 posts:
+2026-08-10 18:30:39,445 - INFO - --- Post 1 ---
+I've been observing a phenomenon in AI content creation.
+It's the 'invisible divide' between creators who 'get' AI and those who don't.
+2026-08-10 18:30:39,445 - INFO - --- Post 2 ---
+What if I told you that this divide is not just about knowledge,
+but about a fundamental shift in mindset?
+2026-08-10 18:30:39,445 - INFO - --- Post 3 ---
+I've found that the most successful AI creators are not just adapting to AI,
+but 'evolving' with it. They're changing their very approach to creativity.
+2026-08-10 18:30:39,445 - INFO - --- Post 4 ---
+I've started to document my findings, and what I've found is fascinating...
+It's not just about AI, but about the 'human evolution' that's happening alongside it.
+2026-08-10 18:30:40,666 - INFO - ðŸŽ¨ Cover image prompt: A lone figure stands at the edge of a vast, futuristic cityscape, with sleek skyscrapers and neon lights stretching out into the distance. The setting sun casts a warm, golden glow over the scene, with long shadows stretching across the wet, glassy pavement. The colour palette is a blend of cool blues and purples, evoking a sense of innovation and progress, with accents of warm orange and yellow, symbolizing creativity and growth. The lighting is soft and diffused, with a subtle gradient of colours in the sky, from deep blues to vibrant pinks. The camera angle is low, looking up at the figure, conveying a sense of awe and wonder. The atmosphere is one of serene contemplation, with a sense of hope and excitement for the future. The figure is dressed in a long, flowing coat, with a subtle sheen to the fabric, suggesting a blend of traditional and futuristic materials. The style hint is cinematic, with a slight oil painting texture to the image, giving it a sense of depth and emotion. In the foreground, a few scattered papers and pencils lie abandoned, next to a sleek, silver laptop, symbolizing the intersection of traditional creativity and modern technology. The overall mood is one of evolution and transformation, as if the figure is poised on the threshold of a new era of human creativity and innovation.
+2026-08-10 18:30:42,386 - INFO - ðŸ–¼ï¸  Saved cover image to images/53706b620a57730c.jpg
+2026-08-10 18:30:44,422 - INFO - ðŸ“¤ Pushed images/53706b620a57730c.jpg to GitHub.
+2026-08-10 18:30:44,668 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/53706b620a57730c.jpg
+2026-08-10 18:30:44,671 - INFO - Scheduling for: 2026-08-10T23:47:44.671118Z UTC
+2026-08-10 18:30:45,432 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7a18d50f37f4927222a30b
+2026-08-10 18:30:45,435 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-10 18:30:45,435 - INFO - âœ… Run completed.
