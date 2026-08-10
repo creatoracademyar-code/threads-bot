@@ -5808,3 +5808,37 @@ I've started to explore this concept, and what I've found is surprising... It's 
 2026-08-09 18:30:33,149 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a78c7481e2489cdb8d3851b
 2026-08-09 18:30:33,151 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-09 18:30:33,151 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-10T00:30:27.874450
+============================================================
+2026-08-10 00:30:27,874 - INFO - ðŸš€ Starting automation run
+2026-08-10 00:30:27,875 - INFO - ðŸ“š Found 144 previously posted threads.
+2026-08-10 00:30:27,876 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-10 00:30:27,876 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-10 00:30:28,986 - INFO - Groq raw response:
+[
+  "I've been studying the most successful AI creators, trying to understand their 'creative triggers'.",
+  "What if I told you that it's not just about inspiration, but about 'manufacturing' motivation?",
+  "They're using a secret technique to 'spark' their creativity, and it's not what you think.",
+  "I've started to experiment with this concept, and what I've found is fascinating... The line between motivation and manipulation is thinner than I thought."
+]
+2026-08-10 00:30:28,987 - INFO - âœ… Unique thread found (hash: 99e112dc...)
+2026-08-10 00:30:28,987 - INFO - ðŸ“ Generated 4 posts:
+2026-08-10 00:30:28,987 - INFO - --- Post 1 ---
+I've been studying the most successful AI creators, trying to understand their 'creative triggers'.
+2026-08-10 00:30:28,987 - INFO - --- Post 2 ---
+What if I told you that it's not just about inspiration, but about 'manufacturing' motivation?
+2026-08-10 00:30:28,987 - INFO - --- Post 3 ---
+They're using a secret technique to 'spark' their creativity, and it's not what you think.
+2026-08-10 00:30:28,988 - INFO - --- Post 4 ---
+I've started to experiment with this concept, and what I've found is fascinating... The line between motivation and manipulation is thinner than I thought.
+2026-08-10 00:30:30,104 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, futuristic laboratory, a lone figure sits at a sleek, metallic workbench, surrounded by an array of futuristic contraptions and glowing screens. The main subject, a young woman with an intent expression, is positioned at the centre of the composition, with a warm, golden light spilling from a nearby lamp, casting a sense of curiosity and discovery. The colour palette is predominantly cool, with hues of blue and purple dominating the scene, punctuated by bursts of vibrant, electric blue from the screens and machinery. The lighting is dramatic, with deep shadows accentuating the textures of the rough, concrete walls and the polished, metallic surfaces of the equipment. The camera angle is low, looking up at the woman, which creates a sense of tension and intrigue, as if the viewer is uncovering a hidden secret. The atmosphere is one of quiet contemplation, with an undercurrent of unease, as the woman's experimentation with the boundaries of motivation and manipulation hangs in the balance. The scene is rendered in a photorealistic style, with intricate details and reflections that add to the sense of realism and immersion. The woman's hands, poised over a complex, neon-lit interface, seem to be on the verge of sparking a creative breakthrough, as the air is charged with anticipation and the promise of innovation.
+2026-08-10 00:30:31,952 - INFO - ðŸ–¼ï¸  Saved cover image to images/1f38eea025d114c1.jpg
+2026-08-10 00:30:33,663 - INFO - ðŸ“¤ Pushed images/1f38eea025d114c1.jpg to GitHub.
+2026-08-10 00:30:33,950 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/1f38eea025d114c1.jpg
+2026-08-10 00:30:33,952 - INFO - Scheduling for: 2026-08-10T05:47:33.952953Z UTC
+2026-08-10 00:30:34,598 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a791baaab7f19abefc1c1cc
+2026-08-10 00:30:34,601 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-10 00:30:34,601 - INFO - âœ… Run completed.
