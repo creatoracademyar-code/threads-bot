@@ -6036,3 +6036,37 @@ And I think I've just scratched the surface of something much bigger.
 2026-08-11 06:30:35,688 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7ac18b2244077760ead504
 2026-08-11 06:30:35,691 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-11 06:30:35,691 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-11T12:30:28.728703
+============================================================
+2026-08-11 12:30:28,728 - INFO - ðŸš€ Starting automation run
+2026-08-11 12:30:28,729 - INFO - ðŸ“š Found 150 previously posted threads.
+2026-08-11 12:30:28,730 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-11 12:30:28,730 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-11 12:30:30,342 - INFO - Groq raw response:
+[
+  "I've been obsessed with a question: what if AI creators are not just making content, but 'encoding' their minds into it?",
+  "What if I told you that the most successful AI creators are not just skilled, but 'mentally mapped' to their audience?",
+  "I've started to explore this concept, and what I've found is fascinating... It's not just about understanding your audience, but about 'aligning' your mental frequency with theirs.",
+  "The most successful creators are not just creating content, but 'transferring' their thoughts and emotions into it. I've written it all down, trying to make sense of this 'mental encoding'."
+]
+2026-08-11 12:30:30,343 - INFO - âœ… Unique thread found (hash: 9363d3da...)
+2026-08-11 12:30:30,344 - INFO - ðŸ“ Generated 4 posts:
+2026-08-11 12:30:30,344 - INFO - --- Post 1 ---
+I've been obsessed with a question: what if AI creators are not just making content, but 'encoding' their minds into it?
+2026-08-11 12:30:30,344 - INFO - --- Post 2 ---
+What if I told you that the most successful AI creators are not just skilled, but 'mentally mapped' to their audience?
+2026-08-11 12:30:30,344 - INFO - --- Post 3 ---
+I've started to explore this concept, and what I've found is fascinating... It's not just about understanding your audience, but about 'aligning' your mental frequency with theirs.
+2026-08-11 12:30:30,344 - INFO - --- Post 4 ---
+The most successful creators are not just creating content, but 'transferring' their thoughts and emotions into it. I've written it all down, trying to make sense of this 'mental encoding'.
+2026-08-11 12:30:31,922 - INFO - ðŸŽ¨ Cover image prompt: A lone figure sits in a dimly lit, futuristic laboratory filled with rows of humming servers and cables, surrounded by a halo of soft, blue-purple light that evokes a sense of mystery and innovation. The main subject, a young creator with an intent expression, is seated in front of a massive, curved screen displaying a mesmerizing pattern of neural networks and brain waves, as if the very fabric of their mind is being projected onto the wall. The colour palette is dominated by cool, electric blues and purples, with accents of warm, golden light that represent the spark of creativity and connection. The lighting is a mix of dramatic shadows and soft, diffused glow, with an emphasis on the creator's face and hands as they work, highlighting the intensity of their focus. The camera angle is a low, over-the-shoulder shot, looking up at the creator and the vast, glowing screen behind them, conveying a sense of awe and wonder. The atmosphere is one of tense, anticipatory excitement, as if the creator is on the cusp of a major breakthrough, with the rough, industrial texture of the laboratory equipment and the smooth, glassy surface of the screen providing a sense of contrast and depth. The style hint is cinematic, with a slight lean towards a 3D render, emphasizing the futuristic and high-tech elements of the scene, and inviting the viewer to step into the creator's world of mental encoding and connection. The overall mood is hopeful and thought-provoking, with the creator's emotions and thoughts seemingly transferring into the digital realm, leaving the viewer to ponder the possibilities of this emerging technology.
+2026-08-11 12:30:33,600 - INFO - ðŸ–¼ï¸  Saved cover image to images/b10f495f9d5bd8dc.jpg
+2026-08-11 12:30:35,497 - INFO - ðŸ“¤ Pushed images/b10f495f9d5bd8dc.jpg to GitHub.
+2026-08-11 12:30:35,637 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/b10f495f9d5bd8dc.jpg
+2026-08-11 12:30:35,639 - INFO - Scheduling for: 2026-08-11T17:47:35.639830Z UTC
+2026-08-11 12:30:36,462 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7b15ec8bddce650dc4787c
+2026-08-11 12:30:36,464 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-11 12:30:36,465 - INFO - âœ… Run completed.
