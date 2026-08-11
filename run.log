@@ -5994,3 +5994,45 @@ I'll probably expand on this later, but for now, let's just say that I've discov
 2026-08-11 00:30:39,630 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7a6d2f2d829047647c0eb9
 2026-08-11 00:30:39,632 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-11 00:30:39,632 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-11T06:30:27.821339
+============================================================
+2026-08-11 06:30:27,821 - INFO - ðŸš€ Starting automation run
+2026-08-11 06:30:27,822 - INFO - ðŸ“š Found 149 previously posted threads.
+2026-08-11 06:30:27,823 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-11 06:30:27,823 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-11 06:30:29,280 - INFO - Groq raw response:
+[
+  "I've been noticing a pattern in AI content creation.\nIt's the 'unfinished story' that haunts many creators.",
+  "What if I told you that this story is not just about incomplete projects,\nbut about the 'hidden fears' that hold creators back?",
+  "I've started to explore this concept, and what I've found is fascinating...\nIt's not just about overcoming fears, but about 'embracing' the unknown.",
+  "The most successful creators are not just brave, but 'curious'.\nThey're willing to take the leap, even when the outcome is uncertain.",
+  "I've written it all down, trying to make sense of this 'creative conundrum'.\nAnd I think I've just scratched the surface of something much bigger."
+]
+2026-08-11 06:30:29,281 - INFO - âœ… Unique thread found (hash: efffe5d3...)
+2026-08-11 06:30:29,282 - INFO - ðŸ“ Generated 5 posts:
+2026-08-11 06:30:29,282 - INFO - --- Post 1 ---
+I've been noticing a pattern in AI content creation.
+It's the 'unfinished story' that haunts many creators.
+2026-08-11 06:30:29,282 - INFO - --- Post 2 ---
+What if I told you that this story is not just about incomplete projects,
+but about the 'hidden fears' that hold creators back?
+2026-08-11 06:30:29,282 - INFO - --- Post 3 ---
+I've started to explore this concept, and what I've found is fascinating...
+It's not just about overcoming fears, but about 'embracing' the unknown.
+2026-08-11 06:30:29,282 - INFO - --- Post 4 ---
+The most successful creators are not just brave, but 'curious'.
+They're willing to take the leap, even when the outcome is uncertain.
+2026-08-11 06:30:29,282 - INFO - --- Post 5 ---
+I've written it all down, trying to make sense of this 'creative conundrum'.
+And I think I've just scratched the surface of something much bigger.
+2026-08-11 06:30:30,614 - INFO - ðŸŽ¨ Cover image prompt: A lone figure sits at a worn, wooden desk, surrounded by scattered papers, empty coffee cups, and faint, flickering candlelight, in a cozy, rustic attic studio with exposed beams and a large, circular window that frames a swirling, moonlit sky. The colour palette is muted, with warm, golden hues of old parchment and soft, silvery blues of the night sky, evoking a sense of contemplation and curiosity. The lighting is soft and diffused, with deep, dramatic shadows cast by the candlelight, adding a sense of depth and intimacy to the scene. The camera angle is a low, over-the-shoulder shot, looking up at the figure, conveying a sense of vulnerability and introspection. The atmosphere is serene, yet tense, as if the figure is on the cusp of a profound realization, with a sense of hope and trepidation hanging in the air. The texture of the rough, wooden desk and the smooth, worn papers adds a tactile quality to the scene, while the faint, shimmering mist outside the window hints at the unknown, inviting the viewer to step into the mystery. The style is reminiscent of a cinematic, oil painting, with bold, expressive brushstrokes and a sense of depth and dimensionality, drawing the viewer into the world of the image. The figure's face is tilted downward, lost in thought, as if embracing the uncertainty of the creative journey, with a look of quiet determination and curiosity etched on their features. The overall mood is one of contemplative creativity, as if the figure is poised on the threshold of a new discovery, ready to take the leap into the unknown.
+2026-08-11 06:30:33,288 - INFO - ðŸ–¼ï¸  Saved cover image to images/17ab8b66b397b0b6.jpg
+2026-08-11 06:30:35,179 - INFO - ðŸ“¤ Pushed images/17ab8b66b397b0b6.jpg to GitHub.
+2026-08-11 06:30:35,309 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/17ab8b66b397b0b6.jpg
+2026-08-11 06:30:35,310 - INFO - Scheduling for: 2026-08-11T11:47:35.310613Z UTC
+2026-08-11 06:30:35,688 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7ac18b2244077760ead504
+2026-08-11 06:30:35,691 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-11 06:30:35,691 - INFO - âœ… Run completed.
