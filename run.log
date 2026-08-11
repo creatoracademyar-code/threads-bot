@@ -5952,3 +5952,45 @@ It's not just about AI, but about the 'human evolution' that's happening alongsi
 2026-08-10 18:30:45,432 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7a18d50f37f4927222a30b
 2026-08-10 18:30:45,435 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-10 18:30:45,435 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-11T00:30:31.391685
+============================================================
+2026-08-11 00:30:31,391 - INFO - ðŸš€ Starting automation run
+2026-08-11 00:30:31,392 - INFO - ðŸ“š Found 148 previously posted threads.
+2026-08-11 00:30:31,393 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-11 00:30:31,393 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-11 00:30:33,170 - INFO - Groq raw response:
+[
+  "I've been fascinated by the 'myth of overnight success' in AI content creation.\nWhat if I told you that it's not just a myth, but a 'misdirection'?",
+  "The most successful AI creators are not just talented, but 'relentless'.\nThey're willing to put in the work, even when no one is watching.",
+  "I've started to study the 'pre-success' stories of these creators, and what I've found is surprising...\nIt's not just about the tech or the tools, but about the 'human grit' that drives them.",
+  "The most successful AI creators are not just creating content, but 'crafting' a narrative that resonates with their audience.\nI've written it all down, trying to make sense of the hidden forces that drive AI content creation.",
+  "And I think I've just scratched the surface of something much bigger.\nI'll probably expand on this later, but for now, let's just say that I've discovered a new way to think about success in AI."
+]
+2026-08-11 00:30:33,171 - INFO - âœ… Unique thread found (hash: e7e48270...)
+2026-08-11 00:30:33,172 - INFO - ðŸ“ Generated 5 posts:
+2026-08-11 00:30:33,172 - INFO - --- Post 1 ---
+I've been fascinated by the 'myth of overnight success' in AI content creation.
+What if I told you that it's not just a myth, but a 'misdirection'?
+2026-08-11 00:30:33,172 - INFO - --- Post 2 ---
+The most successful AI creators are not just talented, but 'relentless'.
+They're willing to put in the work, even when no one is watching.
+2026-08-11 00:30:33,172 - INFO - --- Post 3 ---
+I've started to study the 'pre-success' stories of these creators, and what I've found is surprising...
+It's not just about the tech or the tools, but about the 'human grit' that drives them.
+2026-08-11 00:30:33,172 - INFO - --- Post 4 ---
+The most successful AI creators are not just creating content, but 'crafting' a narrative that resonates with their audience.
+I've written it all down, trying to make sense of the hidden forces that drive AI content creation.
+2026-08-11 00:30:33,172 - INFO - --- Post 5 ---
+And I think I've just scratched the surface of something much bigger.
+I'll probably expand on this later, but for now, let's just say that I've discovered a new way to think about success in AI.
+2026-08-11 00:30:34,442 - INFO - ðŸŽ¨ Cover image prompt: A lone figure sits at a worn, wooden desk, surrounded by stacks of dusty books and scattered papers, in a dimly lit, rustic study with walls lined with old, leather-bound tomes. The room is bathed in the warm, golden light of a setting sun, which pours in through a large, grimy window, casting long shadows across the floor. The colour palette is muted, with earthy tones of brown, beige, and grey, punctuated by the occasional splash of vibrant colour from a highlighted note or a dog-eared page. The lighting is soft and diffused, with a sense of warmth and intimacy, as if the viewer is sharing a quiet moment with the figure. The camera angle is low, looking up at the figure, which conveys a sense of determination and grit, as if the viewer is witnessing a moment of breakthrough or revelation. The atmosphere is one of contemplative focus, with a sense of hope and possibility lingering in the air. The texture of the wooden desk and the rough, stone walls adds a sense of tactile realism to the scene, while the smooth, polished surface of a laptop or notebook hints at the fusion of traditional and modern elements. The style is cinematic, with a hint of oil painting, as if the scene has been plucked from a rich, narrative tapestry, inviting the viewer to step into the world of the image and explore its depths.
+2026-08-11 00:30:36,543 - INFO - ðŸ–¼ï¸  Saved cover image to images/35fc07b29c41c156.jpg
+2026-08-11 00:30:38,755 - INFO - ðŸ“¤ Pushed images/35fc07b29c41c156.jpg to GitHub.
+2026-08-11 00:30:38,951 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/35fc07b29c41c156.jpg
+2026-08-11 00:30:38,952 - INFO - Scheduling for: 2026-08-11T05:47:38.952881Z UTC
+2026-08-11 00:30:39,630 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7a6d2f2d829047647c0eb9
+2026-08-11 00:30:39,632 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-11 00:30:39,632 - INFO - âœ… Run completed.
