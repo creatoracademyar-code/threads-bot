@@ -6225,3 +6225,41 @@ I've been digging deeper, and what I've found is surprising... It's not just abo
 2026-08-12 12:30:41,053 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7c677041c0632313015293
 2026-08-12 12:30:41,055 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-12 12:30:41,055 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-12T18:30:41.886621
+============================================================
+2026-08-12 18:30:41,886 - INFO - ðŸš€ Starting automation run
+2026-08-12 18:30:41,887 - INFO - ðŸ“š Found 155 previously posted threads.
+2026-08-12 18:30:41,888 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-12 18:30:41,888 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-12 18:30:43,476 - INFO - Groq raw response:
+[
+  "I've been studying the 'hidden patterns' of AI content creation.\nWhat if I told you that there's a secret code to making your content go viral?",
+  "It's not just about the content itself, but about the 'emotional currents' that flow beneath it.\nI've found that the most successful creators are tapping into these currents to 'amplify' their message.",
+  "But what if I told you that this code is not just about emotions, but about 'neural resonance'?\nIt's about creating a harmonic frequency that resonates with your audience's brains.",
+  "I've started to experiment with this concept, and what I've found is fascinating...\nIt's not just about creating content, but about 'orchestrating' a symphony of neural responses."
+]
+2026-08-12 18:30:43,477 - INFO - âœ… Unique thread found (hash: 2f892cf1...)
+2026-08-12 18:30:43,478 - INFO - ðŸ“ Generated 4 posts:
+2026-08-12 18:30:43,478 - INFO - --- Post 1 ---
+I've been studying the 'hidden patterns' of AI content creation.
+What if I told you that there's a secret code to making your content go viral?
+2026-08-12 18:30:43,478 - INFO - --- Post 2 ---
+It's not just about the content itself, but about the 'emotional currents' that flow beneath it.
+I've found that the most successful creators are tapping into these currents to 'amplify' their message.
+2026-08-12 18:30:43,478 - INFO - --- Post 3 ---
+But what if I told you that this code is not just about emotions, but about 'neural resonance'?
+It's about creating a harmonic frequency that resonates with your audience's brains.
+2026-08-12 18:30:43,478 - INFO - --- Post 4 ---
+I've started to experiment with this concept, and what I've found is fascinating...
+It's not just about creating content, but about 'orchestrating' a symphony of neural responses.
+2026-08-12 18:30:45,028 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, futuristic laboratory, a lone figure sits amidst a tangle of wires and flickering screens, surrounded by a halo of soft, blue-purple light that evokes a sense of innovation and discovery. The main subject, a young woman with a look of intense focus, is seated in front of a massive, curved interface that wraps around her like a cocoon, its surface etched with intricate, swirling patterns that resemble neural networks. The colour palette is predominantly cool and muted, with shades of indigo, silver, and grey, punctuated by bursts of vibrant, electric blue that represent the sparks of creativity and insight. The lighting is dramatic, with deep shadows cast across the woman's face and the surrounding equipment, while the screens and interface emit a soft, ethereal glow that suggests the boundaries between reality and virtual reality are blurring. The camera angle is low and wide, looking up at the woman from a slight incline, which creates a sense of awe and wonder at the complexity of the scene. The atmosphere is one of tense, anticipatory excitement, as if the woman is on the verge of unlocking a profound secret, and the air is thick with the promise of discovery. The texture of the laboratory equipment is sleek and metallic, with a subtle sheen that suggests advanced technology, while the woman's clothing is simple and functional, with a soft, tactile quality that grounds her in the physical world. The style of the image is cinematic and hyper-realistic, with a level of detail and depth that invites the viewer to step into the world of the laboratory and explore its secrets. The overall mood is one of hopeful, boundary-pushing experimentation, as if the woman is poised to unlock the hidden patterns of the universe and reveal the secrets of neural resonance.
+2026-08-12 18:30:47,839 - INFO - ðŸ–¼ï¸  Saved cover image to images/4d6c5baad96fdd03.jpg
+2026-08-12 18:30:49,839 - INFO - ðŸ“¤ Pushed images/4d6c5baad96fdd03.jpg to GitHub.
+2026-08-12 18:30:49,973 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/4d6c5baad96fdd03.jpg
+2026-08-12 18:30:49,975 - INFO - Scheduling for: 2026-08-12T23:47:49.975597Z UTC
+2026-08-12 18:30:50,651 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7cbbdad8a816a32d11b3ea
+2026-08-12 18:30:50,654 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-12 18:30:50,654 - INFO - âœ… Run completed.
