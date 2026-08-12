@@ -6112,3 +6112,41 @@ And I think I've just scratched the surface of something much bigger. I'll proba
 2026-08-11 18:30:41,248 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7b6a50b537a23877326b78
 2026-08-11 18:30:41,252 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-11 18:30:41,252 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-12T00:30:33.470484
+============================================================
+2026-08-12 00:30:33,470 - INFO - ðŸš€ Starting automation run
+2026-08-12 00:30:33,471 - INFO - ðŸ“š Found 152 previously posted threads.
+2026-08-12 00:30:33,472 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-12 00:30:33,472 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-12 00:30:34,885 - INFO - Groq raw response:
+[
+  "I've been studying the 'digital footprint' of AI creators.\nWhat if I told you that it's not just about online presence, but about 'legacy'?",
+  "They're not just creating content, but 'encoding' their values and beliefs into it.\nI've found that the most successful creators are 'architects' of their own digital legacy.",
+  "But what happens when this legacy is 'hacked' or 'manipulated'?\nI've started to explore the darker side of digital legacy, and what I've found is fascinating...",
+  "It's not just about protecting your online presence, but about 'future-proofing' your digital footprint.\nI've written it all down, trying to make sense of the hidden forces that drive AI creators."
+]
+2026-08-12 00:30:34,886 - INFO - âœ… Unique thread found (hash: 9794bb7d...)
+2026-08-12 00:30:34,886 - INFO - ðŸ“ Generated 4 posts:
+2026-08-12 00:30:34,886 - INFO - --- Post 1 ---
+I've been studying the 'digital footprint' of AI creators.
+What if I told you that it's not just about online presence, but about 'legacy'?
+2026-08-12 00:30:34,886 - INFO - --- Post 2 ---
+They're not just creating content, but 'encoding' their values and beliefs into it.
+I've found that the most successful creators are 'architects' of their own digital legacy.
+2026-08-12 00:30:34,886 - INFO - --- Post 3 ---
+But what happens when this legacy is 'hacked' or 'manipulated'?
+I've started to explore the darker side of digital legacy, and what I've found is fascinating...
+2026-08-12 00:30:34,886 - INFO - --- Post 4 ---
+It's not just about protecting your online presence, but about 'future-proofing' your digital footprint.
+I've written it all down, trying to make sense of the hidden forces that drive AI creators.
+2026-08-12 00:30:36,179 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, futuristic laboratory, a lone figure sits amidst a maze of sleek, silver servers and wires, surrounded by a halo of soft, blue-green light. The main subject, a young architect of digital legacy, is intently focused on a holographic display projected from a polished, metallic orb, their face illuminated by the gentle glow of code streaming down the screen. The colour palette is predominantly cool, with shades of navy blue, grey, and neon green, evoking a sense of cutting-edge technology and digital mystery. The lighting is dramatic, with deep shadows cast across the room, accentuating the sense of secrecy and discovery. The camera angle is low, looking up at the figure, conveying a sense of power and importance. The atmosphere is tense, with a hint of fascination, as if the viewer is witnessing a groundbreaking revelation. The texture of the servers and wires is rough and industrial, while the metallic orb is smooth and reflective, like polished glass. The style hint is cinematic, with a slight oil painting quality to the lighting and colours, inviting the viewer to step into the world of digital legacy and explore its hidden forces. In the background, a cityscape stretches out, a blur of neon lights and towering skyscrapers, symbolizing the vast, interconnected network of the digital world.
+2026-08-12 00:30:37,992 - INFO - ðŸ–¼ï¸  Saved cover image to images/a7d31c672c8513dd.jpg
+2026-08-12 00:30:41,072 - INFO - ðŸ“¤ Pushed images/a7d31c672c8513dd.jpg to GitHub.
+2026-08-12 00:30:41,347 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/a7d31c672c8513dd.jpg
+2026-08-12 00:30:41,348 - INFO - Scheduling for: 2026-08-12T05:47:41.348835Z UTC
+2026-08-12 00:30:42,224 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7bbeb2f050c993cbe828d5
+2026-08-12 00:30:42,237 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-12 00:30:42,238 - INFO - âœ… Run completed.
