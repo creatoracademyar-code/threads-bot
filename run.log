@@ -6150,3 +6150,41 @@ I've written it all down, trying to make sense of the hidden forces that drive A
 2026-08-12 00:30:42,224 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7bbeb2f050c993cbe828d5
 2026-08-12 00:30:42,237 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-12 00:30:42,238 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-12T06:30:31.870754
+============================================================
+2026-08-12 06:30:31,870 - INFO - ðŸš€ Starting automation run
+2026-08-12 06:30:31,871 - INFO - ðŸ“š Found 153 previously posted threads.
+2026-08-12 06:30:31,872 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-12 06:30:31,872 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-12 06:30:33,162 - INFO - Groq raw response:
+[
+  "I've been noticing a strange gap in AI content creation.\nIt's the 'missing link' between ideas and execution.",
+  "What if I told you that the most successful AI creators\nare not just skilled, but 'systematically lucky'?",
+  "They're using a secret technique to 'bridge' the gap\nbetween their ideas and the content that resonates with their audience.",
+  "I've started to study this phenomenon, and what I've found\nis fascinating... It's not just about being lucky, but about 'engineering' your own success."
+]
+2026-08-12 06:30:33,163 - INFO - âœ… Unique thread found (hash: 26503c1c...)
+2026-08-12 06:30:33,164 - INFO - ðŸ“ Generated 4 posts:
+2026-08-12 06:30:33,164 - INFO - --- Post 1 ---
+I've been noticing a strange gap in AI content creation.
+It's the 'missing link' between ideas and execution.
+2026-08-12 06:30:33,164 - INFO - --- Post 2 ---
+What if I told you that the most successful AI creators
+are not just skilled, but 'systematically lucky'?
+2026-08-12 06:30:33,164 - INFO - --- Post 3 ---
+They're using a secret technique to 'bridge' the gap
+between their ideas and the content that resonates with their audience.
+2026-08-12 06:30:33,164 - INFO - --- Post 4 ---
+I've started to study this phenomenon, and what I've found
+is fascinating... It's not just about being lucky, but about 'engineering' your own success.
+2026-08-12 06:30:34,513 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, futuristic laboratory, a lone figure stands at the edge of a massive, circular gap in the floor, symbolizing the missing link between ideas and execution. The setting is a blend of industrial and technological elements, with metallic beams, concrete walls, and a mesh of wires and circuits. The colour palette is predominantly cool and muted, with shades of grey, blue, and purple, punctuated by bursts of bright, electric blue light emanating from the gap. Soft, diffused lighting illuminates the scene, with deep shadows cast by the figure and the surrounding machinery, creating an air of mystery and intrigue. The camera angle is low, looking up at the figure, who is poised at the threshold, as if about to take a leap of faith. The atmosphere is tense, yet hopeful, with a sense of anticipation and discovery. The texture of the scene is a mix of rough, industrial materials, such as concrete and metal, and the smooth, glassy surface of computer screens and interfaces. In the style of a cinematic, 3D render, the image should convey a sense of depth and dimensionality, with the figure and the gap in the floor serving as a visual representation of the connection between creativity and success. The figure's face is obscured, adding an air of anonymity and universality to the scene, inviting the viewer to imagine themselves in their place.
+2026-08-12 06:30:36,251 - INFO - ðŸ–¼ï¸  Saved cover image to images/e18bdc90297ea4ec.jpg
+2026-08-12 06:30:38,174 - INFO - ðŸ“¤ Pushed images/e18bdc90297ea4ec.jpg to GitHub.
+2026-08-12 06:30:38,450 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/e18bdc90297ea4ec.jpg
+2026-08-12 06:30:38,452 - INFO - Scheduling for: 2026-08-12T11:47:38.452483Z UTC
+2026-08-12 06:30:39,066 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7c130e32a67c68e33fd398
+2026-08-12 06:30:39,068 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-12 06:30:39,068 - INFO - âœ… Run completed.
