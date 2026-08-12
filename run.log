@@ -6188,3 +6188,40 @@ is fascinating... It's not just about being lucky, but about 'engineering' your 
 2026-08-12 06:30:39,066 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7c130e32a67c68e33fd398
 2026-08-12 06:30:39,068 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-12 06:30:39,068 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-12T12:30:32.114226
+============================================================
+2026-08-12 12:30:32,114 - INFO - ðŸš€ Starting automation run
+2026-08-12 12:30:32,115 - INFO - ðŸ“š Found 154 previously posted threads.
+2026-08-12 12:30:32,116 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-12 12:30:32,116 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-12 12:30:33,449 - INFO - Groq raw response:
+[
+  "I've been observing a peculiar phenomenon in AI content creation.\nIt's the ' echo chamber' effect that limits many creators' growth.",
+  "What if I told you that the most successful AI creators are not just skilled, but 'acutely aware' of their own biases?",
+  "I've started to study the 'mental frameworks' of these creators, and what I've found is fascinating...\nThey're using a secret technique to 'reframe' their thinking and escape the echo chamber.",
+  "But what's the key to unlocking this mental agility?\nI've been digging deeper, and what I've found is surprising... It's not just about self-awareness, but about 'embracing' the unknown."
+]
+2026-08-12 12:30:33,450 - INFO - âœ… Unique thread found (hash: 8d244a7b...)
+2026-08-12 12:30:33,450 - INFO - ðŸ“ Generated 4 posts:
+2026-08-12 12:30:33,450 - INFO - --- Post 1 ---
+I've been observing a peculiar phenomenon in AI content creation.
+It's the ' echo chamber' effect that limits many creators' growth.
+2026-08-12 12:30:33,450 - INFO - --- Post 2 ---
+What if I told you that the most successful AI creators are not just skilled, but 'acutely aware' of their own biases?
+2026-08-12 12:30:33,450 - INFO - --- Post 3 ---
+I've started to study the 'mental frameworks' of these creators, and what I've found is fascinating...
+They're using a secret technique to 'reframe' their thinking and escape the echo chamber.
+2026-08-12 12:30:33,450 - INFO - --- Post 4 ---
+But what's the key to unlocking this mental agility?
+I've been digging deeper, and what I've found is surprising... It's not just about self-awareness, but about 'embracing' the unknown.
+2026-08-12 12:30:34,934 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, futuristic laboratory, a lone figure sits amidst a maze of mirrors, surrounded by a halo of soft, blue-purple light that seems to emanate from the reflective surfaces themselves. The main subject, a contemplative creator, is positioned at the centre, with their back against a sleek, metallic console, adorned with a latticework of fine, glowing circuits. The colour palette is predominantly cool, with shades of indigo, silver, and pale blue, evoking a sense of calm, inquisitive introspection. The lighting is characterized by a mix of soft, diffused illumination and sharp, angular shadows, as if the mirrors are casting multiple, conflicting reflections of the creator's thoughts. The camera angle is a low, slightly Dutch-angled shot, looking up at the creator, conveying a sense of dynamic tension and curiosity. The atmosphere is one of serene, hopeful anticipation, as if the creator is on the cusp of a major breakthrough. The texture of the metallic console and the smooth, glassy mirrors adds a sense of sleek, high-tech sophistication, while the creator's rough, earthy attire provides a subtle contrast. The overall style is reminiscent of a cinematic, sci-fi thriller, with a hint of 3D rendering, inviting the viewer to step into the creator's thought-provoking, introspective world. The mirrors seem to stretch on forever, symbolizing the endless possibilities of reframed thinking, as the creator's gaze is drawn outward, toward the unknown.
+2026-08-12 12:30:36,576 - INFO - ðŸ–¼ï¸  Saved cover image to images/d9f14e59b353aa9a.jpg
+2026-08-12 12:30:39,625 - INFO - ðŸ“¤ Pushed images/d9f14e59b353aa9a.jpg to GitHub.
+2026-08-12 12:30:39,932 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/d9f14e59b353aa9a.jpg
+2026-08-12 12:30:39,933 - INFO - Scheduling for: 2026-08-12T17:47:39.933816Z UTC
+2026-08-12 12:30:41,053 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7c677041c0632313015293
+2026-08-12 12:30:41,055 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-12 12:30:41,055 - INFO - âœ… Run completed.
