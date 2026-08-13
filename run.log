@@ -6375,3 +6375,45 @@ I've written it all down, trying to make sense of this 'creative lifecycle'. And
 2026-08-13 12:30:39,224 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7db8efb7a5221dc8b4c79d
 2026-08-13 12:30:39,227 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-13 12:30:39,227 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-13T18:30:35.886561
+============================================================
+2026-08-13 18:30:35,886 - INFO - ðŸš€ Starting automation run
+2026-08-13 18:30:35,887 - INFO - ðŸ“š Found 159 previously posted threads.
+2026-08-13 18:30:35,888 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-13 18:30:35,888 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-13 18:30:37,573 - INFO - Groq raw response:
+[
+  "I've been studying the 'hidden lives' of AI creators.\nWhat if I told you that their most valuable asset is not their content, but their 'mental models'?",
+  "These models are not just about understanding AI, but about 'seeing' the world in a unique way.\nI've found that the most successful creators are using a secret technique to 'update' their mental models, and it's surprisingly simple.",
+  "It's not just about learning new things, but about 'unlearning' old patterns.\nI've started to experiment with this concept, and what I've found is fascinating... The most successful creators are not just adapting to AI, but 'evolving' with it.",
+  "But what's the key to unlocking this 'evolutionary' mindset?\nI've been digging deeper, and what I've found is surprising... It's not just about the tech or the tools, but about 'rewiring' your brain to think like a 'digital native'.",
+  "I've written it all down, trying to make sense of this 'mental revolution'.\nAnd I think I've just scratched the surface of something much bigger. I'll probably expand on this later..."
+]
+2026-08-13 18:30:37,574 - INFO - âœ… Unique thread found (hash: f83b9aaf...)
+2026-08-13 18:30:37,574 - INFO - ðŸ“ Generated 5 posts:
+2026-08-13 18:30:37,574 - INFO - --- Post 1 ---
+I've been studying the 'hidden lives' of AI creators.
+What if I told you that their most valuable asset is not their content, but their 'mental models'?
+2026-08-13 18:30:37,574 - INFO - --- Post 2 ---
+These models are not just about understanding AI, but about 'seeing' the world in a unique way.
+I've found that the most successful creators are using a secret technique to 'update' their mental models, and it's surprisingly simple.
+2026-08-13 18:30:37,574 - INFO - --- Post 3 ---
+It's not just about learning new things, but about 'unlearning' old patterns.
+I've started to experiment with this concept, and what I've found is fascinating... The most successful creators are not just adapting to AI, but 'evolving' with it.
+2026-08-13 18:30:37,574 - INFO - --- Post 4 ---
+But what's the key to unlocking this 'evolutionary' mindset?
+I've been digging deeper, and what I've found is surprising... It's not just about the tech or the tools, but about 'rewiring' your brain to think like a 'digital native'.
+2026-08-13 18:30:37,574 - INFO - --- Post 5 ---
+I've written it all down, trying to make sense of this 'mental revolution'.
+And I think I've just scratched the surface of something much bigger. I'll probably expand on this later...
+2026-08-13 18:30:38,991 - INFO - ðŸŽ¨ Cover image prompt: In a serene, futuristic laboratory, a lone figure sits amidst a maze of glowing, fiber-optic neurons, symbolizing the intricate networks of the human brain. The subject, a young, introspective creator, is surrounded by a warm, ethereal light that emanates from the neural connections, representing the evolution of their mental models. The colour palette is predominantly cool blues and purples, with accents of golden light, evoking a sense of innovation and discovery. Soft, diffused lighting illuminates the scene, casting gentle shadows on the polished, metallic surfaces of the lab equipment. The camera angle is a low, wide shot, looking up at the creator, conveying a sense of awe and curiosity. The atmosphere is contemplative and hopeful, as if the creator is on the cusp of a groundbreaking revelation. The texture of the lab equipment is sleek and modern, with a mix of rough, concrete-like surfaces and smooth, glassy finishes. In the background, a massive, abstract representation of a brain is visible, with glowing, pulsing lines that seem to shift and adapt, like a living, breathing entity. The style of the image is cinematic and hyper-realistic, with a hint of futuristic, 3D rendering, inviting the viewer to step into the creator's world of mental exploration and discovery. The overall mood is one of quiet, intense focus, as if the creator is unraveling the secrets of their own mind, and the viewer is privileged to witness this profound, inner transformation.
+2026-08-13 18:30:42,863 - INFO - ðŸ–¼ï¸  Saved cover image to images/16b8b0855c73c7ae.jpg
+2026-08-13 18:30:44,968 - INFO - ðŸ“¤ Pushed images/16b8b0855c73c7ae.jpg to GitHub.
+2026-08-13 18:30:45,416 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/16b8b0855c73c7ae.jpg
+2026-08-13 18:30:45,417 - INFO - Scheduling for: 2026-08-13T23:47:45.417924Z UTC
+2026-08-13 18:30:46,084 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7e0d551e40234a04372ba9
+2026-08-13 18:30:46,087 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-13 18:30:46,087 - INFO - âœ… Run completed.
