@@ -6338,3 +6338,40 @@ I've started to experiment with this concept, and what I've found is fascinating
 2026-08-13 06:30:40,317 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7d64903505a33deee9b622
 2026-08-13 06:30:40,320 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-13 06:30:40,320 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-13T12:30:32.041871
+============================================================
+2026-08-13 12:30:32,041 - INFO - ðŸš€ Starting automation run
+2026-08-13 12:30:32,042 - INFO - ðŸ“š Found 158 previously posted threads.
+2026-08-13 12:30:32,043 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-13 12:30:32,044 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-13 12:30:33,480 - INFO - Groq raw response:
+[
+  "I've been tracking a phenomenon: AI creators who 'disappear' after a burst of success.",
+  "What if I told you that it's not just about burnout, but about the 'sustainability paradox'?",
+  "They're creating content that resonates, but not building a foundation that lasts.",
+  "I've started to study these cases, and what I've found is fascinating... The key to longevity is not just about the content, but about the 'creator's mindset'.",
+  "I've written it all down, trying to make sense of this 'creative lifecycle'. And I think I've just scratched the surface of something much bigger."
+]
+2026-08-13 12:30:33,481 - INFO - âœ… Unique thread found (hash: 1b805b1a...)
+2026-08-13 12:30:33,481 - INFO - ðŸ“ Generated 5 posts:
+2026-08-13 12:30:33,481 - INFO - --- Post 1 ---
+I've been tracking a phenomenon: AI creators who 'disappear' after a burst of success.
+2026-08-13 12:30:33,481 - INFO - --- Post 2 ---
+What if I told you that it's not just about burnout, but about the 'sustainability paradox'?
+2026-08-13 12:30:33,481 - INFO - --- Post 3 ---
+They're creating content that resonates, but not building a foundation that lasts.
+2026-08-13 12:30:33,481 - INFO - --- Post 4 ---
+I've started to study these cases, and what I've found is fascinating... The key to longevity is not just about the content, but about the 'creator's mindset'.
+2026-08-13 12:30:33,481 - INFO - --- Post 5 ---
+I've written it all down, trying to make sense of this 'creative lifecycle'. And I think I've just scratched the surface of something much bigger.
+2026-08-13 12:30:34,889 - INFO - ðŸŽ¨ Cover image prompt: A lone figure sits at a worn, wooden desk, surrounded by piles of dusty books and scattered papers, in a dimly lit, rustic study with stone walls and a vaulted ceiling. The room is filled with a warm, golden light that seeps through a small, circular window high above, casting long shadows across the space. The colour palette is muted, with earthy tones of brown, beige, and grey, punctuated by the occasional splash of rich, emerald green from the scattered papers and books. The air is thick with the scent of old parchment and forgotten knowledge. The figure, a writer or researcher, is hunched over a manuscript, quill in hand, with a look of intense focus and curiosity on their face. The camera angle is a low, Dutch angle, looking up at the figure, which creates a sense of tension and unease, as if the viewer is discovering a hidden truth. The atmosphere is one of quiet contemplation, with a hint of mystery and intrigue, as if the figure is on the cusp of uncovering a long-hidden secret. The style is reminiscent of an oil painting, with thick brushstrokes and textured layers, giving the image a sense of depth and history. In the background, a large, leather-bound book lies open, its pages fluttering gently in the breeze, as if the words and ideas are spilling out into the room, waiting to be captured and understood. The overall mood is one of hopeful discovery, as if the figure is on the verge of unlocking a profound truth, one that will change their understanding of the world forever.
+2026-08-13 12:30:36,391 - INFO - ðŸ–¼ï¸  Saved cover image to images/ec0e1cd5962a56fc.jpg
+2026-08-13 12:30:38,337 - INFO - ðŸ“¤ Pushed images/ec0e1cd5962a56fc.jpg to GitHub.
+2026-08-13 12:30:38,694 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/ec0e1cd5962a56fc.jpg
+2026-08-13 12:30:38,697 - INFO - Scheduling for: 2026-08-13T17:47:38.697061Z UTC
+2026-08-13 12:30:39,224 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7db8efb7a5221dc8b4c79d
+2026-08-13 12:30:39,227 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-13 12:30:39,227 - INFO - âœ… Run completed.
