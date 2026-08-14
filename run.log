@@ -6496,3 +6496,41 @@ It's not just about creating content, but about 'rewiring' your mind to think li
 2026-08-14 06:30:38,431 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7eb60e6d35b7a2e0063dd1
 2026-08-14 06:30:38,434 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-14 06:30:38,435 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-14T12:30:34.259393
+============================================================
+2026-08-14 12:30:34,259 - INFO - ðŸš€ Starting automation run
+2026-08-14 12:30:34,260 - INFO - ðŸ“š Found 162 previously posted threads.
+2026-08-14 12:30:34,261 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-14 12:30:34,261 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-14 12:30:35,707 - INFO - Groq raw response:
+[
+  "I've been studying the 'forgotten art' of AI content curation.\nWhat if I told you that it's not just about selecting content, but about 'crafting' a narrative?",
+  "The most successful AI creators are not just curating content, but 'weaving' a story that resonates with their audience.\nI've started to experiment with this concept, and what I've found is fascinating...",
+  "It's not just about the content itself, but about the 'emotional connections' that it creates.\nI've written it all down, trying to make sense of this 'curatorial mindset'.",
+  "And I think I've just scratched the surface of something much bigger.\nI'll probably expand on this later, but for now, let's just say that I've discovered a new way to think about AI content creation."
+]
+2026-08-14 12:30:35,708 - INFO - âœ… Unique thread found (hash: 49908947...)
+2026-08-14 12:30:35,708 - INFO - ðŸ“ Generated 4 posts:
+2026-08-14 12:30:35,708 - INFO - --- Post 1 ---
+I've been studying the 'forgotten art' of AI content curation.
+What if I told you that it's not just about selecting content, but about 'crafting' a narrative?
+2026-08-14 12:30:35,708 - INFO - --- Post 2 ---
+The most successful AI creators are not just curating content, but 'weaving' a story that resonates with their audience.
+I've started to experiment with this concept, and what I've found is fascinating...
+2026-08-14 12:30:35,708 - INFO - --- Post 3 ---
+It's not just about the content itself, but about the 'emotional connections' that it creates.
+I've written it all down, trying to make sense of this 'curatorial mindset'.
+2026-08-14 12:30:35,709 - INFO - --- Post 4 ---
+And I think I've just scratched the surface of something much bigger.
+I'll probably expand on this later, but for now, let's just say that I've discovered a new way to think about AI content creation.
+2026-08-14 12:30:37,067 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, rustic library, a lone figure sits at a worn, wooden desk, surrounded by stacks of dusty, leather-bound books and scattered sheets of paper. The main subject, a young woman with a introspective expression, is illuminated by a soft, warm glow emanating from a nearby table lamp, casting a golden light on her face and the papers in front of her. The colour palette is predominantly earthy, with shades of brown, beige, and muted green, evoking a sense of nostalgia and intellectual curiosity. The lighting is gentle, with long shadows stretching across the room, adding depth and warmth to the scene. The camera angle is a low-angle, close-up shot, looking up at the woman, conveying a sense of intimacy and contemplation. The atmosphere is serene, with a hint of excitement and discovery, as if the woman is on the verge of uncovering a hidden truth. The texture of the old books, the rough wooden desk, and the smooth paper add a tactile quality to the scene, inviting the viewer to touch and explore. The style hint is cinematic, with a slight oil painting quality to the lighting and colours, giving the image a sense of timelessness and elegance. As the woman's eyes gaze upwards, lost in thought, the background blurs, with rows of bookshelves fading into the darkness, symbolizing the vast, uncharted territory of knowledge and creativity that she is about to embark upon.
+2026-08-14 12:30:39,108 - INFO - ðŸ–¼ï¸  Saved cover image to images/177f8afc11c0bd1a.jpg
+2026-08-14 12:30:41,119 - INFO - ðŸ“¤ Pushed images/177f8afc11c0bd1a.jpg to GitHub.
+2026-08-14 12:30:41,404 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/177f8afc11c0bd1a.jpg
+2026-08-14 12:30:41,406 - INFO - Scheduling for: 2026-08-14T17:47:41.406455Z UTC
+2026-08-14 12:30:42,075 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7f0a718166838b8aa45202
+2026-08-14 12:30:42,077 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-14 12:30:42,078 - INFO - âœ… Run completed.
