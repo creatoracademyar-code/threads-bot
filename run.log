@@ -6454,3 +6454,45 @@ I've written it all down, trying to make sense of this 'creative reboot'.
 2026-08-14 00:30:39,659 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7e61af6d35b7a2e001b976
 2026-08-14 00:30:39,662 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-14 00:30:39,662 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-14T06:30:30.542818
+============================================================
+2026-08-14 06:30:30,542 - INFO - ðŸš€ Starting automation run
+2026-08-14 06:30:30,543 - INFO - ðŸ“š Found 161 previously posted threads.
+2026-08-14 06:30:30,544 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-14 06:30:30,545 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-14 06:30:32,533 - INFO - Groq raw response:
+[
+  "I've been noticing a strange phenomenon in AI content creation.\nIt's the 'invisible script' that drives creator decisions.",
+  "What if I told you that this script is not just about strategy,\nbut about the 'unconscious biases' that shape our content?",
+  "I've started to explore this concept, and what I've found is fascinating...\nIt's not just about understanding your audience, but about 'decoding' your own creative psyche.",
+  "The most successful creators are not just aware of these biases,\nbut are 'hacking' them to create content that resonates on a deeper level.",
+  "I've spent weeks researching and experimenting, and I think I've found the key...\nIt's not just about creating content, but about 'rewiring' your mind to think like a true original."
+]
+2026-08-14 06:30:32,534 - INFO - âœ… Unique thread found (hash: 8b7d56aa...)
+2026-08-14 06:30:32,534 - INFO - ðŸ“ Generated 5 posts:
+2026-08-14 06:30:32,534 - INFO - --- Post 1 ---
+I've been noticing a strange phenomenon in AI content creation.
+It's the 'invisible script' that drives creator decisions.
+2026-08-14 06:30:32,534 - INFO - --- Post 2 ---
+What if I told you that this script is not just about strategy,
+but about the 'unconscious biases' that shape our content?
+2026-08-14 06:30:32,534 - INFO - --- Post 3 ---
+I've started to explore this concept, and what I've found is fascinating...
+It's not just about understanding your audience, but about 'decoding' your own creative psyche.
+2026-08-14 06:30:32,534 - INFO - --- Post 4 ---
+The most successful creators are not just aware of these biases,
+but are 'hacking' them to create content that resonates on a deeper level.
+2026-08-14 06:30:32,535 - INFO - --- Post 5 ---
+I've spent weeks researching and experimenting, and I think I've found the key...
+It's not just about creating content, but about 'rewiring' your mind to think like a true original.
+2026-08-14 06:30:34,366 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, futuristic laboratory, a lone figure sits in front of a massive, curved screen that wraps around the room, displaying a mesmerizing mosaic of code and data visualizations in a predominantly cool, neon-blue colour palette. The main subject, a young, introspective creator with a look of intense focus, is surrounded by scattered notes, empty coffee cups, and tangled wires, with a few strands of hair falling across their forehead. The setting is a blend of industrial and futuristic elements, with rough, concrete walls and polished, metallic surfaces reflecting the soft, diffused light that emanates from the screen. The atmosphere is tense and contemplative, with dramatic shadows cast across the creator's face, accentuating their determined expression. The camera angle is a low, wide shot, looking up at the creator from the floor, emphasizing their sense of isolation and immersion in their work. The style hint is cinematic, with a slight grain and depth of field, giving the scene a sense of realism and immediacy. As the creator's fingers fly across the keyboard, the screen behind them begins to glow with an otherworldly, pulsing light, symbolizing the 'rewiring' of their mind and the unlocking of their full creative potential. The texture of the concrete walls and the smooth, glassy surface of the screen add a sense of depth and tactility to the scene, drawing the viewer in and inviting them to explore the mysteries of the creator's psyche.
+2026-08-14 06:30:35,979 - INFO - ðŸ–¼ï¸  Saved cover image to images/adecc4f7396392b2.jpg
+2026-08-14 06:30:37,636 - INFO - ðŸ“¤ Pushed images/adecc4f7396392b2.jpg to GitHub.
+2026-08-14 06:30:37,854 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/adecc4f7396392b2.jpg
+2026-08-14 06:30:37,856 - INFO - Scheduling for: 2026-08-14T11:47:37.856896Z UTC
+2026-08-14 06:30:38,431 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7eb60e6d35b7a2e0063dd1
+2026-08-14 06:30:38,434 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-14 06:30:38,435 - INFO - âœ… Run completed.
