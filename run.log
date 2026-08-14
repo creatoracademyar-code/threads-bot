@@ -6534,3 +6534,41 @@ I'll probably expand on this later, but for now, let's just say that I've discov
 2026-08-14 12:30:42,075 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7f0a718166838b8aa45202
 2026-08-14 12:30:42,077 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-14 12:30:42,078 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-14T18:30:32.054193
+============================================================
+2026-08-14 18:30:32,054 - INFO - ðŸš€ Starting automation run
+2026-08-14 18:30:32,055 - INFO - ðŸ“š Found 163 previously posted threads.
+2026-08-14 18:30:32,056 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-14 18:30:32,056 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-14 18:30:33,516 - INFO - Groq raw response:
+[
+  "I've been studying AI creators who've mastered the art of 'serial storytelling'.\nThey're not just creating content, but 'unfolding' a narrative that keeps their audience hooked.",
+  "What if I told you that this technique is not just about storytelling,\nbut about 'neural priming' your audience to expect more?",
+  "I've started to experiment with this concept, and what I've found is fascinating...\nIt's not just about creating a story, but about 'encoding' it with emotional triggers.",
+  "The most successful creators are not just telling stories, but 'designing' experiences\nthat linger in their audience's minds long after the story ends."
+]
+2026-08-14 18:30:33,517 - INFO - âœ… Unique thread found (hash: a73d77e1...)
+2026-08-14 18:30:33,517 - INFO - ðŸ“ Generated 4 posts:
+2026-08-14 18:30:33,517 - INFO - --- Post 1 ---
+I've been studying AI creators who've mastered the art of 'serial storytelling'.
+They're not just creating content, but 'unfolding' a narrative that keeps their audience hooked.
+2026-08-14 18:30:33,517 - INFO - --- Post 2 ---
+What if I told you that this technique is not just about storytelling,
+but about 'neural priming' your audience to expect more?
+2026-08-14 18:30:33,517 - INFO - --- Post 3 ---
+I've started to experiment with this concept, and what I've found is fascinating...
+It's not just about creating a story, but about 'encoding' it with emotional triggers.
+2026-08-14 18:30:33,517 - INFO - --- Post 4 ---
+The most successful creators are not just telling stories, but 'designing' experiences
+that linger in their audience's minds long after the story ends.
+2026-08-14 18:30:34,918 - INFO - ðŸŽ¨ Cover image prompt: A lone figure sits in a dimly lit, minimalist room with walls lined with old, leather-bound books and flickering candles, surrounded by scattered papers and empty coffee cups. The atmosphere is contemplative, with soft, warm light spilling from a single desk lamp, casting long shadows across the room. The colour palette is muted, with earthy tones of brown, beige, and grey, punctuated by the occasional flash of golden light from the candles. The main subject, the figure, is shrouded in shadows, face obscured, with only their hands visible, scribbling notes in a journal. The camera angle is a low, wide shot, looking up at the figure from the corner of the room, creating a sense of intimacy and voyeurism. The air is thick with the scent of old paper and smoke, and the texture of the rough, stone floor and worn, wooden desk is palpable. The style is cinematic, with a hint of film grain and a shallow depth of field, drawing the viewer's eye to the figure and their writings. The overall mood is one of quiet, intense focus, as if the figure is unraveling a complex puzzle, with the audience invited to bear witness to the creative process. The emotional tone is hopeful, with a sense of anticipation building, as if the figure is on the cusp of a breakthrough, and the audience is primed to expect more.
+2026-08-14 18:30:37,257 - INFO - ðŸ–¼ï¸  Saved cover image to images/83af08d64fcb98a6.jpg
+2026-08-14 18:30:39,054 - INFO - ðŸ“¤ Pushed images/83af08d64fcb98a6.jpg to GitHub.
+2026-08-14 18:30:39,209 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/83af08d64fcb98a6.jpg
+2026-08-14 18:30:39,211 - INFO - Scheduling for: 2026-08-14T23:47:39.211238Z UTC
+2026-08-14 18:30:39,664 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7f5ecf1565109d06e6ebe4
+2026-08-14 18:30:39,667 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-14 18:30:39,667 - INFO - âœ… Run completed.
