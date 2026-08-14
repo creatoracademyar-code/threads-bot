@@ -6417,3 +6417,40 @@ And I think I've just scratched the surface of something much bigger. I'll proba
 2026-08-13 18:30:46,084 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7e0d551e40234a04372ba9
 2026-08-13 18:30:46,087 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-13 18:30:46,087 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-14T00:30:32.012815
+============================================================
+2026-08-14 00:30:32,012 - INFO - ðŸš€ Starting automation run
+2026-08-14 00:30:32,013 - INFO - ðŸ“š Found 160 previously posted threads.
+2026-08-14 00:30:32,014 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-14 00:30:32,014 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-14 00:30:33,641 - INFO - Groq raw response:
+[
+  "I've been studying AI creators who've built massive audiences.\nOne thing stands out: their 'beginner's mindset'.",
+  "They're not afraid to ask 'dumb' questions.\nWhat if I told you that this mindset is not just about humility, but about 'resetting' your perspective?",
+  "I've started to experiment with this concept, and what I've found is fascinating... The most successful creators are not just experts, but 'curious beginners'.",
+  "They're able to see the world with fresh eyes.\nI've written it all down, trying to make sense of this 'creative reboot'."
+]
+2026-08-14 00:30:33,642 - INFO - âœ… Unique thread found (hash: 7f9f4980...)
+2026-08-14 00:30:33,643 - INFO - ðŸ“ Generated 4 posts:
+2026-08-14 00:30:33,643 - INFO - --- Post 1 ---
+I've been studying AI creators who've built massive audiences.
+One thing stands out: their 'beginner's mindset'.
+2026-08-14 00:30:33,643 - INFO - --- Post 2 ---
+They're not afraid to ask 'dumb' questions.
+What if I told you that this mindset is not just about humility, but about 'resetting' your perspective?
+2026-08-14 00:30:33,643 - INFO - --- Post 3 ---
+I've started to experiment with this concept, and what I've found is fascinating... The most successful creators are not just experts, but 'curious beginners'.
+2026-08-14 00:30:33,643 - INFO - --- Post 4 ---
+They're able to see the world with fresh eyes.
+I've written it all down, trying to make sense of this 'creative reboot'.
+2026-08-14 00:30:34,899 - INFO - ðŸŽ¨ Cover image prompt: A young artist sits at a rustic wooden desk, surrounded by piles of dusty books and scattered notes, in a cozy, natural-lit studio with large windows overlooking a lush forest. The colour palette is dominated by warm, earthy tones, with hints of golden light spilling in from the outside, casting long shadows across the room. The atmosphere is serene and contemplative, with a sense of curiosity and creativity in the air. The artist's eyes are cast downward, focused on a blank piece of paper, as if waiting for inspiration to strike, with a few tentative scribbles and sketches in the margins. The camera angle is a low-angle shot, looking up at the artist, emphasizing their introspective and humble posture. The style hint is reminiscent of a warm, oil-painted portrait, with soft brushstrokes and textured layers. The rough wooden desk and worn leather chair add a tactile, organic feel to the scene, while the surrounding foliage and dappled light filtering through the leaves create a sense of connection to nature and the cyclical process of growth and renewal. The overall mood is one of hopeful anticipation, as if the artist is on the cusp of a new discovery, with the 'beginner's mindset' guiding their creative journey.
+2026-08-14 00:30:36,915 - INFO - ðŸ–¼ï¸  Saved cover image to images/cadfbd4ea83f29fb.jpg
+2026-08-14 00:30:38,810 - INFO - ðŸ“¤ Pushed images/cadfbd4ea83f29fb.jpg to GitHub.
+2026-08-14 00:30:38,974 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/cadfbd4ea83f29fb.jpg
+2026-08-14 00:30:38,976 - INFO - Scheduling for: 2026-08-14T05:47:38.976611Z UTC
+2026-08-14 00:30:39,659 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a7e61af6d35b7a2e001b976
+2026-08-14 00:30:39,662 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-14 00:30:39,662 - INFO - âœ… Run completed.
