@@ -6687,3 +6687,41 @@ I've written it all down, trying to make sense of this 'emotional cartography'.
 2026-08-15 12:30:37,949 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/d5d654140d88bf9a.jpg
 2026-08-15 12:30:37,952 - INFO - Scheduling for: 2026-08-15T17:47:37.951994Z UTC
 2026-08-15 12:30:48,230 - ERROR - âŒ Buffer posting failed: 504 Server Error: Gateway Timeout for url: https://api.buffer.com/graphql
+
+
+============================================================
+  NEW RUN  2026-08-15T18:30:39.254765
+============================================================
+2026-08-15 18:30:39,254 - INFO - ðŸš€ Starting automation run
+2026-08-15 18:30:39,255 - INFO - ðŸ“š Found 166 previously posted threads.
+2026-08-15 18:30:39,256 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-15 18:30:39,256 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-15 18:30:40,608 - INFO - Groq raw response:
+[
+  "I've been tracking a phenomenon: AI creators who 'vanish' after achieving a certain level of success.\nWhat if I told you it's not just about burnout?",
+  "They're not just exhausted, but 'lost' in their own success.\nThey've created content that resonates, but not a foundation that sustains.",
+  "I've started to study these cases, and what I've found is fascinating...\nIt's not just about the content, but about the 'creator's identity'.",
+  "The key to longevity is not just about the work, but about 'evolving' with your audience.\nI've written it all down, trying to make sense of this 'creative paradox'."
+]
+2026-08-15 18:30:40,609 - INFO - âœ… Unique thread found (hash: 13518e10...)
+2026-08-15 18:30:40,609 - INFO - ðŸ“ Generated 4 posts:
+2026-08-15 18:30:40,609 - INFO - --- Post 1 ---
+I've been tracking a phenomenon: AI creators who 'vanish' after achieving a certain level of success.
+What if I told you it's not just about burnout?
+2026-08-15 18:30:40,609 - INFO - --- Post 2 ---
+They're not just exhausted, but 'lost' in their own success.
+They've created content that resonates, but not a foundation that sustains.
+2026-08-15 18:30:40,609 - INFO - --- Post 3 ---
+I've started to study these cases, and what I've found is fascinating...
+It's not just about the content, but about the 'creator's identity'.
+2026-08-15 18:30:40,609 - INFO - --- Post 4 ---
+The key to longevity is not just about the work, but about 'evolving' with your audience.
+I've written it all down, trying to make sense of this 'creative paradox'.
+2026-08-15 18:30:41,700 - INFO - ðŸŽ¨ Cover image prompt: A lone figure stands at the edge of a misty, abandoned theatre, surrounded by faded curtains and dusty spotlights. The setting is a blend of indoor and outdoor elements, with a large, broken window behind the figure, allowing a warm, golden light to spill in and cast long shadows across the worn, wooden floor. The colour palette is muted, with shades of grey, beige, and soft blue, evoking a sense of melancholy and nostalgia. The lighting is soft and diffused, with the golden hour glow casting a sense of hope and possibility. The camera angle is a wide shot, with the figure positioned at the centre, looking out towards the broken window, conveying a sense of longing and searching. The atmosphere is contemplative and introspective, with a sense of tension and uncertainty. The texture of the old theatre is evident, with rough concrete, worn wood, and tattered fabric, adding depth and history to the scene. The style hint is cinematic, with a focus on capturing the emotional and psychological state of the figure, as if frozen in a moment of self-reflection, surrounded by the remnants of past successes and the uncertainty of the future. The figure itself is shrouded in mist, with only the outline visible, symbolizing the 'lost' creator, searching for their identity and purpose.
+2026-08-15 18:30:43,799 - INFO - ðŸ–¼ï¸  Saved cover image to images/6eba7eaf9caa0263.jpg
+2026-08-15 18:30:45,636 - INFO - ðŸ“¤ Pushed images/6eba7eaf9caa0263.jpg to GitHub.
+2026-08-15 18:30:45,919 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/6eba7eaf9caa0263.jpg
+2026-08-15 18:30:45,920 - INFO - Scheduling for: 2026-08-15T23:47:45.920965Z UTC
+2026-08-15 18:30:46,477 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a80b0565aae4fa4731896c7
+2026-08-15 18:30:46,480 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-15 18:30:46,480 - INFO - âœ… Run completed.
