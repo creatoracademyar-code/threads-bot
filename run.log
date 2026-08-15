@@ -6651,3 +6651,39 @@ And I think I've just scratched the surface of something much bigger. I'll proba
 2026-08-15 06:30:43,171 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a800792b6f25b1be098522f
 2026-08-15 06:30:43,174 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-15 06:30:43,174 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-15T12:30:30.153135
+============================================================
+2026-08-15 12:30:30,153 - INFO - ðŸš€ Starting automation run
+2026-08-15 12:30:30,154 - INFO - ðŸ“š Found 166 previously posted threads.
+2026-08-15 12:30:30,154 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-15 12:30:30,154 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-15 12:30:31,934 - INFO - Groq raw response:
+[
+  "I've been studying AI creators who've made a lasting impact.\nWhat if I told you that it's not just about their content, but about their 'archaeological' approach?",
+  "They're not just creating, but 'uncovering' hidden patterns and desires.\nI've found that they're using a secret technique to 'excavate' their audience's psyche.",
+  "It's not just about understanding your audience, but about 'mapping' their emotional landscape.\nI've started to experiment with this concept, and what I've found is fascinating...",
+  "The most successful creators are not just creating content, but 'crafting' an experience that resonates on a deeper level.\nI've written it all down, trying to make sense of this 'emotional cartography'."
+]
+2026-08-15 12:30:31,935 - INFO - âœ… Unique thread found (hash: e4cc2d0a...)
+2026-08-15 12:30:31,935 - INFO - ðŸ“ Generated 4 posts:
+2026-08-15 12:30:31,935 - INFO - --- Post 1 ---
+I've been studying AI creators who've made a lasting impact.
+What if I told you that it's not just about their content, but about their 'archaeological' approach?
+2026-08-15 12:30:31,935 - INFO - --- Post 2 ---
+They're not just creating, but 'uncovering' hidden patterns and desires.
+I've found that they're using a secret technique to 'excavate' their audience's psyche.
+2026-08-15 12:30:31,935 - INFO - --- Post 3 ---
+It's not just about understanding your audience, but about 'mapping' their emotional landscape.
+I've started to experiment with this concept, and what I've found is fascinating...
+2026-08-15 12:30:31,935 - INFO - --- Post 4 ---
+The most successful creators are not just creating content, but 'crafting' an experience that resonates on a deeper level.
+I've written it all down, trying to make sense of this 'emotional cartography'.
+2026-08-15 12:30:33,488 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, rustic study, a lone figure sits hunched over a large, wooden desk, surrounded by stacks of dusty, leather-bound books and scattered, yellowed papers. The main subject, a young woman with a look of intense focus, is pouring over a large, hand-drawn map that appears to be a mix of geographical and emotional topographies, with swirling lines and shapes that evoke a sense of depth and complexity. The setting is a blend of old and new, with vintage globes and antique cartography tools juxtaposed with modern, sleek laptops and tablets. The colour palette is predominantly warm and earthy, with shades of terracotta, sienna, and umber, punctuated by flashes of cool blue and green that seem to represent the emotional currents being mapped. Soft, diffused light spills in through a nearby window, casting a warm glow on the subject's face and illuminating the intricate details of the map, while deep shadows dance across the walls, adding a sense of mystery and discovery. The camera angle is a close-up, looking over the subject's shoulder, with the map and papers filling the frame, and the woman's hands and face serving as a focal point. The atmosphere is one of quiet contemplation and curiosity, with a sense of tension and anticipation building as the subject's eyes scan the map, searching for hidden patterns and insights. The texture of the wooden desk and the rough, handmade paper adds a tactile quality to the scene, while the smooth, glowing screens of the laptops and tablets provide a hint of modernity and technological sophistication. The style of the image is reminiscent of a cinematic oil painting, with bold brushstrokes and vivid colours that seem to pulse with an inner light, inviting the viewer to step into the world of the image and explore its depths.
+2026-08-15 12:30:35,686 - INFO - ðŸ–¼ï¸  Saved cover image to images/d5d654140d88bf9a.jpg
+2026-08-15 12:30:37,526 - INFO - ðŸ“¤ Pushed images/d5d654140d88bf9a.jpg to GitHub.
+2026-08-15 12:30:37,949 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/d5d654140d88bf9a.jpg
+2026-08-15 12:30:37,952 - INFO - Scheduling for: 2026-08-15T17:47:37.951994Z UTC
+2026-08-15 12:30:48,230 - ERROR - âŒ Buffer posting failed: 504 Server Error: Gateway Timeout for url: https://api.buffer.com/graphql
