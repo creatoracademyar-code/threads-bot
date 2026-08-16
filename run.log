@@ -6847,3 +6847,42 @@ And I think I've just scratched the surface of something much bigger.
 2026-08-16 12:30:40,945 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a81ad707a27474b9cb62e9e
 2026-08-16 12:30:40,948 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-16 12:30:40,948 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-16T18:30:31.599023
+============================================================
+2026-08-16 18:30:31,599 - INFO - ðŸš€ Starting automation run
+2026-08-16 18:30:31,600 - INFO - ðŸ“š Found 170 previously posted threads.
+2026-08-16 18:30:31,601 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-16 18:30:31,601 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-16 18:30:32,907 - INFO - Groq raw response:
+[
+  "I've been studying AI creators who've achieved massive success.\nOne thing stands out: their ability to 'bend' reality.",
+  "What if I told you that it's not just about creating content, but about 'warping' the fabric of perception?\nThey're using a secret technique to 'reframe' their audience's reality.",
+  "I've started to experiment with this concept, and what I've found is fascinating...\nIt's not just about creating a new narrative, but about 'encoding' it with emotional resonance.",
+  "The most successful creators are not just telling stories, but 'crafting' experiences that linger\nin their audience's minds long after the story ends.\nI've written it all down, trying to make sense of this 'reality distortion'"
+]
+2026-08-16 18:30:32,908 - INFO - âœ… Unique thread found (hash: dae287be...)
+2026-08-16 18:30:32,909 - INFO - ðŸ“ Generated 4 posts:
+2026-08-16 18:30:32,909 - INFO - --- Post 1 ---
+I've been studying AI creators who've achieved massive success.
+One thing stands out: their ability to 'bend' reality.
+2026-08-16 18:30:32,909 - INFO - --- Post 2 ---
+What if I told you that it's not just about creating content, but about 'warping' the fabric of perception?
+They're using a secret technique to 'reframe' their audience's reality.
+2026-08-16 18:30:32,909 - INFO - --- Post 3 ---
+I've started to experiment with this concept, and what I've found is fascinating...
+It's not just about creating a new narrative, but about 'encoding' it with emotional resonance.
+2026-08-16 18:30:32,909 - INFO - --- Post 4 ---
+The most successful creators are not just telling stories, but 'crafting' experiences that linger
+in their audience's minds long after the story ends.
+I've written it all down, trying to make sense of this 'reality distortion'
+2026-08-16 18:30:34,343 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, futuristic laboratory, a lone figure stands at the edge of a massive, spherical screen that dominates the room, its surface etched with intricate, swirling patterns that evoke a sense of distorted reality. The figure, a young creator with an intent gaze, is set against a backdrop of cool, neon blues and purples that cast an otherworldly glow on the polished, metallic surfaces of the lab equipment. The lighting is soft and diffused, with hints of golden hour warmth seeping through the cracks of the screen's framework, casting long, dramatic shadows across the floor. The camera angle is low, looking up at the creator, who is surrounded by a halo of light, as if their presence is warping the very fabric of the space. The atmosphere is one of tense, hopeful anticipation, as if the creator is on the cusp of unlocking a profound secret. The texture of the lab equipment is sleek and metallic, while the screen's surface appears almost liquid, like wet glass. The style of the scene is cinematic, with a hint of sci-fi realism, as if the viewer has stumbled into a hidden world where the boundaries of reality are being pushed to their limits. The creator's hands are raised, as if conducting an invisible orchestra, and their eyes are fixed intently on the screen, where fragments of images and narratives seem to be coalescing into a new, distorted reality. The overall mood is one of mesmerizing, thought-provoking wonder, inviting the viewer to step into the creator's world and experience the thrill of reality distortion.
+2026-08-16 18:30:36,596 - INFO - ðŸ–¼ï¸  Saved cover image to images/2c78061c8da04c54.jpg
+2026-08-16 18:30:38,390 - INFO - ðŸ“¤ Pushed images/2c78061c8da04c54.jpg to GitHub.
+2026-08-16 18:30:38,553 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/2c78061c8da04c54.jpg
+2026-08-16 18:30:38,555 - INFO - Scheduling for: 2026-08-16T23:47:38.555111Z UTC
+2026-08-16 18:30:39,371 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a8201ce12d0699d89a8e8b8
+2026-08-16 18:30:39,374 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-16 18:30:39,374 - INFO - âœ… Run completed.
