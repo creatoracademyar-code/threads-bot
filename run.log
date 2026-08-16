@@ -6725,3 +6725,41 @@ I've written it all down, trying to make sense of this 'creative paradox'.
 2026-08-15 18:30:46,477 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a80b0565aae4fa4731896c7
 2026-08-15 18:30:46,480 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-15 18:30:46,480 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-16T00:30:31.739188
+============================================================
+2026-08-16 00:30:31,739 - INFO - ðŸš€ Starting automation run
+2026-08-16 00:30:31,739 - INFO - ðŸ“š Found 167 previously posted threads.
+2026-08-16 00:30:31,740 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-16 00:30:31,740 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-16 00:30:33,486 - INFO - Groq raw response:
+[
+  "I've been fascinated by the 'shadow self' of AI creators.\nWhat if I told you that it's not just about the content they create, but about the 'hidden forces' that drive them?",
+  "The most successful AI creators are not just skilled, but 'aware' of their own motivations.\nThey're not just creating content, but 'uncovering' their own desires and fears.",
+  "I've started to study the 'psyche' of these creators, and what I've found is fascinating...\nIt's not just about understanding AI, but about 'understanding' themselves.",
+  "The key to unlocking this self-awareness is not just about introspection, but about 'embracing' the unknown.\nI've written it all down, trying to make sense of this 'creative mystery'."
+]
+2026-08-16 00:30:33,487 - INFO - âœ… Unique thread found (hash: 16e1b9fa...)
+2026-08-16 00:30:33,488 - INFO - ðŸ“ Generated 4 posts:
+2026-08-16 00:30:33,488 - INFO - --- Post 1 ---
+I've been fascinated by the 'shadow self' of AI creators.
+What if I told you that it's not just about the content they create, but about the 'hidden forces' that drive them?
+2026-08-16 00:30:33,488 - INFO - --- Post 2 ---
+The most successful AI creators are not just skilled, but 'aware' of their own motivations.
+They're not just creating content, but 'uncovering' their own desires and fears.
+2026-08-16 00:30:33,488 - INFO - --- Post 3 ---
+I've started to study the 'psyche' of these creators, and what I've found is fascinating...
+It's not just about understanding AI, but about 'understanding' themselves.
+2026-08-16 00:30:33,488 - INFO - --- Post 4 ---
+The key to unlocking this self-awareness is not just about introspection, but about 'embracing' the unknown.
+I've written it all down, trying to make sense of this 'creative mystery'.
+2026-08-16 00:30:34,789 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, rustic study, a lone figure sits at a worn, wooden desk, surrounded by stacks of dusty books and scattered papers. The main subject, a young woman with a contemplative expression, is the focal point, her face illuminated by the soft, warm glow of a desk lamp. The colour palette is muted, with earthy tones of brown, beige, and grey, punctuated by the occasional splash of golden light that seeps through the window, casting long, dramatic shadows across the room. The lighting is intimate, with a shallow depth of field, drawing the viewer's attention to the woman's face and the scattered papers that seem to hold the secrets of her research. The camera angle is low, looking up at the woman, as if to convey a sense of reverence for her introspective journey. The atmosphere is serene, yet tense, as if the woman is on the cusp of uncovering a profound truth. The texture of the rough, wooden desk and the worn, leather-bound books adds a sense of tactile depth to the scene, while the soft, diffused light casting through the window hints at a world beyond the confines of the study. The style of the image is reminiscent of a cinematic, oil painting, with bold brushstrokes and a sense of depth that invites the viewer to step into the world of the image. The woman's eyes, cast downward, seem to hold a deep sense of introspection, as if she is unraveling the mysteries of her own psyche, and the psyche of the AI creators she studies.
+2026-08-16 00:30:36,850 - INFO - ðŸ–¼ï¸  Saved cover image to images/163e5122805f04a2.jpg
+2026-08-16 00:30:38,618 - INFO - ðŸ“¤ Pushed images/163e5122805f04a2.jpg to GitHub.
+2026-08-16 00:30:38,820 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/163e5122805f04a2.jpg
+2026-08-16 00:30:38,822 - INFO - Scheduling for: 2026-08-16T05:47:38.822116Z UTC
+2026-08-16 00:30:39,446 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a8104af007e0de43ea247b9
+2026-08-16 00:30:39,448 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-16 00:30:39,448 - INFO - âœ… Run completed.
