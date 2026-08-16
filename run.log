@@ -6805,3 +6805,45 @@ And I think I've just scratched the surface of something much bigger.
 2026-08-16 06:30:42,345 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a815912af8e8bd46a3a2085
 2026-08-16 06:30:42,348 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-16 06:30:42,348 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-16T12:30:33.620482
+============================================================
+2026-08-16 12:30:33,620 - INFO - ðŸš€ Starting automation run
+2026-08-16 12:30:33,621 - INFO - ðŸ“š Found 169 previously posted threads.
+2026-08-16 12:30:33,622 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-16 12:30:33,623 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-16 12:30:34,831 - INFO - Groq raw response:
+[
+  "I've been noticing a trend in AI content creation.\nIt's the 'hidden cost' of going viral.",
+  "What if I told you that the most successful AI creators\nare not just skilled, but 'vulnerability aware'?",
+  "They're not just creating content, but 'exposing' themselves\nin a way that resonates with their audience.",
+  "I've started to study this phenomenon, and what I've found\nis fascinating... The line between creator and audience is thinner than I thought.",
+  "I've written it all down, trying to make sense of this 'viral paradox'.\nAnd I think I've just scratched the surface of something much bigger."
+]
+2026-08-16 12:30:34,832 - INFO - âœ… Unique thread found (hash: cb8cb168...)
+2026-08-16 12:30:34,832 - INFO - ðŸ“ Generated 5 posts:
+2026-08-16 12:30:34,832 - INFO - --- Post 1 ---
+I've been noticing a trend in AI content creation.
+It's the 'hidden cost' of going viral.
+2026-08-16 12:30:34,832 - INFO - --- Post 2 ---
+What if I told you that the most successful AI creators
+are not just skilled, but 'vulnerability aware'?
+2026-08-16 12:30:34,832 - INFO - --- Post 3 ---
+They're not just creating content, but 'exposing' themselves
+in a way that resonates with their audience.
+2026-08-16 12:30:34,832 - INFO - --- Post 4 ---
+I've started to study this phenomenon, and what I've found
+is fascinating... The line between creator and audience is thinner than I thought.
+2026-08-16 12:30:34,832 - INFO - --- Post 5 ---
+I've written it all down, trying to make sense of this 'viral paradox'.
+And I think I've just scratched the surface of something much bigger.
+2026-08-16 12:30:36,215 - INFO - ðŸŽ¨ Cover image prompt: A lone figure stands at the edge of a misty, moonlit lake, surrounded by towering trees that stretch towards the sky like nature's own cathedrals. The atmosphere is serene, with a soft, diffused light casting a silver glow over the entire scene, and the air is filled with the sweet scent of blooming flowers. The colour palette is a muted blend of blues and greys, with hints of warm, golden light reflecting off the ripples in the lake. The figure, a creator, is turned away from the viewer, gazing out into the distance, lost in thought, with a few scattered papers and a pen lying at their feet. The papers are worn and dog-eared, with a few scribbled notes and sketches visible, giving a glimpse into the creator's inner world. The camera angle is a wide shot, capturing the vastness of the landscape, but also the vulnerability of the figure, who is dwarfed by the majesty of nature. In the distance, a few fireflies flicker, like tiny, glowing sparks of inspiration, and the sound of gentle lapping of the water against the shore creates a sense of calm, reflective atmosphere. The style hint is cinematic, with a mix of realistic and dreamlike elements, inviting the viewer to step into the creator's contemplative world, where the boundaries between reality and imagination are blurred. The texture of the trees, the roughness of the rocks, and the smoothness of the lake's surface all add depth and tactility to the scene, drawing the viewer in. The overall mood is one of quiet introspection, as if the creator is on the cusp of a profound realization, and the viewer is invited to share in this moment of discovery.
+2026-08-16 12:30:38,286 - INFO - ðŸ–¼ï¸  Saved cover image to images/694898da41ff9ff8.jpg
+2026-08-16 12:30:40,163 - INFO - ðŸ“¤ Pushed images/694898da41ff9ff8.jpg to GitHub.
+2026-08-16 12:30:40,387 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/694898da41ff9ff8.jpg
+2026-08-16 12:30:40,389 - INFO - Scheduling for: 2026-08-16T17:47:40.389918Z UTC
+2026-08-16 12:30:40,945 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a81ad707a27474b9cb62e9e
+2026-08-16 12:30:40,948 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-16 12:30:40,948 - INFO - âœ… Run completed.
