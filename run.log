@@ -6886,3 +6886,48 @@ I've written it all down, trying to make sense of this 'reality distortion'
 2026-08-16 18:30:39,371 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a8201ce12d0699d89a8e8b8
 2026-08-16 18:30:39,374 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-16 18:30:39,374 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-17T00:30:35.648662
+============================================================
+2026-08-17 00:30:35,648 - INFO - ðŸš€ Starting automation run
+2026-08-17 00:30:35,649 - INFO - ðŸ“š Found 171 previously posted threads.
+2026-08-17 00:30:35,651 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-17 00:30:35,651 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-17 00:30:37,014 - INFO - Groq raw response:
+[
+  "I've been studying the 'dark side' of AI content creation.",
+  "What if I told you that the most successful creators\nare not just skilled, but 'obsessively curious'?\nThey're driven by a hunger to understand\nthe unseen forces that shape their audience's desires.",
+  "I've started to experiment with this concept,\nand what I've found is fascinating...\nIt's not just about creating content, but about\n'uncovering' the hidden patterns that govern\nhuman behavior and emotion.",
+  "The key to unlocking this 'curiosity-driven' mindset\nis not just about learning, but about 'unlearning'\nthe assumptions that hold you back.\nI've written it all down, trying to make sense\nof this 'creative obsession'."
+]
+2026-08-17 00:30:37,015 - INFO - âœ… Unique thread found (hash: a2beb24c...)
+2026-08-17 00:30:37,016 - INFO - ðŸ“ Generated 4 posts:
+2026-08-17 00:30:37,016 - INFO - --- Post 1 ---
+I've been studying the 'dark side' of AI content creation.
+2026-08-17 00:30:37,016 - INFO - --- Post 2 ---
+What if I told you that the most successful creators
+are not just skilled, but 'obsessively curious'?
+They're driven by a hunger to understand
+the unseen forces that shape their audience's desires.
+2026-08-17 00:30:37,016 - INFO - --- Post 3 ---
+I've started to experiment with this concept,
+and what I've found is fascinating...
+It's not just about creating content, but about
+'uncovering' the hidden patterns that govern
+human behavior and emotion.
+2026-08-17 00:30:37,016 - INFO - --- Post 4 ---
+The key to unlocking this 'curiosity-driven' mindset
+is not just about learning, but about 'unlearning'
+the assumptions that hold you back.
+I've written it all down, trying to make sense
+of this 'creative obsession'.
+2026-08-17 00:30:38,371 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, futuristic laboratory, a lone figure sits amidst a maze of sleek, silver workstations and towering servers, their faces illuminated only by the soft, ethereal glow of computer screens. The atmosphere is tense with an air of obsessive curiosity, as if the figure is on the cusp of uncovering a long-hidden secret. The colour palette is a mix of deep blues and purples, evoking a sense of mystery and creative intensity, with accents of bright, electric blue that hint at the thrill of discovery. The lighting is dramatic, with deep shadows cast across the figure's face and the surrounding equipment, emphasizing the sense of focus and concentration. The camera angle is low, looking up at the figure with a sense of reverence, as if they are a visionary on the brink of a groundbreaking revelation. The texture of the scene is a blend of smooth, polished metal and the rough, tactile feel of wires and circuit boards, conveying a sense of cutting-edge technology and innovative experimentation. The style of the image is cinematic, with a hint of sci-fi noir, as if the figure is a detective uncovering the hidden patterns and forces that shape human behaviour. The overall emotion of the scene is one of hopeful anticipation, as if the figure is poised on the threshold of a major breakthrough, with the darkness of the laboratory serving as a backdrop for the bright, shining light of their curiosity-driven creativity. The figure's hands are poised over a keyboard, as if ready to unleash a flurry of creative energy, while their eyes are fixed intently on the screen, drinking in the knowledge and insights that will fuel their next innovative leap.
+2026-08-17 00:30:41,631 - INFO - ðŸ–¼ï¸  Saved cover image to images/c29ae35949221e58.jpg
+2026-08-17 00:30:43,772 - INFO - ðŸ“¤ Pushed images/c29ae35949221e58.jpg to GitHub.
+2026-08-17 00:30:43,988 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/c29ae35949221e58.jpg
+2026-08-17 00:30:43,990 - INFO - Scheduling for: 2026-08-17T05:47:43.990849Z UTC
+2026-08-17 00:30:44,454 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a8256344c3cde3c3a2bde3f
+2026-08-17 00:30:44,458 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-17 00:30:44,458 - INFO - âœ… Run completed.
