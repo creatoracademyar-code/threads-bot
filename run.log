@@ -6931,3 +6931,40 @@ of this 'creative obsession'.
 2026-08-17 00:30:44,454 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a8256344c3cde3c3a2bde3f
 2026-08-17 00:30:44,458 - INFO - ðŸ’¾ Updated posted_threads.json
 2026-08-17 00:30:44,458 - INFO - âœ… Run completed.
+
+
+============================================================
+  NEW RUN  2026-08-17T06:30:33.937968
+============================================================
+2026-08-17 06:30:33,938 - INFO - ðŸš€ Starting automation run
+2026-08-17 06:30:33,938 - INFO - ðŸ“š Found 172 previously posted threads.
+2026-08-17 06:30:33,939 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-08-17 06:30:33,939 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-08-17 06:30:35,205 - INFO - Groq raw response:
+[
+  "I've been studying the 'blind spots' of AI creators.",
+  "What if I told you that their biggest mistakes\nare not about AI, but about human psychology?",
+  "They're so focused on the tech,\nthey forget about the people they're creating for.",
+  "I've started to explore this concept,\nand what I've found is fascinating..."
+]
+2026-08-17 06:30:35,206 - INFO - âœ… Unique thread found (hash: 965a9814...)
+2026-08-17 06:30:35,206 - INFO - ðŸ“ Generated 4 posts:
+2026-08-17 06:30:35,206 - INFO - --- Post 1 ---
+I've been studying the 'blind spots' of AI creators.
+2026-08-17 06:30:35,206 - INFO - --- Post 2 ---
+What if I told you that their biggest mistakes
+are not about AI, but about human psychology?
+2026-08-17 06:30:35,206 - INFO - --- Post 3 ---
+They're so focused on the tech,
+they forget about the people they're creating for.
+2026-08-17 06:30:35,206 - INFO - --- Post 4 ---
+I've started to explore this concept,
+and what I've found is fascinating...
+2026-08-17 06:30:36,312 - INFO - ðŸŽ¨ Cover image prompt: In a dimly lit, futuristic laboratory, a lone figure sits in front of a massive, curved screen displaying a complex neural network. The main subject, a young woman with a contemplative expression, is surrounded by rows of humming servers and wires, yet her gaze is directed inward, as if lost in thought. The setting is a blend of industrial and technological elements, with rough concrete walls and polished metal surfaces reflecting the soft, blue-green glow of the screens. The colour palette is predominantly cool, with shades of cyan, grey, and dark blue, evoking a sense of detachment and objectivity. The lighting is soft and diffused, with a few dramatic shadows cast by the equipment, adding depth to the scene. The camera angle is a low-angle shot, looking up at the woman, conveying a sense of introspection and self-discovery. The atmosphere is serene, yet tense, as if the woman is on the cusp of a groundbreaking realization. The texture of the rough concrete and the smooth glass of the screen add a sense of contrast, highlighting the intersection of human intuition and technological innovation. The style of the image is cinematic, with a hint of sci-fi, inviting the viewer to step into the world of AI and psychology. The woman's face is the focal point, with the neural network display blurred in the background, symbolizing the shift in focus from technology to human understanding.
+2026-08-17 06:30:38,027 - INFO - ðŸ–¼ï¸  Saved cover image to images/12abded41adccb4d.jpg
+2026-08-17 06:30:39,808 - INFO - ðŸ“¤ Pushed images/12abded41adccb4d.jpg to GitHub.
+2026-08-17 06:30:40,107 - INFO - ðŸŒ Public image URL: https://raw.githubusercontent.com/creatoracademyar-code/threads-bot/main/images/12abded41adccb4d.jpg
+2026-08-17 06:30:40,109 - INFO - Scheduling for: 2026-08-17T11:47:40.109349Z UTC
+2026-08-17 06:30:40,685 - INFO - âœ… Thread scheduled successfully! Buffer Post ID: 6a82aa90959859768098ea71
+2026-08-17 06:30:40,687 - INFO - ðŸ’¾ Updated posted_threads.json
+2026-08-17 06:30:40,688 - INFO - âœ… Run completed.
