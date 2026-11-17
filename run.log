@@ -17582,3 +17582,32 @@ and what I've found is fascinating...
 2026-11-16 18:31:21,663 - INFO - ðŸ”„ Attempt 10/10 to generate a unique thread.
 2026-11-16 18:31:21,768 - ERROR - âŒ Generation error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions
 2026-11-16 18:31:21,768 - ERROR - Exhausted retries. Exiting.
+
+
+============================================================
+  NEW RUN  2026-11-17T00:30:30.387163
+============================================================
+2026-11-17 00:30:30,387 - INFO - ðŸš€ Starting automation run
+2026-11-17 00:30:30,387 - INFO - ðŸ“š Found 173 previously posted threads.
+2026-11-17 00:30:30,388 - INFO - ðŸ“ Will send 20 recent threads to Groq for avoidance.
+2026-11-17 00:30:30,388 - INFO - ðŸ”„ Attempt 1/10 to generate a unique thread.
+2026-11-17 00:30:30,484 - ERROR - âŒ Generation error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions
+2026-11-17 00:30:35,490 - INFO - ðŸ”„ Attempt 2/10 to generate a unique thread.
+2026-11-17 00:30:35,697 - ERROR - âŒ Generation error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions
+2026-11-17 00:30:40,703 - INFO - ðŸ”„ Attempt 3/10 to generate a unique thread.
+2026-11-17 00:30:40,871 - ERROR - âŒ Generation error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions
+2026-11-17 00:30:45,877 - INFO - ðŸ”„ Attempt 4/10 to generate a unique thread.
+2026-11-17 00:30:46,127 - ERROR - âŒ Generation error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions
+2026-11-17 00:30:51,133 - INFO - ðŸ”„ Attempt 5/10 to generate a unique thread.
+2026-11-17 00:30:51,224 - ERROR - âŒ Generation error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions
+2026-11-17 00:30:56,228 - INFO - ðŸ”„ Attempt 6/10 to generate a unique thread.
+2026-11-17 00:30:56,362 - ERROR - âŒ Generation error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions
+2026-11-17 00:31:01,368 - INFO - ðŸ”„ Attempt 7/10 to generate a unique thread.
+2026-11-17 00:31:01,499 - ERROR - âŒ Generation error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions
+2026-11-17 00:31:06,500 - INFO - ðŸ”„ Attempt 8/10 to generate a unique thread.
+2026-11-17 00:31:06,608 - ERROR - âŒ Generation error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions
+2026-11-17 00:31:11,614 - INFO - ðŸ”„ Attempt 9/10 to generate a unique thread.
+2026-11-17 00:31:11,785 - ERROR - âŒ Generation error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions
+2026-11-17 00:31:16,791 - INFO - ðŸ”„ Attempt 10/10 to generate a unique thread.
+2026-11-17 00:31:16,937 - ERROR - âŒ Generation error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions
+2026-11-17 00:31:16,937 - ERROR - Exhausted retries. Exiting.
